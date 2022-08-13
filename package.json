@@ -1,0 +1,58 @@
+{
+  "name": "fluentui-emoji",
+  "version": "0.0.0-beta.0.0.1",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji/issues"
+  },
+  "homepage": "https://MKAbuMattar.github.io/fluentui-emoji",
+  "scripts": {
+    "lint:fix": "eslint --ignore-path .eslintignore \"script/**/*.ts\" --fix",
+    "lint:check": "eslint --ignore-path .eslintignore \"script/**/*.ts\"",
+    "prettier:fix": "prettier -w ./script --ignore-unknown --no-error-on-unmatched-pattern",
+    "prettier:check": "prettier --check ./script --no-error-on-unmatched-pattern",
+    "check": "yarn lint:check && yarn prettier:check",
+    "fix": "yarn lint:fix && yarn prettier:fix",
+    "build:lib": "node -r esbuild-runner/register script/index.ts",
+    "publish": "npm publish"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.33.0",
+    "@typescript-eslint/parser": "5.33.0",
+    "esbuild": "0.15.2",
+    "esbuild-runner": "2.2.1",
+    "eslint": "8.21.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-simple-import-sort": "7.0.0",
+    "eslint-plugin-unused-imports": "2.0.0",
+    "lerna": "^5.4.1",
+    "prettier": "2.7.1",
+    "svgtofont": "3.17.8",
+    "typescript": "4.7.4"
+  },
+  "sideEffects": false,
+  "files": [
+    "/fonts",
+    "/icons"
+  ],
+  "support": {
+    "backing": {
+      "npm-funding": true
+    }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

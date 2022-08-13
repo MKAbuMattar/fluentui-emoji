@@ -1,0 +1,3080 @@
+@font-face {font-family: "fluentui-emoji-high-contrast";
+  src: url('fluentui-emoji-high-contrast.eot?t=1660415849585'); /* IE9*/
+  src: url('fluentui-emoji-high-contrast.eot?t=1660415849585#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("fluentui-emoji-high-contrast.woff2?t=1660415849585") format("woff2"),
+  url("fluentui-emoji-high-contrast.woff?t=1660415849585") format("woff"),
+  url('fluentui-emoji-high-contrast.ttf?t=1660415849585') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('fluentui-emoji-high-contrast.svg?t=1660415849585#fluentui-emoji-high-contrast') format('svg'); /* iOS 4.1- */
+}
+
+[class^="fluentui-emoji-high-contrast-"], [class*=" fluentui-emoji-high-contrast-"] {
+  font-family: 'fluentui-emoji-high-contrast' !important;
+  font-size: 16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fluentui-emoji-high-contrast-1st-place-medal:before { content: "\ea01"; }
+.fluentui-emoji-high-contrast-2nd-place-medal:before { content: "\ea02"; }
+.fluentui-emoji-high-contrast-3rd-place-medal:before { content: "\ea03"; }
+.fluentui-emoji-high-contrast-a-button-blood-type:before { content: "\ea04"; }
+.fluentui-emoji-high-contrast-ab-button-blood-type:before { content: "\ea05"; }
+.fluentui-emoji-high-contrast-abacus:before { content: "\ea06"; }
+.fluentui-emoji-high-contrast-accordion:before { content: "\ea07"; }
+.fluentui-emoji-high-contrast-adhesive-bandage:before { content: "\ea08"; }
+.fluentui-emoji-high-contrast-admission-tickets:before { content: "\ea09"; }
+.fluentui-emoji-high-contrast-aerial-tramway:before { content: "\ea0a"; }
+.fluentui-emoji-high-contrast-airplane-arrival:before { content: "\ea0b"; }
+.fluentui-emoji-high-contrast-airplane-departure:before { content: "\ea0c"; }
+.fluentui-emoji-high-contrast-airplane:before { content: "\ea0d"; }
+.fluentui-emoji-high-contrast-alarm-clock:before { content: "\ea0e"; }
+.fluentui-emoji-high-contrast-alembic:before { content: "\ea0f"; }
+.fluentui-emoji-high-contrast-alien-monster:before { content: "\ea10"; }
+.fluentui-emoji-high-contrast-alien:before { content: "\ea11"; }
+.fluentui-emoji-high-contrast-ambulance:before { content: "\ea12"; }
+.fluentui-emoji-high-contrast-american-football:before { content: "\ea13"; }
+.fluentui-emoji-high-contrast-amphora:before { content: "\ea14"; }
+.fluentui-emoji-high-contrast-anatomical-heart:before { content: "\ea15"; }
+.fluentui-emoji-high-contrast-anchor:before { content: "\ea16"; }
+.fluentui-emoji-high-contrast-anger-symbol:before { content: "\ea17"; }
+.fluentui-emoji-high-contrast-angry-face-with-horns:before { content: "\ea18"; }
+.fluentui-emoji-high-contrast-angry-face:before { content: "\ea19"; }
+.fluentui-emoji-high-contrast-anguished-face:before { content: "\ea1a"; }
+.fluentui-emoji-high-contrast-ant:before { content: "\ea1b"; }
+.fluentui-emoji-high-contrast-antenna-bars:before { content: "\ea1c"; }
+.fluentui-emoji-high-contrast-anxious-face-with-sweat:before { content: "\ea1d"; }
+.fluentui-emoji-high-contrast-aquarius:before { content: "\ea1e"; }
+.fluentui-emoji-high-contrast-aries:before { content: "\ea1f"; }
+.fluentui-emoji-high-contrast-articulated-lorry:before { content: "\ea20"; }
+.fluentui-emoji-high-contrast-artist-palette:before { content: "\ea21"; }
+.fluentui-emoji-high-contrast-artist:before { content: "\ea22"; }
+.fluentui-emoji-high-contrast-astonished-face:before { content: "\ea23"; }
+.fluentui-emoji-high-contrast-astronaut:before { content: "\ea24"; }
+.fluentui-emoji-high-contrast-atm-sign:before { content: "\ea25"; }
+.fluentui-emoji-high-contrast-atom-symbol:before { content: "\ea26"; }
+.fluentui-emoji-high-contrast-auto-rickshaw:before { content: "\ea27"; }
+.fluentui-emoji-high-contrast-automobile:before { content: "\ea28"; }
+.fluentui-emoji-high-contrast-avocado:before { content: "\ea29"; }
+.fluentui-emoji-high-contrast-axe:before { content: "\ea2a"; }
+.fluentui-emoji-high-contrast-b-button-blood-type:before { content: "\ea2b"; }
+.fluentui-emoji-high-contrast-baby-angel:before { content: "\ea2c"; }
+.fluentui-emoji-high-contrast-baby-bottle:before { content: "\ea2d"; }
+.fluentui-emoji-high-contrast-baby-chick:before { content: "\ea2e"; }
+.fluentui-emoji-high-contrast-baby-symbol:before { content: "\ea2f"; }
+.fluentui-emoji-high-contrast-baby:before { content: "\ea30"; }
+.fluentui-emoji-high-contrast-back-arrow:before { content: "\ea31"; }
+.fluentui-emoji-high-contrast-backhand-index-pointing-down:before { content: "\ea32"; }
+.fluentui-emoji-high-contrast-backhand-index-pointing-left:before { content: "\ea33"; }
+.fluentui-emoji-high-contrast-backhand-index-pointing-right:before { content: "\ea34"; }
+.fluentui-emoji-high-contrast-backhand-index-pointing-up:before { content: "\ea35"; }
+.fluentui-emoji-high-contrast-backpack:before { content: "\ea36"; }
+.fluentui-emoji-high-contrast-bacon:before { content: "\ea37"; }
+.fluentui-emoji-high-contrast-badger:before { content: "\ea38"; }
+.fluentui-emoji-high-contrast-badminton:before { content: "\ea39"; }
+.fluentui-emoji-high-contrast-bagel:before { content: "\ea3a"; }
+.fluentui-emoji-high-contrast-baggage-claim:before { content: "\ea3b"; }
+.fluentui-emoji-high-contrast-baguette-bread:before { content: "\ea3c"; }
+.fluentui-emoji-high-contrast-balance-scale:before { content: "\ea3d"; }
+.fluentui-emoji-high-contrast-ballet-shoes:before { content: "\ea3e"; }
+.fluentui-emoji-high-contrast-balloon:before { content: "\ea3f"; }
+.fluentui-emoji-high-contrast-ballot-box-with-ballot:before { content: "\ea40"; }
+.fluentui-emoji-high-contrast-banana:before { content: "\ea41"; }
+.fluentui-emoji-high-contrast-banjo:before { content: "\ea42"; }
+.fluentui-emoji-high-contrast-bank:before { content: "\ea43"; }
+.fluentui-emoji-high-contrast-bar-chart:before { content: "\ea44"; }
+.fluentui-emoji-high-contrast-barber-pole:before { content: "\ea45"; }
+.fluentui-emoji-high-contrast-baseball:before { content: "\ea46"; }
+.fluentui-emoji-high-contrast-basket:before { content: "\ea47"; }
+.fluentui-emoji-high-contrast-basketball:before { content: "\ea48"; }
+.fluentui-emoji-high-contrast-bat:before { content: "\ea49"; }
+.fluentui-emoji-high-contrast-bathtub:before { content: "\ea4a"; }
+.fluentui-emoji-high-contrast-battery:before { content: "\ea4b"; }
+.fluentui-emoji-high-contrast-beach-with-umbrella:before { content: "\ea4c"; }
+.fluentui-emoji-high-contrast-beaming-face-with-smiling-eyes:before { content: "\ea4d"; }
+.fluentui-emoji-high-contrast-beans:before { content: "\ea4e"; }
+.fluentui-emoji-high-contrast-bear:before { content: "\ea4f"; }
+.fluentui-emoji-high-contrast-beating-heart:before { content: "\ea50"; }
+.fluentui-emoji-high-contrast-beaver:before { content: "\ea51"; }
+.fluentui-emoji-high-contrast-bed:before { content: "\ea52"; }
+.fluentui-emoji-high-contrast-beer-mug:before { content: "\ea53"; }
+.fluentui-emoji-high-contrast-beetle:before { content: "\ea54"; }
+.fluentui-emoji-high-contrast-bell-pepper:before { content: "\ea55"; }
+.fluentui-emoji-high-contrast-bell-with-slash:before { content: "\ea56"; }
+.fluentui-emoji-high-contrast-bell:before { content: "\ea57"; }
+.fluentui-emoji-high-contrast-bellhop-bell:before { content: "\ea58"; }
+.fluentui-emoji-high-contrast-bento-box:before { content: "\ea59"; }
+.fluentui-emoji-high-contrast-beverage-box:before { content: "\ea5a"; }
+.fluentui-emoji-high-contrast-bicycle:before { content: "\ea5b"; }
+.fluentui-emoji-high-contrast-bikini:before { content: "\ea5c"; }
+.fluentui-emoji-high-contrast-billed-cap:before { content: "\ea5d"; }
+.fluentui-emoji-high-contrast-biohazard:before { content: "\ea5e"; }
+.fluentui-emoji-high-contrast-bird:before { content: "\ea5f"; }
+.fluentui-emoji-high-contrast-birthday-cake:before { content: "\ea60"; }
+.fluentui-emoji-high-contrast-bison:before { content: "\ea61"; }
+.fluentui-emoji-high-contrast-biting-lip:before { content: "\ea62"; }
+.fluentui-emoji-high-contrast-black-cat:before { content: "\ea63"; }
+.fluentui-emoji-high-contrast-black-circle:before { content: "\ea64"; }
+.fluentui-emoji-high-contrast-black-flag:before { content: "\ea65"; }
+.fluentui-emoji-high-contrast-black-heart:before { content: "\ea66"; }
+.fluentui-emoji-high-contrast-black-large-square:before { content: "\ea67"; }
+.fluentui-emoji-high-contrast-black-medium-small-square:before { content: "\ea68"; }
+.fluentui-emoji-high-contrast-black-medium-square:before { content: "\ea69"; }
+.fluentui-emoji-high-contrast-black-nib:before { content: "\ea6a"; }
+.fluentui-emoji-high-contrast-black-small-square:before { content: "\ea6b"; }
+.fluentui-emoji-high-contrast-black-square-button:before { content: "\ea6c"; }
+.fluentui-emoji-high-contrast-blossom:before { content: "\ea6d"; }
+.fluentui-emoji-high-contrast-blowfish:before { content: "\ea6e"; }
+.fluentui-emoji-high-contrast-blue-book:before { content: "\ea6f"; }
+.fluentui-emoji-high-contrast-blue-circle:before { content: "\ea70"; }
+.fluentui-emoji-high-contrast-blue-heart:before { content: "\ea71"; }
+.fluentui-emoji-high-contrast-blue-square:before { content: "\ea72"; }
+.fluentui-emoji-high-contrast-blueberries:before { content: "\ea73"; }
+.fluentui-emoji-high-contrast-boar:before { content: "\ea74"; }
+.fluentui-emoji-high-contrast-bomb:before { content: "\ea75"; }
+.fluentui-emoji-high-contrast-bone:before { content: "\ea76"; }
+.fluentui-emoji-high-contrast-bookmark-tabs:before { content: "\ea77"; }
+.fluentui-emoji-high-contrast-bookmark:before { content: "\ea78"; }
+.fluentui-emoji-high-contrast-books:before { content: "\ea79"; }
+.fluentui-emoji-high-contrast-boomerang:before { content: "\ea7a"; }
+.fluentui-emoji-high-contrast-bottle-with-popping-cork:before { content: "\ea7b"; }
+.fluentui-emoji-high-contrast-bouquet:before { content: "\ea7c"; }
+.fluentui-emoji-high-contrast-bow-and-arrow:before { content: "\ea7d"; }
+.fluentui-emoji-high-contrast-bowl-with-spoon:before { content: "\ea7e"; }
+.fluentui-emoji-high-contrast-bowling:before { content: "\ea7f"; }
+.fluentui-emoji-high-contrast-boxing-glove:before { content: "\ea80"; }
+.fluentui-emoji-high-contrast-boy:before { content: "\ea81"; }
+.fluentui-emoji-high-contrast-brain:before { content: "\ea82"; }
+.fluentui-emoji-high-contrast-bread:before { content: "\ea83"; }
+.fluentui-emoji-high-contrast-breast-feeding:before { content: "\ea84"; }
+.fluentui-emoji-high-contrast-brick:before { content: "\ea85"; }
+.fluentui-emoji-high-contrast-bridge-at-night:before { content: "\ea86"; }
+.fluentui-emoji-high-contrast-briefcase:before { content: "\ea87"; }
+.fluentui-emoji-high-contrast-briefs:before { content: "\ea88"; }
+.fluentui-emoji-high-contrast-bright-button:before { content: "\ea89"; }
+.fluentui-emoji-high-contrast-broccoli:before { content: "\ea8a"; }
+.fluentui-emoji-high-contrast-broken-heart:before { content: "\ea8b"; }
+.fluentui-emoji-high-contrast-broom:before { content: "\ea8c"; }
+.fluentui-emoji-high-contrast-brown-circle:before { content: "\ea8d"; }
+.fluentui-emoji-high-contrast-brown-heart:before { content: "\ea8e"; }
+.fluentui-emoji-high-contrast-brown-square:before { content: "\ea8f"; }
+.fluentui-emoji-high-contrast-bubble-tea:before { content: "\ea90"; }
+.fluentui-emoji-high-contrast-bubbles:before { content: "\ea91"; }
+.fluentui-emoji-high-contrast-bucket:before { content: "\ea92"; }
+.fluentui-emoji-high-contrast-bug:before { content: "\ea93"; }
+.fluentui-emoji-high-contrast-building-construction:before { content: "\ea94"; }
+.fluentui-emoji-high-contrast-bullet-train:before { content: "\ea95"; }
+.fluentui-emoji-high-contrast-bullseye:before { content: "\ea96"; }
+.fluentui-emoji-high-contrast-burrito:before { content: "\ea97"; }
+.fluentui-emoji-high-contrast-bus-stop:before { content: "\ea98"; }
+.fluentui-emoji-high-contrast-bus:before { content: "\ea99"; }
+.fluentui-emoji-high-contrast-bust-in-silhouette:before { content: "\ea9a"; }
+.fluentui-emoji-high-contrast-busts-in-silhouette:before { content: "\ea9b"; }
+.fluentui-emoji-high-contrast-butter:before { content: "\ea9c"; }
+.fluentui-emoji-high-contrast-butterfly:before { content: "\ea9d"; }
+.fluentui-emoji-high-contrast-cactus:before { content: "\ea9e"; }
+.fluentui-emoji-high-contrast-calendar:before { content: "\ea9f"; }
+.fluentui-emoji-high-contrast-call-me-hand:before { content: "\eaa0"; }
+.fluentui-emoji-high-contrast-camel:before { content: "\eaa1"; }
+.fluentui-emoji-high-contrast-camera-with-flash:before { content: "\eaa2"; }
+.fluentui-emoji-high-contrast-camera:before { content: "\eaa3"; }
+.fluentui-emoji-high-contrast-camping:before { content: "\eaa4"; }
+.fluentui-emoji-high-contrast-cancer:before { content: "\eaa5"; }
+.fluentui-emoji-high-contrast-candle:before { content: "\eaa6"; }
+.fluentui-emoji-high-contrast-candy:before { content: "\eaa7"; }
+.fluentui-emoji-high-contrast-canned-food:before { content: "\eaa8"; }
+.fluentui-emoji-high-contrast-canoe:before { content: "\eaa9"; }
+.fluentui-emoji-high-contrast-capricorn:before { content: "\eaaa"; }
+.fluentui-emoji-high-contrast-card-file-box:before { content: "\eaab"; }
+.fluentui-emoji-high-contrast-card-index-dividers:before { content: "\eaac"; }
+.fluentui-emoji-high-contrast-card-index:before { content: "\eaad"; }
+.fluentui-emoji-high-contrast-carousel-horse:before { content: "\eaae"; }
+.fluentui-emoji-high-contrast-carp-streamer:before { content: "\eaaf"; }
+.fluentui-emoji-high-contrast-carpentry-saw:before { content: "\eab0"; }
+.fluentui-emoji-high-contrast-carrot:before { content: "\eab1"; }
+.fluentui-emoji-high-contrast-castle:before { content: "\eab2"; }
+.fluentui-emoji-high-contrast-cat-face:before { content: "\eab3"; }
+.fluentui-emoji-high-contrast-cat-with-tears-of-joy:before { content: "\eab4"; }
+.fluentui-emoji-high-contrast-cat-with-wry-smile:before { content: "\eab5"; }
+.fluentui-emoji-high-contrast-cat:before { content: "\eab6"; }
+.fluentui-emoji-high-contrast-chains:before { content: "\eab7"; }
+.fluentui-emoji-high-contrast-chair:before { content: "\eab8"; }
+.fluentui-emoji-high-contrast-chart-decreasing:before { content: "\eab9"; }
+.fluentui-emoji-high-contrast-chart-increasing-with-yen:before { content: "\eaba"; }
+.fluentui-emoji-high-contrast-chart-increasing:before { content: "\eabb"; }
+.fluentui-emoji-high-contrast-check-box-with-check:before { content: "\eabc"; }
+.fluentui-emoji-high-contrast-check-mark-button:before { content: "\eabd"; }
+.fluentui-emoji-high-contrast-check-mark:before { content: "\eabe"; }
+.fluentui-emoji-high-contrast-cheese-wedge:before { content: "\eabf"; }
+.fluentui-emoji-high-contrast-chequered-flag:before { content: "\eac0"; }
+.fluentui-emoji-high-contrast-cherries:before { content: "\eac1"; }
+.fluentui-emoji-high-contrast-cherry-blossom:before { content: "\eac2"; }
+.fluentui-emoji-high-contrast-chess-pawn:before { content: "\eac3"; }
+.fluentui-emoji-high-contrast-chestnut:before { content: "\eac4"; }
+.fluentui-emoji-high-contrast-chicken:before { content: "\eac5"; }
+.fluentui-emoji-high-contrast-child:before { content: "\eac6"; }
+.fluentui-emoji-high-contrast-children-crossing:before { content: "\eac7"; }
+.fluentui-emoji-high-contrast-chipmunk:before { content: "\eac8"; }
+.fluentui-emoji-high-contrast-chocolate-bar:before { content: "\eac9"; }
+.fluentui-emoji-high-contrast-chopsticks:before { content: "\eaca"; }
+.fluentui-emoji-high-contrast-christmas-tree:before { content: "\eacb"; }
+.fluentui-emoji-high-contrast-church:before { content: "\eacc"; }
+.fluentui-emoji-high-contrast-cigarette:before { content: "\eacd"; }
+.fluentui-emoji-high-contrast-cinema:before { content: "\eace"; }
+.fluentui-emoji-high-contrast-circled-m:before { content: "\eacf"; }
+.fluentui-emoji-high-contrast-circus-tent:before { content: "\ead0"; }
+.fluentui-emoji-high-contrast-cityscape-at-dusk:before { content: "\ead1"; }
+.fluentui-emoji-high-contrast-cityscape:before { content: "\ead2"; }
+.fluentui-emoji-high-contrast-cl-button:before { content: "\ead3"; }
+.fluentui-emoji-high-contrast-clamp:before { content: "\ead4"; }
+.fluentui-emoji-high-contrast-clapper-board:before { content: "\ead5"; }
+.fluentui-emoji-high-contrast-clapping-hands:before { content: "\ead6"; }
+.fluentui-emoji-high-contrast-classical-building:before { content: "\ead7"; }
+.fluentui-emoji-high-contrast-clinking-beer-mugs:before { content: "\ead8"; }
+.fluentui-emoji-high-contrast-clinking-glasses:before { content: "\ead9"; }
+.fluentui-emoji-high-contrast-clipboard:before { content: "\eada"; }
+.fluentui-emoji-high-contrast-clockwise-vertical-arrows:before { content: "\eadb"; }
+.fluentui-emoji-high-contrast-closed-book:before { content: "\eadc"; }
+.fluentui-emoji-high-contrast-closed-mailbox-with-lowered-flag:before { content: "\eadd"; }
+.fluentui-emoji-high-contrast-closed-mailbox-with-raised-flag:before { content: "\eade"; }
+.fluentui-emoji-high-contrast-closed-umbrella:before { content: "\eadf"; }
+.fluentui-emoji-high-contrast-cloud-with-lightning-and-rain:before { content: "\eae0"; }
+.fluentui-emoji-high-contrast-cloud-with-lightning:before { content: "\eae1"; }
+.fluentui-emoji-high-contrast-cloud-with-rain:before { content: "\eae2"; }
+.fluentui-emoji-high-contrast-cloud-with-snow:before { content: "\eae3"; }
+.fluentui-emoji-high-contrast-cloud:before { content: "\eae4"; }
+.fluentui-emoji-high-contrast-clown-face:before { content: "\eae5"; }
+.fluentui-emoji-high-contrast-club-suit:before { content: "\eae6"; }
+.fluentui-emoji-high-contrast-clutch-bag:before { content: "\eae7"; }
+.fluentui-emoji-high-contrast-coat:before { content: "\eae8"; }
+.fluentui-emoji-high-contrast-cockroach:before { content: "\eae9"; }
+.fluentui-emoji-high-contrast-cocktail-glass:before { content: "\eaea"; }
+.fluentui-emoji-high-contrast-coconut:before { content: "\eaeb"; }
+.fluentui-emoji-high-contrast-coffin:before { content: "\eaec"; }
+.fluentui-emoji-high-contrast-coin:before { content: "\eaed"; }
+.fluentui-emoji-high-contrast-cold-face:before { content: "\eaee"; }
+.fluentui-emoji-high-contrast-collision:before { content: "\eaef"; }
+.fluentui-emoji-high-contrast-comet:before { content: "\eaf0"; }
+.fluentui-emoji-high-contrast-compass:before { content: "\eaf1"; }
+.fluentui-emoji-high-contrast-computer-disk:before { content: "\eaf2"; }
+.fluentui-emoji-high-contrast-computer-mouse:before { content: "\eaf3"; }
+.fluentui-emoji-high-contrast-confetti-ball:before { content: "\eaf4"; }
+.fluentui-emoji-high-contrast-confounded-face:before { content: "\eaf5"; }
+.fluentui-emoji-high-contrast-confused-face:before { content: "\eaf6"; }
+.fluentui-emoji-high-contrast-construction-worker:before { content: "\eaf7"; }
+.fluentui-emoji-high-contrast-construction:before { content: "\eaf8"; }
+.fluentui-emoji-high-contrast-control-knobs:before { content: "\eaf9"; }
+.fluentui-emoji-high-contrast-convenience-store:before { content: "\eafa"; }
+.fluentui-emoji-high-contrast-cook:before { content: "\eafb"; }
+.fluentui-emoji-high-contrast-cooked-rice:before { content: "\eafc"; }
+.fluentui-emoji-high-contrast-cookie:before { content: "\eafd"; }
+.fluentui-emoji-high-contrast-cooking:before { content: "\eafe"; }
+.fluentui-emoji-high-contrast-cool-button:before { content: "\eaff"; }
+.fluentui-emoji-high-contrast-copyright:before { content: "\eb00"; }
+.fluentui-emoji-high-contrast-coral:before { content: "\eb01"; }
+.fluentui-emoji-high-contrast-couch-and-lamp:before { content: "\eb02"; }
+.fluentui-emoji-high-contrast-counterclockwise-arrows-button:before { content: "\eb03"; }
+.fluentui-emoji-high-contrast-cow-face:before { content: "\eb04"; }
+.fluentui-emoji-high-contrast-cow:before { content: "\eb05"; }
+.fluentui-emoji-high-contrast-cowboy-hat-face:before { content: "\eb06"; }
+.fluentui-emoji-high-contrast-crab:before { content: "\eb07"; }
+.fluentui-emoji-high-contrast-crayon:before { content: "\eb08"; }
+.fluentui-emoji-high-contrast-credit-card:before { content: "\eb09"; }
+.fluentui-emoji-high-contrast-crescent-moon:before { content: "\eb0a"; }
+.fluentui-emoji-high-contrast-cricket-game:before { content: "\eb0b"; }
+.fluentui-emoji-high-contrast-cricket:before { content: "\eb0c"; }
+.fluentui-emoji-high-contrast-crocodile:before { content: "\eb0d"; }
+.fluentui-emoji-high-contrast-croissant:before { content: "\eb0e"; }
+.fluentui-emoji-high-contrast-cross-mark-button:before { content: "\eb0f"; }
+.fluentui-emoji-high-contrast-cross-mark:before { content: "\eb10"; }
+.fluentui-emoji-high-contrast-crossed-fingers:before { content: "\eb11"; }
+.fluentui-emoji-high-contrast-crossed-flags:before { content: "\eb12"; }
+.fluentui-emoji-high-contrast-crossed-swords:before { content: "\eb13"; }
+.fluentui-emoji-high-contrast-crown:before { content: "\eb14"; }
+.fluentui-emoji-high-contrast-crutch:before { content: "\eb15"; }
+.fluentui-emoji-high-contrast-crying-cat:before { content: "\eb16"; }
+.fluentui-emoji-high-contrast-crying-face:before { content: "\eb17"; }
+.fluentui-emoji-high-contrast-crystal-ball:before { content: "\eb18"; }
+.fluentui-emoji-high-contrast-cucumber:before { content: "\eb19"; }
+.fluentui-emoji-high-contrast-cup-with-straw:before { content: "\eb1a"; }
+.fluentui-emoji-high-contrast-cupcake:before { content: "\eb1b"; }
+.fluentui-emoji-high-contrast-curling-stone:before { content: "\eb1c"; }
+.fluentui-emoji-high-contrast-curly-loop:before { content: "\eb1d"; }
+.fluentui-emoji-high-contrast-currency-exchange:before { content: "\eb1e"; }
+.fluentui-emoji-high-contrast-curry-rice:before { content: "\eb1f"; }
+.fluentui-emoji-high-contrast-custard:before { content: "\eb20"; }
+.fluentui-emoji-high-contrast-customs:before { content: "\eb21"; }
+.fluentui-emoji-high-contrast-cut-of-meat:before { content: "\eb22"; }
+.fluentui-emoji-high-contrast-cyclone:before { content: "\eb23"; }
+.fluentui-emoji-high-contrast-dagger:before { content: "\eb24"; }
+.fluentui-emoji-high-contrast-dango:before { content: "\eb25"; }
+.fluentui-emoji-high-contrast-dashing-away:before { content: "\eb26"; }
+.fluentui-emoji-high-contrast-deciduous-tree:before { content: "\eb27"; }
+.fluentui-emoji-high-contrast-deer:before { content: "\eb28"; }
+.fluentui-emoji-high-contrast-delivery-truck:before { content: "\eb29"; }
+.fluentui-emoji-high-contrast-department-store:before { content: "\eb2a"; }
+.fluentui-emoji-high-contrast-derelict-house:before { content: "\eb2b"; }
+.fluentui-emoji-high-contrast-desert-island:before { content: "\eb2c"; }
+.fluentui-emoji-high-contrast-desert:before { content: "\eb2d"; }
+.fluentui-emoji-high-contrast-desktop-computer:before { content: "\eb2e"; }
+.fluentui-emoji-high-contrast-detective:before { content: "\eb2f"; }
+.fluentui-emoji-high-contrast-diamond-suit:before { content: "\eb30"; }
+.fluentui-emoji-high-contrast-diamond-with-a-dot:before { content: "\eb31"; }
+.fluentui-emoji-high-contrast-dim-button:before { content: "\eb32"; }
+.fluentui-emoji-high-contrast-disappointed-face:before { content: "\eb33"; }
+.fluentui-emoji-high-contrast-disguised-face:before { content: "\eb34"; }
+.fluentui-emoji-high-contrast-divide:before { content: "\eb35"; }
+.fluentui-emoji-high-contrast-diving-mask:before { content: "\eb36"; }
+.fluentui-emoji-high-contrast-diya-lamp:before { content: "\eb37"; }
+.fluentui-emoji-high-contrast-dizzy:before { content: "\eb38"; }
+.fluentui-emoji-high-contrast-dna:before { content: "\eb39"; }
+.fluentui-emoji-high-contrast-dodo:before { content: "\eb3a"; }
+.fluentui-emoji-high-contrast-dog-face:before { content: "\eb3b"; }
+.fluentui-emoji-high-contrast-dog:before { content: "\eb3c"; }
+.fluentui-emoji-high-contrast-dollar-banknote:before { content: "\eb3d"; }
+.fluentui-emoji-high-contrast-dolphin:before { content: "\eb3e"; }
+.fluentui-emoji-high-contrast-door:before { content: "\eb3f"; }
+.fluentui-emoji-high-contrast-dotted-line-face:before { content: "\eb40"; }
+.fluentui-emoji-high-contrast-dotted-six-pointed-star:before { content: "\eb41"; }
+.fluentui-emoji-high-contrast-double-curly-loop:before { content: "\eb42"; }
+.fluentui-emoji-high-contrast-double-exclamation-mark:before { content: "\eb43"; }
+.fluentui-emoji-high-contrast-doughnut:before { content: "\eb44"; }
+.fluentui-emoji-high-contrast-dove:before { content: "\eb45"; }
+.fluentui-emoji-high-contrast-down-arrow:before { content: "\eb46"; }
+.fluentui-emoji-high-contrast-down-left-arrow:before { content: "\eb47"; }
+.fluentui-emoji-high-contrast-down-right-arrow:before { content: "\eb48"; }
+.fluentui-emoji-high-contrast-downcast-face-with-sweat:before { content: "\eb49"; }
+.fluentui-emoji-high-contrast-downwards-button:before { content: "\eb4a"; }
+.fluentui-emoji-high-contrast-dragon-face:before { content: "\eb4b"; }
+.fluentui-emoji-high-contrast-dragon:before { content: "\eb4c"; }
+.fluentui-emoji-high-contrast-dress:before { content: "\eb4d"; }
+.fluentui-emoji-high-contrast-drooling-face:before { content: "\eb4e"; }
+.fluentui-emoji-high-contrast-drop-of-blood:before { content: "\eb4f"; }
+.fluentui-emoji-high-contrast-droplet:before { content: "\eb50"; }
+.fluentui-emoji-high-contrast-drum:before { content: "\eb51"; }
+.fluentui-emoji-high-contrast-duck:before { content: "\eb52"; }
+.fluentui-emoji-high-contrast-dumpling:before { content: "\eb53"; }
+.fluentui-emoji-high-contrast-dvd:before { content: "\eb54"; }
+.fluentui-emoji-high-contrast-e-mail:before { content: "\eb55"; }
+.fluentui-emoji-high-contrast-eagle:before { content: "\eb56"; }
+.fluentui-emoji-high-contrast-ear-of-corn:before { content: "\eb57"; }
+.fluentui-emoji-high-contrast-ear-with-hearing-aid:before { content: "\eb58"; }
+.fluentui-emoji-high-contrast-ear:before { content: "\eb59"; }
+.fluentui-emoji-high-contrast-egg:before { content: "\eb5a"; }
+.fluentui-emoji-high-contrast-eggplant:before { content: "\eb5b"; }
+.fluentui-emoji-high-contrast-eight-oclock:before { content: "\eb5c"; }
+.fluentui-emoji-high-contrast-eight-pointed-star:before { content: "\eb5d"; }
+.fluentui-emoji-high-contrast-eight-spoked-asterisk:before { content: "\eb5e"; }
+.fluentui-emoji-high-contrast-eight-thirty:before { content: "\eb5f"; }
+.fluentui-emoji-high-contrast-eject-button:before { content: "\eb60"; }
+.fluentui-emoji-high-contrast-electric-plug:before { content: "\eb61"; }
+.fluentui-emoji-high-contrast-elephant:before { content: "\eb62"; }
+.fluentui-emoji-high-contrast-elevator:before { content: "\eb63"; }
+.fluentui-emoji-high-contrast-eleven-oclock:before { content: "\eb64"; }
+.fluentui-emoji-high-contrast-eleven-thirty:before { content: "\eb65"; }
+.fluentui-emoji-high-contrast-empty-nest:before { content: "\eb66"; }
+.fluentui-emoji-high-contrast-end-arrow:before { content: "\eb67"; }
+.fluentui-emoji-high-contrast-envelope-with-arrow:before { content: "\eb68"; }
+.fluentui-emoji-high-contrast-envelope:before { content: "\eb69"; }
+.fluentui-emoji-high-contrast-euro-banknote:before { content: "\eb6a"; }
+.fluentui-emoji-high-contrast-evergreen-tree:before { content: "\eb6b"; }
+.fluentui-emoji-high-contrast-ewe:before { content: "\eb6c"; }
+.fluentui-emoji-high-contrast-exclamation-question-mark:before { content: "\eb6d"; }
+.fluentui-emoji-high-contrast-exploding-head:before { content: "\eb6e"; }
+.fluentui-emoji-high-contrast-expressionless-face:before { content: "\eb6f"; }
+.fluentui-emoji-high-contrast-eye-in-speech-bubble:before { content: "\eb70"; }
+.fluentui-emoji-high-contrast-eye:before { content: "\eb71"; }
+.fluentui-emoji-high-contrast-eyes:before { content: "\eb72"; }
+.fluentui-emoji-high-contrast-face-blowing-a-kiss:before { content: "\eb73"; }
+.fluentui-emoji-high-contrast-face-exhaling:before { content: "\eb74"; }
+.fluentui-emoji-high-contrast-face-holding-back-tears:before { content: "\eb75"; }
+.fluentui-emoji-high-contrast-face-in-clouds:before { content: "\eb76"; }
+.fluentui-emoji-high-contrast-face-savoring-food:before { content: "\eb77"; }
+.fluentui-emoji-high-contrast-face-screaming-in-fear:before { content: "\eb78"; }
+.fluentui-emoji-high-contrast-face-vomiting:before { content: "\eb79"; }
+.fluentui-emoji-high-contrast-face-with-diagonal-mouth:before { content: "\eb7a"; }
+.fluentui-emoji-high-contrast-face-with-hand-over-mouth:before { content: "\eb7b"; }
+.fluentui-emoji-high-contrast-face-with-head-bandage:before { content: "\eb7c"; }
+.fluentui-emoji-high-contrast-face-with-medical-mask:before { content: "\eb7d"; }
+.fluentui-emoji-high-contrast-face-with-monocle:before { content: "\eb7e"; }
+.fluentui-emoji-high-contrast-face-with-open-eyes-and-hand-over-mouth:before { content: "\eb7f"; }
+.fluentui-emoji-high-contrast-face-with-open-mouth:before { content: "\eb80"; }
+.fluentui-emoji-high-contrast-face-with-peeking-eye:before { content: "\eb81"; }
+.fluentui-emoji-high-contrast-face-with-raised-eyebrow:before { content: "\eb82"; }
+.fluentui-emoji-high-contrast-face-with-rolling-eyes:before { content: "\eb83"; }
+.fluentui-emoji-high-contrast-face-with-spiral-eyes:before { content: "\eb84"; }
+.fluentui-emoji-high-contrast-face-with-steam-from-nose:before { content: "\eb85"; }
+.fluentui-emoji-high-contrast-face-with-symbols-on-mouth:before { content: "\eb86"; }
+.fluentui-emoji-high-contrast-face-with-tears-of-joy:before { content: "\eb87"; }
+.fluentui-emoji-high-contrast-face-with-thermometer:before { content: "\eb88"; }
+.fluentui-emoji-high-contrast-face-with-tongue:before { content: "\eb89"; }
+.fluentui-emoji-high-contrast-face-without-mouth:before { content: "\eb8a"; }
+.fluentui-emoji-high-contrast-factory-worker:before { content: "\eb8b"; }
+.fluentui-emoji-high-contrast-factory:before { content: "\eb8c"; }
+.fluentui-emoji-high-contrast-falafel:before { content: "\eb8d"; }
+.fluentui-emoji-high-contrast-fallen-leaf:before { content: "\eb8e"; }
+.fluentui-emoji-high-contrast-farmer:before { content: "\eb8f"; }
+.fluentui-emoji-high-contrast-fast-down-button:before { content: "\eb90"; }
+.fluentui-emoji-high-contrast-fast-forward-button:before { content: "\eb91"; }
+.fluentui-emoji-high-contrast-fast-reverse-button:before { content: "\eb92"; }
+.fluentui-emoji-high-contrast-fast-up-button:before { content: "\eb93"; }
+.fluentui-emoji-high-contrast-fax-machine:before { content: "\eb94"; }
+.fluentui-emoji-high-contrast-fearful-face:before { content: "\eb95"; }
+.fluentui-emoji-high-contrast-feather:before { content: "\eb96"; }
+.fluentui-emoji-high-contrast-female-sign:before { content: "\eb97"; }
+.fluentui-emoji-high-contrast-ferris-wheel:before { content: "\eb98"; }
+.fluentui-emoji-high-contrast-ferry:before { content: "\eb99"; }
+.fluentui-emoji-high-contrast-field-hockey:before { content: "\eb9a"; }
+.fluentui-emoji-high-contrast-file-cabinet:before { content: "\eb9b"; }
+.fluentui-emoji-high-contrast-file-folder:before { content: "\eb9c"; }
+.fluentui-emoji-high-contrast-film-frames:before { content: "\eb9d"; }
+.fluentui-emoji-high-contrast-film-projector:before { content: "\eb9e"; }
+.fluentui-emoji-high-contrast-fire-engine:before { content: "\eb9f"; }
+.fluentui-emoji-high-contrast-fire-extinguisher:before { content: "\eba0"; }
+.fluentui-emoji-high-contrast-fire:before { content: "\eba1"; }
+.fluentui-emoji-high-contrast-firecracker:before { content: "\eba2"; }
+.fluentui-emoji-high-contrast-firefighter:before { content: "\eba3"; }
+.fluentui-emoji-high-contrast-fireworks:before { content: "\eba4"; }
+.fluentui-emoji-high-contrast-first-quarter-moon-face:before { content: "\eba5"; }
+.fluentui-emoji-high-contrast-first-quarter-moon:before { content: "\eba6"; }
+.fluentui-emoji-high-contrast-fish-cake-with-swirl:before { content: "\eba7"; }
+.fluentui-emoji-high-contrast-fish:before { content: "\eba8"; }
+.fluentui-emoji-high-contrast-fishing-pole:before { content: "\eba9"; }
+.fluentui-emoji-high-contrast-five-oclock:before { content: "\ebaa"; }
+.fluentui-emoji-high-contrast-five-thirty:before { content: "\ebab"; }
+.fluentui-emoji-high-contrast-flag-in-hole:before { content: "\ebac"; }
+.fluentui-emoji-high-contrast-flamingo:before { content: "\ebad"; }
+.fluentui-emoji-high-contrast-flashlight:before { content: "\ebae"; }
+.fluentui-emoji-high-contrast-fleur-de-lis:before { content: "\ebaf"; }
+.fluentui-emoji-high-contrast-flexed-biceps:before { content: "\ebb0"; }
+.fluentui-emoji-high-contrast-floppy-disk:before { content: "\ebb1"; }
+.fluentui-emoji-high-contrast-flower-playing-cards:before { content: "\ebb2"; }
+.fluentui-emoji-high-contrast-flushed-face:before { content: "\ebb3"; }
+.fluentui-emoji-high-contrast-fly:before { content: "\ebb4"; }
+.fluentui-emoji-high-contrast-flying-disc:before { content: "\ebb5"; }
+.fluentui-emoji-high-contrast-flying-saucer:before { content: "\ebb6"; }
+.fluentui-emoji-high-contrast-fog:before { content: "\ebb7"; }
+.fluentui-emoji-high-contrast-foggy:before { content: "\ebb8"; }
+.fluentui-emoji-high-contrast-folded-hands:before { content: "\ebb9"; }
+.fluentui-emoji-high-contrast-fondue:before { content: "\ebba"; }
+.fluentui-emoji-high-contrast-foot:before { content: "\ebbb"; }
+.fluentui-emoji-high-contrast-footprints:before { content: "\ebbc"; }
+.fluentui-emoji-high-contrast-fork-and-knife-with-plate:before { content: "\ebbd"; }
+.fluentui-emoji-high-contrast-fork-and-knife:before { content: "\ebbe"; }
+.fluentui-emoji-high-contrast-fortune-cookie:before { content: "\ebbf"; }
+.fluentui-emoji-high-contrast-fountain-pen:before { content: "\ebc0"; }
+.fluentui-emoji-high-contrast-fountain:before { content: "\ebc1"; }
+.fluentui-emoji-high-contrast-four-leaf-clover:before { content: "\ebc2"; }
+.fluentui-emoji-high-contrast-four-oclock:before { content: "\ebc3"; }
+.fluentui-emoji-high-contrast-four-thirty:before { content: "\ebc4"; }
+.fluentui-emoji-high-contrast-fox:before { content: "\ebc5"; }
+.fluentui-emoji-high-contrast-framed-picture:before { content: "\ebc6"; }
+.fluentui-emoji-high-contrast-free-button:before { content: "\ebc7"; }
+.fluentui-emoji-high-contrast-french-fries:before { content: "\ebc8"; }
+.fluentui-emoji-high-contrast-fried-shrimp:before { content: "\ebc9"; }
+.fluentui-emoji-high-contrast-frog:before { content: "\ebca"; }
+.fluentui-emoji-high-contrast-front-facing-baby-chick:before { content: "\ebcb"; }
+.fluentui-emoji-high-contrast-frowning-face-with-open-mouth:before { content: "\ebcc"; }
+.fluentui-emoji-high-contrast-frowning-face:before { content: "\ebcd"; }
+.fluentui-emoji-high-contrast-fuel-pump:before { content: "\ebce"; }
+.fluentui-emoji-high-contrast-full-moon-face:before { content: "\ebcf"; }
+.fluentui-emoji-high-contrast-full-moon:before { content: "\ebd0"; }
+.fluentui-emoji-high-contrast-funeral-urn:before { content: "\ebd1"; }
+.fluentui-emoji-high-contrast-game-die:before { content: "\ebd2"; }
+.fluentui-emoji-high-contrast-garlic:before { content: "\ebd3"; }
+.fluentui-emoji-high-contrast-gear:before { content: "\ebd4"; }
+.fluentui-emoji-high-contrast-gem-stone:before { content: "\ebd5"; }
+.fluentui-emoji-high-contrast-gemini:before { content: "\ebd6"; }
+.fluentui-emoji-high-contrast-ghost:before { content: "\ebd7"; }
+.fluentui-emoji-high-contrast-giraffe:before { content: "\ebd8"; }
+.fluentui-emoji-high-contrast-girl:before { content: "\ebd9"; }
+.fluentui-emoji-high-contrast-glass-of-milk:before { content: "\ebda"; }
+.fluentui-emoji-high-contrast-glasses:before { content: "\ebdb"; }
+.fluentui-emoji-high-contrast-globe-showing-americas:before { content: "\ebdc"; }
+.fluentui-emoji-high-contrast-globe-showing-asia-australia:before { content: "\ebdd"; }
+.fluentui-emoji-high-contrast-globe-showing-europe-africa:before { content: "\ebde"; }
+.fluentui-emoji-high-contrast-globe-with-meridians:before { content: "\ebdf"; }
+.fluentui-emoji-high-contrast-gloves:before { content: "\ebe0"; }
+.fluentui-emoji-high-contrast-glowing-star:before { content: "\ebe1"; }
+.fluentui-emoji-high-contrast-goal-net:before { content: "\ebe2"; }
+.fluentui-emoji-high-contrast-goat:before { content: "\ebe3"; }
+.fluentui-emoji-high-contrast-goblin:before { content: "\ebe4"; }
+.fluentui-emoji-high-contrast-goggles:before { content: "\ebe5"; }
+.fluentui-emoji-high-contrast-gorilla:before { content: "\ebe6"; }
+.fluentui-emoji-high-contrast-graduation-cap:before { content: "\ebe7"; }
+.fluentui-emoji-high-contrast-grapes:before { content: "\ebe8"; }
+.fluentui-emoji-high-contrast-green-apple:before { content: "\ebe9"; }
+.fluentui-emoji-high-contrast-green-book:before { content: "\ebea"; }
+.fluentui-emoji-high-contrast-green-circle:before { content: "\ebeb"; }
+.fluentui-emoji-high-contrast-green-heart:before { content: "\ebec"; }
+.fluentui-emoji-high-contrast-green-salad:before { content: "\ebed"; }
+.fluentui-emoji-high-contrast-green-square:before { content: "\ebee"; }
+.fluentui-emoji-high-contrast-grimacing-face:before { content: "\ebef"; }
+.fluentui-emoji-high-contrast-grinning-cat-with-smiling-eyes:before { content: "\ebf0"; }
+.fluentui-emoji-high-contrast-grinning-cat:before { content: "\ebf1"; }
+.fluentui-emoji-high-contrast-grinning-face-with-big-eyes:before { content: "\ebf2"; }
+.fluentui-emoji-high-contrast-grinning-face-with-smiling-eyes:before { content: "\ebf3"; }
+.fluentui-emoji-high-contrast-grinning-face-with-sweat:before { content: "\ebf4"; }
+.fluentui-emoji-high-contrast-grinning-face:before { content: "\ebf5"; }
+.fluentui-emoji-high-contrast-grinning-squinting-face:before { content: "\ebf6"; }
+.fluentui-emoji-high-contrast-growing-heart:before { content: "\ebf7"; }
+.fluentui-emoji-high-contrast-guard:before { content: "\ebf8"; }
+.fluentui-emoji-high-contrast-guide-dog:before { content: "\ebf9"; }
+.fluentui-emoji-high-contrast-guitar:before { content: "\ebfa"; }
+.fluentui-emoji-high-contrast-hamburger:before { content: "\ebfb"; }
+.fluentui-emoji-high-contrast-hammer-and-pick:before { content: "\ebfc"; }
+.fluentui-emoji-high-contrast-hammer-and-wrench:before { content: "\ebfd"; }
+.fluentui-emoji-high-contrast-hammer:before { content: "\ebfe"; }
+.fluentui-emoji-high-contrast-hamsa:before { content: "\ebff"; }
+.fluentui-emoji-high-contrast-hamster:before { content: "\ec00"; }
+.fluentui-emoji-high-contrast-hand-with-fingers-splayed:before { content: "\ec01"; }
+.fluentui-emoji-high-contrast-hand-with-index-finger-and-thumb-crossed:before { content: "\ec02"; }
+.fluentui-emoji-high-contrast-handbag:before { content: "\ec03"; }
+.fluentui-emoji-high-contrast-handshake:before { content: "\ec04"; }
+.fluentui-emoji-high-contrast-hatching-chick:before { content: "\ec05"; }
+.fluentui-emoji-high-contrast-headphone:before { content: "\ec06"; }
+.fluentui-emoji-high-contrast-headstone:before { content: "\ec07"; }
+.fluentui-emoji-high-contrast-health-worker:before { content: "\ec08"; }
+.fluentui-emoji-high-contrast-hear-no-evil-monkey:before { content: "\ec09"; }
+.fluentui-emoji-high-contrast-heart-decoration:before { content: "\ec0a"; }
+.fluentui-emoji-high-contrast-heart-exclamation:before { content: "\ec0b"; }
+.fluentui-emoji-high-contrast-heart-hands:before { content: "\ec0c"; }
+.fluentui-emoji-high-contrast-heart-on-fire:before { content: "\ec0d"; }
+.fluentui-emoji-high-contrast-heart-suit:before { content: "\ec0e"; }
+.fluentui-emoji-high-contrast-heart-with-arrow:before { content: "\ec0f"; }
+.fluentui-emoji-high-contrast-heart-with-ribbon:before { content: "\ec10"; }
+.fluentui-emoji-high-contrast-heavy-dollar-sign:before { content: "\ec11"; }
+.fluentui-emoji-high-contrast-heavy-equals-sign:before { content: "\ec12"; }
+.fluentui-emoji-high-contrast-hedgehog:before { content: "\ec13"; }
+.fluentui-emoji-high-contrast-helicopter:before { content: "\ec14"; }
+.fluentui-emoji-high-contrast-herb:before { content: "\ec15"; }
+.fluentui-emoji-high-contrast-hibiscus:before { content: "\ec16"; }
+.fluentui-emoji-high-contrast-high-heeled-shoe:before { content: "\ec17"; }
+.fluentui-emoji-high-contrast-high-speed-train:before { content: "\ec18"; }
+.fluentui-emoji-high-contrast-high-voltage:before { content: "\ec19"; }
+.fluentui-emoji-high-contrast-hiking-boot:before { content: "\ec1a"; }
+.fluentui-emoji-high-contrast-hindu-temple:before { content: "\ec1b"; }
+.fluentui-emoji-high-contrast-hippopotamus:before { content: "\ec1c"; }
+.fluentui-emoji-high-contrast-hole:before { content: "\ec1d"; }
+.fluentui-emoji-high-contrast-hollow-red-circle:before { content: "\ec1e"; }
+.fluentui-emoji-high-contrast-honey-pot:before { content: "\ec1f"; }
+.fluentui-emoji-high-contrast-honeybee:before { content: "\ec20"; }
+.fluentui-emoji-high-contrast-hook:before { content: "\ec21"; }
+.fluentui-emoji-high-contrast-horizontal-traffic-light:before { content: "\ec22"; }
+.fluentui-emoji-high-contrast-horse-face:before { content: "\ec23"; }
+.fluentui-emoji-high-contrast-horse-racing:before { content: "\ec24"; }
+.fluentui-emoji-high-contrast-horse:before { content: "\ec25"; }
+.fluentui-emoji-high-contrast-hospital:before { content: "\ec26"; }
+.fluentui-emoji-high-contrast-hot-beverage:before { content: "\ec27"; }
+.fluentui-emoji-high-contrast-hot-dog:before { content: "\ec28"; }
+.fluentui-emoji-high-contrast-hot-face:before { content: "\ec29"; }
+.fluentui-emoji-high-contrast-hot-pepper:before { content: "\ec2a"; }
+.fluentui-emoji-high-contrast-hot-springs:before { content: "\ec2b"; }
+.fluentui-emoji-high-contrast-hotel:before { content: "\ec2c"; }
+.fluentui-emoji-high-contrast-hourglass-done:before { content: "\ec2d"; }
+.fluentui-emoji-high-contrast-hourglass-not-done:before { content: "\ec2e"; }
+.fluentui-emoji-high-contrast-house-with-garden:before { content: "\ec2f"; }
+.fluentui-emoji-high-contrast-house:before { content: "\ec30"; }
+.fluentui-emoji-high-contrast-houses:before { content: "\ec31"; }
+.fluentui-emoji-high-contrast-hugging-face:before { content: "\ec32"; }
+.fluentui-emoji-high-contrast-hundred-points:before { content: "\ec33"; }
+.fluentui-emoji-high-contrast-hushed-face:before { content: "\ec34"; }
+.fluentui-emoji-high-contrast-hut:before { content: "\ec35"; }
+.fluentui-emoji-high-contrast-ice-cream:before { content: "\ec36"; }
+.fluentui-emoji-high-contrast-ice-hockey:before { content: "\ec37"; }
+.fluentui-emoji-high-contrast-ice-skate:before { content: "\ec38"; }
+.fluentui-emoji-high-contrast-ice:before { content: "\ec39"; }
+.fluentui-emoji-high-contrast-id-button:before { content: "\ec3a"; }
+.fluentui-emoji-high-contrast-identification-card:before { content: "\ec3b"; }
+.fluentui-emoji-high-contrast-inbox-tray:before { content: "\ec3c"; }
+.fluentui-emoji-high-contrast-incoming-envelope:before { content: "\ec3d"; }
+.fluentui-emoji-high-contrast-index-pointing-at-the-viewer:before { content: "\ec3e"; }
+.fluentui-emoji-high-contrast-index-pointing-up:before { content: "\ec3f"; }
+.fluentui-emoji-high-contrast-infinity:before { content: "\ec40"; }
+.fluentui-emoji-high-contrast-information:before { content: "\ec41"; }
+.fluentui-emoji-high-contrast-input-latin-letters:before { content: "\ec42"; }
+.fluentui-emoji-high-contrast-input-latin-lowercase:before { content: "\ec43"; }
+.fluentui-emoji-high-contrast-input-latin-uppercase:before { content: "\ec44"; }
+.fluentui-emoji-high-contrast-input-numbers:before { content: "\ec45"; }
+.fluentui-emoji-high-contrast-input-symbols:before { content: "\ec46"; }
+.fluentui-emoji-high-contrast-jack-o-lantern:before { content: "\ec47"; }
+.fluentui-emoji-high-contrast-japanese-acceptable-button:before { content: "\ec48"; }
+.fluentui-emoji-high-contrast-japanese-application-button:before { content: "\ec49"; }
+.fluentui-emoji-high-contrast-japanese-bargain-button:before { content: "\ec4a"; }
+.fluentui-emoji-high-contrast-japanese-castle:before { content: "\ec4b"; }
+.fluentui-emoji-high-contrast-japanese-congratulations-button:before { content: "\ec4c"; }
+.fluentui-emoji-high-contrast-japanese-discount-button:before { content: "\ec4d"; }
+.fluentui-emoji-high-contrast-japanese-dolls:before { content: "\ec4e"; }
+.fluentui-emoji-high-contrast-japanese-free-of-charge-button:before { content: "\ec4f"; }
+.fluentui-emoji-high-contrast-japanese-hear-button:before { content: "\ec50"; }
+.fluentui-emoji-high-contrast-japanese-monthly-amount-button:before { content: "\ec51"; }
+.fluentui-emoji-high-contrast-japanese-no-vacancy-button:before { content: "\ec52"; }
+.fluentui-emoji-high-contrast-japanese-not-free-of-charge-button:before { content: "\ec53"; }
+.fluentui-emoji-high-contrast-japanese-open-for-business-button:before { content: "\ec54"; }
+.fluentui-emoji-high-contrast-japanese-passing-grade-button:before { content: "\ec55"; }
+.fluentui-emoji-high-contrast-japanese-post-office:before { content: "\ec56"; }
+.fluentui-emoji-high-contrast-japanese-prohibited-button:before { content: "\ec57"; }
+.fluentui-emoji-high-contrast-japanese-reserved-button:before { content: "\ec58"; }
+.fluentui-emoji-high-contrast-japanese-secret-button:before { content: "\ec59"; }
+.fluentui-emoji-high-contrast-japanese-service-charge-button:before { content: "\ec5a"; }
+.fluentui-emoji-high-contrast-japanese-symbol-for-beginner:before { content: "\ec5b"; }
+.fluentui-emoji-high-contrast-japanese-vacancy-button:before { content: "\ec5c"; }
+.fluentui-emoji-high-contrast-jar:before { content: "\ec5d"; }
+.fluentui-emoji-high-contrast-jeans:before { content: "\ec5e"; }
+.fluentui-emoji-high-contrast-joker:before { content: "\ec5f"; }
+.fluentui-emoji-high-contrast-joystick:before { content: "\ec60"; }
+.fluentui-emoji-high-contrast-judge:before { content: "\ec61"; }
+.fluentui-emoji-high-contrast-kaaba:before { content: "\ec62"; }
+.fluentui-emoji-high-contrast-kangaroo:before { content: "\ec63"; }
+.fluentui-emoji-high-contrast-key:before { content: "\ec64"; }
+.fluentui-emoji-high-contrast-keyboard:before { content: "\ec65"; }
+.fluentui-emoji-high-contrast-keycap-0:before { content: "\ec66"; }
+.fluentui-emoji-high-contrast-keycap-1:before { content: "\ec67"; }
+.fluentui-emoji-high-contrast-keycap-10:before { content: "\ec68"; }
+.fluentui-emoji-high-contrast-keycap-2:before { content: "\ec69"; }
+.fluentui-emoji-high-contrast-keycap-3:before { content: "\ec6a"; }
+.fluentui-emoji-high-contrast-keycap-4:before { content: "\ec6b"; }
+.fluentui-emoji-high-contrast-keycap-5:before { content: "\ec6c"; }
+.fluentui-emoji-high-contrast-keycap-6:before { content: "\ec6d"; }
+.fluentui-emoji-high-contrast-keycap-7:before { content: "\ec6e"; }
+.fluentui-emoji-high-contrast-keycap-8:before { content: "\ec6f"; }
+.fluentui-emoji-high-contrast-keycap-9:before { content: "\ec70"; }
+.fluentui-emoji-high-contrast-keycap-asterisk:before { content: "\ec71"; }
+.fluentui-emoji-high-contrast-keycap-hashtag:before { content: "\ec72"; }
+.fluentui-emoji-high-contrast-kick-scooter:before { content: "\ec73"; }
+.fluentui-emoji-high-contrast-kimono:before { content: "\ec74"; }
+.fluentui-emoji-high-contrast-kiss-mark:before { content: "\ec75"; }
+.fluentui-emoji-high-contrast-kissing-cat:before { content: "\ec76"; }
+.fluentui-emoji-high-contrast-kissing-face-with-closed-eyes:before { content: "\ec77"; }
+.fluentui-emoji-high-contrast-kissing-face-with-smiling-eyes:before { content: "\ec78"; }
+.fluentui-emoji-high-contrast-kissing-face:before { content: "\ec79"; }
+.fluentui-emoji-high-contrast-kitchen-knife:before { content: "\ec7a"; }
+.fluentui-emoji-high-contrast-kite:before { content: "\ec7b"; }
+.fluentui-emoji-high-contrast-kiwi-fruit:before { content: "\ec7c"; }
+.fluentui-emoji-high-contrast-knocked-out-face:before { content: "\ec7d"; }
+.fluentui-emoji-high-contrast-knot:before { content: "\ec7e"; }
+.fluentui-emoji-high-contrast-koala:before { content: "\ec7f"; }
+.fluentui-emoji-high-contrast-lab-coat:before { content: "\ec80"; }
+.fluentui-emoji-high-contrast-label:before { content: "\ec81"; }
+.fluentui-emoji-high-contrast-lacrosse:before { content: "\ec82"; }
+.fluentui-emoji-high-contrast-ladder:before { content: "\ec83"; }
+.fluentui-emoji-high-contrast-lady-beetle:before { content: "\ec84"; }
+.fluentui-emoji-high-contrast-laptop:before { content: "\ec85"; }
+.fluentui-emoji-high-contrast-large-blue-diamond:before { content: "\ec86"; }
+.fluentui-emoji-high-contrast-large-orange-diamond:before { content: "\ec87"; }
+.fluentui-emoji-high-contrast-last-quarter-moon-face:before { content: "\ec88"; }
+.fluentui-emoji-high-contrast-last-quarter-moon:before { content: "\ec89"; }
+.fluentui-emoji-high-contrast-last-track-button:before { content: "\ec8a"; }
+.fluentui-emoji-high-contrast-latin-cross:before { content: "\ec8b"; }
+.fluentui-emoji-high-contrast-leaf-fluttering-in-wind:before { content: "\ec8c"; }
+.fluentui-emoji-high-contrast-leafy-green:before { content: "\ec8d"; }
+.fluentui-emoji-high-contrast-ledger:before { content: "\ec8e"; }
+.fluentui-emoji-high-contrast-left-arrow-curving-right:before { content: "\ec8f"; }
+.fluentui-emoji-high-contrast-left-arrow:before { content: "\ec90"; }
+.fluentui-emoji-high-contrast-left-facing-fist:before { content: "\ec91"; }
+.fluentui-emoji-high-contrast-left-luggage:before { content: "\ec92"; }
+.fluentui-emoji-high-contrast-left-right-arrow:before { content: "\ec93"; }
+.fluentui-emoji-high-contrast-left-speech-bubble:before { content: "\ec94"; }
+.fluentui-emoji-high-contrast-leftwards-hand:before { content: "\ec95"; }
+.fluentui-emoji-high-contrast-leg:before { content: "\ec96"; }
+.fluentui-emoji-high-contrast-lemon:before { content: "\ec97"; }
+.fluentui-emoji-high-contrast-leo:before { content: "\ec98"; }
+.fluentui-emoji-high-contrast-leopard:before { content: "\ec99"; }
+.fluentui-emoji-high-contrast-level-slider:before { content: "\ec9a"; }
+.fluentui-emoji-high-contrast-libra:before { content: "\ec9b"; }
+.fluentui-emoji-high-contrast-light-bulb:before { content: "\ec9c"; }
+.fluentui-emoji-high-contrast-light-rail:before { content: "\ec9d"; }
+.fluentui-emoji-high-contrast-link:before { content: "\ec9e"; }
+.fluentui-emoji-high-contrast-linked-paperclips:before { content: "\ec9f"; }
+.fluentui-emoji-high-contrast-lion:before { content: "\eca0"; }
+.fluentui-emoji-high-contrast-lipstick:before { content: "\eca1"; }
+.fluentui-emoji-high-contrast-litter-in-bin-sign:before { content: "\eca2"; }
+.fluentui-emoji-high-contrast-lizard:before { content: "\eca3"; }
+.fluentui-emoji-high-contrast-llama:before { content: "\eca4"; }
+.fluentui-emoji-high-contrast-lobster:before { content: "\eca5"; }
+.fluentui-emoji-high-contrast-locked-with-key:before { content: "\eca6"; }
+.fluentui-emoji-high-contrast-locked-with-pen:before { content: "\eca7"; }
+.fluentui-emoji-high-contrast-locked:before { content: "\eca8"; }
+.fluentui-emoji-high-contrast-locomotive:before { content: "\eca9"; }
+.fluentui-emoji-high-contrast-lollipop:before { content: "\ecaa"; }
+.fluentui-emoji-high-contrast-long-drum:before { content: "\ecab"; }
+.fluentui-emoji-high-contrast-lotion-bottle:before { content: "\ecac"; }
+.fluentui-emoji-high-contrast-lotus:before { content: "\ecad"; }
+.fluentui-emoji-high-contrast-loudly-crying-face:before { content: "\ecae"; }
+.fluentui-emoji-high-contrast-loudspeaker:before { content: "\ecaf"; }
+.fluentui-emoji-high-contrast-love-hotel:before { content: "\ecb0"; }
+.fluentui-emoji-high-contrast-love-letter:before { content: "\ecb1"; }
+.fluentui-emoji-high-contrast-love-you-gesture:before { content: "\ecb2"; }
+.fluentui-emoji-high-contrast-low-battery:before { content: "\ecb3"; }
+.fluentui-emoji-high-contrast-luggage:before { content: "\ecb4"; }
+.fluentui-emoji-high-contrast-lungs:before { content: "\ecb5"; }
+.fluentui-emoji-high-contrast-lying-face:before { content: "\ecb6"; }
+.fluentui-emoji-high-contrast-magic-wand:before { content: "\ecb7"; }
+.fluentui-emoji-high-contrast-magnet:before { content: "\ecb8"; }
+.fluentui-emoji-high-contrast-magnifying-glass-tilted-left:before { content: "\ecb9"; }
+.fluentui-emoji-high-contrast-magnifying-glass-tilted-right:before { content: "\ecba"; }
+.fluentui-emoji-high-contrast-mahjong-red-dragon:before { content: "\ecbb"; }
+.fluentui-emoji-high-contrast-male-sign:before { content: "\ecbc"; }
+.fluentui-emoji-high-contrast-mammoth:before { content: "\ecbd"; }
+.fluentui-emoji-high-contrast-man-artist:before { content: "\ecbe"; }
+.fluentui-emoji-high-contrast-man-astronaut:before { content: "\ecbf"; }
+.fluentui-emoji-high-contrast-man-bald:before { content: "\ecc0"; }
+.fluentui-emoji-high-contrast-man-beard:before { content: "\ecc1"; }
+.fluentui-emoji-high-contrast-man-biking:before { content: "\ecc2"; }
+.fluentui-emoji-high-contrast-man-blonde-hair:before { content: "\ecc3"; }
+.fluentui-emoji-high-contrast-man-bouncing-ball:before { content: "\ecc4"; }
+.fluentui-emoji-high-contrast-man-bowing:before { content: "\ecc5"; }
+.fluentui-emoji-high-contrast-man-cartwheeling:before { content: "\ecc6"; }
+.fluentui-emoji-high-contrast-man-climbing:before { content: "\ecc7"; }
+.fluentui-emoji-high-contrast-man-construction-worker:before { content: "\ecc8"; }
+.fluentui-emoji-high-contrast-man-cook:before { content: "\ecc9"; }
+.fluentui-emoji-high-contrast-man-curly-hair:before { content: "\ecca"; }
+.fluentui-emoji-high-contrast-man-dancing:before { content: "\eccb"; }
+.fluentui-emoji-high-contrast-man-deaf:before { content: "\eccc"; }
+.fluentui-emoji-high-contrast-man-detective:before { content: "\eccd"; }
+.fluentui-emoji-high-contrast-man-elf:before { content: "\ecce"; }
+.fluentui-emoji-high-contrast-man-facepalming:before { content: "\eccf"; }
+.fluentui-emoji-high-contrast-man-factory-worker:before { content: "\ecd0"; }
+.fluentui-emoji-high-contrast-man-fairy:before { content: "\ecd1"; }
+.fluentui-emoji-high-contrast-man-farmer:before { content: "\ecd2"; }
+.fluentui-emoji-high-contrast-man-feeding-baby:before { content: "\ecd3"; }
+.fluentui-emoji-high-contrast-man-firefighter:before { content: "\ecd4"; }
+.fluentui-emoji-high-contrast-man-frowning:before { content: "\ecd5"; }
+.fluentui-emoji-high-contrast-man-genie:before { content: "\ecd6"; }
+.fluentui-emoji-high-contrast-man-gesturing-no:before { content: "\ecd7"; }
+.fluentui-emoji-high-contrast-man-gesturing-ok:before { content: "\ecd8"; }
+.fluentui-emoji-high-contrast-man-getting-haircut:before { content: "\ecd9"; }
+.fluentui-emoji-high-contrast-man-getting-massage:before { content: "\ecda"; }
+.fluentui-emoji-high-contrast-man-golfing:before { content: "\ecdb"; }
+.fluentui-emoji-high-contrast-man-guard:before { content: "\ecdc"; }
+.fluentui-emoji-high-contrast-man-health-worker:before { content: "\ecdd"; }
+.fluentui-emoji-high-contrast-man-in-lotus-position:before { content: "\ecde"; }
+.fluentui-emoji-high-contrast-man-in-manual-wheelchair:before { content: "\ecdf"; }
+.fluentui-emoji-high-contrast-man-in-motorized-wheelchair:before { content: "\ece0"; }
+.fluentui-emoji-high-contrast-man-in-steamy-room:before { content: "\ece1"; }
+.fluentui-emoji-high-contrast-man-in-tuxedo:before { content: "\ece2"; }
+.fluentui-emoji-high-contrast-man-judge:before { content: "\ece3"; }
+.fluentui-emoji-high-contrast-man-juggling:before { content: "\ece4"; }
+.fluentui-emoji-high-contrast-man-kneeling:before { content: "\ece5"; }
+.fluentui-emoji-high-contrast-man-lifting-weights:before { content: "\ece6"; }
+.fluentui-emoji-high-contrast-man-mage:before { content: "\ece7"; }
+.fluentui-emoji-high-contrast-man-mechanic:before { content: "\ece8"; }
+.fluentui-emoji-high-contrast-man-merpeople:before { content: "\ece9"; }
+.fluentui-emoji-high-contrast-man-mountain-biking:before { content: "\ecea"; }
+.fluentui-emoji-high-contrast-man-office-worker:before { content: "\eceb"; }
+.fluentui-emoji-high-contrast-man-pilot:before { content: "\ecec"; }
+.fluentui-emoji-high-contrast-man-playing-handball:before { content: "\eced"; }
+.fluentui-emoji-high-contrast-man-playing-water-polo:before { content: "\ecee"; }
+.fluentui-emoji-high-contrast-man-police-officer:before { content: "\ecef"; }
+.fluentui-emoji-high-contrast-man-pouting:before { content: "\ecf0"; }
+.fluentui-emoji-high-contrast-man-raising-hand:before { content: "\ecf1"; }
+.fluentui-emoji-high-contrast-man-red-hair:before { content: "\ecf2"; }
+.fluentui-emoji-high-contrast-man-rowing-boat:before { content: "\ecf3"; }
+.fluentui-emoji-high-contrast-man-running:before { content: "\ecf4"; }
+.fluentui-emoji-high-contrast-man-scientist:before { content: "\ecf5"; }
+.fluentui-emoji-high-contrast-man-shrugging:before { content: "\ecf6"; }
+.fluentui-emoji-high-contrast-man-singer:before { content: "\ecf7"; }
+.fluentui-emoji-high-contrast-man-standing:before { content: "\ecf8"; }
+.fluentui-emoji-high-contrast-man-student:before { content: "\ecf9"; }
+.fluentui-emoji-high-contrast-man-superhero:before { content: "\ecfa"; }
+.fluentui-emoji-high-contrast-man-supervillain:before { content: "\ecfb"; }
+.fluentui-emoji-high-contrast-man-surfing:before { content: "\ecfc"; }
+.fluentui-emoji-high-contrast-man-swimming:before { content: "\ecfd"; }
+.fluentui-emoji-high-contrast-man-teacher:before { content: "\ecfe"; }
+.fluentui-emoji-high-contrast-man-tipping-hand:before { content: "\ecff"; }
+.fluentui-emoji-high-contrast-man-vampire:before { content: "\ed00"; }
+.fluentui-emoji-high-contrast-man-walking:before { content: "\ed01"; }
+.fluentui-emoji-high-contrast-man-wearing-turban:before { content: "\ed02"; }
+.fluentui-emoji-high-contrast-man-white-hair:before { content: "\ed03"; }
+.fluentui-emoji-high-contrast-man-with-white-cane:before { content: "\ed04"; }
+.fluentui-emoji-high-contrast-man-wrestling:before { content: "\ed05"; }
+.fluentui-emoji-high-contrast-man-zombie:before { content: "\ed06"; }
+.fluentui-emoji-high-contrast-man:before { content: "\ed07"; }
+.fluentui-emoji-high-contrast-mango:before { content: "\ed08"; }
+.fluentui-emoji-high-contrast-mans-shoe:before { content: "\ed09"; }
+.fluentui-emoji-high-contrast-mantelpiece-clock:before { content: "\ed0a"; }
+.fluentui-emoji-high-contrast-manual-wheelchair:before { content: "\ed0b"; }
+.fluentui-emoji-high-contrast-map-of-japan:before { content: "\ed0c"; }
+.fluentui-emoji-high-contrast-maple-leaf:before { content: "\ed0d"; }
+.fluentui-emoji-high-contrast-martial-arts-uniform:before { content: "\ed0e"; }
+.fluentui-emoji-high-contrast-mate:before { content: "\ed0f"; }
+.fluentui-emoji-high-contrast-meat-on-bone:before { content: "\ed10"; }
+.fluentui-emoji-high-contrast-mechanic:before { content: "\ed11"; }
+.fluentui-emoji-high-contrast-mechanical-arm:before { content: "\ed12"; }
+.fluentui-emoji-high-contrast-mechanical-leg:before { content: "\ed13"; }
+.fluentui-emoji-high-contrast-medical-symbol:before { content: "\ed14"; }
+.fluentui-emoji-high-contrast-megaphone:before { content: "\ed15"; }
+.fluentui-emoji-high-contrast-melon:before { content: "\ed16"; }
+.fluentui-emoji-high-contrast-melting-face:before { content: "\ed17"; }
+.fluentui-emoji-high-contrast-memo:before { content: "\ed18"; }
+.fluentui-emoji-high-contrast-mending-heart:before { content: "\ed19"; }
+.fluentui-emoji-high-contrast-menorah:before { content: "\ed1a"; }
+.fluentui-emoji-high-contrast-mens-room:before { content: "\ed1b"; }
+.fluentui-emoji-high-contrast-metro:before { content: "\ed1c"; }
+.fluentui-emoji-high-contrast-microbe:before { content: "\ed1d"; }
+.fluentui-emoji-high-contrast-microphone:before { content: "\ed1e"; }
+.fluentui-emoji-high-contrast-microscope:before { content: "\ed1f"; }
+.fluentui-emoji-high-contrast-middle-finger:before { content: "\ed20"; }
+.fluentui-emoji-high-contrast-military-helmet:before { content: "\ed21"; }
+.fluentui-emoji-high-contrast-military-medal:before { content: "\ed22"; }
+.fluentui-emoji-high-contrast-milky-way:before { content: "\ed23"; }
+.fluentui-emoji-high-contrast-minibus:before { content: "\ed24"; }
+.fluentui-emoji-high-contrast-minus:before { content: "\ed25"; }
+.fluentui-emoji-high-contrast-mirror-ball:before { content: "\ed26"; }
+.fluentui-emoji-high-contrast-mirror:before { content: "\ed27"; }
+.fluentui-emoji-high-contrast-moai:before { content: "\ed28"; }
+.fluentui-emoji-high-contrast-mobile-phone-off:before { content: "\ed29"; }
+.fluentui-emoji-high-contrast-mobile-phone-with-arrow:before { content: "\ed2a"; }
+.fluentui-emoji-high-contrast-mobile-phone:before { content: "\ed2b"; }
+.fluentui-emoji-high-contrast-money-bag:before { content: "\ed2c"; }
+.fluentui-emoji-high-contrast-money-mouth-face:before { content: "\ed2d"; }
+.fluentui-emoji-high-contrast-money-with-wings:before { content: "\ed2e"; }
+.fluentui-emoji-high-contrast-monkey-face:before { content: "\ed2f"; }
+.fluentui-emoji-high-contrast-monkey:before { content: "\ed30"; }
+.fluentui-emoji-high-contrast-monorail:before { content: "\ed31"; }
+.fluentui-emoji-high-contrast-moon-cake:before { content: "\ed32"; }
+.fluentui-emoji-high-contrast-moon-viewing-ceremony:before { content: "\ed33"; }
+.fluentui-emoji-high-contrast-mosque:before { content: "\ed34"; }
+.fluentui-emoji-high-contrast-mosquito:before { content: "\ed35"; }
+.fluentui-emoji-high-contrast-motor-boat:before { content: "\ed36"; }
+.fluentui-emoji-high-contrast-motor-scooter:before { content: "\ed37"; }
+.fluentui-emoji-high-contrast-motorcycle:before { content: "\ed38"; }
+.fluentui-emoji-high-contrast-motorized-wheelchair:before { content: "\ed39"; }
+.fluentui-emoji-high-contrast-motorway:before { content: "\ed3a"; }
+.fluentui-emoji-high-contrast-mount-fuji:before { content: "\ed3b"; }
+.fluentui-emoji-high-contrast-mountain-cableway:before { content: "\ed3c"; }
+.fluentui-emoji-high-contrast-mountain-railway:before { content: "\ed3d"; }
+.fluentui-emoji-high-contrast-mountain:before { content: "\ed3e"; }
+.fluentui-emoji-high-contrast-mouse-face:before { content: "\ed3f"; }
+.fluentui-emoji-high-contrast-mouse-trap:before { content: "\ed40"; }
+.fluentui-emoji-high-contrast-mouse:before { content: "\ed41"; }
+.fluentui-emoji-high-contrast-mouth:before { content: "\ed42"; }
+.fluentui-emoji-high-contrast-movie-camera:before { content: "\ed43"; }
+.fluentui-emoji-high-contrast-mrs-claus:before { content: "\ed44"; }
+.fluentui-emoji-high-contrast-multiply:before { content: "\ed45"; }
+.fluentui-emoji-high-contrast-mushroom:before { content: "\ed46"; }
+.fluentui-emoji-high-contrast-musical-keyboard:before { content: "\ed47"; }
+.fluentui-emoji-high-contrast-musical-note:before { content: "\ed48"; }
+.fluentui-emoji-high-contrast-musical-notes:before { content: "\ed49"; }
+.fluentui-emoji-high-contrast-musical-score:before { content: "\ed4a"; }
+.fluentui-emoji-high-contrast-muted-speaker:before { content: "\ed4b"; }
+.fluentui-emoji-high-contrast-mx-claus:before { content: "\ed4c"; }
+.fluentui-emoji-high-contrast-nail-polish:before { content: "\ed4d"; }
+.fluentui-emoji-high-contrast-name-badge:before { content: "\ed4e"; }
+.fluentui-emoji-high-contrast-national-park:before { content: "\ed4f"; }
+.fluentui-emoji-high-contrast-nauseated-face:before { content: "\ed50"; }
+.fluentui-emoji-high-contrast-nazar-amulet:before { content: "\ed51"; }
+.fluentui-emoji-high-contrast-necktie:before { content: "\ed52"; }
+.fluentui-emoji-high-contrast-nerd-face:before { content: "\ed53"; }
+.fluentui-emoji-high-contrast-nest-with-eggs:before { content: "\ed54"; }
+.fluentui-emoji-high-contrast-nesting-dolls:before { content: "\ed55"; }
+.fluentui-emoji-high-contrast-neutral-face:before { content: "\ed56"; }
+.fluentui-emoji-high-contrast-new-button:before { content: "\ed57"; }
+.fluentui-emoji-high-contrast-new-moon-face:before { content: "\ed58"; }
+.fluentui-emoji-high-contrast-new-moon:before { content: "\ed59"; }
+.fluentui-emoji-high-contrast-newspaper:before { content: "\ed5a"; }
+.fluentui-emoji-high-contrast-next-track-button:before { content: "\ed5b"; }
+.fluentui-emoji-high-contrast-ng-button:before { content: "\ed5c"; }
+.fluentui-emoji-high-contrast-night-with-stars:before { content: "\ed5d"; }
+.fluentui-emoji-high-contrast-nine-oclock:before { content: "\ed5e"; }
+.fluentui-emoji-high-contrast-nine-thirty:before { content: "\ed5f"; }
+.fluentui-emoji-high-contrast-ninja:before { content: "\ed60"; }
+.fluentui-emoji-high-contrast-no-bicycles:before { content: "\ed61"; }
+.fluentui-emoji-high-contrast-no-entry:before { content: "\ed62"; }
+.fluentui-emoji-high-contrast-no-littering:before { content: "\ed63"; }
+.fluentui-emoji-high-contrast-no-mobile-phones:before { content: "\ed64"; }
+.fluentui-emoji-high-contrast-no-one-under-eighteen:before { content: "\ed65"; }
+.fluentui-emoji-high-contrast-no-pedestrians:before { content: "\ed66"; }
+.fluentui-emoji-high-contrast-no-smoking:before { content: "\ed67"; }
+.fluentui-emoji-high-contrast-non-potable-water:before { content: "\ed68"; }
+.fluentui-emoji-high-contrast-nose:before { content: "\ed69"; }
+.fluentui-emoji-high-contrast-notebook-with-decorative-cover:before { content: "\ed6a"; }
+.fluentui-emoji-high-contrast-notebook:before { content: "\ed6b"; }
+.fluentui-emoji-high-contrast-nut-and-bolt:before { content: "\ed6c"; }
+.fluentui-emoji-high-contrast-o-button-blood-type:before { content: "\ed6d"; }
+.fluentui-emoji-high-contrast-octopus:before { content: "\ed6e"; }
+.fluentui-emoji-high-contrast-oden:before { content: "\ed6f"; }
+.fluentui-emoji-high-contrast-office-building:before { content: "\ed70"; }
+.fluentui-emoji-high-contrast-office-worker:before { content: "\ed71"; }
+.fluentui-emoji-high-contrast-ogre:before { content: "\ed72"; }
+.fluentui-emoji-high-contrast-oil-drum:before { content: "\ed73"; }
+.fluentui-emoji-high-contrast-ok-button:before { content: "\ed74"; }
+.fluentui-emoji-high-contrast-ok-hand:before { content: "\ed75"; }
+.fluentui-emoji-high-contrast-old-key:before { content: "\ed76"; }
+.fluentui-emoji-high-contrast-old-man:before { content: "\ed77"; }
+.fluentui-emoji-high-contrast-old-woman:before { content: "\ed78"; }
+.fluentui-emoji-high-contrast-older-person:before { content: "\ed79"; }
+.fluentui-emoji-high-contrast-olive:before { content: "\ed7a"; }
+.fluentui-emoji-high-contrast-om:before { content: "\ed7b"; }
+.fluentui-emoji-high-contrast-on-arrow:before { content: "\ed7c"; }
+.fluentui-emoji-high-contrast-oncoming-automobile:before { content: "\ed7d"; }
+.fluentui-emoji-high-contrast-oncoming-bus:before { content: "\ed7e"; }
+.fluentui-emoji-high-contrast-oncoming-fist:before { content: "\ed7f"; }
+.fluentui-emoji-high-contrast-oncoming-police-car:before { content: "\ed80"; }
+.fluentui-emoji-high-contrast-oncoming-taxi:before { content: "\ed81"; }
+.fluentui-emoji-high-contrast-one-oclock:before { content: "\ed82"; }
+.fluentui-emoji-high-contrast-one-piece-swimsuit:before { content: "\ed83"; }
+.fluentui-emoji-high-contrast-one-thirty:before { content: "\ed84"; }
+.fluentui-emoji-high-contrast-onion:before { content: "\ed85"; }
+.fluentui-emoji-high-contrast-open-book:before { content: "\ed86"; }
+.fluentui-emoji-high-contrast-open-file-folder:before { content: "\ed87"; }
+.fluentui-emoji-high-contrast-open-hands:before { content: "\ed88"; }
+.fluentui-emoji-high-contrast-open-mailbox-with-lowered-flag:before { content: "\ed89"; }
+.fluentui-emoji-high-contrast-open-mailbox-with-raised-flag:before { content: "\ed8a"; }
+.fluentui-emoji-high-contrast-ophiuchus:before { content: "\ed8b"; }
+.fluentui-emoji-high-contrast-optical-disk:before { content: "\ed8c"; }
+.fluentui-emoji-high-contrast-orange-book:before { content: "\ed8d"; }
+.fluentui-emoji-high-contrast-orange-circle:before { content: "\ed8e"; }
+.fluentui-emoji-high-contrast-orange-heart:before { content: "\ed8f"; }
+.fluentui-emoji-high-contrast-orange-square:before { content: "\ed90"; }
+.fluentui-emoji-high-contrast-orangutan:before { content: "\ed91"; }
+.fluentui-emoji-high-contrast-orthodox-cross:before { content: "\ed92"; }
+.fluentui-emoji-high-contrast-otter:before { content: "\ed93"; }
+.fluentui-emoji-high-contrast-outbox-tray:before { content: "\ed94"; }
+.fluentui-emoji-high-contrast-owl:before { content: "\ed95"; }
+.fluentui-emoji-high-contrast-ox:before { content: "\ed96"; }
+.fluentui-emoji-high-contrast-oyster:before { content: "\ed97"; }
+.fluentui-emoji-high-contrast-p-button:before { content: "\ed98"; }
+.fluentui-emoji-high-contrast-package:before { content: "\ed99"; }
+.fluentui-emoji-high-contrast-page-facing-up:before { content: "\ed9a"; }
+.fluentui-emoji-high-contrast-page-with-curl:before { content: "\ed9b"; }
+.fluentui-emoji-high-contrast-pager:before { content: "\ed9c"; }
+.fluentui-emoji-high-contrast-paintbrush:before { content: "\ed9d"; }
+.fluentui-emoji-high-contrast-palm-down-hand:before { content: "\ed9e"; }
+.fluentui-emoji-high-contrast-palm-tree:before { content: "\ed9f"; }
+.fluentui-emoji-high-contrast-palm-up-hand:before { content: "\eda0"; }
+.fluentui-emoji-high-contrast-palms-up-together:before { content: "\eda1"; }
+.fluentui-emoji-high-contrast-pancakes:before { content: "\eda2"; }
+.fluentui-emoji-high-contrast-panda:before { content: "\eda3"; }
+.fluentui-emoji-high-contrast-parachute:before { content: "\eda4"; }
+.fluentui-emoji-high-contrast-parrot:before { content: "\eda5"; }
+.fluentui-emoji-high-contrast-part-alternation-mark:before { content: "\eda6"; }
+.fluentui-emoji-high-contrast-party-popper:before { content: "\eda7"; }
+.fluentui-emoji-high-contrast-partying-face:before { content: "\eda8"; }
+.fluentui-emoji-high-contrast-passenger-ship:before { content: "\eda9"; }
+.fluentui-emoji-high-contrast-passport-control:before { content: "\edaa"; }
+.fluentui-emoji-high-contrast-pause-button:before { content: "\edab"; }
+.fluentui-emoji-high-contrast-paw-prints:before { content: "\edac"; }
+.fluentui-emoji-high-contrast-peace-symbol:before { content: "\edad"; }
+.fluentui-emoji-high-contrast-peach:before { content: "\edae"; }
+.fluentui-emoji-high-contrast-peacock:before { content: "\edaf"; }
+.fluentui-emoji-high-contrast-peanuts:before { content: "\edb0"; }
+.fluentui-emoji-high-contrast-pear:before { content: "\edb1"; }
+.fluentui-emoji-high-contrast-pen:before { content: "\edb2"; }
+.fluentui-emoji-high-contrast-pencil:before { content: "\edb3"; }
+.fluentui-emoji-high-contrast-penguin:before { content: "\edb4"; }
+.fluentui-emoji-high-contrast-pensive-face:before { content: "\edb5"; }
+.fluentui-emoji-high-contrast-people-hugging:before { content: "\edb6"; }
+.fluentui-emoji-high-contrast-performing-arts:before { content: "\edb7"; }
+.fluentui-emoji-high-contrast-persevering-face:before { content: "\edb8"; }
+.fluentui-emoji-high-contrast-person-bald:before { content: "\edb9"; }
+.fluentui-emoji-high-contrast-person-beard:before { content: "\edba"; }
+.fluentui-emoji-high-contrast-person-biking:before { content: "\edbb"; }
+.fluentui-emoji-high-contrast-person-blonde-hair:before { content: "\edbc"; }
+.fluentui-emoji-high-contrast-person-bouncing-ball:before { content: "\edbd"; }
+.fluentui-emoji-high-contrast-person-bowing:before { content: "\edbe"; }
+.fluentui-emoji-high-contrast-person-cartwheeling:before { content: "\edbf"; }
+.fluentui-emoji-high-contrast-person-climbing:before { content: "\edc0"; }
+.fluentui-emoji-high-contrast-person-curly-hair:before { content: "\edc1"; }
+.fluentui-emoji-high-contrast-person-deaf:before { content: "\edc2"; }
+.fluentui-emoji-high-contrast-person-elf:before { content: "\edc3"; }
+.fluentui-emoji-high-contrast-person-facepalming:before { content: "\edc4"; }
+.fluentui-emoji-high-contrast-person-fairy:before { content: "\edc5"; }
+.fluentui-emoji-high-contrast-person-feeding-baby:before { content: "\edc6"; }
+.fluentui-emoji-high-contrast-person-fencing:before { content: "\edc7"; }
+.fluentui-emoji-high-contrast-person-frowning:before { content: "\edc8"; }
+.fluentui-emoji-high-contrast-person-genie:before { content: "\edc9"; }
+.fluentui-emoji-high-contrast-person-gesturing-no:before { content: "\edca"; }
+.fluentui-emoji-high-contrast-person-gesturing-ok:before { content: "\edcb"; }
+.fluentui-emoji-high-contrast-person-getting-haircut:before { content: "\edcc"; }
+.fluentui-emoji-high-contrast-person-getting-massage:before { content: "\edcd"; }
+.fluentui-emoji-high-contrast-person-golfing:before { content: "\edce"; }
+.fluentui-emoji-high-contrast-person-in-bed:before { content: "\edcf"; }
+.fluentui-emoji-high-contrast-person-in-lotus-position:before { content: "\edd0"; }
+.fluentui-emoji-high-contrast-person-in-manual-wheelchair:before { content: "\edd1"; }
+.fluentui-emoji-high-contrast-person-in-motorized-wheelchair:before { content: "\edd2"; }
+.fluentui-emoji-high-contrast-person-in-steamy-room:before { content: "\edd3"; }
+.fluentui-emoji-high-contrast-person-in-suit-levitating:before { content: "\edd4"; }
+.fluentui-emoji-high-contrast-person-in-tuxedo:before { content: "\edd5"; }
+.fluentui-emoji-high-contrast-person-juggling:before { content: "\edd6"; }
+.fluentui-emoji-high-contrast-person-kneeling:before { content: "\edd7"; }
+.fluentui-emoji-high-contrast-person-lifting-weights:before { content: "\edd8"; }
+.fluentui-emoji-high-contrast-person-mage:before { content: "\edd9"; }
+.fluentui-emoji-high-contrast-person-merpeople:before { content: "\edda"; }
+.fluentui-emoji-high-contrast-person-mountain-biking:before { content: "\eddb"; }
+.fluentui-emoji-high-contrast-person-playing-handball:before { content: "\eddc"; }
+.fluentui-emoji-high-contrast-person-playing-water-polo:before { content: "\eddd"; }
+.fluentui-emoji-high-contrast-person-pouting:before { content: "\edde"; }
+.fluentui-emoji-high-contrast-person-raising-hand:before { content: "\eddf"; }
+.fluentui-emoji-high-contrast-person-red-hair:before { content: "\ede0"; }
+.fluentui-emoji-high-contrast-person-rowing-boat:before { content: "\ede1"; }
+.fluentui-emoji-high-contrast-person-running:before { content: "\ede2"; }
+.fluentui-emoji-high-contrast-person-shrugging:before { content: "\ede3"; }
+.fluentui-emoji-high-contrast-person-standing:before { content: "\ede4"; }
+.fluentui-emoji-high-contrast-person-superhero:before { content: "\ede5"; }
+.fluentui-emoji-high-contrast-person-supervillain:before { content: "\ede6"; }
+.fluentui-emoji-high-contrast-person-surfing:before { content: "\ede7"; }
+.fluentui-emoji-high-contrast-person-swimming:before { content: "\ede8"; }
+.fluentui-emoji-high-contrast-person-taking-bath:before { content: "\ede9"; }
+.fluentui-emoji-high-contrast-person-tipping-hand:before { content: "\edea"; }
+.fluentui-emoji-high-contrast-person-vampire:before { content: "\edeb"; }
+.fluentui-emoji-high-contrast-person-walking:before { content: "\edec"; }
+.fluentui-emoji-high-contrast-person-wearing-turban:before { content: "\eded"; }
+.fluentui-emoji-high-contrast-person-white-hair:before { content: "\edee"; }
+.fluentui-emoji-high-contrast-person-with-crown:before { content: "\edef"; }
+.fluentui-emoji-high-contrast-person-with-skullcap:before { content: "\edf0"; }
+.fluentui-emoji-high-contrast-person-with-white-cane:before { content: "\edf1"; }
+.fluentui-emoji-high-contrast-person-wrestling:before { content: "\edf2"; }
+.fluentui-emoji-high-contrast-person-zombie:before { content: "\edf3"; }
+.fluentui-emoji-high-contrast-person:before { content: "\edf4"; }
+.fluentui-emoji-high-contrast-petri-dish:before { content: "\edf5"; }
+.fluentui-emoji-high-contrast-pick:before { content: "\edf6"; }
+.fluentui-emoji-high-contrast-pickup-truck:before { content: "\edf7"; }
+.fluentui-emoji-high-contrast-pie:before { content: "\edf8"; }
+.fluentui-emoji-high-contrast-pig-face:before { content: "\edf9"; }
+.fluentui-emoji-high-contrast-pig-nose:before { content: "\edfa"; }
+.fluentui-emoji-high-contrast-pig:before { content: "\edfb"; }
+.fluentui-emoji-high-contrast-pile-of-poo:before { content: "\edfc"; }
+.fluentui-emoji-high-contrast-pill:before { content: "\edfd"; }
+.fluentui-emoji-high-contrast-pilot:before { content: "\edfe"; }
+.fluentui-emoji-high-contrast-pinched-fingers:before { content: "\edff"; }
+.fluentui-emoji-high-contrast-pinching-hand:before { content: "\ee00"; }
+.fluentui-emoji-high-contrast-pine-decoration:before { content: "\ee01"; }
+.fluentui-emoji-high-contrast-pineapple:before { content: "\ee02"; }
+.fluentui-emoji-high-contrast-ping-pong:before { content: "\ee03"; }
+.fluentui-emoji-high-contrast-pirate-flag:before { content: "\ee04"; }
+.fluentui-emoji-high-contrast-pisces:before { content: "\ee05"; }
+.fluentui-emoji-high-contrast-pizza:before { content: "\ee06"; }
+.fluentui-emoji-high-contrast-piñata:before { content: "\ee07"; }
+.fluentui-emoji-high-contrast-placard:before { content: "\ee08"; }
+.fluentui-emoji-high-contrast-place-of-worship:before { content: "\ee09"; }
+.fluentui-emoji-high-contrast-play-button:before { content: "\ee0a"; }
+.fluentui-emoji-high-contrast-play-or-pause-button:before { content: "\ee0b"; }
+.fluentui-emoji-high-contrast-playground-slide:before { content: "\ee0c"; }
+.fluentui-emoji-high-contrast-pleading-face:before { content: "\ee0d"; }
+.fluentui-emoji-high-contrast-plunger:before { content: "\ee0e"; }
+.fluentui-emoji-high-contrast-plus:before { content: "\ee0f"; }
+.fluentui-emoji-high-contrast-polar-bear:before { content: "\ee10"; }
+.fluentui-emoji-high-contrast-police-car-light:before { content: "\ee11"; }
+.fluentui-emoji-high-contrast-police-car:before { content: "\ee12"; }
+.fluentui-emoji-high-contrast-police-officer:before { content: "\ee13"; }
+.fluentui-emoji-high-contrast-poodle:before { content: "\ee14"; }
+.fluentui-emoji-high-contrast-pool-8-ball:before { content: "\ee15"; }
+.fluentui-emoji-high-contrast-popcorn:before { content: "\ee16"; }
+.fluentui-emoji-high-contrast-post-office:before { content: "\ee17"; }
+.fluentui-emoji-high-contrast-postal-horn:before { content: "\ee18"; }
+.fluentui-emoji-high-contrast-postbox:before { content: "\ee19"; }
+.fluentui-emoji-high-contrast-pot-of-food:before { content: "\ee1a"; }
+.fluentui-emoji-high-contrast-potable-water:before { content: "\ee1b"; }
+.fluentui-emoji-high-contrast-potato:before { content: "\ee1c"; }
+.fluentui-emoji-high-contrast-potted-plant:before { content: "\ee1d"; }
+.fluentui-emoji-high-contrast-poultry-leg:before { content: "\ee1e"; }
+.fluentui-emoji-high-contrast-pound-banknote:before { content: "\ee1f"; }
+.fluentui-emoji-high-contrast-pouring-liquid:before { content: "\ee20"; }
+.fluentui-emoji-high-contrast-pouting-cat:before { content: "\ee21"; }
+.fluentui-emoji-high-contrast-pouting-face:before { content: "\ee22"; }
+.fluentui-emoji-high-contrast-prayer-beads:before { content: "\ee23"; }
+.fluentui-emoji-high-contrast-pregnant-woman:before { content: "\ee24"; }
+.fluentui-emoji-high-contrast-pretzel:before { content: "\ee25"; }
+.fluentui-emoji-high-contrast-prince:before { content: "\ee26"; }
+.fluentui-emoji-high-contrast-princess:before { content: "\ee27"; }
+.fluentui-emoji-high-contrast-printer:before { content: "\ee28"; }
+.fluentui-emoji-high-contrast-prohibited:before { content: "\ee29"; }
+.fluentui-emoji-high-contrast-purple-circle:before { content: "\ee2a"; }
+.fluentui-emoji-high-contrast-purple-heart:before { content: "\ee2b"; }
+.fluentui-emoji-high-contrast-purple-square:before { content: "\ee2c"; }
+.fluentui-emoji-high-contrast-purse:before { content: "\ee2d"; }
+.fluentui-emoji-high-contrast-pushpin:before { content: "\ee2e"; }
+.fluentui-emoji-high-contrast-puzzle-piece:before { content: "\ee2f"; }
+.fluentui-emoji-high-contrast-rabbit-face:before { content: "\ee30"; }
+.fluentui-emoji-high-contrast-rabbit:before { content: "\ee31"; }
+.fluentui-emoji-high-contrast-raccoon:before { content: "\ee32"; }
+.fluentui-emoji-high-contrast-racing-car:before { content: "\ee33"; }
+.fluentui-emoji-high-contrast-radio-button:before { content: "\ee34"; }
+.fluentui-emoji-high-contrast-radio:before { content: "\ee35"; }
+.fluentui-emoji-high-contrast-radioactive:before { content: "\ee36"; }
+.fluentui-emoji-high-contrast-railway-car:before { content: "\ee37"; }
+.fluentui-emoji-high-contrast-railway-track:before { content: "\ee38"; }
+.fluentui-emoji-high-contrast-rainbow:before { content: "\ee39"; }
+.fluentui-emoji-high-contrast-raised-back-of-hand:before { content: "\ee3a"; }
+.fluentui-emoji-high-contrast-raised-fist:before { content: "\ee3b"; }
+.fluentui-emoji-high-contrast-raised-hand:before { content: "\ee3c"; }
+.fluentui-emoji-high-contrast-raising-hands:before { content: "\ee3d"; }
+.fluentui-emoji-high-contrast-ram:before { content: "\ee3e"; }
+.fluentui-emoji-high-contrast-rat:before { content: "\ee3f"; }
+.fluentui-emoji-high-contrast-razor:before { content: "\ee40"; }
+.fluentui-emoji-high-contrast-receipt:before { content: "\ee41"; }
+.fluentui-emoji-high-contrast-record-button:before { content: "\ee42"; }
+.fluentui-emoji-high-contrast-recycling-symbol:before { content: "\ee43"; }
+.fluentui-emoji-high-contrast-red-apple:before { content: "\ee44"; }
+.fluentui-emoji-high-contrast-red-circle:before { content: "\ee45"; }
+.fluentui-emoji-high-contrast-red-envelope:before { content: "\ee46"; }
+.fluentui-emoji-high-contrast-red-exclamation-mark:before { content: "\ee47"; }
+.fluentui-emoji-high-contrast-red-heart:before { content: "\ee48"; }
+.fluentui-emoji-high-contrast-red-paper-lantern:before { content: "\ee49"; }
+.fluentui-emoji-high-contrast-red-question-mark:before { content: "\ee4a"; }
+.fluentui-emoji-high-contrast-red-square:before { content: "\ee4b"; }
+.fluentui-emoji-high-contrast-red-triangle-pointed-down:before { content: "\ee4c"; }
+.fluentui-emoji-high-contrast-red-triangle:before { content: "\ee4d"; }
+.fluentui-emoji-high-contrast-registered:before { content: "\ee4e"; }
+.fluentui-emoji-high-contrast-relieved-face:before { content: "\ee4f"; }
+.fluentui-emoji-high-contrast-reminder-ribbon:before { content: "\ee50"; }
+.fluentui-emoji-high-contrast-repeat-button:before { content: "\ee51"; }
+.fluentui-emoji-high-contrast-repeat-single-button:before { content: "\ee52"; }
+.fluentui-emoji-high-contrast-rescue-workers-helmet:before { content: "\ee53"; }
+.fluentui-emoji-high-contrast-restroom:before { content: "\ee54"; }
+.fluentui-emoji-high-contrast-reverse-button:before { content: "\ee55"; }
+.fluentui-emoji-high-contrast-revolving-hearts:before { content: "\ee56"; }
+.fluentui-emoji-high-contrast-rhinoceros:before { content: "\ee57"; }
+.fluentui-emoji-high-contrast-ribbon:before { content: "\ee58"; }
+.fluentui-emoji-high-contrast-rice-ball:before { content: "\ee59"; }
+.fluentui-emoji-high-contrast-rice-cracker:before { content: "\ee5a"; }
+.fluentui-emoji-high-contrast-right-anger-bubble:before { content: "\ee5b"; }
+.fluentui-emoji-high-contrast-right-arrow-curving-down:before { content: "\ee5c"; }
+.fluentui-emoji-high-contrast-right-arrow-curving-left:before { content: "\ee5d"; }
+.fluentui-emoji-high-contrast-right-arrow-curving-up:before { content: "\ee5e"; }
+.fluentui-emoji-high-contrast-right-arrow:before { content: "\ee5f"; }
+.fluentui-emoji-high-contrast-right-facing-fist:before { content: "\ee60"; }
+.fluentui-emoji-high-contrast-rightwards-hand:before { content: "\ee61"; }
+.fluentui-emoji-high-contrast-ring-buoy:before { content: "\ee62"; }
+.fluentui-emoji-high-contrast-ring:before { content: "\ee63"; }
+.fluentui-emoji-high-contrast-ringed-planet:before { content: "\ee64"; }
+.fluentui-emoji-high-contrast-roasted-sweet-potato:before { content: "\ee65"; }
+.fluentui-emoji-high-contrast-robot:before { content: "\ee66"; }
+.fluentui-emoji-high-contrast-rock:before { content: "\ee67"; }
+.fluentui-emoji-high-contrast-rocket:before { content: "\ee68"; }
+.fluentui-emoji-high-contrast-roll-of-paper:before { content: "\ee69"; }
+.fluentui-emoji-high-contrast-rolled-up-newspaper:before { content: "\ee6a"; }
+.fluentui-emoji-high-contrast-roller-coaster:before { content: "\ee6b"; }
+.fluentui-emoji-high-contrast-roller-skate:before { content: "\ee6c"; }
+.fluentui-emoji-high-contrast-rolling-on-the-floor-laughing:before { content: "\ee6d"; }
+.fluentui-emoji-high-contrast-rooster:before { content: "\ee6e"; }
+.fluentui-emoji-high-contrast-rose:before { content: "\ee6f"; }
+.fluentui-emoji-high-contrast-rosette:before { content: "\ee70"; }
+.fluentui-emoji-high-contrast-round-pushpin:before { content: "\ee71"; }
+.fluentui-emoji-high-contrast-rugby-football:before { content: "\ee72"; }
+.fluentui-emoji-high-contrast-running-shirt:before { content: "\ee73"; }
+.fluentui-emoji-high-contrast-running-shoe:before { content: "\ee74"; }
+.fluentui-emoji-high-contrast-sad-but-relieved-face:before { content: "\ee75"; }
+.fluentui-emoji-high-contrast-safety-pin:before { content: "\ee76"; }
+.fluentui-emoji-high-contrast-safety-vest:before { content: "\ee77"; }
+.fluentui-emoji-high-contrast-sagittarius:before { content: "\ee78"; }
+.fluentui-emoji-high-contrast-sailboat:before { content: "\ee79"; }
+.fluentui-emoji-high-contrast-sake:before { content: "\ee7a"; }
+.fluentui-emoji-high-contrast-salt:before { content: "\ee7b"; }
+.fluentui-emoji-high-contrast-saluting-face:before { content: "\ee7c"; }
+.fluentui-emoji-high-contrast-sandwich:before { content: "\ee7d"; }
+.fluentui-emoji-high-contrast-santa-claus:before { content: "\ee7e"; }
+.fluentui-emoji-high-contrast-sari:before { content: "\ee7f"; }
+.fluentui-emoji-high-contrast-satellite-antenna:before { content: "\ee80"; }
+.fluentui-emoji-high-contrast-satellite:before { content: "\ee81"; }
+.fluentui-emoji-high-contrast-sauropod:before { content: "\ee82"; }
+.fluentui-emoji-high-contrast-saxophone:before { content: "\ee83"; }
+.fluentui-emoji-high-contrast-scarf:before { content: "\ee84"; }
+.fluentui-emoji-high-contrast-school:before { content: "\ee85"; }
+.fluentui-emoji-high-contrast-scientist:before { content: "\ee86"; }
+.fluentui-emoji-high-contrast-scissors:before { content: "\ee87"; }
+.fluentui-emoji-high-contrast-scorpio:before { content: "\ee88"; }
+.fluentui-emoji-high-contrast-scorpion:before { content: "\ee89"; }
+.fluentui-emoji-high-contrast-screwdriver:before { content: "\ee8a"; }
+.fluentui-emoji-high-contrast-scroll:before { content: "\ee8b"; }
+.fluentui-emoji-high-contrast-seal:before { content: "\ee8c"; }
+.fluentui-emoji-high-contrast-seat:before { content: "\ee8d"; }
+.fluentui-emoji-high-contrast-see-no-evil-monkey:before { content: "\ee8e"; }
+.fluentui-emoji-high-contrast-seedling:before { content: "\ee8f"; }
+.fluentui-emoji-high-contrast-selfie:before { content: "\ee90"; }
+.fluentui-emoji-high-contrast-service-dog:before { content: "\ee91"; }
+.fluentui-emoji-high-contrast-seven-oclock:before { content: "\ee92"; }
+.fluentui-emoji-high-contrast-seven-thirty:before { content: "\ee93"; }
+.fluentui-emoji-high-contrast-sewing-needle:before { content: "\ee94"; }
+.fluentui-emoji-high-contrast-shallow-pan-of-food:before { content: "\ee95"; }
+.fluentui-emoji-high-contrast-shamrock:before { content: "\ee96"; }
+.fluentui-emoji-high-contrast-shark:before { content: "\ee97"; }
+.fluentui-emoji-high-contrast-shaved-ice:before { content: "\ee98"; }
+.fluentui-emoji-high-contrast-sheaf-of-rice:before { content: "\ee99"; }
+.fluentui-emoji-high-contrast-shield:before { content: "\ee9a"; }
+.fluentui-emoji-high-contrast-shinto-shrine:before { content: "\ee9b"; }
+.fluentui-emoji-high-contrast-ship:before { content: "\ee9c"; }
+.fluentui-emoji-high-contrast-shooting-star:before { content: "\ee9d"; }
+.fluentui-emoji-high-contrast-shopping-bags:before { content: "\ee9e"; }
+.fluentui-emoji-high-contrast-shopping-cart:before { content: "\ee9f"; }
+.fluentui-emoji-high-contrast-shortcake:before { content: "\eea0"; }
+.fluentui-emoji-high-contrast-shorts:before { content: "\eea1"; }
+.fluentui-emoji-high-contrast-shower:before { content: "\eea2"; }
+.fluentui-emoji-high-contrast-shrimp:before { content: "\eea3"; }
+.fluentui-emoji-high-contrast-shuffle-tracks-button:before { content: "\eea4"; }
+.fluentui-emoji-high-contrast-shushing-face:before { content: "\eea5"; }
+.fluentui-emoji-high-contrast-sign-of-the-horns:before { content: "\eea6"; }
+.fluentui-emoji-high-contrast-singer:before { content: "\eea7"; }
+.fluentui-emoji-high-contrast-six-oclock:before { content: "\eea8"; }
+.fluentui-emoji-high-contrast-six-thirty:before { content: "\eea9"; }
+.fluentui-emoji-high-contrast-skateboard:before { content: "\eeaa"; }
+.fluentui-emoji-high-contrast-skier:before { content: "\eeab"; }
+.fluentui-emoji-high-contrast-skis:before { content: "\eeac"; }
+.fluentui-emoji-high-contrast-skull-and-crossbones:before { content: "\eead"; }
+.fluentui-emoji-high-contrast-skull:before { content: "\eeae"; }
+.fluentui-emoji-high-contrast-skunk:before { content: "\eeaf"; }
+.fluentui-emoji-high-contrast-sled:before { content: "\eeb0"; }
+.fluentui-emoji-high-contrast-sleeping-face:before { content: "\eeb1"; }
+.fluentui-emoji-high-contrast-sleepy-face:before { content: "\eeb2"; }
+.fluentui-emoji-high-contrast-slightly-frowning-face:before { content: "\eeb3"; }
+.fluentui-emoji-high-contrast-slightly-smiling-face:before { content: "\eeb4"; }
+.fluentui-emoji-high-contrast-slot-machine:before { content: "\eeb5"; }
+.fluentui-emoji-high-contrast-sloth:before { content: "\eeb6"; }
+.fluentui-emoji-high-contrast-small-airplane:before { content: "\eeb7"; }
+.fluentui-emoji-high-contrast-small-blue-diamond:before { content: "\eeb8"; }
+.fluentui-emoji-high-contrast-small-orange-diamond:before { content: "\eeb9"; }
+.fluentui-emoji-high-contrast-smiling-cat-with-heart-eyes:before { content: "\eeba"; }
+.fluentui-emoji-high-contrast-smiling-face-with-halo:before { content: "\eebb"; }
+.fluentui-emoji-high-contrast-smiling-face-with-heart-eyes:before { content: "\eebc"; }
+.fluentui-emoji-high-contrast-smiling-face-with-hearts:before { content: "\eebd"; }
+.fluentui-emoji-high-contrast-smiling-face-with-horns:before { content: "\eebe"; }
+.fluentui-emoji-high-contrast-smiling-face-with-smiling-eyes:before { content: "\eebf"; }
+.fluentui-emoji-high-contrast-smiling-face-with-sunglasses:before { content: "\eec0"; }
+.fluentui-emoji-high-contrast-smiling-face-with-tear:before { content: "\eec1"; }
+.fluentui-emoji-high-contrast-smiling-face:before { content: "\eec2"; }
+.fluentui-emoji-high-contrast-smirking-face:before { content: "\eec3"; }
+.fluentui-emoji-high-contrast-snail:before { content: "\eec4"; }
+.fluentui-emoji-high-contrast-snake:before { content: "\eec5"; }
+.fluentui-emoji-high-contrast-sneezing-face:before { content: "\eec6"; }
+.fluentui-emoji-high-contrast-snow-capped-mountain:before { content: "\eec7"; }
+.fluentui-emoji-high-contrast-snowboarder:before { content: "\eec8"; }
+.fluentui-emoji-high-contrast-snowflake:before { content: "\eec9"; }
+.fluentui-emoji-high-contrast-snowman-without-snow:before { content: "\eeca"; }
+.fluentui-emoji-high-contrast-snowman:before { content: "\eecb"; }
+.fluentui-emoji-high-contrast-soap:before { content: "\eecc"; }
+.fluentui-emoji-high-contrast-soccer-ball:before { content: "\eecd"; }
+.fluentui-emoji-high-contrast-socks:before { content: "\eece"; }
+.fluentui-emoji-high-contrast-soft-ice-cream:before { content: "\eecf"; }
+.fluentui-emoji-high-contrast-softball:before { content: "\eed0"; }
+.fluentui-emoji-high-contrast-soon-arrow:before { content: "\eed1"; }
+.fluentui-emoji-high-contrast-sos-button:before { content: "\eed2"; }
+.fluentui-emoji-high-contrast-spade-suit:before { content: "\eed3"; }
+.fluentui-emoji-high-contrast-spaghetti:before { content: "\eed4"; }
+.fluentui-emoji-high-contrast-sparkle:before { content: "\eed5"; }
+.fluentui-emoji-high-contrast-sparkler:before { content: "\eed6"; }
+.fluentui-emoji-high-contrast-sparkles:before { content: "\eed7"; }
+.fluentui-emoji-high-contrast-sparkling-heart:before { content: "\eed8"; }
+.fluentui-emoji-high-contrast-speak-no-evil-monkey:before { content: "\eed9"; }
+.fluentui-emoji-high-contrast-speaker-high-volume:before { content: "\eeda"; }
+.fluentui-emoji-high-contrast-speaker-low-volume:before { content: "\eedb"; }
+.fluentui-emoji-high-contrast-speaker-medium-volume:before { content: "\eedc"; }
+.fluentui-emoji-high-contrast-speaking-head:before { content: "\eedd"; }
+.fluentui-emoji-high-contrast-speech-balloon:before { content: "\eede"; }
+.fluentui-emoji-high-contrast-speedboat:before { content: "\eedf"; }
+.fluentui-emoji-high-contrast-spider-web:before { content: "\eee0"; }
+.fluentui-emoji-high-contrast-spider:before { content: "\eee1"; }
+.fluentui-emoji-high-contrast-spiral-calendar:before { content: "\eee2"; }
+.fluentui-emoji-high-contrast-spiral-notepad:before { content: "\eee3"; }
+.fluentui-emoji-high-contrast-spiral-shell:before { content: "\eee4"; }
+.fluentui-emoji-high-contrast-sponge:before { content: "\eee5"; }
+.fluentui-emoji-high-contrast-spoon:before { content: "\eee6"; }
+.fluentui-emoji-high-contrast-sport-utility-vehicle:before { content: "\eee7"; }
+.fluentui-emoji-high-contrast-sports-medal:before { content: "\eee8"; }
+.fluentui-emoji-high-contrast-spouting-whale:before { content: "\eee9"; }
+.fluentui-emoji-high-contrast-squid:before { content: "\eeea"; }
+.fluentui-emoji-high-contrast-squinting-face-with-tongue:before { content: "\eeeb"; }
+.fluentui-emoji-high-contrast-stadium:before { content: "\eeec"; }
+.fluentui-emoji-high-contrast-star-and-crescent:before { content: "\eeed"; }
+.fluentui-emoji-high-contrast-star-of-david:before { content: "\eeee"; }
+.fluentui-emoji-high-contrast-star-struck:before { content: "\eeef"; }
+.fluentui-emoji-high-contrast-star:before { content: "\eef0"; }
+.fluentui-emoji-high-contrast-station:before { content: "\eef1"; }
+.fluentui-emoji-high-contrast-statue-of-liberty:before { content: "\eef2"; }
+.fluentui-emoji-high-contrast-steaming-bowl:before { content: "\eef3"; }
+.fluentui-emoji-high-contrast-stethoscope:before { content: "\eef4"; }
+.fluentui-emoji-high-contrast-stop-button:before { content: "\eef5"; }
+.fluentui-emoji-high-contrast-stop-sign:before { content: "\eef6"; }
+.fluentui-emoji-high-contrast-stopwatch:before { content: "\eef7"; }
+.fluentui-emoji-high-contrast-straight-ruler:before { content: "\eef8"; }
+.fluentui-emoji-high-contrast-strawberry:before { content: "\eef9"; }
+.fluentui-emoji-high-contrast-student:before { content: "\eefa"; }
+.fluentui-emoji-high-contrast-studio-microphone:before { content: "\eefb"; }
+.fluentui-emoji-high-contrast-stuffed-flatbread:before { content: "\eefc"; }
+.fluentui-emoji-high-contrast-sun-behind-cloud:before { content: "\eefd"; }
+.fluentui-emoji-high-contrast-sun-behind-large-cloud:before { content: "\eefe"; }
+.fluentui-emoji-high-contrast-sun-behind-rain-cloud:before { content: "\eeff"; }
+.fluentui-emoji-high-contrast-sun-behind-small-cloud:before { content: "\ef00"; }
+.fluentui-emoji-high-contrast-sun-with-face:before { content: "\ef01"; }
+.fluentui-emoji-high-contrast-sun:before { content: "\ef02"; }
+.fluentui-emoji-high-contrast-sunflower:before { content: "\ef03"; }
+.fluentui-emoji-high-contrast-sunglasses:before { content: "\ef04"; }
+.fluentui-emoji-high-contrast-sunrise-over-mountains:before { content: "\ef05"; }
+.fluentui-emoji-high-contrast-sunrise:before { content: "\ef06"; }
+.fluentui-emoji-high-contrast-sunset:before { content: "\ef07"; }
+.fluentui-emoji-high-contrast-sushi:before { content: "\ef08"; }
+.fluentui-emoji-high-contrast-suspension-railway:before { content: "\ef09"; }
+.fluentui-emoji-high-contrast-swan:before { content: "\ef0a"; }
+.fluentui-emoji-high-contrast-sweat-droplets:before { content: "\ef0b"; }
+.fluentui-emoji-high-contrast-synagogue:before { content: "\ef0c"; }
+.fluentui-emoji-high-contrast-syringe:before { content: "\ef0d"; }
+.fluentui-emoji-high-contrast-t-rex:before { content: "\ef0e"; }
+.fluentui-emoji-high-contrast-t-shirt:before { content: "\ef0f"; }
+.fluentui-emoji-high-contrast-taco:before { content: "\ef10"; }
+.fluentui-emoji-high-contrast-takeout-box:before { content: "\ef11"; }
+.fluentui-emoji-high-contrast-tamale:before { content: "\ef12"; }
+.fluentui-emoji-high-contrast-tanabata-tree:before { content: "\ef13"; }
+.fluentui-emoji-high-contrast-tangerine:before { content: "\ef14"; }
+.fluentui-emoji-high-contrast-taurus:before { content: "\ef15"; }
+.fluentui-emoji-high-contrast-taxi:before { content: "\ef16"; }
+.fluentui-emoji-high-contrast-teacher:before { content: "\ef17"; }
+.fluentui-emoji-high-contrast-teacup-without-handle:before { content: "\ef18"; }
+.fluentui-emoji-high-contrast-teapot:before { content: "\ef19"; }
+.fluentui-emoji-high-contrast-tear-off-calendar:before { content: "\ef1a"; }
+.fluentui-emoji-high-contrast-teddy-bear:before { content: "\ef1b"; }
+.fluentui-emoji-high-contrast-telephone-receiver:before { content: "\ef1c"; }
+.fluentui-emoji-high-contrast-telephone:before { content: "\ef1d"; }
+.fluentui-emoji-high-contrast-telescope:before { content: "\ef1e"; }
+.fluentui-emoji-high-contrast-television:before { content: "\ef1f"; }
+.fluentui-emoji-high-contrast-ten-oclock:before { content: "\ef20"; }
+.fluentui-emoji-high-contrast-ten-thirty:before { content: "\ef21"; }
+.fluentui-emoji-high-contrast-tennis:before { content: "\ef22"; }
+.fluentui-emoji-high-contrast-tent:before { content: "\ef23"; }
+.fluentui-emoji-high-contrast-test-tube:before { content: "\ef24"; }
+.fluentui-emoji-high-contrast-thermometer:before { content: "\ef25"; }
+.fluentui-emoji-high-contrast-thinking-face:before { content: "\ef26"; }
+.fluentui-emoji-high-contrast-thong-sandal:before { content: "\ef27"; }
+.fluentui-emoji-high-contrast-thought-balloon:before { content: "\ef28"; }
+.fluentui-emoji-high-contrast-thread:before { content: "\ef29"; }
+.fluentui-emoji-high-contrast-three-oclock:before { content: "\ef2a"; }
+.fluentui-emoji-high-contrast-three-thirty:before { content: "\ef2b"; }
+.fluentui-emoji-high-contrast-thumbs-down:before { content: "\ef2c"; }
+.fluentui-emoji-high-contrast-thumbs-up:before { content: "\ef2d"; }
+.fluentui-emoji-high-contrast-ticket:before { content: "\ef2e"; }
+.fluentui-emoji-high-contrast-tiger-face:before { content: "\ef2f"; }
+.fluentui-emoji-high-contrast-tiger:before { content: "\ef30"; }
+.fluentui-emoji-high-contrast-timer-clock:before { content: "\ef31"; }
+.fluentui-emoji-high-contrast-tired-face:before { content: "\ef32"; }
+.fluentui-emoji-high-contrast-toilet:before { content: "\ef33"; }
+.fluentui-emoji-high-contrast-tokyo-tower:before { content: "\ef34"; }
+.fluentui-emoji-high-contrast-tomato:before { content: "\ef35"; }
+.fluentui-emoji-high-contrast-tongue:before { content: "\ef36"; }
+.fluentui-emoji-high-contrast-toolbox:before { content: "\ef37"; }
+.fluentui-emoji-high-contrast-tooth:before { content: "\ef38"; }
+.fluentui-emoji-high-contrast-toothbrush:before { content: "\ef39"; }
+.fluentui-emoji-high-contrast-top-arrow:before { content: "\ef3a"; }
+.fluentui-emoji-high-contrast-top-hat:before { content: "\ef3b"; }
+.fluentui-emoji-high-contrast-tornado:before { content: "\ef3c"; }
+.fluentui-emoji-high-contrast-trackball:before { content: "\ef3d"; }
+.fluentui-emoji-high-contrast-tractor:before { content: "\ef3e"; }
+.fluentui-emoji-high-contrast-trade-mark:before { content: "\ef3f"; }
+.fluentui-emoji-high-contrast-train:before { content: "\ef40"; }
+.fluentui-emoji-high-contrast-tram-car:before { content: "\ef41"; }
+.fluentui-emoji-high-contrast-tram:before { content: "\ef42"; }
+.fluentui-emoji-high-contrast-triangular-flag:before { content: "\ef43"; }
+.fluentui-emoji-high-contrast-triangular-ruler:before { content: "\ef44"; }
+.fluentui-emoji-high-contrast-trident-emblem:before { content: "\ef45"; }
+.fluentui-emoji-high-contrast-troll:before { content: "\ef46"; }
+.fluentui-emoji-high-contrast-trolleybus:before { content: "\ef47"; }
+.fluentui-emoji-high-contrast-trophy:before { content: "\ef48"; }
+.fluentui-emoji-high-contrast-tropical-drink:before { content: "\ef49"; }
+.fluentui-emoji-high-contrast-tropical-fish:before { content: "\ef4a"; }
+.fluentui-emoji-high-contrast-trumpet:before { content: "\ef4b"; }
+.fluentui-emoji-high-contrast-tulip:before { content: "\ef4c"; }
+.fluentui-emoji-high-contrast-tumbler-glass:before { content: "\ef4d"; }
+.fluentui-emoji-high-contrast-turkey:before { content: "\ef4e"; }
+.fluentui-emoji-high-contrast-turtle:before { content: "\ef4f"; }
+.fluentui-emoji-high-contrast-twelve-oclock:before { content: "\ef50"; }
+.fluentui-emoji-high-contrast-twelve-thirty:before { content: "\ef51"; }
+.fluentui-emoji-high-contrast-two-hearts:before { content: "\ef52"; }
+.fluentui-emoji-high-contrast-two-hump-camel:before { content: "\ef53"; }
+.fluentui-emoji-high-contrast-two-oclock:before { content: "\ef54"; }
+.fluentui-emoji-high-contrast-two-thirty:before { content: "\ef55"; }
+.fluentui-emoji-high-contrast-umbrella-on-ground:before { content: "\ef56"; }
+.fluentui-emoji-high-contrast-umbrella-with-rain-drops:before { content: "\ef57"; }
+.fluentui-emoji-high-contrast-umbrella:before { content: "\ef58"; }
+.fluentui-emoji-high-contrast-unamused-face:before { content: "\ef59"; }
+.fluentui-emoji-high-contrast-unicorn:before { content: "\ef5a"; }
+.fluentui-emoji-high-contrast-unlocked:before { content: "\ef5b"; }
+.fluentui-emoji-high-contrast-up-arrow:before { content: "\ef5c"; }
+.fluentui-emoji-high-contrast-up-button:before { content: "\ef5d"; }
+.fluentui-emoji-high-contrast-up-down-arrow:before { content: "\ef5e"; }
+.fluentui-emoji-high-contrast-up-left-arrow:before { content: "\ef5f"; }
+.fluentui-emoji-high-contrast-up-right-arrow:before { content: "\ef60"; }
+.fluentui-emoji-high-contrast-upside-down-face:before { content: "\ef61"; }
+.fluentui-emoji-high-contrast-upwards-button:before { content: "\ef62"; }
+.fluentui-emoji-high-contrast-vertical-traffic-light:before { content: "\ef63"; }
+.fluentui-emoji-high-contrast-vibration-mode:before { content: "\ef64"; }
+.fluentui-emoji-high-contrast-victory-hand:before { content: "\ef65"; }
+.fluentui-emoji-high-contrast-video-camera:before { content: "\ef66"; }
+.fluentui-emoji-high-contrast-videocassette:before { content: "\ef67"; }
+.fluentui-emoji-high-contrast-violin:before { content: "\ef68"; }
+.fluentui-emoji-high-contrast-virgo:before { content: "\ef69"; }
+.fluentui-emoji-high-contrast-volcano:before { content: "\ef6a"; }
+.fluentui-emoji-high-contrast-volleyball:before { content: "\ef6b"; }
+.fluentui-emoji-high-contrast-vs-button:before { content: "\ef6c"; }
+.fluentui-emoji-high-contrast-vulcan-salute:before { content: "\ef6d"; }
+.fluentui-emoji-high-contrast-waffle:before { content: "\ef6e"; }
+.fluentui-emoji-high-contrast-waning-crescent-moon:before { content: "\ef6f"; }
+.fluentui-emoji-high-contrast-waning-gibbous-moon:before { content: "\ef70"; }
+.fluentui-emoji-high-contrast-warning:before { content: "\ef71"; }
+.fluentui-emoji-high-contrast-wastebasket:before { content: "\ef72"; }
+.fluentui-emoji-high-contrast-watch:before { content: "\ef73"; }
+.fluentui-emoji-high-contrast-water-buffalo:before { content: "\ef74"; }
+.fluentui-emoji-high-contrast-water-closet:before { content: "\ef75"; }
+.fluentui-emoji-high-contrast-water-pistol:before { content: "\ef76"; }
+.fluentui-emoji-high-contrast-water-wave:before { content: "\ef77"; }
+.fluentui-emoji-high-contrast-watermelon:before { content: "\ef78"; }
+.fluentui-emoji-high-contrast-waving-hand:before { content: "\ef79"; }
+.fluentui-emoji-high-contrast-wavy-dash:before { content: "\ef7a"; }
+.fluentui-emoji-high-contrast-waxing-crescent-moon:before { content: "\ef7b"; }
+.fluentui-emoji-high-contrast-waxing-gibbous-moon:before { content: "\ef7c"; }
+.fluentui-emoji-high-contrast-weary-cat:before { content: "\ef7d"; }
+.fluentui-emoji-high-contrast-weary-face:before { content: "\ef7e"; }
+.fluentui-emoji-high-contrast-wedding:before { content: "\ef7f"; }
+.fluentui-emoji-high-contrast-whale:before { content: "\ef80"; }
+.fluentui-emoji-high-contrast-wheel-of-dharma:before { content: "\ef81"; }
+.fluentui-emoji-high-contrast-wheel:before { content: "\ef82"; }
+.fluentui-emoji-high-contrast-wheelchair-symbol:before { content: "\ef83"; }
+.fluentui-emoji-high-contrast-white-cane:before { content: "\ef84"; }
+.fluentui-emoji-high-contrast-white-circle:before { content: "\ef85"; }
+.fluentui-emoji-high-contrast-white-exclamation-mark:before { content: "\ef86"; }
+.fluentui-emoji-high-contrast-white-flag:before { content: "\ef87"; }
+.fluentui-emoji-high-contrast-white-flower:before { content: "\ef88"; }
+.fluentui-emoji-high-contrast-white-heart:before { content: "\ef89"; }
+.fluentui-emoji-high-contrast-white-large-square:before { content: "\ef8a"; }
+.fluentui-emoji-high-contrast-white-medium-small-square:before { content: "\ef8b"; }
+.fluentui-emoji-high-contrast-white-medium-square:before { content: "\ef8c"; }
+.fluentui-emoji-high-contrast-white-question-mark:before { content: "\ef8d"; }
+.fluentui-emoji-high-contrast-white-small-square:before { content: "\ef8e"; }
+.fluentui-emoji-high-contrast-white-square-button:before { content: "\ef8f"; }
+.fluentui-emoji-high-contrast-wilted-flower:before { content: "\ef90"; }
+.fluentui-emoji-high-contrast-wind-chime:before { content: "\ef91"; }
+.fluentui-emoji-high-contrast-wind-face:before { content: "\ef92"; }
+.fluentui-emoji-high-contrast-window:before { content: "\ef93"; }
+.fluentui-emoji-high-contrast-wine-glass:before { content: "\ef94"; }
+.fluentui-emoji-high-contrast-winking-face-with-tongue:before { content: "\ef95"; }
+.fluentui-emoji-high-contrast-winking-face:before { content: "\ef96"; }
+.fluentui-emoji-high-contrast-wolf:before { content: "\ef97"; }
+.fluentui-emoji-high-contrast-woman-artist:before { content: "\ef98"; }
+.fluentui-emoji-high-contrast-woman-astronaut:before { content: "\ef99"; }
+.fluentui-emoji-high-contrast-woman-bald:before { content: "\ef9a"; }
+.fluentui-emoji-high-contrast-woman-biking:before { content: "\ef9b"; }
+.fluentui-emoji-high-contrast-woman-blonde-hair:before { content: "\ef9c"; }
+.fluentui-emoji-high-contrast-woman-bouncing-ball:before { content: "\ef9d"; }
+.fluentui-emoji-high-contrast-woman-bowing:before { content: "\ef9e"; }
+.fluentui-emoji-high-contrast-woman-cartwheeling:before { content: "\ef9f"; }
+.fluentui-emoji-high-contrast-woman-climbing:before { content: "\efa0"; }
+.fluentui-emoji-high-contrast-woman-construction-worker:before { content: "\efa1"; }
+.fluentui-emoji-high-contrast-woman-cook:before { content: "\efa2"; }
+.fluentui-emoji-high-contrast-woman-curly-hair:before { content: "\efa3"; }
+.fluentui-emoji-high-contrast-woman-dancing:before { content: "\efa4"; }
+.fluentui-emoji-high-contrast-woman-deaf:before { content: "\efa5"; }
+.fluentui-emoji-high-contrast-woman-detective:before { content: "\efa6"; }
+.fluentui-emoji-high-contrast-woman-elf:before { content: "\efa7"; }
+.fluentui-emoji-high-contrast-woman-facepalming:before { content: "\efa8"; }
+.fluentui-emoji-high-contrast-woman-factory-worker:before { content: "\efa9"; }
+.fluentui-emoji-high-contrast-woman-fairy:before { content: "\efaa"; }
+.fluentui-emoji-high-contrast-woman-farmer:before { content: "\efab"; }
+.fluentui-emoji-high-contrast-woman-feeding-baby:before { content: "\efac"; }
+.fluentui-emoji-high-contrast-woman-firefighter:before { content: "\efad"; }
+.fluentui-emoji-high-contrast-woman-frowning:before { content: "\efae"; }
+.fluentui-emoji-high-contrast-woman-genie:before { content: "\efaf"; }
+.fluentui-emoji-high-contrast-woman-gesturing-no:before { content: "\efb0"; }
+.fluentui-emoji-high-contrast-woman-gesturing-ok:before { content: "\efb1"; }
+.fluentui-emoji-high-contrast-woman-getting-haircut:before { content: "\efb2"; }
+.fluentui-emoji-high-contrast-woman-getting-massage:before { content: "\efb3"; }
+.fluentui-emoji-high-contrast-woman-golfing:before { content: "\efb4"; }
+.fluentui-emoji-high-contrast-woman-guard:before { content: "\efb5"; }
+.fluentui-emoji-high-contrast-woman-health-worker:before { content: "\efb6"; }
+.fluentui-emoji-high-contrast-woman-in-lotus-position:before { content: "\efb7"; }
+.fluentui-emoji-high-contrast-woman-in-manual-wheelchair:before { content: "\efb8"; }
+.fluentui-emoji-high-contrast-woman-in-motorized-wheelchair:before { content: "\efb9"; }
+.fluentui-emoji-high-contrast-woman-in-steamy-room:before { content: "\efba"; }
+.fluentui-emoji-high-contrast-woman-judge:before { content: "\efbb"; }
+.fluentui-emoji-high-contrast-woman-juggling:before { content: "\efbc"; }
+.fluentui-emoji-high-contrast-woman-kneeling:before { content: "\efbd"; }
+.fluentui-emoji-high-contrast-woman-lifting-weights:before { content: "\efbe"; }
+.fluentui-emoji-high-contrast-woman-mage:before { content: "\efbf"; }
+.fluentui-emoji-high-contrast-woman-mechanic:before { content: "\efc0"; }
+.fluentui-emoji-high-contrast-woman-merpeople:before { content: "\efc1"; }
+.fluentui-emoji-high-contrast-woman-mountain-biking:before { content: "\efc2"; }
+.fluentui-emoji-high-contrast-woman-office-worker:before { content: "\efc3"; }
+.fluentui-emoji-high-contrast-woman-pilot:before { content: "\efc4"; }
+.fluentui-emoji-high-contrast-woman-playing-handball:before { content: "\efc5"; }
+.fluentui-emoji-high-contrast-woman-playing-water-polo:before { content: "\efc6"; }
+.fluentui-emoji-high-contrast-woman-police-officer:before { content: "\efc7"; }
+.fluentui-emoji-high-contrast-woman-pouting:before { content: "\efc8"; }
+.fluentui-emoji-high-contrast-woman-raising-hand:before { content: "\efc9"; }
+.fluentui-emoji-high-contrast-woman-red-hair:before { content: "\efca"; }
+.fluentui-emoji-high-contrast-woman-rowing-boat:before { content: "\efcb"; }
+.fluentui-emoji-high-contrast-woman-running:before { content: "\efcc"; }
+.fluentui-emoji-high-contrast-woman-scientist:before { content: "\efcd"; }
+.fluentui-emoji-high-contrast-woman-shrugging:before { content: "\efce"; }
+.fluentui-emoji-high-contrast-woman-singer:before { content: "\efcf"; }
+.fluentui-emoji-high-contrast-woman-standing:before { content: "\efd0"; }
+.fluentui-emoji-high-contrast-woman-student:before { content: "\efd1"; }
+.fluentui-emoji-high-contrast-woman-superhero:before { content: "\efd2"; }
+.fluentui-emoji-high-contrast-woman-supervillain:before { content: "\efd3"; }
+.fluentui-emoji-high-contrast-woman-surfing:before { content: "\efd4"; }
+.fluentui-emoji-high-contrast-woman-swimming:before { content: "\efd5"; }
+.fluentui-emoji-high-contrast-woman-teacher:before { content: "\efd6"; }
+.fluentui-emoji-high-contrast-woman-tipping-hand:before { content: "\efd7"; }
+.fluentui-emoji-high-contrast-woman-vampire:before { content: "\efd8"; }
+.fluentui-emoji-high-contrast-woman-walking:before { content: "\efd9"; }
+.fluentui-emoji-high-contrast-woman-white-hair:before { content: "\efda"; }
+.fluentui-emoji-high-contrast-woman-with-bunny-ears:before { content: "\efdb"; }
+.fluentui-emoji-high-contrast-woman-with-headscarf:before { content: "\efdc"; }
+.fluentui-emoji-high-contrast-woman-with-veil:before { content: "\efdd"; }
+.fluentui-emoji-high-contrast-woman-with-white-cane:before { content: "\efde"; }
+.fluentui-emoji-high-contrast-woman-wrestling:before { content: "\efdf"; }
+.fluentui-emoji-high-contrast-woman-zombie:before { content: "\efe0"; }
+.fluentui-emoji-high-contrast-woman:before { content: "\efe1"; }
+.fluentui-emoji-high-contrast-womans-boot:before { content: "\efe2"; }
+.fluentui-emoji-high-contrast-womans-clothes:before { content: "\efe3"; }
+.fluentui-emoji-high-contrast-womans-hat:before { content: "\efe4"; }
+.fluentui-emoji-high-contrast-womans-sandal:before { content: "\efe5"; }
+.fluentui-emoji-high-contrast-womens-room:before { content: "\efe6"; }
+.fluentui-emoji-high-contrast-wood:before { content: "\efe7"; }
+.fluentui-emoji-high-contrast-woozy-face:before { content: "\efe8"; }
+.fluentui-emoji-high-contrast-world-map:before { content: "\efe9"; }
+.fluentui-emoji-high-contrast-worm:before { content: "\efea"; }
+.fluentui-emoji-high-contrast-worried-face:before { content: "\efeb"; }
+.fluentui-emoji-high-contrast-wrapped-gift:before { content: "\efec"; }
+.fluentui-emoji-high-contrast-wrench:before { content: "\efed"; }
+.fluentui-emoji-high-contrast-writing-hand:before { content: "\efee"; }
+.fluentui-emoji-high-contrast-x-ray:before { content: "\efef"; }
+.fluentui-emoji-high-contrast-yarn:before { content: "\eff0"; }
+.fluentui-emoji-high-contrast-yawning-face:before { content: "\eff1"; }
+.fluentui-emoji-high-contrast-yellow-circle:before { content: "\eff2"; }
+.fluentui-emoji-high-contrast-yellow-heart:before { content: "\eff3"; }
+.fluentui-emoji-high-contrast-yellow-square:before { content: "\eff4"; }
+.fluentui-emoji-high-contrast-yen-banknote:before { content: "\eff5"; }
+.fluentui-emoji-high-contrast-yin-yang:before { content: "\eff6"; }
+.fluentui-emoji-high-contrast-yo-yo:before { content: "\eff7"; }
+.fluentui-emoji-high-contrast-zany-face:before { content: "\eff8"; }
+.fluentui-emoji-high-contrast-zebra:before { content: "\eff9"; }
+.fluentui-emoji-high-contrast-zipper-mouth-face:before { content: "\effa"; }
+.fluentui-emoji-high-contrast-zzz:before { content: "\effb"; }
+
+$fluentui-emoji-high-contrast-1st-place-medal: "\ea01";
+$fluentui-emoji-high-contrast-2nd-place-medal: "\ea02";
+$fluentui-emoji-high-contrast-3rd-place-medal: "\ea03";
+$fluentui-emoji-high-contrast-a-button-blood-type: "\ea04";
+$fluentui-emoji-high-contrast-ab-button-blood-type: "\ea05";
+$fluentui-emoji-high-contrast-abacus: "\ea06";
+$fluentui-emoji-high-contrast-accordion: "\ea07";
+$fluentui-emoji-high-contrast-adhesive-bandage: "\ea08";
+$fluentui-emoji-high-contrast-admission-tickets: "\ea09";
+$fluentui-emoji-high-contrast-aerial-tramway: "\ea0a";
+$fluentui-emoji-high-contrast-airplane-arrival: "\ea0b";
+$fluentui-emoji-high-contrast-airplane-departure: "\ea0c";
+$fluentui-emoji-high-contrast-airplane: "\ea0d";
+$fluentui-emoji-high-contrast-alarm-clock: "\ea0e";
+$fluentui-emoji-high-contrast-alembic: "\ea0f";
+$fluentui-emoji-high-contrast-alien-monster: "\ea10";
+$fluentui-emoji-high-contrast-alien: "\ea11";
+$fluentui-emoji-high-contrast-ambulance: "\ea12";
+$fluentui-emoji-high-contrast-american-football: "\ea13";
+$fluentui-emoji-high-contrast-amphora: "\ea14";
+$fluentui-emoji-high-contrast-anatomical-heart: "\ea15";
+$fluentui-emoji-high-contrast-anchor: "\ea16";
+$fluentui-emoji-high-contrast-anger-symbol: "\ea17";
+$fluentui-emoji-high-contrast-angry-face-with-horns: "\ea18";
+$fluentui-emoji-high-contrast-angry-face: "\ea19";
+$fluentui-emoji-high-contrast-anguished-face: "\ea1a";
+$fluentui-emoji-high-contrast-ant: "\ea1b";
+$fluentui-emoji-high-contrast-antenna-bars: "\ea1c";
+$fluentui-emoji-high-contrast-anxious-face-with-sweat: "\ea1d";
+$fluentui-emoji-high-contrast-aquarius: "\ea1e";
+$fluentui-emoji-high-contrast-aries: "\ea1f";
+$fluentui-emoji-high-contrast-articulated-lorry: "\ea20";
+$fluentui-emoji-high-contrast-artist-palette: "\ea21";
+$fluentui-emoji-high-contrast-artist: "\ea22";
+$fluentui-emoji-high-contrast-astonished-face: "\ea23";
+$fluentui-emoji-high-contrast-astronaut: "\ea24";
+$fluentui-emoji-high-contrast-atm-sign: "\ea25";
+$fluentui-emoji-high-contrast-atom-symbol: "\ea26";
+$fluentui-emoji-high-contrast-auto-rickshaw: "\ea27";
+$fluentui-emoji-high-contrast-automobile: "\ea28";
+$fluentui-emoji-high-contrast-avocado: "\ea29";
+$fluentui-emoji-high-contrast-axe: "\ea2a";
+$fluentui-emoji-high-contrast-b-button-blood-type: "\ea2b";
+$fluentui-emoji-high-contrast-baby-angel: "\ea2c";
+$fluentui-emoji-high-contrast-baby-bottle: "\ea2d";
+$fluentui-emoji-high-contrast-baby-chick: "\ea2e";
+$fluentui-emoji-high-contrast-baby-symbol: "\ea2f";
+$fluentui-emoji-high-contrast-baby: "\ea30";
+$fluentui-emoji-high-contrast-back-arrow: "\ea31";
+$fluentui-emoji-high-contrast-backhand-index-pointing-down: "\ea32";
+$fluentui-emoji-high-contrast-backhand-index-pointing-left: "\ea33";
+$fluentui-emoji-high-contrast-backhand-index-pointing-right: "\ea34";
+$fluentui-emoji-high-contrast-backhand-index-pointing-up: "\ea35";
+$fluentui-emoji-high-contrast-backpack: "\ea36";
+$fluentui-emoji-high-contrast-bacon: "\ea37";
+$fluentui-emoji-high-contrast-badger: "\ea38";
+$fluentui-emoji-high-contrast-badminton: "\ea39";
+$fluentui-emoji-high-contrast-bagel: "\ea3a";
+$fluentui-emoji-high-contrast-baggage-claim: "\ea3b";
+$fluentui-emoji-high-contrast-baguette-bread: "\ea3c";
+$fluentui-emoji-high-contrast-balance-scale: "\ea3d";
+$fluentui-emoji-high-contrast-ballet-shoes: "\ea3e";
+$fluentui-emoji-high-contrast-balloon: "\ea3f";
+$fluentui-emoji-high-contrast-ballot-box-with-ballot: "\ea40";
+$fluentui-emoji-high-contrast-banana: "\ea41";
+$fluentui-emoji-high-contrast-banjo: "\ea42";
+$fluentui-emoji-high-contrast-bank: "\ea43";
+$fluentui-emoji-high-contrast-bar-chart: "\ea44";
+$fluentui-emoji-high-contrast-barber-pole: "\ea45";
+$fluentui-emoji-high-contrast-baseball: "\ea46";
+$fluentui-emoji-high-contrast-basket: "\ea47";
+$fluentui-emoji-high-contrast-basketball: "\ea48";
+$fluentui-emoji-high-contrast-bat: "\ea49";
+$fluentui-emoji-high-contrast-bathtub: "\ea4a";
+$fluentui-emoji-high-contrast-battery: "\ea4b";
+$fluentui-emoji-high-contrast-beach-with-umbrella: "\ea4c";
+$fluentui-emoji-high-contrast-beaming-face-with-smiling-eyes: "\ea4d";
+$fluentui-emoji-high-contrast-beans: "\ea4e";
+$fluentui-emoji-high-contrast-bear: "\ea4f";
+$fluentui-emoji-high-contrast-beating-heart: "\ea50";
+$fluentui-emoji-high-contrast-beaver: "\ea51";
+$fluentui-emoji-high-contrast-bed: "\ea52";
+$fluentui-emoji-high-contrast-beer-mug: "\ea53";
+$fluentui-emoji-high-contrast-beetle: "\ea54";
+$fluentui-emoji-high-contrast-bell-pepper: "\ea55";
+$fluentui-emoji-high-contrast-bell-with-slash: "\ea56";
+$fluentui-emoji-high-contrast-bell: "\ea57";
+$fluentui-emoji-high-contrast-bellhop-bell: "\ea58";
+$fluentui-emoji-high-contrast-bento-box: "\ea59";
+$fluentui-emoji-high-contrast-beverage-box: "\ea5a";
+$fluentui-emoji-high-contrast-bicycle: "\ea5b";
+$fluentui-emoji-high-contrast-bikini: "\ea5c";
+$fluentui-emoji-high-contrast-billed-cap: "\ea5d";
+$fluentui-emoji-high-contrast-biohazard: "\ea5e";
+$fluentui-emoji-high-contrast-bird: "\ea5f";
+$fluentui-emoji-high-contrast-birthday-cake: "\ea60";
+$fluentui-emoji-high-contrast-bison: "\ea61";
+$fluentui-emoji-high-contrast-biting-lip: "\ea62";
+$fluentui-emoji-high-contrast-black-cat: "\ea63";
+$fluentui-emoji-high-contrast-black-circle: "\ea64";
+$fluentui-emoji-high-contrast-black-flag: "\ea65";
+$fluentui-emoji-high-contrast-black-heart: "\ea66";
+$fluentui-emoji-high-contrast-black-large-square: "\ea67";
+$fluentui-emoji-high-contrast-black-medium-small-square: "\ea68";
+$fluentui-emoji-high-contrast-black-medium-square: "\ea69";
+$fluentui-emoji-high-contrast-black-nib: "\ea6a";
+$fluentui-emoji-high-contrast-black-small-square: "\ea6b";
+$fluentui-emoji-high-contrast-black-square-button: "\ea6c";
+$fluentui-emoji-high-contrast-blossom: "\ea6d";
+$fluentui-emoji-high-contrast-blowfish: "\ea6e";
+$fluentui-emoji-high-contrast-blue-book: "\ea6f";
+$fluentui-emoji-high-contrast-blue-circle: "\ea70";
+$fluentui-emoji-high-contrast-blue-heart: "\ea71";
+$fluentui-emoji-high-contrast-blue-square: "\ea72";
+$fluentui-emoji-high-contrast-blueberries: "\ea73";
+$fluentui-emoji-high-contrast-boar: "\ea74";
+$fluentui-emoji-high-contrast-bomb: "\ea75";
+$fluentui-emoji-high-contrast-bone: "\ea76";
+$fluentui-emoji-high-contrast-bookmark-tabs: "\ea77";
+$fluentui-emoji-high-contrast-bookmark: "\ea78";
+$fluentui-emoji-high-contrast-books: "\ea79";
+$fluentui-emoji-high-contrast-boomerang: "\ea7a";
+$fluentui-emoji-high-contrast-bottle-with-popping-cork: "\ea7b";
+$fluentui-emoji-high-contrast-bouquet: "\ea7c";
+$fluentui-emoji-high-contrast-bow-and-arrow: "\ea7d";
+$fluentui-emoji-high-contrast-bowl-with-spoon: "\ea7e";
+$fluentui-emoji-high-contrast-bowling: "\ea7f";
+$fluentui-emoji-high-contrast-boxing-glove: "\ea80";
+$fluentui-emoji-high-contrast-boy: "\ea81";
+$fluentui-emoji-high-contrast-brain: "\ea82";
+$fluentui-emoji-high-contrast-bread: "\ea83";
+$fluentui-emoji-high-contrast-breast-feeding: "\ea84";
+$fluentui-emoji-high-contrast-brick: "\ea85";
+$fluentui-emoji-high-contrast-bridge-at-night: "\ea86";
+$fluentui-emoji-high-contrast-briefcase: "\ea87";
+$fluentui-emoji-high-contrast-briefs: "\ea88";
+$fluentui-emoji-high-contrast-bright-button: "\ea89";
+$fluentui-emoji-high-contrast-broccoli: "\ea8a";
+$fluentui-emoji-high-contrast-broken-heart: "\ea8b";
+$fluentui-emoji-high-contrast-broom: "\ea8c";
+$fluentui-emoji-high-contrast-brown-circle: "\ea8d";
+$fluentui-emoji-high-contrast-brown-heart: "\ea8e";
+$fluentui-emoji-high-contrast-brown-square: "\ea8f";
+$fluentui-emoji-high-contrast-bubble-tea: "\ea90";
+$fluentui-emoji-high-contrast-bubbles: "\ea91";
+$fluentui-emoji-high-contrast-bucket: "\ea92";
+$fluentui-emoji-high-contrast-bug: "\ea93";
+$fluentui-emoji-high-contrast-building-construction: "\ea94";
+$fluentui-emoji-high-contrast-bullet-train: "\ea95";
+$fluentui-emoji-high-contrast-bullseye: "\ea96";
+$fluentui-emoji-high-contrast-burrito: "\ea97";
+$fluentui-emoji-high-contrast-bus-stop: "\ea98";
+$fluentui-emoji-high-contrast-bus: "\ea99";
+$fluentui-emoji-high-contrast-bust-in-silhouette: "\ea9a";
+$fluentui-emoji-high-contrast-busts-in-silhouette: "\ea9b";
+$fluentui-emoji-high-contrast-butter: "\ea9c";
+$fluentui-emoji-high-contrast-butterfly: "\ea9d";
+$fluentui-emoji-high-contrast-cactus: "\ea9e";
+$fluentui-emoji-high-contrast-calendar: "\ea9f";
+$fluentui-emoji-high-contrast-call-me-hand: "\eaa0";
+$fluentui-emoji-high-contrast-camel: "\eaa1";
+$fluentui-emoji-high-contrast-camera-with-flash: "\eaa2";
+$fluentui-emoji-high-contrast-camera: "\eaa3";
+$fluentui-emoji-high-contrast-camping: "\eaa4";
+$fluentui-emoji-high-contrast-cancer: "\eaa5";
+$fluentui-emoji-high-contrast-candle: "\eaa6";
+$fluentui-emoji-high-contrast-candy: "\eaa7";
+$fluentui-emoji-high-contrast-canned-food: "\eaa8";
+$fluentui-emoji-high-contrast-canoe: "\eaa9";
+$fluentui-emoji-high-contrast-capricorn: "\eaaa";
+$fluentui-emoji-high-contrast-card-file-box: "\eaab";
+$fluentui-emoji-high-contrast-card-index-dividers: "\eaac";
+$fluentui-emoji-high-contrast-card-index: "\eaad";
+$fluentui-emoji-high-contrast-carousel-horse: "\eaae";
+$fluentui-emoji-high-contrast-carp-streamer: "\eaaf";
+$fluentui-emoji-high-contrast-carpentry-saw: "\eab0";
+$fluentui-emoji-high-contrast-carrot: "\eab1";
+$fluentui-emoji-high-contrast-castle: "\eab2";
+$fluentui-emoji-high-contrast-cat-face: "\eab3";
+$fluentui-emoji-high-contrast-cat-with-tears-of-joy: "\eab4";
+$fluentui-emoji-high-contrast-cat-with-wry-smile: "\eab5";
+$fluentui-emoji-high-contrast-cat: "\eab6";
+$fluentui-emoji-high-contrast-chains: "\eab7";
+$fluentui-emoji-high-contrast-chair: "\eab8";
+$fluentui-emoji-high-contrast-chart-decreasing: "\eab9";
+$fluentui-emoji-high-contrast-chart-increasing-with-yen: "\eaba";
+$fluentui-emoji-high-contrast-chart-increasing: "\eabb";
+$fluentui-emoji-high-contrast-check-box-with-check: "\eabc";
+$fluentui-emoji-high-contrast-check-mark-button: "\eabd";
+$fluentui-emoji-high-contrast-check-mark: "\eabe";
+$fluentui-emoji-high-contrast-cheese-wedge: "\eabf";
+$fluentui-emoji-high-contrast-chequered-flag: "\eac0";
+$fluentui-emoji-high-contrast-cherries: "\eac1";
+$fluentui-emoji-high-contrast-cherry-blossom: "\eac2";
+$fluentui-emoji-high-contrast-chess-pawn: "\eac3";
+$fluentui-emoji-high-contrast-chestnut: "\eac4";
+$fluentui-emoji-high-contrast-chicken: "\eac5";
+$fluentui-emoji-high-contrast-child: "\eac6";
+$fluentui-emoji-high-contrast-children-crossing: "\eac7";
+$fluentui-emoji-high-contrast-chipmunk: "\eac8";
+$fluentui-emoji-high-contrast-chocolate-bar: "\eac9";
+$fluentui-emoji-high-contrast-chopsticks: "\eaca";
+$fluentui-emoji-high-contrast-christmas-tree: "\eacb";
+$fluentui-emoji-high-contrast-church: "\eacc";
+$fluentui-emoji-high-contrast-cigarette: "\eacd";
+$fluentui-emoji-high-contrast-cinema: "\eace";
+$fluentui-emoji-high-contrast-circled-m: "\eacf";
+$fluentui-emoji-high-contrast-circus-tent: "\ead0";
+$fluentui-emoji-high-contrast-cityscape-at-dusk: "\ead1";
+$fluentui-emoji-high-contrast-cityscape: "\ead2";
+$fluentui-emoji-high-contrast-cl-button: "\ead3";
+$fluentui-emoji-high-contrast-clamp: "\ead4";
+$fluentui-emoji-high-contrast-clapper-board: "\ead5";
+$fluentui-emoji-high-contrast-clapping-hands: "\ead6";
+$fluentui-emoji-high-contrast-classical-building: "\ead7";
+$fluentui-emoji-high-contrast-clinking-beer-mugs: "\ead8";
+$fluentui-emoji-high-contrast-clinking-glasses: "\ead9";
+$fluentui-emoji-high-contrast-clipboard: "\eada";
+$fluentui-emoji-high-contrast-clockwise-vertical-arrows: "\eadb";
+$fluentui-emoji-high-contrast-closed-book: "\eadc";
+$fluentui-emoji-high-contrast-closed-mailbox-with-lowered-flag: "\eadd";
+$fluentui-emoji-high-contrast-closed-mailbox-with-raised-flag: "\eade";
+$fluentui-emoji-high-contrast-closed-umbrella: "\eadf";
+$fluentui-emoji-high-contrast-cloud-with-lightning-and-rain: "\eae0";
+$fluentui-emoji-high-contrast-cloud-with-lightning: "\eae1";
+$fluentui-emoji-high-contrast-cloud-with-rain: "\eae2";
+$fluentui-emoji-high-contrast-cloud-with-snow: "\eae3";
+$fluentui-emoji-high-contrast-cloud: "\eae4";
+$fluentui-emoji-high-contrast-clown-face: "\eae5";
+$fluentui-emoji-high-contrast-club-suit: "\eae6";
+$fluentui-emoji-high-contrast-clutch-bag: "\eae7";
+$fluentui-emoji-high-contrast-coat: "\eae8";
+$fluentui-emoji-high-contrast-cockroach: "\eae9";
+$fluentui-emoji-high-contrast-cocktail-glass: "\eaea";
+$fluentui-emoji-high-contrast-coconut: "\eaeb";
+$fluentui-emoji-high-contrast-coffin: "\eaec";
+$fluentui-emoji-high-contrast-coin: "\eaed";
+$fluentui-emoji-high-contrast-cold-face: "\eaee";
+$fluentui-emoji-high-contrast-collision: "\eaef";
+$fluentui-emoji-high-contrast-comet: "\eaf0";
+$fluentui-emoji-high-contrast-compass: "\eaf1";
+$fluentui-emoji-high-contrast-computer-disk: "\eaf2";
+$fluentui-emoji-high-contrast-computer-mouse: "\eaf3";
+$fluentui-emoji-high-contrast-confetti-ball: "\eaf4";
+$fluentui-emoji-high-contrast-confounded-face: "\eaf5";
+$fluentui-emoji-high-contrast-confused-face: "\eaf6";
+$fluentui-emoji-high-contrast-construction-worker: "\eaf7";
+$fluentui-emoji-high-contrast-construction: "\eaf8";
+$fluentui-emoji-high-contrast-control-knobs: "\eaf9";
+$fluentui-emoji-high-contrast-convenience-store: "\eafa";
+$fluentui-emoji-high-contrast-cook: "\eafb";
+$fluentui-emoji-high-contrast-cooked-rice: "\eafc";
+$fluentui-emoji-high-contrast-cookie: "\eafd";
+$fluentui-emoji-high-contrast-cooking: "\eafe";
+$fluentui-emoji-high-contrast-cool-button: "\eaff";
+$fluentui-emoji-high-contrast-copyright: "\eb00";
+$fluentui-emoji-high-contrast-coral: "\eb01";
+$fluentui-emoji-high-contrast-couch-and-lamp: "\eb02";
+$fluentui-emoji-high-contrast-counterclockwise-arrows-button: "\eb03";
+$fluentui-emoji-high-contrast-cow-face: "\eb04";
+$fluentui-emoji-high-contrast-cow: "\eb05";
+$fluentui-emoji-high-contrast-cowboy-hat-face: "\eb06";
+$fluentui-emoji-high-contrast-crab: "\eb07";
+$fluentui-emoji-high-contrast-crayon: "\eb08";
+$fluentui-emoji-high-contrast-credit-card: "\eb09";
+$fluentui-emoji-high-contrast-crescent-moon: "\eb0a";
+$fluentui-emoji-high-contrast-cricket-game: "\eb0b";
+$fluentui-emoji-high-contrast-cricket: "\eb0c";
+$fluentui-emoji-high-contrast-crocodile: "\eb0d";
+$fluentui-emoji-high-contrast-croissant: "\eb0e";
+$fluentui-emoji-high-contrast-cross-mark-button: "\eb0f";
+$fluentui-emoji-high-contrast-cross-mark: "\eb10";
+$fluentui-emoji-high-contrast-crossed-fingers: "\eb11";
+$fluentui-emoji-high-contrast-crossed-flags: "\eb12";
+$fluentui-emoji-high-contrast-crossed-swords: "\eb13";
+$fluentui-emoji-high-contrast-crown: "\eb14";
+$fluentui-emoji-high-contrast-crutch: "\eb15";
+$fluentui-emoji-high-contrast-crying-cat: "\eb16";
+$fluentui-emoji-high-contrast-crying-face: "\eb17";
+$fluentui-emoji-high-contrast-crystal-ball: "\eb18";
+$fluentui-emoji-high-contrast-cucumber: "\eb19";
+$fluentui-emoji-high-contrast-cup-with-straw: "\eb1a";
+$fluentui-emoji-high-contrast-cupcake: "\eb1b";
+$fluentui-emoji-high-contrast-curling-stone: "\eb1c";
+$fluentui-emoji-high-contrast-curly-loop: "\eb1d";
+$fluentui-emoji-high-contrast-currency-exchange: "\eb1e";
+$fluentui-emoji-high-contrast-curry-rice: "\eb1f";
+$fluentui-emoji-high-contrast-custard: "\eb20";
+$fluentui-emoji-high-contrast-customs: "\eb21";
+$fluentui-emoji-high-contrast-cut-of-meat: "\eb22";
+$fluentui-emoji-high-contrast-cyclone: "\eb23";
+$fluentui-emoji-high-contrast-dagger: "\eb24";
+$fluentui-emoji-high-contrast-dango: "\eb25";
+$fluentui-emoji-high-contrast-dashing-away: "\eb26";
+$fluentui-emoji-high-contrast-deciduous-tree: "\eb27";
+$fluentui-emoji-high-contrast-deer: "\eb28";
+$fluentui-emoji-high-contrast-delivery-truck: "\eb29";
+$fluentui-emoji-high-contrast-department-store: "\eb2a";
+$fluentui-emoji-high-contrast-derelict-house: "\eb2b";
+$fluentui-emoji-high-contrast-desert-island: "\eb2c";
+$fluentui-emoji-high-contrast-desert: "\eb2d";
+$fluentui-emoji-high-contrast-desktop-computer: "\eb2e";
+$fluentui-emoji-high-contrast-detective: "\eb2f";
+$fluentui-emoji-high-contrast-diamond-suit: "\eb30";
+$fluentui-emoji-high-contrast-diamond-with-a-dot: "\eb31";
+$fluentui-emoji-high-contrast-dim-button: "\eb32";
+$fluentui-emoji-high-contrast-disappointed-face: "\eb33";
+$fluentui-emoji-high-contrast-disguised-face: "\eb34";
+$fluentui-emoji-high-contrast-divide: "\eb35";
+$fluentui-emoji-high-contrast-diving-mask: "\eb36";
+$fluentui-emoji-high-contrast-diya-lamp: "\eb37";
+$fluentui-emoji-high-contrast-dizzy: "\eb38";
+$fluentui-emoji-high-contrast-dna: "\eb39";
+$fluentui-emoji-high-contrast-dodo: "\eb3a";
+$fluentui-emoji-high-contrast-dog-face: "\eb3b";
+$fluentui-emoji-high-contrast-dog: "\eb3c";
+$fluentui-emoji-high-contrast-dollar-banknote: "\eb3d";
+$fluentui-emoji-high-contrast-dolphin: "\eb3e";
+$fluentui-emoji-high-contrast-door: "\eb3f";
+$fluentui-emoji-high-contrast-dotted-line-face: "\eb40";
+$fluentui-emoji-high-contrast-dotted-six-pointed-star: "\eb41";
+$fluentui-emoji-high-contrast-double-curly-loop: "\eb42";
+$fluentui-emoji-high-contrast-double-exclamation-mark: "\eb43";
+$fluentui-emoji-high-contrast-doughnut: "\eb44";
+$fluentui-emoji-high-contrast-dove: "\eb45";
+$fluentui-emoji-high-contrast-down-arrow: "\eb46";
+$fluentui-emoji-high-contrast-down-left-arrow: "\eb47";
+$fluentui-emoji-high-contrast-down-right-arrow: "\eb48";
+$fluentui-emoji-high-contrast-downcast-face-with-sweat: "\eb49";
+$fluentui-emoji-high-contrast-downwards-button: "\eb4a";
+$fluentui-emoji-high-contrast-dragon-face: "\eb4b";
+$fluentui-emoji-high-contrast-dragon: "\eb4c";
+$fluentui-emoji-high-contrast-dress: "\eb4d";
+$fluentui-emoji-high-contrast-drooling-face: "\eb4e";
+$fluentui-emoji-high-contrast-drop-of-blood: "\eb4f";
+$fluentui-emoji-high-contrast-droplet: "\eb50";
+$fluentui-emoji-high-contrast-drum: "\eb51";
+$fluentui-emoji-high-contrast-duck: "\eb52";
+$fluentui-emoji-high-contrast-dumpling: "\eb53";
+$fluentui-emoji-high-contrast-dvd: "\eb54";
+$fluentui-emoji-high-contrast-e-mail: "\eb55";
+$fluentui-emoji-high-contrast-eagle: "\eb56";
+$fluentui-emoji-high-contrast-ear-of-corn: "\eb57";
+$fluentui-emoji-high-contrast-ear-with-hearing-aid: "\eb58";
+$fluentui-emoji-high-contrast-ear: "\eb59";
+$fluentui-emoji-high-contrast-egg: "\eb5a";
+$fluentui-emoji-high-contrast-eggplant: "\eb5b";
+$fluentui-emoji-high-contrast-eight-oclock: "\eb5c";
+$fluentui-emoji-high-contrast-eight-pointed-star: "\eb5d";
+$fluentui-emoji-high-contrast-eight-spoked-asterisk: "\eb5e";
+$fluentui-emoji-high-contrast-eight-thirty: "\eb5f";
+$fluentui-emoji-high-contrast-eject-button: "\eb60";
+$fluentui-emoji-high-contrast-electric-plug: "\eb61";
+$fluentui-emoji-high-contrast-elephant: "\eb62";
+$fluentui-emoji-high-contrast-elevator: "\eb63";
+$fluentui-emoji-high-contrast-eleven-oclock: "\eb64";
+$fluentui-emoji-high-contrast-eleven-thirty: "\eb65";
+$fluentui-emoji-high-contrast-empty-nest: "\eb66";
+$fluentui-emoji-high-contrast-end-arrow: "\eb67";
+$fluentui-emoji-high-contrast-envelope-with-arrow: "\eb68";
+$fluentui-emoji-high-contrast-envelope: "\eb69";
+$fluentui-emoji-high-contrast-euro-banknote: "\eb6a";
+$fluentui-emoji-high-contrast-evergreen-tree: "\eb6b";
+$fluentui-emoji-high-contrast-ewe: "\eb6c";
+$fluentui-emoji-high-contrast-exclamation-question-mark: "\eb6d";
+$fluentui-emoji-high-contrast-exploding-head: "\eb6e";
+$fluentui-emoji-high-contrast-expressionless-face: "\eb6f";
+$fluentui-emoji-high-contrast-eye-in-speech-bubble: "\eb70";
+$fluentui-emoji-high-contrast-eye: "\eb71";
+$fluentui-emoji-high-contrast-eyes: "\eb72";
+$fluentui-emoji-high-contrast-face-blowing-a-kiss: "\eb73";
+$fluentui-emoji-high-contrast-face-exhaling: "\eb74";
+$fluentui-emoji-high-contrast-face-holding-back-tears: "\eb75";
+$fluentui-emoji-high-contrast-face-in-clouds: "\eb76";
+$fluentui-emoji-high-contrast-face-savoring-food: "\eb77";
+$fluentui-emoji-high-contrast-face-screaming-in-fear: "\eb78";
+$fluentui-emoji-high-contrast-face-vomiting: "\eb79";
+$fluentui-emoji-high-contrast-face-with-diagonal-mouth: "\eb7a";
+$fluentui-emoji-high-contrast-face-with-hand-over-mouth: "\eb7b";
+$fluentui-emoji-high-contrast-face-with-head-bandage: "\eb7c";
+$fluentui-emoji-high-contrast-face-with-medical-mask: "\eb7d";
+$fluentui-emoji-high-contrast-face-with-monocle: "\eb7e";
+$fluentui-emoji-high-contrast-face-with-open-eyes-and-hand-over-mouth: "\eb7f";
+$fluentui-emoji-high-contrast-face-with-open-mouth: "\eb80";
+$fluentui-emoji-high-contrast-face-with-peeking-eye: "\eb81";
+$fluentui-emoji-high-contrast-face-with-raised-eyebrow: "\eb82";
+$fluentui-emoji-high-contrast-face-with-rolling-eyes: "\eb83";
+$fluentui-emoji-high-contrast-face-with-spiral-eyes: "\eb84";
+$fluentui-emoji-high-contrast-face-with-steam-from-nose: "\eb85";
+$fluentui-emoji-high-contrast-face-with-symbols-on-mouth: "\eb86";
+$fluentui-emoji-high-contrast-face-with-tears-of-joy: "\eb87";
+$fluentui-emoji-high-contrast-face-with-thermometer: "\eb88";
+$fluentui-emoji-high-contrast-face-with-tongue: "\eb89";
+$fluentui-emoji-high-contrast-face-without-mouth: "\eb8a";
+$fluentui-emoji-high-contrast-factory-worker: "\eb8b";
+$fluentui-emoji-high-contrast-factory: "\eb8c";
+$fluentui-emoji-high-contrast-falafel: "\eb8d";
+$fluentui-emoji-high-contrast-fallen-leaf: "\eb8e";
+$fluentui-emoji-high-contrast-farmer: "\eb8f";
+$fluentui-emoji-high-contrast-fast-down-button: "\eb90";
+$fluentui-emoji-high-contrast-fast-forward-button: "\eb91";
+$fluentui-emoji-high-contrast-fast-reverse-button: "\eb92";
+$fluentui-emoji-high-contrast-fast-up-button: "\eb93";
+$fluentui-emoji-high-contrast-fax-machine: "\eb94";
+$fluentui-emoji-high-contrast-fearful-face: "\eb95";
+$fluentui-emoji-high-contrast-feather: "\eb96";
+$fluentui-emoji-high-contrast-female-sign: "\eb97";
+$fluentui-emoji-high-contrast-ferris-wheel: "\eb98";
+$fluentui-emoji-high-contrast-ferry: "\eb99";
+$fluentui-emoji-high-contrast-field-hockey: "\eb9a";
+$fluentui-emoji-high-contrast-file-cabinet: "\eb9b";
+$fluentui-emoji-high-contrast-file-folder: "\eb9c";
+$fluentui-emoji-high-contrast-film-frames: "\eb9d";
+$fluentui-emoji-high-contrast-film-projector: "\eb9e";
+$fluentui-emoji-high-contrast-fire-engine: "\eb9f";
+$fluentui-emoji-high-contrast-fire-extinguisher: "\eba0";
+$fluentui-emoji-high-contrast-fire: "\eba1";
+$fluentui-emoji-high-contrast-firecracker: "\eba2";
+$fluentui-emoji-high-contrast-firefighter: "\eba3";
+$fluentui-emoji-high-contrast-fireworks: "\eba4";
+$fluentui-emoji-high-contrast-first-quarter-moon-face: "\eba5";
+$fluentui-emoji-high-contrast-first-quarter-moon: "\eba6";
+$fluentui-emoji-high-contrast-fish-cake-with-swirl: "\eba7";
+$fluentui-emoji-high-contrast-fish: "\eba8";
+$fluentui-emoji-high-contrast-fishing-pole: "\eba9";
+$fluentui-emoji-high-contrast-five-oclock: "\ebaa";
+$fluentui-emoji-high-contrast-five-thirty: "\ebab";
+$fluentui-emoji-high-contrast-flag-in-hole: "\ebac";
+$fluentui-emoji-high-contrast-flamingo: "\ebad";
+$fluentui-emoji-high-contrast-flashlight: "\ebae";
+$fluentui-emoji-high-contrast-fleur-de-lis: "\ebaf";
+$fluentui-emoji-high-contrast-flexed-biceps: "\ebb0";
+$fluentui-emoji-high-contrast-floppy-disk: "\ebb1";
+$fluentui-emoji-high-contrast-flower-playing-cards: "\ebb2";
+$fluentui-emoji-high-contrast-flushed-face: "\ebb3";
+$fluentui-emoji-high-contrast-fly: "\ebb4";
+$fluentui-emoji-high-contrast-flying-disc: "\ebb5";
+$fluentui-emoji-high-contrast-flying-saucer: "\ebb6";
+$fluentui-emoji-high-contrast-fog: "\ebb7";
+$fluentui-emoji-high-contrast-foggy: "\ebb8";
+$fluentui-emoji-high-contrast-folded-hands: "\ebb9";
+$fluentui-emoji-high-contrast-fondue: "\ebba";
+$fluentui-emoji-high-contrast-foot: "\ebbb";
+$fluentui-emoji-high-contrast-footprints: "\ebbc";
+$fluentui-emoji-high-contrast-fork-and-knife-with-plate: "\ebbd";
+$fluentui-emoji-high-contrast-fork-and-knife: "\ebbe";
+$fluentui-emoji-high-contrast-fortune-cookie: "\ebbf";
+$fluentui-emoji-high-contrast-fountain-pen: "\ebc0";
+$fluentui-emoji-high-contrast-fountain: "\ebc1";
+$fluentui-emoji-high-contrast-four-leaf-clover: "\ebc2";
+$fluentui-emoji-high-contrast-four-oclock: "\ebc3";
+$fluentui-emoji-high-contrast-four-thirty: "\ebc4";
+$fluentui-emoji-high-contrast-fox: "\ebc5";
+$fluentui-emoji-high-contrast-framed-picture: "\ebc6";
+$fluentui-emoji-high-contrast-free-button: "\ebc7";
+$fluentui-emoji-high-contrast-french-fries: "\ebc8";
+$fluentui-emoji-high-contrast-fried-shrimp: "\ebc9";
+$fluentui-emoji-high-contrast-frog: "\ebca";
+$fluentui-emoji-high-contrast-front-facing-baby-chick: "\ebcb";
+$fluentui-emoji-high-contrast-frowning-face-with-open-mouth: "\ebcc";
+$fluentui-emoji-high-contrast-frowning-face: "\ebcd";
+$fluentui-emoji-high-contrast-fuel-pump: "\ebce";
+$fluentui-emoji-high-contrast-full-moon-face: "\ebcf";
+$fluentui-emoji-high-contrast-full-moon: "\ebd0";
+$fluentui-emoji-high-contrast-funeral-urn: "\ebd1";
+$fluentui-emoji-high-contrast-game-die: "\ebd2";
+$fluentui-emoji-high-contrast-garlic: "\ebd3";
+$fluentui-emoji-high-contrast-gear: "\ebd4";
+$fluentui-emoji-high-contrast-gem-stone: "\ebd5";
+$fluentui-emoji-high-contrast-gemini: "\ebd6";
+$fluentui-emoji-high-contrast-ghost: "\ebd7";
+$fluentui-emoji-high-contrast-giraffe: "\ebd8";
+$fluentui-emoji-high-contrast-girl: "\ebd9";
+$fluentui-emoji-high-contrast-glass-of-milk: "\ebda";
+$fluentui-emoji-high-contrast-glasses: "\ebdb";
+$fluentui-emoji-high-contrast-globe-showing-americas: "\ebdc";
+$fluentui-emoji-high-contrast-globe-showing-asia-australia: "\ebdd";
+$fluentui-emoji-high-contrast-globe-showing-europe-africa: "\ebde";
+$fluentui-emoji-high-contrast-globe-with-meridians: "\ebdf";
+$fluentui-emoji-high-contrast-gloves: "\ebe0";
+$fluentui-emoji-high-contrast-glowing-star: "\ebe1";
+$fluentui-emoji-high-contrast-goal-net: "\ebe2";
+$fluentui-emoji-high-contrast-goat: "\ebe3";
+$fluentui-emoji-high-contrast-goblin: "\ebe4";
+$fluentui-emoji-high-contrast-goggles: "\ebe5";
+$fluentui-emoji-high-contrast-gorilla: "\ebe6";
+$fluentui-emoji-high-contrast-graduation-cap: "\ebe7";
+$fluentui-emoji-high-contrast-grapes: "\ebe8";
+$fluentui-emoji-high-contrast-green-apple: "\ebe9";
+$fluentui-emoji-high-contrast-green-book: "\ebea";
+$fluentui-emoji-high-contrast-green-circle: "\ebeb";
+$fluentui-emoji-high-contrast-green-heart: "\ebec";
+$fluentui-emoji-high-contrast-green-salad: "\ebed";
+$fluentui-emoji-high-contrast-green-square: "\ebee";
+$fluentui-emoji-high-contrast-grimacing-face: "\ebef";
+$fluentui-emoji-high-contrast-grinning-cat-with-smiling-eyes: "\ebf0";
+$fluentui-emoji-high-contrast-grinning-cat: "\ebf1";
+$fluentui-emoji-high-contrast-grinning-face-with-big-eyes: "\ebf2";
+$fluentui-emoji-high-contrast-grinning-face-with-smiling-eyes: "\ebf3";
+$fluentui-emoji-high-contrast-grinning-face-with-sweat: "\ebf4";
+$fluentui-emoji-high-contrast-grinning-face: "\ebf5";
+$fluentui-emoji-high-contrast-grinning-squinting-face: "\ebf6";
+$fluentui-emoji-high-contrast-growing-heart: "\ebf7";
+$fluentui-emoji-high-contrast-guard: "\ebf8";
+$fluentui-emoji-high-contrast-guide-dog: "\ebf9";
+$fluentui-emoji-high-contrast-guitar: "\ebfa";
+$fluentui-emoji-high-contrast-hamburger: "\ebfb";
+$fluentui-emoji-high-contrast-hammer-and-pick: "\ebfc";
+$fluentui-emoji-high-contrast-hammer-and-wrench: "\ebfd";
+$fluentui-emoji-high-contrast-hammer: "\ebfe";
+$fluentui-emoji-high-contrast-hamsa: "\ebff";
+$fluentui-emoji-high-contrast-hamster: "\ec00";
+$fluentui-emoji-high-contrast-hand-with-fingers-splayed: "\ec01";
+$fluentui-emoji-high-contrast-hand-with-index-finger-and-thumb-crossed: "\ec02";
+$fluentui-emoji-high-contrast-handbag: "\ec03";
+$fluentui-emoji-high-contrast-handshake: "\ec04";
+$fluentui-emoji-high-contrast-hatching-chick: "\ec05";
+$fluentui-emoji-high-contrast-headphone: "\ec06";
+$fluentui-emoji-high-contrast-headstone: "\ec07";
+$fluentui-emoji-high-contrast-health-worker: "\ec08";
+$fluentui-emoji-high-contrast-hear-no-evil-monkey: "\ec09";
+$fluentui-emoji-high-contrast-heart-decoration: "\ec0a";
+$fluentui-emoji-high-contrast-heart-exclamation: "\ec0b";
+$fluentui-emoji-high-contrast-heart-hands: "\ec0c";
+$fluentui-emoji-high-contrast-heart-on-fire: "\ec0d";
+$fluentui-emoji-high-contrast-heart-suit: "\ec0e";
+$fluentui-emoji-high-contrast-heart-with-arrow: "\ec0f";
+$fluentui-emoji-high-contrast-heart-with-ribbon: "\ec10";
+$fluentui-emoji-high-contrast-heavy-dollar-sign: "\ec11";
+$fluentui-emoji-high-contrast-heavy-equals-sign: "\ec12";
+$fluentui-emoji-high-contrast-hedgehog: "\ec13";
+$fluentui-emoji-high-contrast-helicopter: "\ec14";
+$fluentui-emoji-high-contrast-herb: "\ec15";
+$fluentui-emoji-high-contrast-hibiscus: "\ec16";
+$fluentui-emoji-high-contrast-high-heeled-shoe: "\ec17";
+$fluentui-emoji-high-contrast-high-speed-train: "\ec18";
+$fluentui-emoji-high-contrast-high-voltage: "\ec19";
+$fluentui-emoji-high-contrast-hiking-boot: "\ec1a";
+$fluentui-emoji-high-contrast-hindu-temple: "\ec1b";
+$fluentui-emoji-high-contrast-hippopotamus: "\ec1c";
+$fluentui-emoji-high-contrast-hole: "\ec1d";
+$fluentui-emoji-high-contrast-hollow-red-circle: "\ec1e";
+$fluentui-emoji-high-contrast-honey-pot: "\ec1f";
+$fluentui-emoji-high-contrast-honeybee: "\ec20";
+$fluentui-emoji-high-contrast-hook: "\ec21";
+$fluentui-emoji-high-contrast-horizontal-traffic-light: "\ec22";
+$fluentui-emoji-high-contrast-horse-face: "\ec23";
+$fluentui-emoji-high-contrast-horse-racing: "\ec24";
+$fluentui-emoji-high-contrast-horse: "\ec25";
+$fluentui-emoji-high-contrast-hospital: "\ec26";
+$fluentui-emoji-high-contrast-hot-beverage: "\ec27";
+$fluentui-emoji-high-contrast-hot-dog: "\ec28";
+$fluentui-emoji-high-contrast-hot-face: "\ec29";
+$fluentui-emoji-high-contrast-hot-pepper: "\ec2a";
+$fluentui-emoji-high-contrast-hot-springs: "\ec2b";
+$fluentui-emoji-high-contrast-hotel: "\ec2c";
+$fluentui-emoji-high-contrast-hourglass-done: "\ec2d";
+$fluentui-emoji-high-contrast-hourglass-not-done: "\ec2e";
+$fluentui-emoji-high-contrast-house-with-garden: "\ec2f";
+$fluentui-emoji-high-contrast-house: "\ec30";
+$fluentui-emoji-high-contrast-houses: "\ec31";
+$fluentui-emoji-high-contrast-hugging-face: "\ec32";
+$fluentui-emoji-high-contrast-hundred-points: "\ec33";
+$fluentui-emoji-high-contrast-hushed-face: "\ec34";
+$fluentui-emoji-high-contrast-hut: "\ec35";
+$fluentui-emoji-high-contrast-ice-cream: "\ec36";
+$fluentui-emoji-high-contrast-ice-hockey: "\ec37";
+$fluentui-emoji-high-contrast-ice-skate: "\ec38";
+$fluentui-emoji-high-contrast-ice: "\ec39";
+$fluentui-emoji-high-contrast-id-button: "\ec3a";
+$fluentui-emoji-high-contrast-identification-card: "\ec3b";
+$fluentui-emoji-high-contrast-inbox-tray: "\ec3c";
+$fluentui-emoji-high-contrast-incoming-envelope: "\ec3d";
+$fluentui-emoji-high-contrast-index-pointing-at-the-viewer: "\ec3e";
+$fluentui-emoji-high-contrast-index-pointing-up: "\ec3f";
+$fluentui-emoji-high-contrast-infinity: "\ec40";
+$fluentui-emoji-high-contrast-information: "\ec41";
+$fluentui-emoji-high-contrast-input-latin-letters: "\ec42";
+$fluentui-emoji-high-contrast-input-latin-lowercase: "\ec43";
+$fluentui-emoji-high-contrast-input-latin-uppercase: "\ec44";
+$fluentui-emoji-high-contrast-input-numbers: "\ec45";
+$fluentui-emoji-high-contrast-input-symbols: "\ec46";
+$fluentui-emoji-high-contrast-jack-o-lantern: "\ec47";
+$fluentui-emoji-high-contrast-japanese-acceptable-button: "\ec48";
+$fluentui-emoji-high-contrast-japanese-application-button: "\ec49";
+$fluentui-emoji-high-contrast-japanese-bargain-button: "\ec4a";
+$fluentui-emoji-high-contrast-japanese-castle: "\ec4b";
+$fluentui-emoji-high-contrast-japanese-congratulations-button: "\ec4c";
+$fluentui-emoji-high-contrast-japanese-discount-button: "\ec4d";
+$fluentui-emoji-high-contrast-japanese-dolls: "\ec4e";
+$fluentui-emoji-high-contrast-japanese-free-of-charge-button: "\ec4f";
+$fluentui-emoji-high-contrast-japanese-hear-button: "\ec50";
+$fluentui-emoji-high-contrast-japanese-monthly-amount-button: "\ec51";
+$fluentui-emoji-high-contrast-japanese-no-vacancy-button: "\ec52";
+$fluentui-emoji-high-contrast-japanese-not-free-of-charge-button: "\ec53";
+$fluentui-emoji-high-contrast-japanese-open-for-business-button: "\ec54";
+$fluentui-emoji-high-contrast-japanese-passing-grade-button: "\ec55";
+$fluentui-emoji-high-contrast-japanese-post-office: "\ec56";
+$fluentui-emoji-high-contrast-japanese-prohibited-button: "\ec57";
+$fluentui-emoji-high-contrast-japanese-reserved-button: "\ec58";
+$fluentui-emoji-high-contrast-japanese-secret-button: "\ec59";
+$fluentui-emoji-high-contrast-japanese-service-charge-button: "\ec5a";
+$fluentui-emoji-high-contrast-japanese-symbol-for-beginner: "\ec5b";
+$fluentui-emoji-high-contrast-japanese-vacancy-button: "\ec5c";
+$fluentui-emoji-high-contrast-jar: "\ec5d";
+$fluentui-emoji-high-contrast-jeans: "\ec5e";
+$fluentui-emoji-high-contrast-joker: "\ec5f";
+$fluentui-emoji-high-contrast-joystick: "\ec60";
+$fluentui-emoji-high-contrast-judge: "\ec61";
+$fluentui-emoji-high-contrast-kaaba: "\ec62";
+$fluentui-emoji-high-contrast-kangaroo: "\ec63";
+$fluentui-emoji-high-contrast-key: "\ec64";
+$fluentui-emoji-high-contrast-keyboard: "\ec65";
+$fluentui-emoji-high-contrast-keycap-0: "\ec66";
+$fluentui-emoji-high-contrast-keycap-1: "\ec67";
+$fluentui-emoji-high-contrast-keycap-10: "\ec68";
+$fluentui-emoji-high-contrast-keycap-2: "\ec69";
+$fluentui-emoji-high-contrast-keycap-3: "\ec6a";
+$fluentui-emoji-high-contrast-keycap-4: "\ec6b";
+$fluentui-emoji-high-contrast-keycap-5: "\ec6c";
+$fluentui-emoji-high-contrast-keycap-6: "\ec6d";
+$fluentui-emoji-high-contrast-keycap-7: "\ec6e";
+$fluentui-emoji-high-contrast-keycap-8: "\ec6f";
+$fluentui-emoji-high-contrast-keycap-9: "\ec70";
+$fluentui-emoji-high-contrast-keycap-asterisk: "\ec71";
+$fluentui-emoji-high-contrast-keycap-hashtag: "\ec72";
+$fluentui-emoji-high-contrast-kick-scooter: "\ec73";
+$fluentui-emoji-high-contrast-kimono: "\ec74";
+$fluentui-emoji-high-contrast-kiss-mark: "\ec75";
+$fluentui-emoji-high-contrast-kissing-cat: "\ec76";
+$fluentui-emoji-high-contrast-kissing-face-with-closed-eyes: "\ec77";
+$fluentui-emoji-high-contrast-kissing-face-with-smiling-eyes: "\ec78";
+$fluentui-emoji-high-contrast-kissing-face: "\ec79";
+$fluentui-emoji-high-contrast-kitchen-knife: "\ec7a";
+$fluentui-emoji-high-contrast-kite: "\ec7b";
+$fluentui-emoji-high-contrast-kiwi-fruit: "\ec7c";
+$fluentui-emoji-high-contrast-knocked-out-face: "\ec7d";
+$fluentui-emoji-high-contrast-knot: "\ec7e";
+$fluentui-emoji-high-contrast-koala: "\ec7f";
+$fluentui-emoji-high-contrast-lab-coat: "\ec80";
+$fluentui-emoji-high-contrast-label: "\ec81";
+$fluentui-emoji-high-contrast-lacrosse: "\ec82";
+$fluentui-emoji-high-contrast-ladder: "\ec83";
+$fluentui-emoji-high-contrast-lady-beetle: "\ec84";
+$fluentui-emoji-high-contrast-laptop: "\ec85";
+$fluentui-emoji-high-contrast-large-blue-diamond: "\ec86";
+$fluentui-emoji-high-contrast-large-orange-diamond: "\ec87";
+$fluentui-emoji-high-contrast-last-quarter-moon-face: "\ec88";
+$fluentui-emoji-high-contrast-last-quarter-moon: "\ec89";
+$fluentui-emoji-high-contrast-last-track-button: "\ec8a";
+$fluentui-emoji-high-contrast-latin-cross: "\ec8b";
+$fluentui-emoji-high-contrast-leaf-fluttering-in-wind: "\ec8c";
+$fluentui-emoji-high-contrast-leafy-green: "\ec8d";
+$fluentui-emoji-high-contrast-ledger: "\ec8e";
+$fluentui-emoji-high-contrast-left-arrow-curving-right: "\ec8f";
+$fluentui-emoji-high-contrast-left-arrow: "\ec90";
+$fluentui-emoji-high-contrast-left-facing-fist: "\ec91";
+$fluentui-emoji-high-contrast-left-luggage: "\ec92";
+$fluentui-emoji-high-contrast-left-right-arrow: "\ec93";
+$fluentui-emoji-high-contrast-left-speech-bubble: "\ec94";
+$fluentui-emoji-high-contrast-leftwards-hand: "\ec95";
+$fluentui-emoji-high-contrast-leg: "\ec96";
+$fluentui-emoji-high-contrast-lemon: "\ec97";
+$fluentui-emoji-high-contrast-leo: "\ec98";
+$fluentui-emoji-high-contrast-leopard: "\ec99";
+$fluentui-emoji-high-contrast-level-slider: "\ec9a";
+$fluentui-emoji-high-contrast-libra: "\ec9b";
+$fluentui-emoji-high-contrast-light-bulb: "\ec9c";
+$fluentui-emoji-high-contrast-light-rail: "\ec9d";
+$fluentui-emoji-high-contrast-link: "\ec9e";
+$fluentui-emoji-high-contrast-linked-paperclips: "\ec9f";
+$fluentui-emoji-high-contrast-lion: "\eca0";
+$fluentui-emoji-high-contrast-lipstick: "\eca1";
+$fluentui-emoji-high-contrast-litter-in-bin-sign: "\eca2";
+$fluentui-emoji-high-contrast-lizard: "\eca3";
+$fluentui-emoji-high-contrast-llama: "\eca4";
+$fluentui-emoji-high-contrast-lobster: "\eca5";
+$fluentui-emoji-high-contrast-locked-with-key: "\eca6";
+$fluentui-emoji-high-contrast-locked-with-pen: "\eca7";
+$fluentui-emoji-high-contrast-locked: "\eca8";
+$fluentui-emoji-high-contrast-locomotive: "\eca9";
+$fluentui-emoji-high-contrast-lollipop: "\ecaa";
+$fluentui-emoji-high-contrast-long-drum: "\ecab";
+$fluentui-emoji-high-contrast-lotion-bottle: "\ecac";
+$fluentui-emoji-high-contrast-lotus: "\ecad";
+$fluentui-emoji-high-contrast-loudly-crying-face: "\ecae";
+$fluentui-emoji-high-contrast-loudspeaker: "\ecaf";
+$fluentui-emoji-high-contrast-love-hotel: "\ecb0";
+$fluentui-emoji-high-contrast-love-letter: "\ecb1";
+$fluentui-emoji-high-contrast-love-you-gesture: "\ecb2";
+$fluentui-emoji-high-contrast-low-battery: "\ecb3";
+$fluentui-emoji-high-contrast-luggage: "\ecb4";
+$fluentui-emoji-high-contrast-lungs: "\ecb5";
+$fluentui-emoji-high-contrast-lying-face: "\ecb6";
+$fluentui-emoji-high-contrast-magic-wand: "\ecb7";
+$fluentui-emoji-high-contrast-magnet: "\ecb8";
+$fluentui-emoji-high-contrast-magnifying-glass-tilted-left: "\ecb9";
+$fluentui-emoji-high-contrast-magnifying-glass-tilted-right: "\ecba";
+$fluentui-emoji-high-contrast-mahjong-red-dragon: "\ecbb";
+$fluentui-emoji-high-contrast-male-sign: "\ecbc";
+$fluentui-emoji-high-contrast-mammoth: "\ecbd";
+$fluentui-emoji-high-contrast-man-artist: "\ecbe";
+$fluentui-emoji-high-contrast-man-astronaut: "\ecbf";
+$fluentui-emoji-high-contrast-man-bald: "\ecc0";
+$fluentui-emoji-high-contrast-man-beard: "\ecc1";
+$fluentui-emoji-high-contrast-man-biking: "\ecc2";
+$fluentui-emoji-high-contrast-man-blonde-hair: "\ecc3";
+$fluentui-emoji-high-contrast-man-bouncing-ball: "\ecc4";
+$fluentui-emoji-high-contrast-man-bowing: "\ecc5";
+$fluentui-emoji-high-contrast-man-cartwheeling: "\ecc6";
+$fluentui-emoji-high-contrast-man-climbing: "\ecc7";
+$fluentui-emoji-high-contrast-man-construction-worker: "\ecc8";
+$fluentui-emoji-high-contrast-man-cook: "\ecc9";
+$fluentui-emoji-high-contrast-man-curly-hair: "\ecca";
+$fluentui-emoji-high-contrast-man-dancing: "\eccb";
+$fluentui-emoji-high-contrast-man-deaf: "\eccc";
+$fluentui-emoji-high-contrast-man-detective: "\eccd";
+$fluentui-emoji-high-contrast-man-elf: "\ecce";
+$fluentui-emoji-high-contrast-man-facepalming: "\eccf";
+$fluentui-emoji-high-contrast-man-factory-worker: "\ecd0";
+$fluentui-emoji-high-contrast-man-fairy: "\ecd1";
+$fluentui-emoji-high-contrast-man-farmer: "\ecd2";
+$fluentui-emoji-high-contrast-man-feeding-baby: "\ecd3";
+$fluentui-emoji-high-contrast-man-firefighter: "\ecd4";
+$fluentui-emoji-high-contrast-man-frowning: "\ecd5";
+$fluentui-emoji-high-contrast-man-genie: "\ecd6";
+$fluentui-emoji-high-contrast-man-gesturing-no: "\ecd7";
+$fluentui-emoji-high-contrast-man-gesturing-ok: "\ecd8";
+$fluentui-emoji-high-contrast-man-getting-haircut: "\ecd9";
+$fluentui-emoji-high-contrast-man-getting-massage: "\ecda";
+$fluentui-emoji-high-contrast-man-golfing: "\ecdb";
+$fluentui-emoji-high-contrast-man-guard: "\ecdc";
+$fluentui-emoji-high-contrast-man-health-worker: "\ecdd";
+$fluentui-emoji-high-contrast-man-in-lotus-position: "\ecde";
+$fluentui-emoji-high-contrast-man-in-manual-wheelchair: "\ecdf";
+$fluentui-emoji-high-contrast-man-in-motorized-wheelchair: "\ece0";
+$fluentui-emoji-high-contrast-man-in-steamy-room: "\ece1";
+$fluentui-emoji-high-contrast-man-in-tuxedo: "\ece2";
+$fluentui-emoji-high-contrast-man-judge: "\ece3";
+$fluentui-emoji-high-contrast-man-juggling: "\ece4";
+$fluentui-emoji-high-contrast-man-kneeling: "\ece5";
+$fluentui-emoji-high-contrast-man-lifting-weights: "\ece6";
+$fluentui-emoji-high-contrast-man-mage: "\ece7";
+$fluentui-emoji-high-contrast-man-mechanic: "\ece8";
+$fluentui-emoji-high-contrast-man-merpeople: "\ece9";
+$fluentui-emoji-high-contrast-man-mountain-biking: "\ecea";
+$fluentui-emoji-high-contrast-man-office-worker: "\eceb";
+$fluentui-emoji-high-contrast-man-pilot: "\ecec";
+$fluentui-emoji-high-contrast-man-playing-handball: "\eced";
+$fluentui-emoji-high-contrast-man-playing-water-polo: "\ecee";
+$fluentui-emoji-high-contrast-man-police-officer: "\ecef";
+$fluentui-emoji-high-contrast-man-pouting: "\ecf0";
+$fluentui-emoji-high-contrast-man-raising-hand: "\ecf1";
+$fluentui-emoji-high-contrast-man-red-hair: "\ecf2";
+$fluentui-emoji-high-contrast-man-rowing-boat: "\ecf3";
+$fluentui-emoji-high-contrast-man-running: "\ecf4";
+$fluentui-emoji-high-contrast-man-scientist: "\ecf5";
+$fluentui-emoji-high-contrast-man-shrugging: "\ecf6";
+$fluentui-emoji-high-contrast-man-singer: "\ecf7";
+$fluentui-emoji-high-contrast-man-standing: "\ecf8";
+$fluentui-emoji-high-contrast-man-student: "\ecf9";
+$fluentui-emoji-high-contrast-man-superhero: "\ecfa";
+$fluentui-emoji-high-contrast-man-supervillain: "\ecfb";
+$fluentui-emoji-high-contrast-man-surfing: "\ecfc";
+$fluentui-emoji-high-contrast-man-swimming: "\ecfd";
+$fluentui-emoji-high-contrast-man-teacher: "\ecfe";
+$fluentui-emoji-high-contrast-man-tipping-hand: "\ecff";
+$fluentui-emoji-high-contrast-man-vampire: "\ed00";
+$fluentui-emoji-high-contrast-man-walking: "\ed01";
+$fluentui-emoji-high-contrast-man-wearing-turban: "\ed02";
+$fluentui-emoji-high-contrast-man-white-hair: "\ed03";
+$fluentui-emoji-high-contrast-man-with-white-cane: "\ed04";
+$fluentui-emoji-high-contrast-man-wrestling: "\ed05";
+$fluentui-emoji-high-contrast-man-zombie: "\ed06";
+$fluentui-emoji-high-contrast-man: "\ed07";
+$fluentui-emoji-high-contrast-mango: "\ed08";
+$fluentui-emoji-high-contrast-mans-shoe: "\ed09";
+$fluentui-emoji-high-contrast-mantelpiece-clock: "\ed0a";
+$fluentui-emoji-high-contrast-manual-wheelchair: "\ed0b";
+$fluentui-emoji-high-contrast-map-of-japan: "\ed0c";
+$fluentui-emoji-high-contrast-maple-leaf: "\ed0d";
+$fluentui-emoji-high-contrast-martial-arts-uniform: "\ed0e";
+$fluentui-emoji-high-contrast-mate: "\ed0f";
+$fluentui-emoji-high-contrast-meat-on-bone: "\ed10";
+$fluentui-emoji-high-contrast-mechanic: "\ed11";
+$fluentui-emoji-high-contrast-mechanical-arm: "\ed12";
+$fluentui-emoji-high-contrast-mechanical-leg: "\ed13";
+$fluentui-emoji-high-contrast-medical-symbol: "\ed14";
+$fluentui-emoji-high-contrast-megaphone: "\ed15";
+$fluentui-emoji-high-contrast-melon: "\ed16";
+$fluentui-emoji-high-contrast-melting-face: "\ed17";
+$fluentui-emoji-high-contrast-memo: "\ed18";
+$fluentui-emoji-high-contrast-mending-heart: "\ed19";
+$fluentui-emoji-high-contrast-menorah: "\ed1a";
+$fluentui-emoji-high-contrast-mens-room: "\ed1b";
+$fluentui-emoji-high-contrast-metro: "\ed1c";
+$fluentui-emoji-high-contrast-microbe: "\ed1d";
+$fluentui-emoji-high-contrast-microphone: "\ed1e";
+$fluentui-emoji-high-contrast-microscope: "\ed1f";
+$fluentui-emoji-high-contrast-middle-finger: "\ed20";
+$fluentui-emoji-high-contrast-military-helmet: "\ed21";
+$fluentui-emoji-high-contrast-military-medal: "\ed22";
+$fluentui-emoji-high-contrast-milky-way: "\ed23";
+$fluentui-emoji-high-contrast-minibus: "\ed24";
+$fluentui-emoji-high-contrast-minus: "\ed25";
+$fluentui-emoji-high-contrast-mirror-ball: "\ed26";
+$fluentui-emoji-high-contrast-mirror: "\ed27";
+$fluentui-emoji-high-contrast-moai: "\ed28";
+$fluentui-emoji-high-contrast-mobile-phone-off: "\ed29";
+$fluentui-emoji-high-contrast-mobile-phone-with-arrow: "\ed2a";
+$fluentui-emoji-high-contrast-mobile-phone: "\ed2b";
+$fluentui-emoji-high-contrast-money-bag: "\ed2c";
+$fluentui-emoji-high-contrast-money-mouth-face: "\ed2d";
+$fluentui-emoji-high-contrast-money-with-wings: "\ed2e";
+$fluentui-emoji-high-contrast-monkey-face: "\ed2f";
+$fluentui-emoji-high-contrast-monkey: "\ed30";
+$fluentui-emoji-high-contrast-monorail: "\ed31";
+$fluentui-emoji-high-contrast-moon-cake: "\ed32";
+$fluentui-emoji-high-contrast-moon-viewing-ceremony: "\ed33";
+$fluentui-emoji-high-contrast-mosque: "\ed34";
+$fluentui-emoji-high-contrast-mosquito: "\ed35";
+$fluentui-emoji-high-contrast-motor-boat: "\ed36";
+$fluentui-emoji-high-contrast-motor-scooter: "\ed37";
+$fluentui-emoji-high-contrast-motorcycle: "\ed38";
+$fluentui-emoji-high-contrast-motorized-wheelchair: "\ed39";
+$fluentui-emoji-high-contrast-motorway: "\ed3a";
+$fluentui-emoji-high-contrast-mount-fuji: "\ed3b";
+$fluentui-emoji-high-contrast-mountain-cableway: "\ed3c";
+$fluentui-emoji-high-contrast-mountain-railway: "\ed3d";
+$fluentui-emoji-high-contrast-mountain: "\ed3e";
+$fluentui-emoji-high-contrast-mouse-face: "\ed3f";
+$fluentui-emoji-high-contrast-mouse-trap: "\ed40";
+$fluentui-emoji-high-contrast-mouse: "\ed41";
+$fluentui-emoji-high-contrast-mouth: "\ed42";
+$fluentui-emoji-high-contrast-movie-camera: "\ed43";
+$fluentui-emoji-high-contrast-mrs-claus: "\ed44";
+$fluentui-emoji-high-contrast-multiply: "\ed45";
+$fluentui-emoji-high-contrast-mushroom: "\ed46";
+$fluentui-emoji-high-contrast-musical-keyboard: "\ed47";
+$fluentui-emoji-high-contrast-musical-note: "\ed48";
+$fluentui-emoji-high-contrast-musical-notes: "\ed49";
+$fluentui-emoji-high-contrast-musical-score: "\ed4a";
+$fluentui-emoji-high-contrast-muted-speaker: "\ed4b";
+$fluentui-emoji-high-contrast-mx-claus: "\ed4c";
+$fluentui-emoji-high-contrast-nail-polish: "\ed4d";
+$fluentui-emoji-high-contrast-name-badge: "\ed4e";
+$fluentui-emoji-high-contrast-national-park: "\ed4f";
+$fluentui-emoji-high-contrast-nauseated-face: "\ed50";
+$fluentui-emoji-high-contrast-nazar-amulet: "\ed51";
+$fluentui-emoji-high-contrast-necktie: "\ed52";
+$fluentui-emoji-high-contrast-nerd-face: "\ed53";
+$fluentui-emoji-high-contrast-nest-with-eggs: "\ed54";
+$fluentui-emoji-high-contrast-nesting-dolls: "\ed55";
+$fluentui-emoji-high-contrast-neutral-face: "\ed56";
+$fluentui-emoji-high-contrast-new-button: "\ed57";
+$fluentui-emoji-high-contrast-new-moon-face: "\ed58";
+$fluentui-emoji-high-contrast-new-moon: "\ed59";
+$fluentui-emoji-high-contrast-newspaper: "\ed5a";
+$fluentui-emoji-high-contrast-next-track-button: "\ed5b";
+$fluentui-emoji-high-contrast-ng-button: "\ed5c";
+$fluentui-emoji-high-contrast-night-with-stars: "\ed5d";
+$fluentui-emoji-high-contrast-nine-oclock: "\ed5e";
+$fluentui-emoji-high-contrast-nine-thirty: "\ed5f";
+$fluentui-emoji-high-contrast-ninja: "\ed60";
+$fluentui-emoji-high-contrast-no-bicycles: "\ed61";
+$fluentui-emoji-high-contrast-no-entry: "\ed62";
+$fluentui-emoji-high-contrast-no-littering: "\ed63";
+$fluentui-emoji-high-contrast-no-mobile-phones: "\ed64";
+$fluentui-emoji-high-contrast-no-one-under-eighteen: "\ed65";
+$fluentui-emoji-high-contrast-no-pedestrians: "\ed66";
+$fluentui-emoji-high-contrast-no-smoking: "\ed67";
+$fluentui-emoji-high-contrast-non-potable-water: "\ed68";
+$fluentui-emoji-high-contrast-nose: "\ed69";
+$fluentui-emoji-high-contrast-notebook-with-decorative-cover: "\ed6a";
+$fluentui-emoji-high-contrast-notebook: "\ed6b";
+$fluentui-emoji-high-contrast-nut-and-bolt: "\ed6c";
+$fluentui-emoji-high-contrast-o-button-blood-type: "\ed6d";
+$fluentui-emoji-high-contrast-octopus: "\ed6e";
+$fluentui-emoji-high-contrast-oden: "\ed6f";
+$fluentui-emoji-high-contrast-office-building: "\ed70";
+$fluentui-emoji-high-contrast-office-worker: "\ed71";
+$fluentui-emoji-high-contrast-ogre: "\ed72";
+$fluentui-emoji-high-contrast-oil-drum: "\ed73";
+$fluentui-emoji-high-contrast-ok-button: "\ed74";
+$fluentui-emoji-high-contrast-ok-hand: "\ed75";
+$fluentui-emoji-high-contrast-old-key: "\ed76";
+$fluentui-emoji-high-contrast-old-man: "\ed77";
+$fluentui-emoji-high-contrast-old-woman: "\ed78";
+$fluentui-emoji-high-contrast-older-person: "\ed79";
+$fluentui-emoji-high-contrast-olive: "\ed7a";
+$fluentui-emoji-high-contrast-om: "\ed7b";
+$fluentui-emoji-high-contrast-on-arrow: "\ed7c";
+$fluentui-emoji-high-contrast-oncoming-automobile: "\ed7d";
+$fluentui-emoji-high-contrast-oncoming-bus: "\ed7e";
+$fluentui-emoji-high-contrast-oncoming-fist: "\ed7f";
+$fluentui-emoji-high-contrast-oncoming-police-car: "\ed80";
+$fluentui-emoji-high-contrast-oncoming-taxi: "\ed81";
+$fluentui-emoji-high-contrast-one-oclock: "\ed82";
+$fluentui-emoji-high-contrast-one-piece-swimsuit: "\ed83";
+$fluentui-emoji-high-contrast-one-thirty: "\ed84";
+$fluentui-emoji-high-contrast-onion: "\ed85";
+$fluentui-emoji-high-contrast-open-book: "\ed86";
+$fluentui-emoji-high-contrast-open-file-folder: "\ed87";
+$fluentui-emoji-high-contrast-open-hands: "\ed88";
+$fluentui-emoji-high-contrast-open-mailbox-with-lowered-flag: "\ed89";
+$fluentui-emoji-high-contrast-open-mailbox-with-raised-flag: "\ed8a";
+$fluentui-emoji-high-contrast-ophiuchus: "\ed8b";
+$fluentui-emoji-high-contrast-optical-disk: "\ed8c";
+$fluentui-emoji-high-contrast-orange-book: "\ed8d";
+$fluentui-emoji-high-contrast-orange-circle: "\ed8e";
+$fluentui-emoji-high-contrast-orange-heart: "\ed8f";
+$fluentui-emoji-high-contrast-orange-square: "\ed90";
+$fluentui-emoji-high-contrast-orangutan: "\ed91";
+$fluentui-emoji-high-contrast-orthodox-cross: "\ed92";
+$fluentui-emoji-high-contrast-otter: "\ed93";
+$fluentui-emoji-high-contrast-outbox-tray: "\ed94";
+$fluentui-emoji-high-contrast-owl: "\ed95";
+$fluentui-emoji-high-contrast-ox: "\ed96";
+$fluentui-emoji-high-contrast-oyster: "\ed97";
+$fluentui-emoji-high-contrast-p-button: "\ed98";
+$fluentui-emoji-high-contrast-package: "\ed99";
+$fluentui-emoji-high-contrast-page-facing-up: "\ed9a";
+$fluentui-emoji-high-contrast-page-with-curl: "\ed9b";
+$fluentui-emoji-high-contrast-pager: "\ed9c";
+$fluentui-emoji-high-contrast-paintbrush: "\ed9d";
+$fluentui-emoji-high-contrast-palm-down-hand: "\ed9e";
+$fluentui-emoji-high-contrast-palm-tree: "\ed9f";
+$fluentui-emoji-high-contrast-palm-up-hand: "\eda0";
+$fluentui-emoji-high-contrast-palms-up-together: "\eda1";
+$fluentui-emoji-high-contrast-pancakes: "\eda2";
+$fluentui-emoji-high-contrast-panda: "\eda3";
+$fluentui-emoji-high-contrast-parachute: "\eda4";
+$fluentui-emoji-high-contrast-parrot: "\eda5";
+$fluentui-emoji-high-contrast-part-alternation-mark: "\eda6";
+$fluentui-emoji-high-contrast-party-popper: "\eda7";
+$fluentui-emoji-high-contrast-partying-face: "\eda8";
+$fluentui-emoji-high-contrast-passenger-ship: "\eda9";
+$fluentui-emoji-high-contrast-passport-control: "\edaa";
+$fluentui-emoji-high-contrast-pause-button: "\edab";
+$fluentui-emoji-high-contrast-paw-prints: "\edac";
+$fluentui-emoji-high-contrast-peace-symbol: "\edad";
+$fluentui-emoji-high-contrast-peach: "\edae";
+$fluentui-emoji-high-contrast-peacock: "\edaf";
+$fluentui-emoji-high-contrast-peanuts: "\edb0";
+$fluentui-emoji-high-contrast-pear: "\edb1";
+$fluentui-emoji-high-contrast-pen: "\edb2";
+$fluentui-emoji-high-contrast-pencil: "\edb3";
+$fluentui-emoji-high-contrast-penguin: "\edb4";
+$fluentui-emoji-high-contrast-pensive-face: "\edb5";
+$fluentui-emoji-high-contrast-people-hugging: "\edb6";
+$fluentui-emoji-high-contrast-performing-arts: "\edb7";
+$fluentui-emoji-high-contrast-persevering-face: "\edb8";
+$fluentui-emoji-high-contrast-person-bald: "\edb9";
+$fluentui-emoji-high-contrast-person-beard: "\edba";
+$fluentui-emoji-high-contrast-person-biking: "\edbb";
+$fluentui-emoji-high-contrast-person-blonde-hair: "\edbc";
+$fluentui-emoji-high-contrast-person-bouncing-ball: "\edbd";
+$fluentui-emoji-high-contrast-person-bowing: "\edbe";
+$fluentui-emoji-high-contrast-person-cartwheeling: "\edbf";
+$fluentui-emoji-high-contrast-person-climbing: "\edc0";
+$fluentui-emoji-high-contrast-person-curly-hair: "\edc1";
+$fluentui-emoji-high-contrast-person-deaf: "\edc2";
+$fluentui-emoji-high-contrast-person-elf: "\edc3";
+$fluentui-emoji-high-contrast-person-facepalming: "\edc4";
+$fluentui-emoji-high-contrast-person-fairy: "\edc5";
+$fluentui-emoji-high-contrast-person-feeding-baby: "\edc6";
+$fluentui-emoji-high-contrast-person-fencing: "\edc7";
+$fluentui-emoji-high-contrast-person-frowning: "\edc8";
+$fluentui-emoji-high-contrast-person-genie: "\edc9";
+$fluentui-emoji-high-contrast-person-gesturing-no: "\edca";
+$fluentui-emoji-high-contrast-person-gesturing-ok: "\edcb";
+$fluentui-emoji-high-contrast-person-getting-haircut: "\edcc";
+$fluentui-emoji-high-contrast-person-getting-massage: "\edcd";
+$fluentui-emoji-high-contrast-person-golfing: "\edce";
+$fluentui-emoji-high-contrast-person-in-bed: "\edcf";
+$fluentui-emoji-high-contrast-person-in-lotus-position: "\edd0";
+$fluentui-emoji-high-contrast-person-in-manual-wheelchair: "\edd1";
+$fluentui-emoji-high-contrast-person-in-motorized-wheelchair: "\edd2";
+$fluentui-emoji-high-contrast-person-in-steamy-room: "\edd3";
+$fluentui-emoji-high-contrast-person-in-suit-levitating: "\edd4";
+$fluentui-emoji-high-contrast-person-in-tuxedo: "\edd5";
+$fluentui-emoji-high-contrast-person-juggling: "\edd6";
+$fluentui-emoji-high-contrast-person-kneeling: "\edd7";
+$fluentui-emoji-high-contrast-person-lifting-weights: "\edd8";
+$fluentui-emoji-high-contrast-person-mage: "\edd9";
+$fluentui-emoji-high-contrast-person-merpeople: "\edda";
+$fluentui-emoji-high-contrast-person-mountain-biking: "\eddb";
+$fluentui-emoji-high-contrast-person-playing-handball: "\eddc";
+$fluentui-emoji-high-contrast-person-playing-water-polo: "\eddd";
+$fluentui-emoji-high-contrast-person-pouting: "\edde";
+$fluentui-emoji-high-contrast-person-raising-hand: "\eddf";
+$fluentui-emoji-high-contrast-person-red-hair: "\ede0";
+$fluentui-emoji-high-contrast-person-rowing-boat: "\ede1";
+$fluentui-emoji-high-contrast-person-running: "\ede2";
+$fluentui-emoji-high-contrast-person-shrugging: "\ede3";
+$fluentui-emoji-high-contrast-person-standing: "\ede4";
+$fluentui-emoji-high-contrast-person-superhero: "\ede5";
+$fluentui-emoji-high-contrast-person-supervillain: "\ede6";
+$fluentui-emoji-high-contrast-person-surfing: "\ede7";
+$fluentui-emoji-high-contrast-person-swimming: "\ede8";
+$fluentui-emoji-high-contrast-person-taking-bath: "\ede9";
+$fluentui-emoji-high-contrast-person-tipping-hand: "\edea";
+$fluentui-emoji-high-contrast-person-vampire: "\edeb";
+$fluentui-emoji-high-contrast-person-walking: "\edec";
+$fluentui-emoji-high-contrast-person-wearing-turban: "\eded";
+$fluentui-emoji-high-contrast-person-white-hair: "\edee";
+$fluentui-emoji-high-contrast-person-with-crown: "\edef";
+$fluentui-emoji-high-contrast-person-with-skullcap: "\edf0";
+$fluentui-emoji-high-contrast-person-with-white-cane: "\edf1";
+$fluentui-emoji-high-contrast-person-wrestling: "\edf2";
+$fluentui-emoji-high-contrast-person-zombie: "\edf3";
+$fluentui-emoji-high-contrast-person: "\edf4";
+$fluentui-emoji-high-contrast-petri-dish: "\edf5";
+$fluentui-emoji-high-contrast-pick: "\edf6";
+$fluentui-emoji-high-contrast-pickup-truck: "\edf7";
+$fluentui-emoji-high-contrast-pie: "\edf8";
+$fluentui-emoji-high-contrast-pig-face: "\edf9";
+$fluentui-emoji-high-contrast-pig-nose: "\edfa";
+$fluentui-emoji-high-contrast-pig: "\edfb";
+$fluentui-emoji-high-contrast-pile-of-poo: "\edfc";
+$fluentui-emoji-high-contrast-pill: "\edfd";
+$fluentui-emoji-high-contrast-pilot: "\edfe";
+$fluentui-emoji-high-contrast-pinched-fingers: "\edff";
+$fluentui-emoji-high-contrast-pinching-hand: "\ee00";
+$fluentui-emoji-high-contrast-pine-decoration: "\ee01";
+$fluentui-emoji-high-contrast-pineapple: "\ee02";
+$fluentui-emoji-high-contrast-ping-pong: "\ee03";
+$fluentui-emoji-high-contrast-pirate-flag: "\ee04";
+$fluentui-emoji-high-contrast-pisces: "\ee05";
+$fluentui-emoji-high-contrast-pizza: "\ee06";
+$fluentui-emoji-high-contrast-piñata: "\ee07";
+$fluentui-emoji-high-contrast-placard: "\ee08";
+$fluentui-emoji-high-contrast-place-of-worship: "\ee09";
+$fluentui-emoji-high-contrast-play-button: "\ee0a";
+$fluentui-emoji-high-contrast-play-or-pause-button: "\ee0b";
+$fluentui-emoji-high-contrast-playground-slide: "\ee0c";
+$fluentui-emoji-high-contrast-pleading-face: "\ee0d";
+$fluentui-emoji-high-contrast-plunger: "\ee0e";
+$fluentui-emoji-high-contrast-plus: "\ee0f";
+$fluentui-emoji-high-contrast-polar-bear: "\ee10";
+$fluentui-emoji-high-contrast-police-car-light: "\ee11";
+$fluentui-emoji-high-contrast-police-car: "\ee12";
+$fluentui-emoji-high-contrast-police-officer: "\ee13";
+$fluentui-emoji-high-contrast-poodle: "\ee14";
+$fluentui-emoji-high-contrast-pool-8-ball: "\ee15";
+$fluentui-emoji-high-contrast-popcorn: "\ee16";
+$fluentui-emoji-high-contrast-post-office: "\ee17";
+$fluentui-emoji-high-contrast-postal-horn: "\ee18";
+$fluentui-emoji-high-contrast-postbox: "\ee19";
+$fluentui-emoji-high-contrast-pot-of-food: "\ee1a";
+$fluentui-emoji-high-contrast-potable-water: "\ee1b";
+$fluentui-emoji-high-contrast-potato: "\ee1c";
+$fluentui-emoji-high-contrast-potted-plant: "\ee1d";
+$fluentui-emoji-high-contrast-poultry-leg: "\ee1e";
+$fluentui-emoji-high-contrast-pound-banknote: "\ee1f";
+$fluentui-emoji-high-contrast-pouring-liquid: "\ee20";
+$fluentui-emoji-high-contrast-pouting-cat: "\ee21";
+$fluentui-emoji-high-contrast-pouting-face: "\ee22";
+$fluentui-emoji-high-contrast-prayer-beads: "\ee23";
+$fluentui-emoji-high-contrast-pregnant-woman: "\ee24";
+$fluentui-emoji-high-contrast-pretzel: "\ee25";
+$fluentui-emoji-high-contrast-prince: "\ee26";
+$fluentui-emoji-high-contrast-princess: "\ee27";
+$fluentui-emoji-high-contrast-printer: "\ee28";
+$fluentui-emoji-high-contrast-prohibited: "\ee29";
+$fluentui-emoji-high-contrast-purple-circle: "\ee2a";
+$fluentui-emoji-high-contrast-purple-heart: "\ee2b";
+$fluentui-emoji-high-contrast-purple-square: "\ee2c";
+$fluentui-emoji-high-contrast-purse: "\ee2d";
+$fluentui-emoji-high-contrast-pushpin: "\ee2e";
+$fluentui-emoji-high-contrast-puzzle-piece: "\ee2f";
+$fluentui-emoji-high-contrast-rabbit-face: "\ee30";
+$fluentui-emoji-high-contrast-rabbit: "\ee31";
+$fluentui-emoji-high-contrast-raccoon: "\ee32";
+$fluentui-emoji-high-contrast-racing-car: "\ee33";
+$fluentui-emoji-high-contrast-radio-button: "\ee34";
+$fluentui-emoji-high-contrast-radio: "\ee35";
+$fluentui-emoji-high-contrast-radioactive: "\ee36";
+$fluentui-emoji-high-contrast-railway-car: "\ee37";
+$fluentui-emoji-high-contrast-railway-track: "\ee38";
+$fluentui-emoji-high-contrast-rainbow: "\ee39";
+$fluentui-emoji-high-contrast-raised-back-of-hand: "\ee3a";
+$fluentui-emoji-high-contrast-raised-fist: "\ee3b";
+$fluentui-emoji-high-contrast-raised-hand: "\ee3c";
+$fluentui-emoji-high-contrast-raising-hands: "\ee3d";
+$fluentui-emoji-high-contrast-ram: "\ee3e";
+$fluentui-emoji-high-contrast-rat: "\ee3f";
+$fluentui-emoji-high-contrast-razor: "\ee40";
+$fluentui-emoji-high-contrast-receipt: "\ee41";
+$fluentui-emoji-high-contrast-record-button: "\ee42";
+$fluentui-emoji-high-contrast-recycling-symbol: "\ee43";
+$fluentui-emoji-high-contrast-red-apple: "\ee44";
+$fluentui-emoji-high-contrast-red-circle: "\ee45";
+$fluentui-emoji-high-contrast-red-envelope: "\ee46";
+$fluentui-emoji-high-contrast-red-exclamation-mark: "\ee47";
+$fluentui-emoji-high-contrast-red-heart: "\ee48";
+$fluentui-emoji-high-contrast-red-paper-lantern: "\ee49";
+$fluentui-emoji-high-contrast-red-question-mark: "\ee4a";
+$fluentui-emoji-high-contrast-red-square: "\ee4b";
+$fluentui-emoji-high-contrast-red-triangle-pointed-down: "\ee4c";
+$fluentui-emoji-high-contrast-red-triangle: "\ee4d";
+$fluentui-emoji-high-contrast-registered: "\ee4e";
+$fluentui-emoji-high-contrast-relieved-face: "\ee4f";
+$fluentui-emoji-high-contrast-reminder-ribbon: "\ee50";
+$fluentui-emoji-high-contrast-repeat-button: "\ee51";
+$fluentui-emoji-high-contrast-repeat-single-button: "\ee52";
+$fluentui-emoji-high-contrast-rescue-workers-helmet: "\ee53";
+$fluentui-emoji-high-contrast-restroom: "\ee54";
+$fluentui-emoji-high-contrast-reverse-button: "\ee55";
+$fluentui-emoji-high-contrast-revolving-hearts: "\ee56";
+$fluentui-emoji-high-contrast-rhinoceros: "\ee57";
+$fluentui-emoji-high-contrast-ribbon: "\ee58";
+$fluentui-emoji-high-contrast-rice-ball: "\ee59";
+$fluentui-emoji-high-contrast-rice-cracker: "\ee5a";
+$fluentui-emoji-high-contrast-right-anger-bubble: "\ee5b";
+$fluentui-emoji-high-contrast-right-arrow-curving-down: "\ee5c";
+$fluentui-emoji-high-contrast-right-arrow-curving-left: "\ee5d";
+$fluentui-emoji-high-contrast-right-arrow-curving-up: "\ee5e";
+$fluentui-emoji-high-contrast-right-arrow: "\ee5f";
+$fluentui-emoji-high-contrast-right-facing-fist: "\ee60";
+$fluentui-emoji-high-contrast-rightwards-hand: "\ee61";
+$fluentui-emoji-high-contrast-ring-buoy: "\ee62";
+$fluentui-emoji-high-contrast-ring: "\ee63";
+$fluentui-emoji-high-contrast-ringed-planet: "\ee64";
+$fluentui-emoji-high-contrast-roasted-sweet-potato: "\ee65";
+$fluentui-emoji-high-contrast-robot: "\ee66";
+$fluentui-emoji-high-contrast-rock: "\ee67";
+$fluentui-emoji-high-contrast-rocket: "\ee68";
+$fluentui-emoji-high-contrast-roll-of-paper: "\ee69";
+$fluentui-emoji-high-contrast-rolled-up-newspaper: "\ee6a";
+$fluentui-emoji-high-contrast-roller-coaster: "\ee6b";
+$fluentui-emoji-high-contrast-roller-skate: "\ee6c";
+$fluentui-emoji-high-contrast-rolling-on-the-floor-laughing: "\ee6d";
+$fluentui-emoji-high-contrast-rooster: "\ee6e";
+$fluentui-emoji-high-contrast-rose: "\ee6f";
+$fluentui-emoji-high-contrast-rosette: "\ee70";
+$fluentui-emoji-high-contrast-round-pushpin: "\ee71";
+$fluentui-emoji-high-contrast-rugby-football: "\ee72";
+$fluentui-emoji-high-contrast-running-shirt: "\ee73";
+$fluentui-emoji-high-contrast-running-shoe: "\ee74";
+$fluentui-emoji-high-contrast-sad-but-relieved-face: "\ee75";
+$fluentui-emoji-high-contrast-safety-pin: "\ee76";
+$fluentui-emoji-high-contrast-safety-vest: "\ee77";
+$fluentui-emoji-high-contrast-sagittarius: "\ee78";
+$fluentui-emoji-high-contrast-sailboat: "\ee79";
+$fluentui-emoji-high-contrast-sake: "\ee7a";
+$fluentui-emoji-high-contrast-salt: "\ee7b";
+$fluentui-emoji-high-contrast-saluting-face: "\ee7c";
+$fluentui-emoji-high-contrast-sandwich: "\ee7d";
+$fluentui-emoji-high-contrast-santa-claus: "\ee7e";
+$fluentui-emoji-high-contrast-sari: "\ee7f";
+$fluentui-emoji-high-contrast-satellite-antenna: "\ee80";
+$fluentui-emoji-high-contrast-satellite: "\ee81";
+$fluentui-emoji-high-contrast-sauropod: "\ee82";
+$fluentui-emoji-high-contrast-saxophone: "\ee83";
+$fluentui-emoji-high-contrast-scarf: "\ee84";
+$fluentui-emoji-high-contrast-school: "\ee85";
+$fluentui-emoji-high-contrast-scientist: "\ee86";
+$fluentui-emoji-high-contrast-scissors: "\ee87";
+$fluentui-emoji-high-contrast-scorpio: "\ee88";
+$fluentui-emoji-high-contrast-scorpion: "\ee89";
+$fluentui-emoji-high-contrast-screwdriver: "\ee8a";
+$fluentui-emoji-high-contrast-scroll: "\ee8b";
+$fluentui-emoji-high-contrast-seal: "\ee8c";
+$fluentui-emoji-high-contrast-seat: "\ee8d";
+$fluentui-emoji-high-contrast-see-no-evil-monkey: "\ee8e";
+$fluentui-emoji-high-contrast-seedling: "\ee8f";
+$fluentui-emoji-high-contrast-selfie: "\ee90";
+$fluentui-emoji-high-contrast-service-dog: "\ee91";
+$fluentui-emoji-high-contrast-seven-oclock: "\ee92";
+$fluentui-emoji-high-contrast-seven-thirty: "\ee93";
+$fluentui-emoji-high-contrast-sewing-needle: "\ee94";
+$fluentui-emoji-high-contrast-shallow-pan-of-food: "\ee95";
+$fluentui-emoji-high-contrast-shamrock: "\ee96";
+$fluentui-emoji-high-contrast-shark: "\ee97";
+$fluentui-emoji-high-contrast-shaved-ice: "\ee98";
+$fluentui-emoji-high-contrast-sheaf-of-rice: "\ee99";
+$fluentui-emoji-high-contrast-shield: "\ee9a";
+$fluentui-emoji-high-contrast-shinto-shrine: "\ee9b";
+$fluentui-emoji-high-contrast-ship: "\ee9c";
+$fluentui-emoji-high-contrast-shooting-star: "\ee9d";
+$fluentui-emoji-high-contrast-shopping-bags: "\ee9e";
+$fluentui-emoji-high-contrast-shopping-cart: "\ee9f";
+$fluentui-emoji-high-contrast-shortcake: "\eea0";
+$fluentui-emoji-high-contrast-shorts: "\eea1";
+$fluentui-emoji-high-contrast-shower: "\eea2";
+$fluentui-emoji-high-contrast-shrimp: "\eea3";
+$fluentui-emoji-high-contrast-shuffle-tracks-button: "\eea4";
+$fluentui-emoji-high-contrast-shushing-face: "\eea5";
+$fluentui-emoji-high-contrast-sign-of-the-horns: "\eea6";
+$fluentui-emoji-high-contrast-singer: "\eea7";
+$fluentui-emoji-high-contrast-six-oclock: "\eea8";
+$fluentui-emoji-high-contrast-six-thirty: "\eea9";
+$fluentui-emoji-high-contrast-skateboard: "\eeaa";
+$fluentui-emoji-high-contrast-skier: "\eeab";
+$fluentui-emoji-high-contrast-skis: "\eeac";
+$fluentui-emoji-high-contrast-skull-and-crossbones: "\eead";
+$fluentui-emoji-high-contrast-skull: "\eeae";
+$fluentui-emoji-high-contrast-skunk: "\eeaf";
+$fluentui-emoji-high-contrast-sled: "\eeb0";
+$fluentui-emoji-high-contrast-sleeping-face: "\eeb1";
+$fluentui-emoji-high-contrast-sleepy-face: "\eeb2";
+$fluentui-emoji-high-contrast-slightly-frowning-face: "\eeb3";
+$fluentui-emoji-high-contrast-slightly-smiling-face: "\eeb4";
+$fluentui-emoji-high-contrast-slot-machine: "\eeb5";
+$fluentui-emoji-high-contrast-sloth: "\eeb6";
+$fluentui-emoji-high-contrast-small-airplane: "\eeb7";
+$fluentui-emoji-high-contrast-small-blue-diamond: "\eeb8";
+$fluentui-emoji-high-contrast-small-orange-diamond: "\eeb9";
+$fluentui-emoji-high-contrast-smiling-cat-with-heart-eyes: "\eeba";
+$fluentui-emoji-high-contrast-smiling-face-with-halo: "\eebb";
+$fluentui-emoji-high-contrast-smiling-face-with-heart-eyes: "\eebc";
+$fluentui-emoji-high-contrast-smiling-face-with-hearts: "\eebd";
+$fluentui-emoji-high-contrast-smiling-face-with-horns: "\eebe";
+$fluentui-emoji-high-contrast-smiling-face-with-smiling-eyes: "\eebf";
+$fluentui-emoji-high-contrast-smiling-face-with-sunglasses: "\eec0";
+$fluentui-emoji-high-contrast-smiling-face-with-tear: "\eec1";
+$fluentui-emoji-high-contrast-smiling-face: "\eec2";
+$fluentui-emoji-high-contrast-smirking-face: "\eec3";
+$fluentui-emoji-high-contrast-snail: "\eec4";
+$fluentui-emoji-high-contrast-snake: "\eec5";
+$fluentui-emoji-high-contrast-sneezing-face: "\eec6";
+$fluentui-emoji-high-contrast-snow-capped-mountain: "\eec7";
+$fluentui-emoji-high-contrast-snowboarder: "\eec8";
+$fluentui-emoji-high-contrast-snowflake: "\eec9";
+$fluentui-emoji-high-contrast-snowman-without-snow: "\eeca";
+$fluentui-emoji-high-contrast-snowman: "\eecb";
+$fluentui-emoji-high-contrast-soap: "\eecc";
+$fluentui-emoji-high-contrast-soccer-ball: "\eecd";
+$fluentui-emoji-high-contrast-socks: "\eece";
+$fluentui-emoji-high-contrast-soft-ice-cream: "\eecf";
+$fluentui-emoji-high-contrast-softball: "\eed0";
+$fluentui-emoji-high-contrast-soon-arrow: "\eed1";
+$fluentui-emoji-high-contrast-sos-button: "\eed2";
+$fluentui-emoji-high-contrast-spade-suit: "\eed3";
+$fluentui-emoji-high-contrast-spaghetti: "\eed4";
+$fluentui-emoji-high-contrast-sparkle: "\eed5";
+$fluentui-emoji-high-contrast-sparkler: "\eed6";
+$fluentui-emoji-high-contrast-sparkles: "\eed7";
+$fluentui-emoji-high-contrast-sparkling-heart: "\eed8";
+$fluentui-emoji-high-contrast-speak-no-evil-monkey: "\eed9";
+$fluentui-emoji-high-contrast-speaker-high-volume: "\eeda";
+$fluentui-emoji-high-contrast-speaker-low-volume: "\eedb";
+$fluentui-emoji-high-contrast-speaker-medium-volume: "\eedc";
+$fluentui-emoji-high-contrast-speaking-head: "\eedd";
+$fluentui-emoji-high-contrast-speech-balloon: "\eede";
+$fluentui-emoji-high-contrast-speedboat: "\eedf";
+$fluentui-emoji-high-contrast-spider-web: "\eee0";
+$fluentui-emoji-high-contrast-spider: "\eee1";
+$fluentui-emoji-high-contrast-spiral-calendar: "\eee2";
+$fluentui-emoji-high-contrast-spiral-notepad: "\eee3";
+$fluentui-emoji-high-contrast-spiral-shell: "\eee4";
+$fluentui-emoji-high-contrast-sponge: "\eee5";
+$fluentui-emoji-high-contrast-spoon: "\eee6";
+$fluentui-emoji-high-contrast-sport-utility-vehicle: "\eee7";
+$fluentui-emoji-high-contrast-sports-medal: "\eee8";
+$fluentui-emoji-high-contrast-spouting-whale: "\eee9";
+$fluentui-emoji-high-contrast-squid: "\eeea";
+$fluentui-emoji-high-contrast-squinting-face-with-tongue: "\eeeb";
+$fluentui-emoji-high-contrast-stadium: "\eeec";
+$fluentui-emoji-high-contrast-star-and-crescent: "\eeed";
+$fluentui-emoji-high-contrast-star-of-david: "\eeee";
+$fluentui-emoji-high-contrast-star-struck: "\eeef";
+$fluentui-emoji-high-contrast-star: "\eef0";
+$fluentui-emoji-high-contrast-station: "\eef1";
+$fluentui-emoji-high-contrast-statue-of-liberty: "\eef2";
+$fluentui-emoji-high-contrast-steaming-bowl: "\eef3";
+$fluentui-emoji-high-contrast-stethoscope: "\eef4";
+$fluentui-emoji-high-contrast-stop-button: "\eef5";
+$fluentui-emoji-high-contrast-stop-sign: "\eef6";
+$fluentui-emoji-high-contrast-stopwatch: "\eef7";
+$fluentui-emoji-high-contrast-straight-ruler: "\eef8";
+$fluentui-emoji-high-contrast-strawberry: "\eef9";
+$fluentui-emoji-high-contrast-student: "\eefa";
+$fluentui-emoji-high-contrast-studio-microphone: "\eefb";
+$fluentui-emoji-high-contrast-stuffed-flatbread: "\eefc";
+$fluentui-emoji-high-contrast-sun-behind-cloud: "\eefd";
+$fluentui-emoji-high-contrast-sun-behind-large-cloud: "\eefe";
+$fluentui-emoji-high-contrast-sun-behind-rain-cloud: "\eeff";
+$fluentui-emoji-high-contrast-sun-behind-small-cloud: "\ef00";
+$fluentui-emoji-high-contrast-sun-with-face: "\ef01";
+$fluentui-emoji-high-contrast-sun: "\ef02";
+$fluentui-emoji-high-contrast-sunflower: "\ef03";
+$fluentui-emoji-high-contrast-sunglasses: "\ef04";
+$fluentui-emoji-high-contrast-sunrise-over-mountains: "\ef05";
+$fluentui-emoji-high-contrast-sunrise: "\ef06";
+$fluentui-emoji-high-contrast-sunset: "\ef07";
+$fluentui-emoji-high-contrast-sushi: "\ef08";
+$fluentui-emoji-high-contrast-suspension-railway: "\ef09";
+$fluentui-emoji-high-contrast-swan: "\ef0a";
+$fluentui-emoji-high-contrast-sweat-droplets: "\ef0b";
+$fluentui-emoji-high-contrast-synagogue: "\ef0c";
+$fluentui-emoji-high-contrast-syringe: "\ef0d";
+$fluentui-emoji-high-contrast-t-rex: "\ef0e";
+$fluentui-emoji-high-contrast-t-shirt: "\ef0f";
+$fluentui-emoji-high-contrast-taco: "\ef10";
+$fluentui-emoji-high-contrast-takeout-box: "\ef11";
+$fluentui-emoji-high-contrast-tamale: "\ef12";
+$fluentui-emoji-high-contrast-tanabata-tree: "\ef13";
+$fluentui-emoji-high-contrast-tangerine: "\ef14";
+$fluentui-emoji-high-contrast-taurus: "\ef15";
+$fluentui-emoji-high-contrast-taxi: "\ef16";
+$fluentui-emoji-high-contrast-teacher: "\ef17";
+$fluentui-emoji-high-contrast-teacup-without-handle: "\ef18";
+$fluentui-emoji-high-contrast-teapot: "\ef19";
+$fluentui-emoji-high-contrast-tear-off-calendar: "\ef1a";
+$fluentui-emoji-high-contrast-teddy-bear: "\ef1b";
+$fluentui-emoji-high-contrast-telephone-receiver: "\ef1c";
+$fluentui-emoji-high-contrast-telephone: "\ef1d";
+$fluentui-emoji-high-contrast-telescope: "\ef1e";
+$fluentui-emoji-high-contrast-television: "\ef1f";
+$fluentui-emoji-high-contrast-ten-oclock: "\ef20";
+$fluentui-emoji-high-contrast-ten-thirty: "\ef21";
+$fluentui-emoji-high-contrast-tennis: "\ef22";
+$fluentui-emoji-high-contrast-tent: "\ef23";
+$fluentui-emoji-high-contrast-test-tube: "\ef24";
+$fluentui-emoji-high-contrast-thermometer: "\ef25";
+$fluentui-emoji-high-contrast-thinking-face: "\ef26";
+$fluentui-emoji-high-contrast-thong-sandal: "\ef27";
+$fluentui-emoji-high-contrast-thought-balloon: "\ef28";
+$fluentui-emoji-high-contrast-thread: "\ef29";
+$fluentui-emoji-high-contrast-three-oclock: "\ef2a";
+$fluentui-emoji-high-contrast-three-thirty: "\ef2b";
+$fluentui-emoji-high-contrast-thumbs-down: "\ef2c";
+$fluentui-emoji-high-contrast-thumbs-up: "\ef2d";
+$fluentui-emoji-high-contrast-ticket: "\ef2e";
+$fluentui-emoji-high-contrast-tiger-face: "\ef2f";
+$fluentui-emoji-high-contrast-tiger: "\ef30";
+$fluentui-emoji-high-contrast-timer-clock: "\ef31";
+$fluentui-emoji-high-contrast-tired-face: "\ef32";
+$fluentui-emoji-high-contrast-toilet: "\ef33";
+$fluentui-emoji-high-contrast-tokyo-tower: "\ef34";
+$fluentui-emoji-high-contrast-tomato: "\ef35";
+$fluentui-emoji-high-contrast-tongue: "\ef36";
+$fluentui-emoji-high-contrast-toolbox: "\ef37";
+$fluentui-emoji-high-contrast-tooth: "\ef38";
+$fluentui-emoji-high-contrast-toothbrush: "\ef39";
+$fluentui-emoji-high-contrast-top-arrow: "\ef3a";
+$fluentui-emoji-high-contrast-top-hat: "\ef3b";
+$fluentui-emoji-high-contrast-tornado: "\ef3c";
+$fluentui-emoji-high-contrast-trackball: "\ef3d";
+$fluentui-emoji-high-contrast-tractor: "\ef3e";
+$fluentui-emoji-high-contrast-trade-mark: "\ef3f";
+$fluentui-emoji-high-contrast-train: "\ef40";
+$fluentui-emoji-high-contrast-tram-car: "\ef41";
+$fluentui-emoji-high-contrast-tram: "\ef42";
+$fluentui-emoji-high-contrast-triangular-flag: "\ef43";
+$fluentui-emoji-high-contrast-triangular-ruler: "\ef44";
+$fluentui-emoji-high-contrast-trident-emblem: "\ef45";
+$fluentui-emoji-high-contrast-troll: "\ef46";
+$fluentui-emoji-high-contrast-trolleybus: "\ef47";
+$fluentui-emoji-high-contrast-trophy: "\ef48";
+$fluentui-emoji-high-contrast-tropical-drink: "\ef49";
+$fluentui-emoji-high-contrast-tropical-fish: "\ef4a";
+$fluentui-emoji-high-contrast-trumpet: "\ef4b";
+$fluentui-emoji-high-contrast-tulip: "\ef4c";
+$fluentui-emoji-high-contrast-tumbler-glass: "\ef4d";
+$fluentui-emoji-high-contrast-turkey: "\ef4e";
+$fluentui-emoji-high-contrast-turtle: "\ef4f";
+$fluentui-emoji-high-contrast-twelve-oclock: "\ef50";
+$fluentui-emoji-high-contrast-twelve-thirty: "\ef51";
+$fluentui-emoji-high-contrast-two-hearts: "\ef52";
+$fluentui-emoji-high-contrast-two-hump-camel: "\ef53";
+$fluentui-emoji-high-contrast-two-oclock: "\ef54";
+$fluentui-emoji-high-contrast-two-thirty: "\ef55";
+$fluentui-emoji-high-contrast-umbrella-on-ground: "\ef56";
+$fluentui-emoji-high-contrast-umbrella-with-rain-drops: "\ef57";
+$fluentui-emoji-high-contrast-umbrella: "\ef58";
+$fluentui-emoji-high-contrast-unamused-face: "\ef59";
+$fluentui-emoji-high-contrast-unicorn: "\ef5a";
+$fluentui-emoji-high-contrast-unlocked: "\ef5b";
+$fluentui-emoji-high-contrast-up-arrow: "\ef5c";
+$fluentui-emoji-high-contrast-up-button: "\ef5d";
+$fluentui-emoji-high-contrast-up-down-arrow: "\ef5e";
+$fluentui-emoji-high-contrast-up-left-arrow: "\ef5f";
+$fluentui-emoji-high-contrast-up-right-arrow: "\ef60";
+$fluentui-emoji-high-contrast-upside-down-face: "\ef61";
+$fluentui-emoji-high-contrast-upwards-button: "\ef62";
+$fluentui-emoji-high-contrast-vertical-traffic-light: "\ef63";
+$fluentui-emoji-high-contrast-vibration-mode: "\ef64";
+$fluentui-emoji-high-contrast-victory-hand: "\ef65";
+$fluentui-emoji-high-contrast-video-camera: "\ef66";
+$fluentui-emoji-high-contrast-videocassette: "\ef67";
+$fluentui-emoji-high-contrast-violin: "\ef68";
+$fluentui-emoji-high-contrast-virgo: "\ef69";
+$fluentui-emoji-high-contrast-volcano: "\ef6a";
+$fluentui-emoji-high-contrast-volleyball: "\ef6b";
+$fluentui-emoji-high-contrast-vs-button: "\ef6c";
+$fluentui-emoji-high-contrast-vulcan-salute: "\ef6d";
+$fluentui-emoji-high-contrast-waffle: "\ef6e";
+$fluentui-emoji-high-contrast-waning-crescent-moon: "\ef6f";
+$fluentui-emoji-high-contrast-waning-gibbous-moon: "\ef70";
+$fluentui-emoji-high-contrast-warning: "\ef71";
+$fluentui-emoji-high-contrast-wastebasket: "\ef72";
+$fluentui-emoji-high-contrast-watch: "\ef73";
+$fluentui-emoji-high-contrast-water-buffalo: "\ef74";
+$fluentui-emoji-high-contrast-water-closet: "\ef75";
+$fluentui-emoji-high-contrast-water-pistol: "\ef76";
+$fluentui-emoji-high-contrast-water-wave: "\ef77";
+$fluentui-emoji-high-contrast-watermelon: "\ef78";
+$fluentui-emoji-high-contrast-waving-hand: "\ef79";
+$fluentui-emoji-high-contrast-wavy-dash: "\ef7a";
+$fluentui-emoji-high-contrast-waxing-crescent-moon: "\ef7b";
+$fluentui-emoji-high-contrast-waxing-gibbous-moon: "\ef7c";
+$fluentui-emoji-high-contrast-weary-cat: "\ef7d";
+$fluentui-emoji-high-contrast-weary-face: "\ef7e";
+$fluentui-emoji-high-contrast-wedding: "\ef7f";
+$fluentui-emoji-high-contrast-whale: "\ef80";
+$fluentui-emoji-high-contrast-wheel-of-dharma: "\ef81";
+$fluentui-emoji-high-contrast-wheel: "\ef82";
+$fluentui-emoji-high-contrast-wheelchair-symbol: "\ef83";
+$fluentui-emoji-high-contrast-white-cane: "\ef84";
+$fluentui-emoji-high-contrast-white-circle: "\ef85";
+$fluentui-emoji-high-contrast-white-exclamation-mark: "\ef86";
+$fluentui-emoji-high-contrast-white-flag: "\ef87";
+$fluentui-emoji-high-contrast-white-flower: "\ef88";
+$fluentui-emoji-high-contrast-white-heart: "\ef89";
+$fluentui-emoji-high-contrast-white-large-square: "\ef8a";
+$fluentui-emoji-high-contrast-white-medium-small-square: "\ef8b";
+$fluentui-emoji-high-contrast-white-medium-square: "\ef8c";
+$fluentui-emoji-high-contrast-white-question-mark: "\ef8d";
+$fluentui-emoji-high-contrast-white-small-square: "\ef8e";
+$fluentui-emoji-high-contrast-white-square-button: "\ef8f";
+$fluentui-emoji-high-contrast-wilted-flower: "\ef90";
+$fluentui-emoji-high-contrast-wind-chime: "\ef91";
+$fluentui-emoji-high-contrast-wind-face: "\ef92";
+$fluentui-emoji-high-contrast-window: "\ef93";
+$fluentui-emoji-high-contrast-wine-glass: "\ef94";
+$fluentui-emoji-high-contrast-winking-face-with-tongue: "\ef95";
+$fluentui-emoji-high-contrast-winking-face: "\ef96";
+$fluentui-emoji-high-contrast-wolf: "\ef97";
+$fluentui-emoji-high-contrast-woman-artist: "\ef98";
+$fluentui-emoji-high-contrast-woman-astronaut: "\ef99";
+$fluentui-emoji-high-contrast-woman-bald: "\ef9a";
+$fluentui-emoji-high-contrast-woman-biking: "\ef9b";
+$fluentui-emoji-high-contrast-woman-blonde-hair: "\ef9c";
+$fluentui-emoji-high-contrast-woman-bouncing-ball: "\ef9d";
+$fluentui-emoji-high-contrast-woman-bowing: "\ef9e";
+$fluentui-emoji-high-contrast-woman-cartwheeling: "\ef9f";
+$fluentui-emoji-high-contrast-woman-climbing: "\efa0";
+$fluentui-emoji-high-contrast-woman-construction-worker: "\efa1";
+$fluentui-emoji-high-contrast-woman-cook: "\efa2";
+$fluentui-emoji-high-contrast-woman-curly-hair: "\efa3";
+$fluentui-emoji-high-contrast-woman-dancing: "\efa4";
+$fluentui-emoji-high-contrast-woman-deaf: "\efa5";
+$fluentui-emoji-high-contrast-woman-detective: "\efa6";
+$fluentui-emoji-high-contrast-woman-elf: "\efa7";
+$fluentui-emoji-high-contrast-woman-facepalming: "\efa8";
+$fluentui-emoji-high-contrast-woman-factory-worker: "\efa9";
+$fluentui-emoji-high-contrast-woman-fairy: "\efaa";
+$fluentui-emoji-high-contrast-woman-farmer: "\efab";
+$fluentui-emoji-high-contrast-woman-feeding-baby: "\efac";
+$fluentui-emoji-high-contrast-woman-firefighter: "\efad";
+$fluentui-emoji-high-contrast-woman-frowning: "\efae";
+$fluentui-emoji-high-contrast-woman-genie: "\efaf";
+$fluentui-emoji-high-contrast-woman-gesturing-no: "\efb0";
+$fluentui-emoji-high-contrast-woman-gesturing-ok: "\efb1";
+$fluentui-emoji-high-contrast-woman-getting-haircut: "\efb2";
+$fluentui-emoji-high-contrast-woman-getting-massage: "\efb3";
+$fluentui-emoji-high-contrast-woman-golfing: "\efb4";
+$fluentui-emoji-high-contrast-woman-guard: "\efb5";
+$fluentui-emoji-high-contrast-woman-health-worker: "\efb6";
+$fluentui-emoji-high-contrast-woman-in-lotus-position: "\efb7";
+$fluentui-emoji-high-contrast-woman-in-manual-wheelchair: "\efb8";
+$fluentui-emoji-high-contrast-woman-in-motorized-wheelchair: "\efb9";
+$fluentui-emoji-high-contrast-woman-in-steamy-room: "\efba";
+$fluentui-emoji-high-contrast-woman-judge: "\efbb";
+$fluentui-emoji-high-contrast-woman-juggling: "\efbc";
+$fluentui-emoji-high-contrast-woman-kneeling: "\efbd";
+$fluentui-emoji-high-contrast-woman-lifting-weights: "\efbe";
+$fluentui-emoji-high-contrast-woman-mage: "\efbf";
+$fluentui-emoji-high-contrast-woman-mechanic: "\efc0";
+$fluentui-emoji-high-contrast-woman-merpeople: "\efc1";
+$fluentui-emoji-high-contrast-woman-mountain-biking: "\efc2";
+$fluentui-emoji-high-contrast-woman-office-worker: "\efc3";
+$fluentui-emoji-high-contrast-woman-pilot: "\efc4";
+$fluentui-emoji-high-contrast-woman-playing-handball: "\efc5";
+$fluentui-emoji-high-contrast-woman-playing-water-polo: "\efc6";
+$fluentui-emoji-high-contrast-woman-police-officer: "\efc7";
+$fluentui-emoji-high-contrast-woman-pouting: "\efc8";
+$fluentui-emoji-high-contrast-woman-raising-hand: "\efc9";
+$fluentui-emoji-high-contrast-woman-red-hair: "\efca";
+$fluentui-emoji-high-contrast-woman-rowing-boat: "\efcb";
+$fluentui-emoji-high-contrast-woman-running: "\efcc";
+$fluentui-emoji-high-contrast-woman-scientist: "\efcd";
+$fluentui-emoji-high-contrast-woman-shrugging: "\efce";
+$fluentui-emoji-high-contrast-woman-singer: "\efcf";
+$fluentui-emoji-high-contrast-woman-standing: "\efd0";
+$fluentui-emoji-high-contrast-woman-student: "\efd1";
+$fluentui-emoji-high-contrast-woman-superhero: "\efd2";
+$fluentui-emoji-high-contrast-woman-supervillain: "\efd3";
+$fluentui-emoji-high-contrast-woman-surfing: "\efd4";
+$fluentui-emoji-high-contrast-woman-swimming: "\efd5";
+$fluentui-emoji-high-contrast-woman-teacher: "\efd6";
+$fluentui-emoji-high-contrast-woman-tipping-hand: "\efd7";
+$fluentui-emoji-high-contrast-woman-vampire: "\efd8";
+$fluentui-emoji-high-contrast-woman-walking: "\efd9";
+$fluentui-emoji-high-contrast-woman-white-hair: "\efda";
+$fluentui-emoji-high-contrast-woman-with-bunny-ears: "\efdb";
+$fluentui-emoji-high-contrast-woman-with-headscarf: "\efdc";
+$fluentui-emoji-high-contrast-woman-with-veil: "\efdd";
+$fluentui-emoji-high-contrast-woman-with-white-cane: "\efde";
+$fluentui-emoji-high-contrast-woman-wrestling: "\efdf";
+$fluentui-emoji-high-contrast-woman-zombie: "\efe0";
+$fluentui-emoji-high-contrast-woman: "\efe1";
+$fluentui-emoji-high-contrast-womans-boot: "\efe2";
+$fluentui-emoji-high-contrast-womans-clothes: "\efe3";
+$fluentui-emoji-high-contrast-womans-hat: "\efe4";
+$fluentui-emoji-high-contrast-womans-sandal: "\efe5";
+$fluentui-emoji-high-contrast-womens-room: "\efe6";
+$fluentui-emoji-high-contrast-wood: "\efe7";
+$fluentui-emoji-high-contrast-woozy-face: "\efe8";
+$fluentui-emoji-high-contrast-world-map: "\efe9";
+$fluentui-emoji-high-contrast-worm: "\efea";
+$fluentui-emoji-high-contrast-worried-face: "\efeb";
+$fluentui-emoji-high-contrast-wrapped-gift: "\efec";
+$fluentui-emoji-high-contrast-wrench: "\efed";
+$fluentui-emoji-high-contrast-writing-hand: "\efee";
+$fluentui-emoji-high-contrast-x-ray: "\efef";
+$fluentui-emoji-high-contrast-yarn: "\eff0";
+$fluentui-emoji-high-contrast-yawning-face: "\eff1";
+$fluentui-emoji-high-contrast-yellow-circle: "\eff2";
+$fluentui-emoji-high-contrast-yellow-heart: "\eff3";
+$fluentui-emoji-high-contrast-yellow-square: "\eff4";
+$fluentui-emoji-high-contrast-yen-banknote: "\eff5";
+$fluentui-emoji-high-contrast-yin-yang: "\eff6";
+$fluentui-emoji-high-contrast-yo-yo: "\eff7";
+$fluentui-emoji-high-contrast-zany-face: "\eff8";
+$fluentui-emoji-high-contrast-zebra: "\eff9";
+$fluentui-emoji-high-contrast-zipper-mouth-face: "\effa";
+$fluentui-emoji-high-contrast-zzz: "\effb";
