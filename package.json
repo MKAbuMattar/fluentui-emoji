@@ -1,8 +1,19 @@
 {
   "name": "fluentui-emoji",
   "version": "0.0.0-beta.0.0.2",
-  "description": "",
-  "keywords": [],
+  "description": "Fluentui Emoji an npm package contains a number of well-known, cordial, and contemporary emoji, build into @microsoft/fluentui-emoji",
+  "keywords": [
+    "fluentui",
+    "emoji",
+    "fluentui-emoji",
+    "icons",
+    "font",
+    "css",
+    "scss",
+    "less",
+    "stylus",
+    "svg"
+  ],
   "license": "MIT",
   "author": {
     "name": "Mohammad Abu Mattar",

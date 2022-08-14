@@ -144,26 +144,6 @@
         padding-top: 0;
       }
     </style>
-
-    <style>
-      .main-title {
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 20px;
-      }
-
-      .section-title {
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 20px;
-      }
-
-      .section-subtitle {
-        font-size: 14px;
-        font-weight: bold;
-        margin-bottom: 20px;
-      }
-    </style>
   </head>
   <body>
     <a
@@ -221,41 +201,77 @@
         >
         ·
 
-        <a href="./docs/flat/index.html">flat</a> ·
+        <a href="./docs/flat/index.html">@flat</a> ·
 
-        <a href="./docs/high-contrast/index.html">high-contrast</a>
+        <a href="./docs/high-contrast/index.html">@high-contrast</a>
       </p>
     </header>
 
     <main class="main">
-      <p class="main-title">Getting Fluentui Emoji</p>
+      <p>Getting Fluentui Emoji</p>
       <section>
-        <p class="section-title">Hosted</p>
-        <p class="section-subtitle">jsdelivr</p>
+        <p>Hosted</p>
+        <p>CSS</p>
+        <p>jsdelivr</p>
         <pre><code class="language-xml hljs">&lt;!-- fluentui emoji flat --&gt;
 &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MKAbuMattar/fluentui-emoji@latest/styles/flat/css/fluentui-emoji-flat.min.css" /&gt;
 
 &lt;!-- fluentui emoji high contrast --&gt;
 &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MKAbuMattar/fluentui-emoji@latest/styles/high-contrast/css/fluentui-emoji-high-contrast.min.css" /&gt;</code></pre>
 
-        <p class="section-subtitle">unpkg</p>
+        <p>unpkg</p>
         <pre><code class="language-xml hljs">&lt;!-- fluentui emoji flat --&gt;
 &lt;link rel="stylesheet" href="https://unpkg.com/fluentui-emoji@latest/styles/flat/css/fluentui-emoji-flat.min.css" /&gt;
 
 &lt;!-- fluentui emoji high contrast --&gt;
 &lt;link rel="stylesheet" href="https://unpkg.com/fluentui-emoji@latest/styles/high-contrast/css/fluentui-emoji-high-contrast.min.css" /&gt;</code></pre>
 
-        <p class="section-title">Install as package</p>
+        <p>SCSS</p>
+        <p>jsdelivr</p>
+        <pre><code class="language-scss hljs">//-- fluentui emoji flat
+@import "https://cdn.jsdelivr.net/gh/MKAbuMattar/fluentui-emoji@latest/styles/flat/scss/fluentui-emoji-flat.scss";
 
-        <pre><code class="language-bash hljs">#npm
-npm install --save fluentui-emoji@latest
+//-- fluentui emoji high contrast
+@import "https://cdn.jsdelivr.net/gh/MKAbuMattar/fluentui-emoji@latest/styles/high-contrast/scss/fluentui-emoji-high-contrast.scss";</code></pre>
 
-#yarn
-yarn add fluentui-emoji@latest
+        <p>unpkg</h3>
+        <pre><code class="language-scss hljs">//-- fluentui emoji flat
+@import "https://unpkg.com/fluentui-emoji@latest/styles/flat/scss/fluentui-emoji-flat.scss";
 
-#pnpm
-pnpm add fluentui-emoji@latest</code></pre>
+//-- fluentui emoji high contrast
+@import "https://unpkg.com/fluentui-emoji@latest/styles/high-contrast/scss/fluentui-emoji-high-contrast.scss";</code></pre>
       </section>
+
+      <p>LESS</p>
+      <p>jsdelivr</p>
+      <pre><code class="language-less hljs">/*-- fluentui emoji flat --*/
+@import "https://cdn.jsdelivr.net/gh/MKAbuMattar/fluentui-emoji@latest/styles/flat/less/fluentui-emoji-flat.less";
+
+/*-- fluentui emoji high contrast --*/
+@import "https://cdn.jsdelivr.net/gh/MKAbuMattar/fluentui-emoji@latest/styles/high-contrast/less/fluentui-emoji-high-contrast.less";</code></pre>
+
+      <p>unpkg</h3>
+      <pre><code class="language-less hljs">/*-- fluentui emoji flat --*/
+@import "https://unpkg.com/fluentui-emoji@latest/styles/flat/less/fluentui-emoji-flat.less";
+
+/*-- fluentui emoji high contrast --*/
+@import "https://unpkg.com/fluentui-emoji@latest/styles/high-contrast/less/fluentui-emoji-high-contrast.less";</code></pre>
+
+      <p>Stylus</p>
+      <p>jsdelivr</p>
+      <pre><code class="language-stylus hljs">//-- fluentui emoji flat
+@import "https://cdn.jsdelivr.net/gh/MKAbuMattar/fluentui-emoji@latest/styles/flat/less/fluentui-emoji-flat.less";
+
+//-- fluentui emoji high contrast
+@import "https://cdn.jsdelivr.net/gh/MKAbuMattar/fluentui-emoji@latest/styles/high-contrast/less/fluentui-emoji-high-contrast.less";</code></pre>
+
+      <p>unpkg</h3>
+      <pre><code class="language-stylus hljs">//-- fluentui emoji flat
+@import "https://unpkg.com/fluentui-emoji@latest/styles/flat/less/fluentui-emoji-flat.less";
+
+//-- fluentui emoji high contrast
+@import "https://unpkg.com/fluentui-emoji@latest/styles/high-contrast/less/fluentui-emoji-high-contrast.less";</code></pre>
+    </section>
     </main>
 
     <div class="footer">
