@@ -23,6 +23,11 @@
       href="../../styles/high-contrast/css/fluentui-emoji-high-contrast.min.css"
     />
 
+    <link
+      rel="stylesheet"
+      href="../../assets/style/github-dark-dimmed.min.css"
+    />
+
     <style>
       * {
         margin: 0;
@@ -184,6 +189,43 @@
         }
       }
     </style>
+
+    <style>
+      .section {
+        width: 960px;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+      }
+    </style>
+
+    <style>
+      .hljs {
+        border-radius: 12px;
+      }
+
+      .hljs-ln td.hljs-ln-numbers {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        text-align: center;
+        color: #ccc;
+        border-right: 1px solid #ccc;
+        vertical-align: top;
+        padding-right: 5px;
+      }
+
+      .hljs-ln td.hljs-ln-code {
+        padding-left: 10px;
+      }
+
+      .bookmark {
+        padding-top: 0;
+      }
+    </style>
   </head>
 
   <body>
@@ -214,7 +256,7 @@
       </svg>
     </a>
 
-    <div class="header">
+    <header class="header">
       <div class="logo">
         <a href="../.."
           ><svg
@@ -251,8 +293,21 @@
 
         <a href="symbol.html">Symbol</a>
       </p>
-    </div>
-    <div class="icons">
+    </header>
+
+    <section class="section">
+      <pre><code class="language-xml hljs">&lt;!-- in your header --&gt;
+&lt;!-- jsdelivr --&gt;
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MKAbuMattar/fluentui-emoji@latest/styles/high-contrast/css/fluentui-emoji-high-contrast.min.css" /&gt;
+
+&lt;!-- or unpkg --&gt;
+&lt;link rel="stylesheet" href="https://unpkg.com/fluentui-emoji@latest/styles/high-contrast/css/fluentui-emoji-high-contrast.min.css" /&gt;
+
+&lt;!-- in your body --&gt;
+&lt;i class="fluentui-emoji-high-contrast-2nd-place-medal"&gt;&lt;/i&gt;</code></pre>
+    </section>
+
+    <main class="icons">
       <ul>
         <li class="class-icon">
           <i class="fluentui-emoji-high-contrast-1st-place-medal"></i>
@@ -6715,8 +6770,9 @@
           <p class="name">fluentui-emoji-high-contrast-zzz</p>
         </li>
       </ul>
-    </div>
-    <p class="links">
+    </main>
+
+    <nav class="links">
       <a href="https://github.com/MKAbuMattar/fluentui-emoji">GitHub</a> ·
 
       <a href="https://github.com/MKAbuMattar/fluentui-emoji/issues"
@@ -6731,8 +6787,9 @@
       <a href="unicode.html">Unicode</a> ·
 
       <a href="symbol.html">Symbol</a>
-    </p>
-    <div class="footer">
+    </nav>
+
+    <footer class="footer">
       Licensed under MIT. (Yes it's free and
       <a href="https://github.com/MKAbuMattar/fluentui-emoji">open-sourced</a>
       <div>
@@ -6740,6 +6797,18 @@
           >Created By svgtofont</a
         >
       </div>
-    </div>
+    </footer>
+
+    <script src="../../assets/js/highlight.min.js"></script>
+    <script src="../../assets/js/highlightjs-line-numbers.min.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        hljs.initHighlightingOnLoad();
+        hljs.initLineNumbersOnLoad({
+          singleLine: true,
+        });
+      });
+    </script>
   </body>
 </html>
