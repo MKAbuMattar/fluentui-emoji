@@ -13,6 +13,8 @@
 
     <title>Fluentui Emoji</title>
 
+    <link rel="stylesheet" href="./assets/style/github-dark-dimmed.min.css" />
+
     <style>
       * {
         margin: 0;
@@ -58,6 +60,11 @@
         margin: 0 auto;
         padding: 20px 0;
         font-size: 14px;
+      }
+
+      .main {
+        width: 960px;
+        margin: 0 auto;
       }
 
       .footer {
@@ -108,6 +115,35 @@
         }
       }
     </style>
+
+    <style>
+      .hljs {
+        border-radius: 12px;
+      }
+
+      .hljs-ln td.hljs-ln-numbers {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        text-align: center;
+        color: #ccc;
+        border-right: 1px solid #ccc;
+        vertical-align: top;
+        padding-right: 5px;
+      }
+
+      .hljs-ln td.hljs-ln-code {
+        padding-left: 10px;
+      }
+
+      .bookmark {
+        padding-top: 0;
+      }
+    </style>
   </head>
   <body>
     <a
@@ -136,7 +172,7 @@
         ></path>
       </svg>
     </a>
-    <div class="header">
+    <header class="header">
       <div class="logo">
         <a href="./"
           ><svg
@@ -155,7 +191,7 @@
         </a>
       </div>
 
-      <h1>Fluentui Emoji<sup>0.0.0-beta.0.0.1</sup></h1>
+      <h1>Fluentui Emoji<sup>0.0.0-beta.0.0.2</sup></h1>
       <div class="info"></div>
       <p>
         <a href="https://github.com/MKAbuMattar/fluentui-emoji">GitHub</a> ·
@@ -165,14 +201,33 @@
         >
         ·
 
-        <a href="./fonts/@flat/index.html">@flat</a> ·
+        <a href="./docs/flat/index.html">@flat</a> ·
 
-        <a href="./fonts/@high-contrast/index.html">@high-contrast</a>
+        <a href="./docs/high-contrast/index.html">@high-contrast</a>
       </p>
-    </div>
+    </header>
+
+    <main class="main">
+      <section>
+        <pre><code class="language-bash hljs"></code></pre>
+      </section>
+    </main>
+
     <div class="footer">
       Licensed under MIT. (Yes it's free and
       <a href="https://github.com/MKAbuMattar/fluentui-emoji">open-sourced</a>
     </div>
+
+    <script src="./assets/js/highlight.min.js"></script>
+    <script src="./assets/js/highlightjs-line-numbers.min.js"></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        hljs.initHighlightingOnLoad();
+        hljs.initLineNumbersOnLoad({
+          singleLine: true,
+        });
+      });
+    </script>
   </body>
 </html>

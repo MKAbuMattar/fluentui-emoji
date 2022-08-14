@@ -59,6 +59,10 @@ const svg2font = (
           url: 'https://github.com/MKAbuMattar/fluentui-emoji/issues',
         },
         {
+          title: 'Homepage',
+          url: '/',
+        },
+        {
           title: 'Font Class',
           url: 'index.html',
         },
