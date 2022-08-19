@@ -1,3 +1,5 @@
 .idea
 node_modules
+script/data/build.data.regular.json
+script/data/build.data.solid.json
 yarn-error.log

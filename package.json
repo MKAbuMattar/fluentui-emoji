@@ -1,6 +1,6 @@
 {
   "name": "fluentui-emoji",
-  "version": "0.0.0-beta.0.0.2",
+  "version": "0.0.0-beta.0.0.3",
   "description": "Fluentui Emoji an npm package contains a number of well-known, cordial, and contemporary emoji, build into @microsoft/fluentui-emoji",
   "keywords": [
     "fluentui",
@@ -35,6 +35,7 @@
     "prettier:check": "prettier --check ./script --no-error-on-unmatched-pattern",
     "check": "yarn lint:check && yarn prettier:check",
     "fix": "yarn lint:fix && yarn prettier:fix",
+    "build:data": "node -r esbuild-runner/register script/data/build.data.ts",
     "build:lib": "node -r esbuild-runner/register script/index.ts",
     "publish": "npm publish"
   },
@@ -50,6 +51,7 @@
     "eslint-plugin-unused-imports": "2.0.0",
     "lerna": "^5.4.1",
     "prettier": "2.7.1",
+    "recursive-directory": "0.0.0-rc-0.0.4",
     "svgtofont": "3.17.8",
     "typescript": "4.7.4"
   },
@@ -63,8 +65,5 @@
     "backing": {
       "npm-funding": true
     }
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }
