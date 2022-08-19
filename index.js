@@ -34,7 +34,7 @@ const rename = (name) => {
 };
 
 (() => {
-  rename('color');
-  rename('flat');
-  rename('high-contrast');
+  rename('modern');
+  rename('solid');
+  rename('regular');
 })();
