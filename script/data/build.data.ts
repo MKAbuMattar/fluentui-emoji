@@ -43,6 +43,11 @@ const recursive = async (rootDirs: string, outDir: string, prefix: string) => {
 
 (async () => {
   await recursive(
+    './icons/modern',
+    'build.data.modern.json',
+    'fluentui-emoji-modern-',
+  );
+  await recursive(
     './icons/regular',
     'build.data.regular.json',
     'fluentui-emoji-regular-',

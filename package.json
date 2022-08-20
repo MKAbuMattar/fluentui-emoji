@@ -40,8 +40,10 @@
     "publish": "npm publish"
   },
   "devDependencies": {
+    "@types/react-highlight.js": "1.0.2",
     "@typescript-eslint/eslint-plugin": "5.33.0",
     "@typescript-eslint/parser": "5.33.0",
+    "babel-plugin-styled-components": "2.0.7",
     "esbuild": "0.15.2",
     "esbuild-runner": "2.2.1",
     "eslint": "8.21.0",
