@@ -132,8 +132,8 @@ const Nav: FC<Props> = (props) => {
             }}
           >
             <a
-              href="https://github.com/azouaoui-med/react-pro-sidebar"
-              target="_blank"
+              href="https://github.com/MKAbuMattar/fluentui-emoji"
+              target="__blank"
               className="sidebar-btn"
               rel="noopener noreferrer"
             >
