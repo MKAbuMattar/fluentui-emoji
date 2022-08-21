@@ -28,7 +28,7 @@ const SVG: NextPage = () => {
 <!-- OR -->
 
 <!-- fluentui emoji / unpkg -->
-<img src="https://unpkg.com/fluentui-emoji@latest/modern/ICON_SVG_NAME.svg" />
+<img src="https://unpkg.com/fluentui-emoji@latest/icons/modern/ICON_SVG_NAME.svg" />
 `;
 
   return (
