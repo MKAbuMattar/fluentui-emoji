@@ -5,7 +5,7 @@ import { Suspense } from 'react';
 
 import Regular from '@/components/Main';
 import RegularData from '@/data/build.data.regular.json';
-import { Banner , Card, CardInfo, CardTitle } from '@/style/style';
+import { Banner, Card, CardInfo, CardTitle } from '@/style/style';
 import Highlight from '@/ui/highlight';
 
 const DynamicMain = dynamic(() => import('@/components/Main'), {
@@ -23,12 +23,12 @@ const Loading: NextPage = () => {
 
 const SVG: NextPage = () => {
   const cdn = `<!-- fluentui emoji / jsdelivr-->
-<img src="https://cdn.jsdelivr.net/npm/fluentui-system-icons@latest/regular/ICON_SVG_NAME.svg" />
+<img src="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/icons/regular/ICON_SVG_NAME.svg" />
 
 <!-- OR -->
 
 <!-- fluentui emoji / unpkg -->
-<img src="https://unpkg.com/fluentui-emoji@latest/regular/ICON_SVG_NAME.svg" />
+<img src="https://unpkg.com/fluentui-emoji@latest/icons/regular/ICON_SVG_NAME.svg" />
 `;
 
   return (
