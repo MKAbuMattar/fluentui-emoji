@@ -10,7 +10,7 @@ import initialItems from './utils/initialItems.util';
 type Props = {
   icons?: Item[];
   language?: string;
-  type?: 'regular' | 'solid' | 'modern';
+  type?: 'high-contrast' | 'flat' | 'modern';
   iconType?: 'fonticons' | 'unicode' | 'svg';
 };
 
@@ -18,7 +18,7 @@ const Index: FC<Props> = (props) => {
   const {
     icons = [],
     language = 'xml',
-    type = 'regular',
+    type = 'high-contrast',
     iconType = 'fonticons',
   } = props;
 

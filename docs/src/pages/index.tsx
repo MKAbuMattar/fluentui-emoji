@@ -1,13 +1,15 @@
 import DeviconsReactOriginal from 'devicons-react/lib/icons/DeviconsReactOriginal';
 import type { NextPage } from 'next';
 import Link from 'next/link';
-import { Tab, TabList, TabPanel,Tabs } from 'react-tabs';
+import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 
 // import 'react-tabs/style/react-tabs.css';
 import { Banner, Discreption, Installation } from '@/style/style';
-import { TabContainer,TabListContainer, TabsContainer } from '@/style/style';
+import { TabContainer, TabListContainer, TabsContainer } from '@/style/style';
 import { Card, CardInfo, CardTitle } from '@/style/style';
 import Highlight from '@/ui/highlight';
+
+import ImgBanner from '@/assets/img/banner.webp';
 
 const Home: NextPage = () => {
   const pkg = `#npm
@@ -19,23 +21,29 @@ yarn add fluentui-emoji
 #pnpm
 pnpm add fluentui-emoji`;
 
-  const cdnRegular = `<!-- in your header -->
-<!-- fluentui emoji / jsdelivr-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/styles/regular/fluentui-emoji.css">
+  const cdnHighContrast = `<!-- fluentui emoji / jsdelivr-->
+<img src="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/icons/high-contrast/ICON_SVG_NAME.svg" />
 
 <!-- OR -->
 
 <!-- fluentui emoji / unpkg -->
-<link rel="stylesheet" href="https://unpkg.com/fluentui-emoji@latest/styles/regular/fluentui-emoji.css">`;
+<img src="https://unpkg.com/fluentui-emoji@latest/icons/high-contrast/ICON_SVG_NAME.svg" />`;
 
-  const cdnSolid = `<!-- in your header -->
-<!-- fluentui emoji / jsdelivr-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/styles/solid/fluentui-emoji.css">
+  const cdnFlat = `<!-- fluentui emoji / jsdelivr-->
+<img src="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/icons/flat/ICON_SVG_NAME.svg" />
 
 <!-- OR -->
 
 <!-- fluentui emoji / unpkg -->
-<link rel="stylesheet" href="https://unpkg.com/fluentui-emoji@latest/styles/solid/fluentui-emoji.css">`;
+<img src="https://unpkg.com/fluentui-emoji@latest/icons/flat/ICON_SVG_NAME.svg" />`;
+
+  const cdnModern = `<!-- fluentui emoji / jsdelivr-->
+<img src="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/icons/modern/ICON_SVG_NAME.svg" />
+
+<!-- OR -->
+
+<!-- fluentui emoji / unpkg -->
+<img src="https://unpkg.com/fluentui-emoji@latest/icons/modern/ICON_SVG_NAME.svg" />`;
 
   return (
     <>
@@ -52,6 +60,10 @@ pnpm add fluentui-emoji`;
           </Link>
           .
         </Discreption>
+
+        <div>
+          <img src={ImgBanner.src} width={'80%'} alt="" />
+        </div>
       </section>
 
       <Installation>
@@ -74,24 +86,33 @@ pnpm add fluentui-emoji`;
           <TabPanel>
             <TabsContainer>
               <TabListContainer>
-                <TabContainer>Regular</TabContainer>
-                <TabContainer>Solid</TabContainer>
+                <TabContainer>High Contrast</TabContainer>
+                <TabContainer>Flat</TabContainer>
+                <TabContainer>Modern</TabContainer>
               </TabListContainer>
 
               <TabPanel>
                 <Card>
                   <CardInfo>
-                    <CardTitle>Using CDN / Regular</CardTitle>
+                    <CardTitle>Using CDN / High Contrast</CardTitle>
                   </CardInfo>
-                  <Highlight language={'xml'} code={cdnRegular} />
+                  <Highlight language={'xml'} code={cdnHighContrast} />
                 </Card>
               </TabPanel>
               <TabPanel>
                 <Card>
                   <CardInfo>
-                    <CardTitle>Using CDN / Solid</CardTitle>
+                    <CardTitle>Using CDN / Flat</CardTitle>
                   </CardInfo>
-                  <Highlight language={'xml'} code={cdnSolid} />
+                  <Highlight language={'xml'} code={cdnFlat} />
+                </Card>
+              </TabPanel>
+              <TabPanel>
+                <Card>
+                  <CardInfo>
+                    <CardTitle>Using CDN / Modern</CardTitle>
+                  </CardInfo>
+                  <Highlight language={'xml'} code={cdnModern} />
                 </Card>
               </TabPanel>
             </TabsContainer>

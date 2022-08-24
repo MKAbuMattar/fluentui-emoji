@@ -12,9 +12,9 @@ import {
 } from 'react-pro-sidebar';
 
 import SidebarBg from '@/assets/img/bg2.jpg';
+import HighContrastData from '@/data/build.data.high-contrast.json';
+import FlatData from '@/data/build.data.flat.json';
 import ModernData from '@/data/build.data.modern.json';
-import RegularData from '@/data/build.data.regular.json';
-import SolidData from '@/data/build.data.solid.json';
 import { Fonticons, Modern, Regular, Solid, SVG, Unicode } from '@/icons/index';
 
 import pkg from '../../../package.json';
@@ -65,23 +65,23 @@ const Nav: FC<Props> = (props) => {
           <Menu iconShape="circle">
             <SubMenu
               suffix={
-                <span className="badge yellow">{RegularData.length}</span>
+                <span className="badge yellow">{HighContrastData.length}</span>
               }
-              title={'Regular'}
+              title={'High Contrast'}
               icon={<Regular />}
             >
-              <MenuItem icon={<Fonticons />}>
-                <Link href="/regular">
+              {/* <MenuItem icon={<Fonticons />}>
+                <Link href="/high-contrast">
                   <a>Fonticons</a>
                 </Link>
-              </MenuItem>
-              <MenuItem icon={<Unicode />}>
-                <Link href="/regular/unicode">
+              </MenuItem> */}
+              {/* <MenuItem icon={<Unicode />}>
+                <Link href="/high-contrast/unicode">
                   <a>Unicode</a>
                 </Link>
-              </MenuItem>
+              </MenuItem> */}
               <MenuItem icon={<SVG />}>
-                <Link href="/regular/svg">
+                <Link href="/high-contrast">
                   <a>SVG</a>
                 </Link>
               </MenuItem>
@@ -89,22 +89,22 @@ const Nav: FC<Props> = (props) => {
           </Menu>
           <Menu iconShape="circle">
             <SubMenu
-              suffix={<span className="badge yellow">{SolidData.length}</span>}
-              title={'Solid'}
+              suffix={<span className="badge yellow">{FlatData.length}</span>}
+              title={'Flat'}
               icon={<Solid />}
             >
-              <MenuItem icon={<Fonticons />}>
-                <Link href="/solid">
+              {/* <MenuItem icon={<Fonticons />}>
+                <Link href="/flat">
                   <a>Fonticons</a>
                 </Link>
-              </MenuItem>
-              <MenuItem icon={<Unicode />}>
-                <Link href="/solid/unicode">
+              </MenuItem> */}
+              {/* <MenuItem icon={<Unicode />}>
+                <Link href="/flat/unicode">
                   <a>Unicode</a>
                 </Link>
-              </MenuItem>
+              </MenuItem> */}
               <MenuItem icon={<SVG />}>
-                <Link href="/solid/svg">
+                <Link href="/flat">
                   <a>SVG</a>
                 </Link>
               </MenuItem>
@@ -117,7 +117,7 @@ const Nav: FC<Props> = (props) => {
               icon={<Modern />}
             >
               <MenuItem icon={<SVG />}>
-                <Link href="/modern/svg">
+                <Link href="/modern">
                   <a>SVG</a>
                 </Link>
               </MenuItem>
