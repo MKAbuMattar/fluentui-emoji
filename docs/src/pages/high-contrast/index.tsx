@@ -3,13 +3,13 @@ import type { NextPage } from 'next';
 import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
 
-import Regular from '@/components/Main';
-import SolidData from '@/data/build.data.solid.json';
-import { Banner , Card, CardInfo, CardTitle } from '@/style/style';
+import Main from '@/components/Main';
+import HighContrastData from '@/data/build.data.high-contrast.json';
+import { Banner, Card, CardInfo, CardTitle } from '@/style/style';
 import Highlight from '@/ui/highlight';
 
 const DynamicMain = dynamic(() => import('@/components/Main'), {
-  loading: () => <Regular icons={SolidData} />,
+  loading: () => <Main icons={HighContrastData} />,
   suspense: true,
 });
 
@@ -21,8 +21,15 @@ const Loading: NextPage = () => {
   );
 };
 
-const Unicode: NextPage = () => {
-  const cdn = '';
+const SVG: NextPage = () => {
+  const cdn = `<!-- fluentui emoji / jsdelivr-->
+<img src="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/icons/high-contrast/ICON_SVG_NAME.svg" />
+
+<!-- OR -->
+
+<!-- fluentui emoji / unpkg -->
+<img src="https://unpkg.com/fluentui-emoji@latest/icons/high-contrast/ICON_SVG_NAME.svg" />
+`;
 
   return (
     <>
@@ -31,7 +38,7 @@ const Unicode: NextPage = () => {
           <Banner>
             <DeviconsReactOriginal width={'3rem'} height={'3rem'} />
             <h1>
-              Fluentui Emoji <span>Solid / Unicode</span>
+              Fluentui Emoji <span>High Contrast / SVG</span>
             </h1>
           </Banner>
 
@@ -42,10 +49,14 @@ const Unicode: NextPage = () => {
             <Highlight language={'xml'} code={cdn} />
           </Card>
         </section>
-        <DynamicMain icons={SolidData} type={'regular'} iconType={'unicode'} />
+        <DynamicMain
+          icons={HighContrastData}
+          type={'high-contrast'}
+          iconType={'svg'}
+        />
       </Suspense>
     </>
   );
 };
 
-export default Unicode;
+export default SVG;

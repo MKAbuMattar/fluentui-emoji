@@ -3,13 +3,13 @@ import type { NextPage } from 'next';
 import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
 
-import Regular from '@/components/Main';
-import RegularData from '@/data/build.data.regular.json';
+import Main from '@/components/Main';
+import ModernData from '@/data/build.data.modern.json';
 import { Banner, Card, CardInfo, CardTitle } from '@/style/style';
 import Highlight from '@/ui/highlight';
 
 const DynamicMain = dynamic(() => import('@/components/Main'), {
-  loading: () => <Regular icons={RegularData} />,
+  loading: () => <Main icons={ModernData} />,
   suspense: true,
 });
 
@@ -23,12 +23,12 @@ const Loading: NextPage = () => {
 
 const SVG: NextPage = () => {
   const cdn = `<!-- fluentui emoji / jsdelivr-->
-<img src="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/icons/regular/ICON_SVG_NAME.svg" />
+<img src="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/icons/modern/ICON_SVG_NAME.svg" />
 
 <!-- OR -->
 
 <!-- fluentui emoji / unpkg -->
-<img src="https://unpkg.com/fluentui-emoji@latest/icons/regular/ICON_SVG_NAME.svg" />
+<img src="https://unpkg.com/fluentui-emoji@latest/icons/modern/ICON_SVG_NAME.svg" />
 `;
 
   return (
@@ -38,7 +38,7 @@ const SVG: NextPage = () => {
           <Banner>
             <DeviconsReactOriginal width={'3rem'} height={'3rem'} />
             <h1>
-              Fluentui Emoji <span>Regular / SVG</span>
+              Fluentui Emoji <span>Modern / SVG</span>
             </h1>
           </Banner>
 
@@ -49,7 +49,7 @@ const SVG: NextPage = () => {
             <Highlight language={'xml'} code={cdn} />
           </Card>
         </section>
-        <DynamicMain icons={RegularData} type={'regular'} iconType={'svg'} />
+        <DynamicMain icons={ModernData} type={'modern'} iconType={'svg'} />
       </Suspense>
     </>
   );

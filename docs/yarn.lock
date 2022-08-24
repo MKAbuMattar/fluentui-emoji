@@ -2420,10 +2420,10 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.6.tgz#022e9218c637f9f3fc9c35ab9c9193f05add60b2"
   integrity sha512-0sQoMh9s0BYsm+12Huy/rkKxVu4R1+r96YX5cG44rHV0pQ6iC3Q+mkoMFaGWObMFYQxCVT+ssG1ksneA2MI9KQ==
 
-fluentui-emoji@0.0.0-beta.0.0.3:
-  version "0.0.0-beta.0.0.3"
-  resolved "https://registry.yarnpkg.com/fluentui-emoji/-/fluentui-emoji-0.0.0-beta.0.0.3.tgz#b94f5844327532e1b5a7ab341c4256fb5e56e234"
-  integrity sha512-LXlVymjPnqewV1liEaAZGFd+Sexql54k+O/6D92/H2Fyfky27vXFqyTtFSHOhNOFtnSxi9WtuEi6c5Dx2g74lA==
+fluentui-emoji@0.0.0-beta.0.0.6:
+  version "0.0.0-beta.0.0.6"
+  resolved "https://registry.yarnpkg.com/fluentui-emoji/-/fluentui-emoji-0.0.0-beta.0.0.6.tgz#f0c11abcb6e9e36d78210cb921876be861e2325f"
+  integrity sha512-z2WY+XyIve4xRjijATYfHva/zU8pjMvnJW7RmCzAmZwX0+Ej6B/CcgrHPYCWzsTxTJznreJ1NfS3vK/z+d4DSg==
 
 fs-extra@^9.0.1:
   version "9.1.0"

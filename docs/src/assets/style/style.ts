@@ -1,6 +1,3 @@
-import 'fluentui-emoji/styles/regular/fluentui-emoji.css';
-import 'fluentui-emoji/styles/solid/fluentui-emoji.css';
-
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 import styled, { createGlobalStyle } from 'styled-components';
 

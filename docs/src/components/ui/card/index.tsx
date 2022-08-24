@@ -10,18 +10,23 @@ import { Card, CardInfo, CardTitle } from './style';
 type Props = {
   item: Item;
   language: string;
-  type?: 'regular' | 'solid' | 'modern';
+  type?: 'high-contrast' | 'flat' | 'modern';
   iconType?: 'fonticons' | 'unicode' | 'svg';
 };
 
 type IconComponentProps = {
   item: Item;
-  type?: 'regular' | 'solid' | 'modern';
+  type?: 'high-contrast' | 'flat' | 'modern';
   iconType?: 'fonticons' | 'unicode' | 'svg';
 };
 
 const index: FC<Props> = (props) => {
-  const { item, language, type = 'regular', iconType = 'fonticons' } = props;
+  const {
+    item,
+    language,
+    type = 'high-contrast',
+    iconType = 'fonticons',
+  } = props;
 
   const code = (iconType: 'fonticons' | 'unicode' | 'svg') => {
     switch (iconType) {
@@ -93,20 +98,18 @@ const IconComponent: FC<IconComponentProps> = (props) => {
 
   switch (iconType) {
     case 'fonticons':
-      return <i className={`${item.iconName} emoji`}></i>;
+      return <i className={`${item.iconName} fe-f-4x`}></i>;
     case 'unicode':
-      return <i className={`${item.iconName} emoji`}></i>;
+      return <i className={`${item.iconName} fe-f-4x`}></i>;
     case 'svg':
       return (
-        <>
-          <Image
-            loader={myLoader}
-            src={`${type}/${item.svg}`}
-            alt={item.name}
-            width={56}
-            height={56}
-          />
-        </>
+        <Image
+          loader={myLoader}
+          src={`${type}/${item.svg}`}
+          alt={item.name}
+          width={56}
+          height={56}
+        />
       );
     default:
       return <i className={`${item.iconName} emoji`}></i>;

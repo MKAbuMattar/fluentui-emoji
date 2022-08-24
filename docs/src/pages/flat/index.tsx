@@ -4,12 +4,12 @@ import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
 
 import Main from '@/components/Main';
-import RegularData from '@/data/build.data.regular.json';
+import FlatData from '@/data/build.data.flat.json';
 import { Banner, Card, CardInfo, CardTitle } from '@/style/style';
 import Highlight from '@/ui/highlight';
 
 const DynamicMain = dynamic(() => import('@/components/Main'), {
-  loading: () => <Main icons={RegularData} />,
+  loading: () => <Main icons={FlatData} />,
   suspense: true,
 });
 
@@ -21,19 +21,15 @@ const Loading: NextPage = () => {
   );
 };
 
-const Fonticons: NextPage = () => {
-  const cdn = `<!-- in your header -->
-<!-- fluentui emoji / jsdelivr-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/styles/regular/fluentui-emoji.css">
+const SVG: NextPage = () => {
+  const cdn = `<!-- fluentui emoji / jsdelivr-->
+<img src="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/icons/flat/ICON_SVG_NAME.svg" />
 
 <!-- OR -->
 
 <!-- fluentui emoji / unpkg -->
-<link rel="stylesheet" href="https://unpkg.com/fluentui-emoji@latest/styles/regular/fluentui-emoji.css">
-
-
-<!-- in your body -->
-<i class="fluentui-emoji-regular-1st-place-medal"></i>`;
+<img src="https://unpkg.com/fluentui-emoji@latest/icons/flat/ICON_SVG_NAME.svg" />
+`;
 
   return (
     <>
@@ -42,7 +38,7 @@ const Fonticons: NextPage = () => {
           <Banner>
             <DeviconsReactOriginal width={'3rem'} height={'3rem'} />
             <h1>
-              Fluentui Emoji <span>Regular / Fonticons</span>
+              Fluentui Emoji <span>Flat / SVG</span>
             </h1>
           </Banner>
 
@@ -53,14 +49,10 @@ const Fonticons: NextPage = () => {
             <Highlight language={'xml'} code={cdn} />
           </Card>
         </section>
-        <DynamicMain
-          icons={RegularData}
-          type={'regular'}
-          iconType={'fonticons'}
-        />
+        <DynamicMain icons={FlatData} type={'flat'} iconType={'svg'} />
       </Suspense>
     </>
   );
 };
 
-export default Fonticons;
+export default SVG;
