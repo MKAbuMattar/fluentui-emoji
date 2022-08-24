@@ -20,7 +20,7 @@ const svg2font = (
     css: {
       output: `/styles/${type}`,
       fileName: cssFileName,
-      cssPath: `/fonts/${type}/`,
+      cssPath: `../../fonts/${type}/`,
     }, // Create CSS files.
   }).then(() => {
     console.log('done!');
