@@ -1,7 +1,14 @@
 import path from 'path';
 import svgtofont from 'svgtofont';
 
-const svg2font = (rootDir: string, outDir: string, fontName: string) => {
+const svg2font = (
+  rootDir: string,
+  outDir: string,
+  fontName: string,
+  cssFileName: string,
+  prefix: string,
+  type: string,
+) => {
   const rootPath = path.resolve(process.cwd(), 'script');
 
   svgtofont({
@@ -9,17 +16,12 @@ const svg2font = (rootDir: string, outDir: string, fontName: string) => {
     dist: path.resolve(process.cwd(), outDir), // output path
     styleTemplates: path.resolve(rootPath, 'styles'), // template path
     fontName: fontName, // font name
-    css: true, // Create CSS files.
-    outSVGPath: true,
-    startUnicode: 0xea01, // unicode start number
-    svgicons2svgfont: {
-      fontHeight: 1000,
-      normalize: true,
-    },
-    svg2ttf: {
-      fontHeight: 1000,
-      normalize: true,
-    },
+    classNamePrefix: prefix, // class name prefix
+    css: {
+      output: `/styles/${type}`,
+      fileName: cssFileName,
+      cssPath: `/fonts/${type}/`,
+    }, // Create CSS files.
   }).then(() => {
     console.log('done!');
   });
@@ -27,13 +29,19 @@ const svg2font = (rootDir: string, outDir: string, fontName: string) => {
 
 (() => {
   // svg2font(
-  //   'icons/regular',
-  //   'fonts/regular',
-  //   'fluentui-emoji-regular',
+  //   'icons/high-contrast',
+  //   'fonts/high-contrast',
+  //   'fluentui-emoji-high-contrast',
+  //   'fluentui-emoji',
+  //   'fe-hc',
+  //   'high-contrast',
   // );
   // svg2font(
-  //   'icons/solid',
-  //   'fonts/solid',
-  //   'fluentui-emoji-solid',
+  //   'icons/flat',
+  //   'fonts/flat',
+  //   'fluentui-emoji-flat',
+  //   'fluentui-emoji',
+  //   'fe-f',
+  //   'flat',
   // );
 })();
