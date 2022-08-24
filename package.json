@@ -7,11 +7,6 @@
     "emoji",
     "fluentui-emoji",
     "icons",
-    "font",
-    "css",
-    "scss",
-    "less",
-    "stylus",
     "svg"
   ],
   "license": "MIT",
@@ -39,7 +34,6 @@
     "svg:optmize:flat": "svgo -f svg/flat -o icons/flat",
     "svg:optmize:modern": "svgo -f svg/modern -o icons/modern",
     "svg:optmize": "yarn svg:optmize:high-contrast && yarn svg:optmize:flat && yarn svg:optmize:modern",
-    "svg:to-font": "node -r esbuild-runner/register script/index.ts",
     "svg:get-data": "node -r esbuild-runner/register script/data/build.data.ts",
     "publish": "npm publish"
   },
@@ -56,14 +50,11 @@
     "prettier": "2.7.1",
     "recursive-directory": "0.0.0-rc-0.0.4",
     "svgo": "2.8.0",
-    "svgtofont": "3.17.8",
     "typescript": "4.7.4"
   },
   "sideEffects": false,
   "files": [
-    "/fonts",
-    "/icons",
-    "/styles"
+    "/icons"
   ],
   "support": {
     "backing": {
