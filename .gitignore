@@ -1,6 +1,4 @@
 .idea
 node_modules
-script/data/build.data.regular.json
-script/data/build.data.solid.json
-script/data/build.data.modern.json
+script/data/build.data.*.json
 yarn-error.log
