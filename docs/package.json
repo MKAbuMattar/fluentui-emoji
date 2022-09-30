@@ -1,6 +1,6 @@
 {
   "name": "fluentui-emoji-docs",
-  "version": "0.0.0-beta.0.0.6",
+  "version": "0.0.7",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "devicons-react": "1.2.4",
-    "fluentui-emoji": "0.0.0-beta.0.0.6",
     "highlight.js": "11.6.0",
     "next": "12.2.5",
     "next-pwa": "5.5.4",
