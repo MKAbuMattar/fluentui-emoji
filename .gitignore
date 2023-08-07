@@ -1,4 +1,4 @@
 .idea
 node_modules
-script/data/build.data.*.json
+script/build.data.*.json
 yarn-error.log

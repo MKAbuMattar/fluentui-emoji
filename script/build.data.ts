@@ -1,6 +1,7 @@
-import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
 import fs from 'fs';
 import path from 'path';
+
+import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
 
 type Data = {
   name: string;
