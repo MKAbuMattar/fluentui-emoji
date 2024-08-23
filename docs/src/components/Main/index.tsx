@@ -1,6 +1,6 @@
-import { FC, useCallback, useEffect, useState } from 'react';
+import { type FC, useCallback, useEffect, useState } from 'react';
 
-import Item from '@/types/item';
+import type Item from '@/types/item';
 import Card from '@/ui/card';
 
 import { Cards, SearchInput, SearchSection } from './style';

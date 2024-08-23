@@ -1,6 +1,6 @@
 import DeviconsReactOriginal from 'devicons-react/lib/icons/DeviconsReactOriginal';
 import Link from 'next/link';
-import { FC } from 'react';
+import type { FC } from 'react';
 import {
   Menu,
   MenuItem,
