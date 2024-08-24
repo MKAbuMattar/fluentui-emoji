@@ -1,4 +1,6 @@
 .idea
+icons
 node_modules
+private-fluentui-emoji
 script/build.data.*.json
-yarn-error.log
+svg

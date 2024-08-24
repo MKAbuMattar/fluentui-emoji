@@ -1,0 +1,30 @@
+{
+  "name": "fluentui-emoji",
+  "version": "1.0.0",
+  "description": "Fluentui Emoji an npm package contains a number of well-known, cordial, and contemporary emoji, build into @microsoft/fluentui-emoji",
+  "keywords": ["fluentui", "emoji", "fluentui-emoji", "icons", "svg"],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji/issues"
+  },
+  "homepage": "https://MKAbuMattar.github.io/fluentui-emoji",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "sideEffects": false,
+  "files": ["/icons"],
+  "support": {
+    "backing": {
+      "npm-funding": true
+    }
+  }
+}
