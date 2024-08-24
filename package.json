@@ -22,6 +22,7 @@
     "fluentui-emoji:clean:svg": "rimraf svg",
     "fluentui-emoji:clean:icons": "rimraf icons",
     "fluentui-emoji:clean:icons-pkg": "rimraf packages/fluentui-emoji/icons",
+    "clean": "npm run fluentui-emoji:clean:clone && npm run fluentui-emoji:clean:svg && npm run fluentui-emoji:clean:icons && npm run fluentui-emoji:clean:icons-pkg",
     "fluentui-emoji:clone": "npm run fluentui-emoji:clean:clone && tsx script/git-clone.config.ts",
     "fluentui-emoji:svg": "npm run fluentui-emoji:clean:svg && tsx script/copy-svg.script.ts",
     "fluentui-emoji:icons": "npm run fluentui-emoji:clean:icons-pkg && tsx script/copy-icons.script.ts",
@@ -29,11 +30,12 @@
     "svg:optmize:high-contrast": "svgo --config svgo.config.cjs -f svg/high-contrast -o icons/high-contrast",
     "svg:optmize:modern": "svgo --config svgo.config.cjs -f svg/modern -o icons/modern",
     "svg:optmize": "npm run fluentui-emoji:clean:icons && npm run svg:optmize:flat && npm run svg:optmize:high-contrast && npm run svg:optmize:modern",
+    "svg:get-data": "tsx script/build.data.ts",
+    "build": "npm run fluentui-emoji:clone && npm run fluentui-emoji:svg && npm run svg:optmize && npm run svg:get-data && npm run fluentui-emoji:icons",
     "lint": "biome check ./script",
     "lint:fix": "biome check ./script --fix",
     "fmt": "biome format ./script",
-    "fmt:fix": "biome format --write ./script",
-    "svg:get-data": "tsx script/build.data.ts"
+    "fmt:fix": "biome format --write ./script"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
