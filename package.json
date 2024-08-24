@@ -20,6 +20,10 @@
   "scripts": {
     "fluentui-emoji:clean:clone": "rimraf private-fluentui-emoji",
     "fluentui-emoji:clone": "npm run fluentui-emoji:clean:clone && tsx script/git-clone.config.ts",
+    "svg:optmize:flat": "svgo --config svgo.config.cjs -f svg/flat -o icons/flat",
+    "svg:optmize:high-contrast": "svgo --config svgo.config.cjs -f svg/high-contrast -o icons/high-contrast",
+    "svg:optmize:modern": "svgo --config svgo.config.cjs -f svg/modern -o icons/modern",
+    "svg:optmize": "npm run svg:optmize:flat && npm run svg:optmize:high-contrast && npm run svg:optmize:modern",
     "lint": "biome check ./script",
     "lint:fix": "biome check ./script --fix",
     "fmt": "biome format ./script",
