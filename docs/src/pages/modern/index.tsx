@@ -23,7 +23,7 @@ const Loading: NextPage = () => {
 
 const SVG: NextPage = () => {
   const cdn = `<!-- fluentui emoji / jsdelivr-->
-<img src="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/icons/modern/ICON_SVG_NAME.svg" />
+<img src="https://cdn.jsdelivr.net/npm/fluentui-emoji@latest/icons/modern/ICON_SVG_NAME.svg" />
 
 <!-- OR -->
 

@@ -22,7 +22,7 @@ yarn add fluentui-emoji
 pnpm add fluentui-emoji`;
 
   const cdnHighContrast = `<!-- fluentui emoji / jsdelivr-->
-<img src="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/icons/high-contrast/ICON_SVG_NAME.svg" />
+<img src="https://cdn.jsdelivr.net/npm/fluentui-emoji@latest/icons/high-contrast/ICON_SVG_NAME.svg" />
 
 <!-- OR -->
 
@@ -30,7 +30,7 @@ pnpm add fluentui-emoji`;
 <img src="https://unpkg.com/fluentui-emoji@latest/icons/high-contrast/ICON_SVG_NAME.svg" />`;
 
   const cdnFlat = `<!-- fluentui emoji / jsdelivr-->
-<img src="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/icons/flat/ICON_SVG_NAME.svg" />
+<img src="https://cdn.jsdelivr.net/npm/fluentui-emoji@latest/icons/flat/ICON_SVG_NAME.svg" />
 
 <!-- OR -->
 
@@ -38,7 +38,7 @@ pnpm add fluentui-emoji`;
 <img src="https://unpkg.com/fluentui-emoji@latest/icons/flat/ICON_SVG_NAME.svg" />`;
 
   const cdnModern = `<!-- fluentui emoji / jsdelivr-->
-<img src="https://cdn.jsdelivr.net/gh/mkabumattar/fluentui-emoji@latest/icons/modern/ICON_SVG_NAME.svg" />
+<img src="https://cdn.jsdelivr.net/npm/fluentui-emoji@latest/icons/modern/ICON_SVG_NAME.svg" />
 
 <!-- OR -->
 
