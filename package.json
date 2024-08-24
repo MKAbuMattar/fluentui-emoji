@@ -1,8 +1,8 @@
 {
-  "name": "fluentui-emoji",
-  "version": "0.0.9",
-  "description": "Fluentui Emoji an npm package contains a number of well-known, cordial, and contemporary emoji, build into @microsoft/fluentui-emoji",
-  "keywords": ["fluentui", "emoji", "fluentui-emoji", "icons", "svg"],
+  "name": "root",
+  "private": true,
+  "description": "",
+  "keywords": [],
   "license": "MIT",
   "author": {
     "name": "Mohammad Abu Mattar",
@@ -18,30 +18,21 @@
   },
   "homepage": "https://MKAbuMattar.github.io/fluentui-emoji",
   "scripts": {
+    "fluentui-emoji:clean:clone": "rimraf private-fluentui-emoji",
+    "fluentui-emoji:clone": "npm run fluentui-emoji:clean:clone && tsx script/git-clone.config.ts",
     "lint": "biome check ./script",
     "lint:fix": "biome check ./script --fix",
     "fmt": "biome format ./script",
     "fmt:fix": "biome format --write ./script",
-    "svg:optmize:high-contrast": "svgo --config svgo.config.cjs -f svg/high-contrast -o icons/high-contrast",
-    "svg:optmize:flat": "svgo --config svgo.config.cjs -f svg/flat -o icons/flat",
-    "svg:optmize:modern": "svgo --config svgo.config.cjs -f svg/modern -o icons/modern",
-    "svg:optmize": "npm run svg:optmize:high-contrast && npm run svg:optmize:flat && npm run svg:optmize:modern",
-    "svg:get-data": "tsx script/build.data.ts",
-    "publish": "npm publish"
+    "svg:get-data": "tsx script/build.data.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
     "@types/node": "22.5.0",
     "recursive-directory": "1.2.3",
+    "rimraf": "6.0.1",
     "svgo": "3.3.2",
     "tsx": "4.17.0",
     "typescript": "5.5.4"
-  },
-  "sideEffects": false,
-  "files": ["/icons"],
-  "support": {
-    "backing": {
-      "npm-funding": true
-    }
   }
 }
