@@ -1,3 +1,5 @@
+const {v4: uuid} = require('uuid');
+
 /** @type {import('svgo').Config} */
 const svgoConfig = {
   plugins: [
@@ -10,7 +12,14 @@ const svgoConfig = {
       },
     },
     'convertStyleToAttrs',
-    'prefixIds',
+    'cleanupIds',
+    {
+      name: 'prefixIds',
+      params: {
+        delim: '',
+        prefix: () => `svg-${uuid()}-`,
+      },
+    },
     'removeDimensions',
   ],
 };
