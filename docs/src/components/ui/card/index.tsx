@@ -91,7 +91,7 @@ const IconComponent: FC<IconComponentProps> = (props) => {
   const { type = 'regular', iconType = 'fonticons', item } = props;
 
   const myLoader = ({ src, width, quality }: any) => {
-    return `https://cdn.jsdelivr.net/npm/fluentui-emoji@1.0.0/icons/${src}?w=${width}&q=${
+    return `https://cdn.jsdelivr.net/npm/fluentui-emoji@1.2.0/icons/${src}?w=${width}&q=${
       quality || 75
     }`;
   };
