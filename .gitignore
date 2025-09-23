@@ -1,6 +1,6 @@
 .idea
 icons
 node_modules
-private-fluentui-emoji
+public-fluentui-emoji
 script/build.data.*.json
 svg
