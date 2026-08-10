@@ -1,0 +1,22 @@
+---
+title: Qwik
+description: Typed Qwik components for Fluent UI Emoji.
+slug: 2.1/getting-started/qwik
+---
+
+[Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji) as typed Qwik components (ESM only) — 3,145 emojis in `flat`, `high-contrast`, and `modern` sets.
+
+## Install
+
+```sh
+pnpm add @fluentui-emoji/qwik
+```
+
+## Usage
+
+```tsx
+import {Rocket} from "@fluentui-emoji/qwik/flat";
+
+<Rocket width={32} />
+<Rocket title="Rocket launch" />  // accessible: role img + aria-label
+```
