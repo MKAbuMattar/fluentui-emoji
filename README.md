@@ -14,8 +14,11 @@ friendly, modern emoji — packaged for every stack, with fully automated releas
 | [`@fluentui-emoji/solid`](packages/solid) | SolidJS components (DOM, SSR, and `solid`-condition builds) |
 | [`@fluentui-emoji/svelte`](packages/svelte) | Svelte 5 `Emoji` component + tree-shakeable icon data |
 | [`@fluentui-emoji/astro`](packages/astro) | Zero-JS Astro component, SVG inlined at build time |
-| [`@fluentui-emoji/web-components`](packages/web-components) | Framework-less `<fluent-emoji>` custom element (works in Angular, Lit, plain HTML) |
+| [`@fluentui-emoji/angular`](packages/angular) | Standalone `fluentEmoji` directive (Angular 17+) |
+| [`@fluentui-emoji/lit`](packages/lit) | `<fluent-emoji>` LitElement + template helpers |
+| [`@fluentui-emoji/web-components`](packages/web-components) | Framework-less `<fluent-emoji>` custom element |
 | [`@fluentui-emoji/alpine`](packages/alpine) | Alpine.js directive + magic |
+| [`@fluentui-emoji/htmx`](packages/htmx) | Server handler serving emoji fragments for htmx |
 
 ## Release channels
 

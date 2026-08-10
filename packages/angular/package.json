@@ -1,0 +1,89 @@
+{
+  "name": "@fluentui-emoji/angular",
+  "version": "1.3.0",
+  "description": "Fluent UI Emoji for Angular — a standalone fluentEmoji directive with tree-shakeable icon data (flat, high-contrast, modern).",
+  "keywords": [
+    "fluentui",
+    "emoji",
+    "fluentui-emoji",
+    "icons",
+    "svg",
+    "angular"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji.git",
+    "directory": "packages/angular"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji/issues"
+  },
+  "homepage": "https://fluentui-emoji.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "module": "./lib/fesm2022/fluentui-emoji-angular.mjs",
+  "types": "./lib/types/fluentui-emoji-angular.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/types/fluentui-emoji-angular.d.ts",
+      "default": "./lib/fesm2022/fluentui-emoji-angular.mjs"
+    },
+    "./flat": {
+      "types": "./dist/flat/index.d.ts",
+      "default": "./dist/flat/index.js"
+    },
+    "./flat/*": {
+      "types": "./dist/flat/icons/*.d.ts",
+      "default": "./dist/flat/icons/*.js"
+    },
+    "./high-contrast": {
+      "types": "./dist/high-contrast/index.d.ts",
+      "default": "./dist/high-contrast/index.js"
+    },
+    "./high-contrast/*": {
+      "types": "./dist/high-contrast/icons/*.d.ts",
+      "default": "./dist/high-contrast/icons/*.js"
+    },
+    "./modern": {
+      "types": "./dist/modern/index.d.ts",
+      "default": "./dist/modern/index.js"
+    },
+    "./modern/*": {
+      "types": "./dist/modern/icons/*.d.ts",
+      "default": "./dist/modern/icons/*.js"
+    }
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json -c tsconfig.json && rm -f lib/package.json && tsx build-data.ts",
+    "test": "tsx test/smoke.ts"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=17"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^22.1.1",
+    "@angular/compiler-cli": "^22.1.1",
+    "@angular/core": "^22.1.1",
+    "ng-packagr": "^22.1.1",
+    "rxjs": "^7.8.2",
+    "tsx": "^4.23.11",
+    "typescript": "~6.0.3",
+    "zone.js": "^0.15.1"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  }
+}

@@ -1,0 +1,45 @@
+# @fluentui-emoji/lit
+
+[Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji) for Lit — a
+`<fluent-emoji>` LitElement plus template helpers, with tree-shakeable icon
+data. 3,145 emojis in `flat`, `high-contrast`, and `modern` styles.
+
+## Install
+
+```sh
+pnpm add @fluentui-emoji/lit
+```
+
+## Usage
+
+As an element:
+
+```js
+import {defineFluentEmoji, register} from '@fluentui-emoji/lit';
+import {Rocket} from '@fluentui-emoji/lit/flat';
+
+register(Rocket);
+defineFluentEmoji();
+```
+
+```html
+<fluent-emoji name="rocket"></fluent-emoji>
+<fluent-emoji name="rocket" variant="modern" label="Rocket"></fluent-emoji>
+```
+
+Inside your own templates:
+
+```js
+import {html} from 'lit';
+import {emojiTemplate} from '@fluentui-emoji/lit';
+import {Rocket} from '@fluentui-emoji/lit/flat';
+
+html`<button>${emojiTemplate(Rocket, 'Launch')} Launch</button>`;
+```
+
+Only imported icons end up in your bundle. Without `label` the svg is `aria-hidden`.
+
+## License
+
+[MIT](https://github.com/MKAbuMattar/fluentui-emoji/blob/main/LICENSE).
+Emoji assets © Microsoft, [MIT licensed](https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE).

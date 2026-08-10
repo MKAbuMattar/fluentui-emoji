@@ -1,0 +1,38 @@
+# @fluentui-emoji/htmx
+
+[Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji) for htmx — a
+tiny server handler that serves emoji SVG fragments for htmx to swap in.
+3,145 emojis in `flat`, `high-contrast`, and `modern` styles.
+
+## Install
+
+```sh
+pnpm add @fluentui-emoji/htmx
+```
+
+## Usage
+
+Server (Express, or plain `node:http`):
+
+```js
+import express from 'express';
+import {fluentEmojiHandler} from '@fluentui-emoji/htmx';
+
+const app = express();
+app.use(fluentEmojiHandler());  // GET /fluentui-emoji/:style/:slug?label=...
+```
+
+Page:
+
+```html
+<span hx-get="/fluentui-emoji/flat/rocket" hx-trigger="load"></span>
+<span hx-get="/fluentui-emoji/modern/party-popper?label=Party!" hx-trigger="load"></span>
+```
+
+Responses are sent with immutable cache headers. There's also a direct helper
+for template engines: `await emojiHtml('rocket', 'flat', 'Rocket')`.
+
+## License
+
+[MIT](https://github.com/MKAbuMattar/fluentui-emoji/blob/main/LICENSE).
+Emoji assets © Microsoft, [MIT licensed](https://github.com/microsoft/fluentui-emoji/blob/main/LICENSE).
