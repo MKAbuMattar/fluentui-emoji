@@ -24,3 +24,13 @@ jobs:
       - run: pnpm lint
       - run: pnpm build
       - run: pnpm test
+      - name: Validate packaging (publint + arethetypeswrong)
+        run: |
+          for dir in packages/*/; do
+            echo "--- publint $dir"
+            (cd "$dir" && pnpm dlx publint --strict) || exit 1
+          done
+          for dir in packages/*/; do
+            echo "--- attw $dir"
+            (cd "$dir" && pnpm dlx @arethetypeswrong/cli --pack . --profile node16) || exit 1
+          done

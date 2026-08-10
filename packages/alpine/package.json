@@ -1,7 +1,7 @@
 {
   "name": "@fluentui-emoji/alpine",
   "version": "2.0.0",
-  "description": "Fluent UI Emoji as an Alpine.js plugin — x-fluent-emoji directive and $fluentEmoji magic with tree-shakeable icon data (flat, high-contrast, modern).",
+  "description": "Fluent UI Emoji as an Alpine.js plugin \u2014 x-fluent-emoji directive and $fluentEmoji magic with tree-shakeable icon data (flat, high-contrast, modern).",
   "keywords": [
     "fluentui",
     "emoji",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/fluentui-emoji.git",
+    "url": "git+https://github.com/MKAbuMattar/fluentui-emoji.git",
     "directory": "packages/alpine"
   },
   "bugs": {
@@ -58,7 +58,8 @@
     "./modern/*": {
       "types": "./dist/modern/icons/*.d.ts",
       "default": "./dist/modern/icons/*.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -74,5 +75,8 @@
     "tsup": "^8.5.0",
     "tsx": "^4.23.11",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

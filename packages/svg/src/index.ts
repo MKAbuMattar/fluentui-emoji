@@ -7,6 +7,15 @@ export type EmojiEntry = {
   slug: EmojiSlug;
   name: string;
   styles: EmojiStyle[];
+  /** present on skin-tone variants */
+  base?: string;
+  tone?:
+    | 'default'
+    | 'light'
+    | 'medium-light'
+    | 'medium'
+    | 'medium-dark'
+    | 'dark';
 };
 
 export type EmojiMetadata = {

@@ -150,9 +150,12 @@ export default function Gallery({base}: {base: string}) {
   const url = (slug: string) => `${prefix}emoji/${style}/${slug}.svg`;
 
   const emojis = useMemo(() => {
-    const q = query.trim().toLowerCase().replaceAll(' ', '-');
+    const raw = query.trim().toLowerCase();
+    const q = raw.replaceAll(' ', '-');
     return metadata.emojis.filter(
-      (e) => e.styles.includes(style) && (!q || e.slug.includes(q)),
+      (e) =>
+        e.styles.includes(style) &&
+        (!raw || e.slug.includes(q) || e.name.toLowerCase().includes(raw)),
     );
   }, [query, style]);
 

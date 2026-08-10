@@ -38,9 +38,13 @@ const slugify = (filename: string): string =>
     .replaceAll('-flat', '')
     .replaceAll('-color', '');
 
-const svgoConfig = (slug: string): Config => ({
+const svgoConfig = (slug: string, style: string): Config => ({
   plugins: [
     'preset-default',
+    // high-contrast icons are monochrome — currentColor lets CSS color them
+    ...(style === 'high-contrast'
+      ? ([{name: 'convertColors', params: {currentColor: true}}] as const)
+      : []),
     'convertStyleToAttrs',
     'cleanupIds',
     {
@@ -84,7 +88,7 @@ const extract = (): void => {
 
     const slug = slugify(path.basename(rel));
     const raw = fs.readFileSync(path.join(TMP, 'assets', rel), 'utf8');
-    const {data} = optimize(raw, svgoConfig(slug));
+    const {data} = optimize(raw, svgoConfig(slug, STYLE_DIRS[style]));
     fs.writeFileSync(path.join(ASSETS, STYLE_DIRS[style], `${slug}.svg`), data);
     written++;
   }

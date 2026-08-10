@@ -43,6 +43,7 @@ export default defineConfig({
           ],
         },
         {label: 'Emoji Gallery', slug: 'gallery'},
+        {label: 'CDN', slug: 'cdn'},
       ],
     }),
     react(),

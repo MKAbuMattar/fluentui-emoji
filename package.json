@@ -1,7 +1,7 @@
 {
   "name": "@fluentui-emoji/root",
   "private": true,
-  "description": "Fluent UI Emoji as SVG, React, Astro & more — automated releases from microsoft/fluentui-emoji",
+  "description": "Fluent UI Emoji as SVG, React, Astro & more \u2014 automated releases from microsoft/fluentui-emoji",
   "keywords": [
     "fluentui",
     "emoji",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/fluentui-emoji.git"
+    "url": "git+https://github.com/MKAbuMattar/fluentui-emoji.git"
   },
   "bugs": {
     "url": "https://github.com/MKAbuMattar/fluentui-emoji/issues"
@@ -41,5 +41,8 @@
     "svgo": "4.0.2",
     "tsx": "4.23.11",
     "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
