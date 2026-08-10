@@ -1,0 +1,86 @@
+{
+  "name": "@fluentui-emoji/solid",
+  "version": "1.3.0",
+  "description": "Fluent UI Emoji as tree-shakeable typed SolidJS components (flat, high-contrast, modern).",
+  "keywords": [
+    "fluentui",
+    "emoji",
+    "fluentui-emoji",
+    "icons",
+    "svg",
+    "solid",
+    "solidjs"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji.git",
+    "directory": "packages/solid"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji/issues"
+  },
+  "homepage": "https://fluentui-emoji.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "module": "./dist/core.js",
+  "types": "./dist/core.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/core.d.ts",
+      "solid": "./dist/source/core.jsx",
+      "node": "./dist/core.ssr.js",
+      "default": "./dist/core.js"
+    },
+    "./flat": {
+      "types": "./dist/flat/index.d.ts",
+      "default": "./dist/flat/index.js"
+    },
+    "./flat/*": {
+      "types": "./dist/flat/icons/*.d.ts",
+      "default": "./dist/flat/icons/*.js"
+    },
+    "./high-contrast": {
+      "types": "./dist/high-contrast/index.d.ts",
+      "default": "./dist/high-contrast/index.js"
+    },
+    "./high-contrast/*": {
+      "types": "./dist/high-contrast/icons/*.d.ts",
+      "default": "./dist/high-contrast/icons/*.js"
+    },
+    "./modern": {
+      "types": "./dist/modern/index.d.ts",
+      "default": "./dist/modern/index.js"
+    },
+    "./modern/*": {
+      "types": "./dist/modern/icons/*.d.ts",
+      "default": "./dist/modern/icons/*.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsx build.ts",
+    "test": "tsx test/smoke.ts"
+  },
+  "peerDependencies": {
+    "solid-js": ">=1.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-typescript": "^7.28.0",
+    "babel-preset-solid": "^1.9.9",
+    "solid-js": "^1.9.9",
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

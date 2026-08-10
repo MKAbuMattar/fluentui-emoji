@@ -6,33 +6,11 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
+import {eachIcon, STYLES} from '../../scripts/generate/svg-lib';
 
 const PKG = import.meta.dirname;
 const ASSETS = path.resolve(PKG, '../../assets');
 const DIST = path.join(PKG, 'dist');
-
-const STYLES = ['flat', 'high-contrast', 'modern'] as const;
-
-const componentName = (slug: string): string => {
-  const pascal = slug
-    .split('-')
-    .map((w) => (w[0] ? w[0].toUpperCase() + w.slice(1) : w))
-    .join('');
-  return /^\d/.test(pascal) ? `Emoji${pascal}` : pascal;
-};
-
-const SVG_RE = /^<svg([^>]*)>([\s\S]*)<\/svg>\s*$/;
-const ATTR_RE = /([a-zA-Z:-]+)="([^"]*)"/g;
-
-const parseSvg = (
-  svg: string,
-): {attrs: Record<string, string>; html: string} => {
-  const m = SVG_RE.exec(svg);
-  if (!m) throw new Error('unparseable svg');
-  const attrs: Record<string, string> = {};
-  for (const [, key, value] of m[1].matchAll(ATTR_RE)) attrs[key] = value;
-  return {attrs, html: m[2]};
-};
 
 let total = 0;
 for (const style of STYLES) {
@@ -40,21 +18,10 @@ for (const style of STYLES) {
   fs.rmSync(path.join(DIST, style), {recursive: true, force: true});
   fs.mkdirSync(iconsDir, {recursive: true});
 
-  const seen = new Map<string, string>();
   const indexJs: string[] = [];
   const indexCjs: string[] = [];
 
-  for (const file of fs.readdirSync(path.join(ASSETS, style)).sort()) {
-    if (!file.endsWith('.svg')) continue;
-    const slug = file.slice(0, -4);
-    const name = componentName(slug);
-    const clash = seen.get(name);
-    if (clash) throw new Error(`name clash: ${slug} vs ${clash} -> ${name}`);
-    seen.set(name, slug);
-
-    const {attrs, html} = parseSvg(
-      fs.readFileSync(path.join(ASSETS, style, file), 'utf8'),
-    );
+  for (const {slug, name, attrs, html} of eachIcon(ASSETS, style)) {
     const args = `${JSON.stringify(name)}, ${JSON.stringify(attrs)}, ${JSON.stringify(html)}`;
 
     fs.writeFileSync(

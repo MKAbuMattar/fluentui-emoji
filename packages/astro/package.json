@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/MKAbuMattar/fluentui-emoji/issues"
   },
-  "homepage": "https://mkabumattar.github.io/fluentui-emoji/",
+  "homepage": "https://fluentui-emoji.mkabumattar.com/",
   "type": "module",
   "sideEffects": false,
   "exports": {
