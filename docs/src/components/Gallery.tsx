@@ -168,7 +168,7 @@ export default function Gallery({base}: {base: string}) {
         .fe-gallery .fe-controls {display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;}
         .fe-gallery input[type='search'] {flex: 1 1 14rem; padding: 0.5rem 0.75rem; border: 1px solid var(--sl-color-gray-4); border-radius: 0.5rem; background: var(--sl-color-bg); color: var(--sl-color-text); font-size: var(--sl-text-sm);}
         .fe-gallery input[type='search']:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
-        .fe-gallery .fe-styles {display: flex; border: 1px solid var(--sl-color-gray-4); border-radius: 0.5rem; overflow: hidden;}
+        .fe-gallery .fe-styles {display: flex; margin: 0; padding: 0; border: 1px solid var(--sl-color-gray-4); border-radius: 0.5rem; overflow: hidden;}
         .fe-gallery .fe-styles button {padding: 0.5rem 0.9rem; border: 0; background: transparent; color: var(--sl-color-text); cursor: pointer; font-size: var(--sl-text-sm);}
         .fe-gallery .fe-styles button[aria-pressed='true'] {background: var(--sl-color-text-accent); color: var(--sl-color-text-invert); font-weight: 600;}
         .fe-gallery .fe-count {margin: 0.75rem 0; color: var(--sl-color-gray-2); font-size: var(--sl-text-sm);}
@@ -201,7 +201,7 @@ export default function Gallery({base}: {base: string}) {
           onChange={(e) => setQuery(e.target.value)}
           aria-label="Search emojis"
         />
-        <div className="fe-styles" role="group" aria-label="Icon style">
+        <fieldset className="fe-styles" aria-label="Icon style">
           {STYLES.map((s) => (
             <button
               key={s}
@@ -212,7 +212,7 @@ export default function Gallery({base}: {base: string}) {
               {s}
             </button>
           ))}
-        </div>
+        </fieldset>
       </div>
 
       <p className="fe-count">
