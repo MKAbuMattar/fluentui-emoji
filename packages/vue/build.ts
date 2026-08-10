@@ -1,8 +1,6 @@
 /**
- * Generates one ESM icon module + d.ts per emoji per style from assets/,
- * plus a tree-shakeable index per style. The runtime core (createFluentEmoji)
- * is built separately by tsup; every icon shares its identical type shape,
- * so d.ts files are written from a template — no bundler dts pass needed.
+ * Generates one icon module (ESM + CJS + d.ts/d.cts) per emoji per style,
+ * plus tree-shakeable per-style indexes. Same shape as the react package.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -52,11 +50,13 @@ for (const style of STYLES) {
     path.join(DIST, style, 'index.cjs'),
     `'use strict';\n${indexCjs.join('\n')}\n`,
   );
-  const indexDts = indexJs.join('\n');
-  fs.writeFileSync(path.join(DIST, style, 'index.d.ts'), `${indexDts}\n`);
+  fs.writeFileSync(
+    path.join(DIST, style, 'index.d.ts'),
+    `${indexJs.join('\n')}\n`,
+  );
   fs.writeFileSync(
     path.join(DIST, style, 'index.d.cts'),
     `${indexJs.map((l) => l.replace('.js', '.cjs')).join('\n')}\n`,
   );
 }
-console.log(`@fluentui-emoji/react: generated ${total} icon components`);
+console.log(`@fluentui-emoji/vue: generated ${total} icon components`);

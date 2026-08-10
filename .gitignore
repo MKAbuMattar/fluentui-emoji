@@ -8,3 +8,4 @@ lib/
 packages/*/icons/
 packages/*/metadata.json
 packages/*/src/emoji.generated.ts
+docs/public/emoji/

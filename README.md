@@ -9,9 +9,13 @@ friendly, modern emoji — packaged for every stack, with fully automated releas
 |---|---|
 | [`@fluentui-emoji/svg`](packages/svg) | Optimized SVGs (flat, high-contrast, modern) + typed metadata |
 | [`@fluentui-emoji/react`](packages/react) | Tree-shakeable typed React components |
+| [`@fluentui-emoji/preact`](packages/preact) | Tree-shakeable typed Preact components |
+| [`@fluentui-emoji/vue`](packages/vue) | Tree-shakeable typed Vue 3 components |
+| [`@fluentui-emoji/solid`](packages/solid) | SolidJS components (DOM, SSR, and `solid`-condition builds) |
+| [`@fluentui-emoji/svelte`](packages/svelte) | Svelte 5 `Emoji` component + tree-shakeable icon data |
 | [`@fluentui-emoji/astro`](packages/astro) | Zero-JS Astro component, SVG inlined at build time |
-
-More frameworks (Vue, Svelte, Web Components) are planned — same generator core.
+| [`@fluentui-emoji/web-components`](packages/web-components) | Framework-less `<fluent-emoji>` custom element (works in Angular, Lit, plain HTML) |
+| [`@fluentui-emoji/alpine`](packages/alpine) | Alpine.js directive + magic |
 
 ## Release channels
 

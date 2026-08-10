@@ -7,9 +7,7 @@ import versions from './versions.json' with {type: 'json'};
 
 // starlight-versions requires at least one archived version; the release
 // pipeline appends to versions.json, which activates the version switcher.
-const plugins = versions.length
-  ? [starlightVersions({versions})]
-  : [];
+const plugins = versions.length ? [starlightVersions({versions})] : [];
 
 export default defineConfig({
   site: 'https://fluentui-emoji.mkabumattar.com',

@@ -1,4 +1,4 @@
-import {metadata, type EmojiStyle} from '@fluentui-emoji/svg';
+import {type EmojiStyle, metadata} from '@fluentui-emoji/svg';
 import {useMemo, useState} from 'react';
 
 const STYLES: EmojiStyle[] = ['flat', 'high-contrast', 'modern'];
