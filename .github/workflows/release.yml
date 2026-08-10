@@ -24,6 +24,8 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+    outputs:
+      published: ${{ steps.changesets.outputs.published }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -63,3 +65,25 @@ jobs:
           fi
           pnpm changeset version --snapshot canary
           pnpm changeset publish --tag canary --no-git-tag
+
+      - name: Docs version snapshot (stable releases)
+        if: github.ref == 'refs/heads/main' && steps.changesets.outputs.published == 'true'
+        run: |
+          node scripts/docs-snapshot.mjs
+          if [ -n "$(git status --porcelain docs/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add docs/
+            git commit -m "docs: version snapshot for @fluentui-emoji/svg@$(node -p "require('./packages/svg/package.json').version")"
+            git push
+          fi
+
+  docs:
+    name: Docs
+    needs: release
+    if: github.ref == 'refs/heads/main' && needs.release.outputs.published == 'true'
+    uses: ./.github/workflows/docs.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

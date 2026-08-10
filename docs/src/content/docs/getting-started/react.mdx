@@ -1,0 +1,40 @@
+---
+title: React
+description: Tree-shakeable typed React components for Fluent UI Emoji.
+---
+
+import {Rocket, PartyPopper} from '@fluentui-emoji/react/flat';
+import {Fire} from '@fluentui-emoji/react/modern';
+
+Typed, tree-shakeable React components. Dual ESM + CJS. React 17+.
+
+```sh
+pnpm add @fluentui-emoji/react
+```
+
+## Live demo
+
+This page renders these with the real package:
+
+<div style="display:flex;gap:.5rem;align-items:center">
+  <Rocket width={40} />
+  <PartyPopper width={40} />
+  <Fire width={40} title="Fire!" />
+</div>
+
+```tsx
+import {Rocket, PartyPopper} from '@fluentui-emoji/react/flat';
+import {Fire} from '@fluentui-emoji/react/modern';
+
+<Rocket width={40} />              // decorative: aria-hidden
+<Fire width={40} title="Fire!" />  // accessible: role="img" + aria-label
+```
+
+## Entry points
+
+- Barrel per style (tree-shakeable): `@fluentui-emoji/react/flat`, `/high-contrast`, `/modern`
+- Single icon (no barrel at all): `@fluentui-emoji/react/flat/rocket`
+
+Component names are the PascalCased slug; slugs starting with a digit get an
+`Emoji` prefix (`1st-place-medal` → `Emoji1stPlaceMedal`). Every component
+forwards its ref and accepts all `SVGProps<SVGSVGElement>`.

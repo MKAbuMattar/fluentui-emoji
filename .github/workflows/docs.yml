@@ -1,0 +1,52 @@
+# Builds the Astro docs and deploys to GitHub Pages.
+# Triggers: normal pushes to main (docs/assets/packages changes),
+# manual dispatch, and workflow_call from release.yml after a stable
+# publish (the version-snapshot commit is pushed with GITHUB_TOKEN,
+# which never triggers push workflows — hence the explicit call).
+name: Docs
+
+on:
+  push:
+    branches: [main]
+    paths: ['docs/**', 'assets/**', 'packages/**']
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build docs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/dist
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

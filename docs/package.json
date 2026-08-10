@@ -1,0 +1,22 @@
+{
+  "name": "@fluentui-emoji/docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node copy-assets.mjs && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "^6.0.2",
+    "@astrojs/starlight": "^0.41.7",
+    "@fluentui-emoji/astro": "workspace:*",
+    "@fluentui-emoji/react": "workspace:*",
+    "@fluentui-emoji/svg": "workspace:*",
+    "astro": "^7.2.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "sharp": "^0.35.3",
+    "starlight-versions": "^0.9.1"
+  }
+}
