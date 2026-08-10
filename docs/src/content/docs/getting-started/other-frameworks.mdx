@@ -1,0 +1,47 @@
+---
+title: Other frameworks
+description: Every stack is covered by one of the framework-agnostic packages.
+---
+
+No dedicated package for your stack? One of the framework-agnostic routes below
+covers it — pick by how your framework consumes UI.
+
+## Web components (Stencil, FAST, Ember, Aurelia, Marko, ...)
+
+Anything that renders standard custom elements works with
+[`@fluentui-emoji/web-components`](./web-components/) — register your icons, define the
+element once, and use it in any template language:
+
+```html
+<fluent-emoji name="rocket" variant="flat"></fluent-emoji>
+```
+
+## Server-driven HTML (htmx, Unpoly, Turbo, Datastar)
+
+The [`@fluentui-emoji/htmx`](./htmx/) handler is not htmx-specific — it serves plain
+SVG fragments over HTTP, which all fragment-swapping libraries consume:
+
+```html
+<!-- htmx -->      <span hx-get="/fluentui-emoji/flat/rocket" hx-trigger="load"></span>
+<!-- Unpoly -->    <a up-target=".icon" href="/fluentui-emoji/flat/rocket">load</a>
+<!-- Datastar -->  <span data-on-load="@get('/fluentui-emoji/flat/rocket')"></span>
+```
+
+## Anything Iconify supports (and that is almost everything)
+
+[`@fluentui-emoji/iconify`](./iconify/) plugs the icons into unplugin-icons, the
+Tailwind Iconify plugin, Iconify's web component, and every framework Iconify
+integrates with.
+
+## React-compatible libraries (Inferno, ...)
+
+[`@fluentui-emoji/react`](./react/) works unchanged through compatibility layers such
+as `inferno-compat`.
+
+## Legacy stacks (Backbone, Knockout, jQuery, plain HTML)
+
+Use the [sprite sheets](./sprite/) or hotlink the [CDN](../cdn/):
+
+```html
+<svg width="32" height="32"><use href="/sprites/flat.svg#rocket" /></svg>
+```

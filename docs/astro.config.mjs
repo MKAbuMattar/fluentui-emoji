@@ -44,6 +44,7 @@ export default defineConfig({
             {label: 'Qwik', slug: 'getting-started/qwik'},
             {label: 'Iconify', slug: 'getting-started/iconify'},
             {label: 'Sprite', slug: 'getting-started/sprite'},
+            {label: 'Other frameworks', slug: 'getting-started/other-frameworks'},
           ],
         },
         {label: 'Emoji Gallery', slug: 'gallery'},
