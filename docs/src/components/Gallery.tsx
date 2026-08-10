@@ -78,6 +78,31 @@ const snippets = (
       label: 'htmx',
       code: `// server\nimport {fluentEmojiHandler} from '@fluentui-emoji/htmx';\napp.use(fluentEmojiHandler());\n\n<!-- page -->\n<span hx-get="/fluentui-emoji/${style}/${slug}" hx-trigger="load"></span>`,
     },
+    {
+      id: 'react-native',
+      label: 'React Native',
+      code: `import {${name}} from '@fluentui-emoji/react-native/${style}';\n\n<${name} width={32} height={32} />`,
+    },
+    {
+      id: 'qwik',
+      label: 'Qwik',
+      code: `import {${name}} from '@fluentui-emoji/qwik/${style}';\n\n<${name} width={32} />`,
+    },
+    {
+      id: 'iconify',
+      label: 'Iconify',
+      code: `import {addCollection} from '@iconify/react';\nimport collection from '@fluentui-emoji/iconify/${style}.json';\n\naddCollection(collection);\n\n<Icon icon="fluentui-emoji-${style}:${slug}" />`,
+    },
+    {
+      id: 'sprite',
+      label: 'Sprite',
+      code: `<!-- copy @fluentui-emoji/sprite/${style}.svg into your static assets -->\n<svg width="32" height="32">\n  <use href="/sprites/${style}.svg#${slug}" />\n</svg>`,
+    },
+    {
+      id: 'cdn',
+      label: 'CDN',
+      code: `<img\n  src="https://cdn.jsdelivr.net/npm/@fluentui-emoji/svg@latest/icons/${style}/${slug}.svg"\n  width="32" height="32" alt="${slug}"\n/>`,
+    },
   ];
 };
 

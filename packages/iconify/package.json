@@ -1,0 +1,59 @@
+{
+  "name": "@fluentui-emoji/iconify",
+  "version": "2.0.0",
+  "description": "Fluent UI Emoji as Iconify JSON collections — works with unplugin-icons, the Tailwind Iconify plugin, and every Iconify component.",
+  "keywords": [
+    "fluentui",
+    "emoji",
+    "fluentui-emoji",
+    "icons",
+    "svg",
+    "iconify"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKAbuMattar/fluentui-emoji.git",
+    "directory": "packages/iconify"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji/issues"
+  },
+  "homepage": "https://fluentui-emoji.mkabumattar.com/",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./flat.json": "./dist/flat.json",
+    "./high-contrast.json": "./dist/high-contrast.json",
+    "./modern.json": "./dist/modern.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsx build.ts",
+    "test": "tsx test/smoke.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

@@ -19,6 +19,10 @@ friendly, modern emoji — packaged for every stack, with fully automated releas
 | [`@fluentui-emoji/web-components`](packages/web-components) | Framework-less `<fluent-emoji>` custom element |
 | [`@fluentui-emoji/alpine`](packages/alpine) | Alpine.js directive + magic |
 | [`@fluentui-emoji/htmx`](packages/htmx) | Server handler serving emoji fragments for htmx |
+| [`@fluentui-emoji/react-native`](packages/react-native) | React Native components on react-native-svg |
+| [`@fluentui-emoji/qwik`](packages/qwik) | Typed Qwik components |
+| [`@fluentui-emoji/iconify`](packages/iconify) | Iconify JSON collections (unplugin-icons, Tailwind) |
+| [`@fluentui-emoji/sprite`](packages/sprite) | SVG symbol sprites for use-href sheets |
 
 ## Release channels
 
