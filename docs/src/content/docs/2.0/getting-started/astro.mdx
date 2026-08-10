@@ -1,0 +1,30 @@
+---
+title: Astro
+description: Zero-JS Fluent UI Emoji for Astro — SVG inlined at build time.
+slug: 2.0/getting-started/astro
+---
+
+The SVG is inlined into the HTML at build time — **zero client JavaScript**.
+
+```sh
+pnpm add @fluentui-emoji/astro
+```
+
+## Usage
+
+```astro
+---
+import {Emoji} from '@fluentui-emoji/astro';
+---
+
+<Emoji name="rocket" />
+<Emoji name="rocket" variant="high-contrast" width="40" />
+<Emoji name="party-popper" title="Celebration!" />
+```
+
+* `name` — typed slug (compile-time checked)
+* `variant` — `flat` (default) · `high-contrast` · `modern`
+* `title` — accessible label; omitted → `aria-hidden`
+* any other attribute lands on the root `<svg>`
+
+Need the raw string? `loadEmojiSvg(name, variant, attrs)` from the same package.
