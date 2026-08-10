@@ -1,6 +1,6 @@
 {
   "name": "@fluentui-emoji/solid",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "Fluent UI Emoji as tree-shakeable typed SolidJS components (flat, high-contrast, modern).",
   "keywords": [
     "fluentui",
