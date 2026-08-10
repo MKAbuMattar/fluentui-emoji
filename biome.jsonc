@@ -6,7 +6,7 @@
     "useIgnoreFile": true
   },
   "files": {
-    "includes": ["**", "!**/assets", "!**/dist", "!**/lib", "!**/.changeset", "!docs/src/content/versions", "!docs/src/content/docs/[0-9]*"]
+    "includes": ["**", "!**/assets", "!**/dist", "!**/lib", "!**/.changeset", "!docs/src/content/versions"]
   },
   "formatter": {
     "indentStyle": "space",
