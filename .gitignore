@@ -5,3 +5,6 @@ lib/
 *.tsbuildinfo
 .astro/
 .DS_Store
+packages/*/icons/
+packages/*/metadata.json
+packages/*/src/emoji.generated.ts
