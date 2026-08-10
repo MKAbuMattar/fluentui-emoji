@@ -1,0 +1,65 @@
+# Fully automated releases via Changesets. No manual steps:
+#   - push to main with changesets  -> bot opens/updates the "Version Packages" PR
+#   - merge that PR                 -> publish to npm `latest` + git tags + GitHub Releases
+#   - push to main without a publish + pending changesets -> snapshot publish to `canary`
+#   - push to next (changesets pre-mode "beta") -> publish x.y.z-beta.N to `beta`
+name: Release
+
+on:
+  push:
+    branches: [main, next]
+
+concurrency:
+  group: release-${{ github.ref }}
+
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
+
+env:
+  NPM_CONFIG_PROVENANCE: 'true'
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+          registry-url: https://registry.npmjs.org
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+
+      - name: Version PR / publish (latest or beta)
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          publish: pnpm changeset publish
+          title: 'chore: version packages'
+          commit: 'chore: version packages'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Canary snapshot (main only)
+        if: github.ref == 'refs/heads/main' && steps.changesets.outputs.published != 'true'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -z "$NODE_AUTH_TOKEN" ]; then
+            echo "NPM_TOKEN not configured yet — skipping canary publish."
+            exit 0
+          fi
+          if ! ls .changeset/*.md 2>/dev/null | grep -qv README; then
+            echo "No pending changesets — nothing to snapshot."
+            exit 0
+          fi
+          pnpm changeset version --snapshot canary
+          pnpm changeset publish --tag canary --no-git-tag

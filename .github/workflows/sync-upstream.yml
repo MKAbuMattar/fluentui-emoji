@@ -1,0 +1,57 @@
+# Weekly sync from microsoft/fluentui-emoji. If new/changed emoji land upstream,
+# this opens a PR with the regenerated assets plus a ready-made changeset —
+# merging the PR rides the normal release train. Zero manual steps.
+name: Sync upstream emoji
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    name: Sync
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm sync
+
+      - name: Add changeset if assets changed
+        id: diff
+        run: |
+          if [ -n "$(git status --porcelain assets/)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            cat > .changeset/upstream-sync-${{ github.run_id }}.md <<'EOF'
+          ---
+          '@fluentui-emoji/svg': minor
+          '@fluentui-emoji/react': minor
+          '@fluentui-emoji/astro': minor
+          ---
+
+          Sync emoji assets from microsoft/fluentui-emoji
+          EOF
+          fi
+
+      - name: Open PR
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: sync/upstream
+          title: 'feat: sync upstream emoji from microsoft/fluentui-emoji'
+          commit-message: 'feat: sync upstream emoji from microsoft/fluentui-emoji'
+          body: |
+            Automated weekly sync from [microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji).
+
+            Review the `assets/` diff, then merge — the release pipeline takes it from there
+            (canary on merge, `latest` via the Version Packages PR).
+          delete-branch: true
