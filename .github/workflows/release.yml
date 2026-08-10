@@ -59,6 +59,9 @@ jobs:
             echo "NPM_TOKEN not configured yet — skipping canary publish."
             exit 0
           fi
+          # the changesets action mutates the working tree while preparing the
+          # Version PR — restore the pushed commit before snapshotting
+          git reset --hard "$GITHUB_SHA"
           if ! ls .changeset/*.md 2>/dev/null | grep -qv README; then
             echo "No pending changesets — nothing to snapshot."
             exit 0
