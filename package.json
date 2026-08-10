@@ -1,0 +1,44 @@
+{
+  "name": "@fluentui-emoji/root",
+  "private": true,
+  "description": "Fluent UI Emoji as SVG, React, Astro & more — automated releases from microsoft/fluentui-emoji",
+  "keywords": [
+    "fluentui",
+    "emoji",
+    "fluentui-emoji",
+    "icons",
+    "svg"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji/issues"
+  },
+  "homepage": "https://mkabumattar.github.io/fluentui-emoji/",
+  "packageManager": "pnpm@11.10.0",
+  "scripts": {
+    "sync": "tsx scripts/sync/index.ts && pnpm generate:metadata",
+    "generate:metadata": "tsx scripts/generate/metadata.ts",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "biome check .",
+    "lint:fix": "biome check --fix .",
+    "fmt": "biome format .",
+    "fmt:fix": "biome format --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.7",
+    "@types/node": "26.2.0",
+    "svgo": "4.0.2",
+    "tsx": "4.23.11",
+    "typescript": "7.0.2"
+  }
+}

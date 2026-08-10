@@ -1,0 +1,7 @@
+node_modules/
+.tmp/
+dist/
+lib/
+*.tsbuildinfo
+.astro/
+.DS_Store
