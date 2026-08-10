@@ -1,0 +1,45 @@
+name: Bug report
+description: Something in a @fluentui-emoji/* package is wrong or broken.
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      options:
+        - @fluentui-emoji/svg
+        - @fluentui-emoji/react
+        - @fluentui-emoji/preact
+        - @fluentui-emoji/vue
+        - @fluentui-emoji/solid
+        - @fluentui-emoji/svelte
+        - @fluentui-emoji/astro
+        - @fluentui-emoji/angular
+        - @fluentui-emoji/lit
+        - @fluentui-emoji/web-components
+        - @fluentui-emoji/alpine
+        - @fluentui-emoji/htmx
+        - The docs site
+        - Other / repo tooling
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "e.g. 4.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead? Include the import statement and a minimal snippet.
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      placeholder: "bundler + version, framework + version, node version"

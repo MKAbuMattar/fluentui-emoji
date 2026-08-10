@@ -1,0 +1,30 @@
+name: Emoji issue
+description: A specific emoji is missing, misnamed, or renders wrong.
+title: "emoji: "
+labels: ["emojis"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Emoji slug
+      description: The slug as used in imports (browse the gallery at https://fluentui-emoji.mkabumattar.com).
+      placeholder: "e.g. rocket"
+    validations:
+      required: true
+  - type: dropdown
+    id: set
+    attributes:
+      label: Set
+      options:
+        - flat
+        - high-contrast
+        - modern
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+      description: Missing entirely, wrong artwork, bad slug/name, broken rendering? Note that artwork comes from microsoft/fluentui-emoji — artwork changes must happen upstream; this repo can fix slugs, names, and processing.
+    validations:
+      required: true
