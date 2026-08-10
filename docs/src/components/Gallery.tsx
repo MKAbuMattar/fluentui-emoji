@@ -216,7 +216,7 @@ export default function Gallery({base}: {base: string}) {
       <style>{`
         .fe-gallery {--fe-ease: cubic-bezier(0.16, 1, 0.3, 1);}
         .fe-gallery {margin-top: 1.5rem;}
-        .fe-gallery .fe-toolbar {display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;}
+        .fe-gallery .fe-toolbar {position: sticky; top: calc(var(--sl-nav-height, 3.5rem) + 0.75rem); z-index: 3; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; padding: 0.6rem; border: 1px solid var(--sl-color-gray-5); border-radius: 0.75rem; background: var(--sl-color-bg-nav, var(--sl-color-bg)); box-shadow: 0 4px 16px rgb(0 0 0 / 0.08);}
         .fe-gallery input[type='search'] {flex: 1 1 14rem; min-height: 2.75rem; padding: 0 0.85rem; border: 1px solid var(--sl-color-gray-4); border-radius: 0.375rem; background: var(--sl-color-bg); color: var(--sl-color-text); font-size: var(--sl-text-sm); transition: border-color 150ms var(--fe-ease);}
         .fe-gallery input[type='search']:hover {border-color: var(--sl-color-gray-3);}
         .fe-gallery input[type='search']:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px; border-color: var(--sl-color-accent);}
@@ -226,11 +226,12 @@ export default function Gallery({base}: {base: string}) {
         .fe-gallery .fe-styles button:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
         .fe-gallery .fe-styles button[aria-pressed='true'] {background: var(--sl-color-bg); color: var(--sl-color-text); font-weight: 600; box-shadow: 0 1px 2px rgb(0 0 0 / 0.12);}
         .fe-gallery .fe-count {margin-left: auto; color: var(--sl-color-gray-2); font-size: var(--sl-text-sm); font-variant-numeric: tabular-nums; white-space: nowrap;}
-        .fe-gallery .fe-grid {margin-top: 1rem; display: grid; grid-template-columns: repeat(auto-fill, 3.5rem); gap: 0.3rem; justify-content: start;}
-        .fe-gallery .fe-cell {display: grid; place-items: center; width: 3.5rem; aspect-ratio: 1; margin: 0; padding: 0.5rem; border: 1px solid transparent; border-radius: 0.375rem; background: transparent; cursor: pointer; transition: background 150ms var(--fe-ease), border-color 150ms var(--fe-ease), transform 150ms var(--fe-ease);}
+        .fe-gallery .fe-grid {margin-top: 1rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(3.1rem, 1fr)); gap: 0.25rem;}
+        .fe-gallery .fe-cell {display: grid; place-items: center; width: 100%; aspect-ratio: 1; margin: 0; padding: 0.5rem; border: 1px solid transparent; border-radius: 0.375rem; background: transparent; cursor: pointer; transition: background 150ms var(--fe-ease), border-color 150ms var(--fe-ease), transform 150ms var(--fe-ease);}
         .fe-gallery .fe-cell:hover {border-color: var(--sl-color-gray-4); background: var(--sl-color-gray-6);}
         .fe-gallery .fe-cell:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
         .fe-gallery .fe-cell:active {transform: scale(0.94);}
+        .fe-gallery .fe-cell[aria-current='true'] {border-color: var(--sl-color-text-accent); background: var(--sl-color-gray-6);}
         .fe-gallery .fe-icon {display: block;}
         .fe-gallery .fe-icon svg {width: 100%; height: 100%; display: block;}
         .fe-gallery .fe-icon-loading {border-radius: 0.25rem; background: var(--sl-color-gray-6);}
@@ -313,6 +314,7 @@ export default function Gallery({base}: {base: string}) {
                 key={e.slug}
                 type="button"
                 className="fe-cell"
+                aria-current={e.slug === selected}
                 title={e.name}
                 aria-label={`${e.name}: show usage`}
                 onClick={() => open(e.slug)}
