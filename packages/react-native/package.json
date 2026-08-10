@@ -1,6 +1,6 @@
 {
   "name": "@fluentui-emoji/react-native",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Fluent UI Emoji as typed React Native components built on react-native-svg (flat, high-contrast, modern).",
   "keywords": [
     "fluentui",

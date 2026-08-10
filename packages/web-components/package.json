@@ -1,6 +1,6 @@
 {
   "name": "@fluentui-emoji/web-components",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Fluent UI Emoji as a framework-less <fluent-emoji> custom element with tree-shakeable icon data (flat, high-contrast, modern).",
   "keywords": [
     "fluentui",
