@@ -1,6 +1,6 @@
 {
   "name": "@fluentui-emoji/sprite",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Fluent UI Emoji as SVG symbol sprites — one <use href> sheet per set, ideal for pages showing many emojis.",
   "keywords": [
     "fluentui",

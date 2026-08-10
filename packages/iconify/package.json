@@ -1,6 +1,6 @@
 {
   "name": "@fluentui-emoji/iconify",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Fluent UI Emoji as Iconify JSON collections — works with unplugin-icons, the Tailwind Iconify plugin, and every Iconify component.",
   "keywords": [
     "fluentui",
