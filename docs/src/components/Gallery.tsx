@@ -212,10 +212,11 @@ export default function Gallery({base}: {base: string}) {
   };
 
   return (
-    <div className="fe-gallery">
+    <div className="fe-gallery not-content">
       <style>{`
         .fe-gallery {--fe-ease: cubic-bezier(0.16, 1, 0.3, 1);}
-        .fe-gallery .fe-controls {display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: stretch;}
+        .fe-gallery {margin-top: 1.5rem;}
+        .fe-gallery .fe-toolbar {display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;}
         .fe-gallery input[type='search'] {flex: 1 1 14rem; min-height: 2.75rem; padding: 0 0.85rem; border: 1px solid var(--sl-color-gray-4); border-radius: 0.375rem; background: var(--sl-color-bg); color: var(--sl-color-text); font-size: var(--sl-text-sm); transition: border-color 150ms var(--fe-ease);}
         .fe-gallery input[type='search']:hover {border-color: var(--sl-color-gray-3);}
         .fe-gallery input[type='search']:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px; border-color: var(--sl-color-accent);}
@@ -224,16 +225,16 @@ export default function Gallery({base}: {base: string}) {
         .fe-gallery .fe-styles button:hover {color: var(--sl-color-text);}
         .fe-gallery .fe-styles button:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
         .fe-gallery .fe-styles button[aria-pressed='true'] {background: var(--sl-color-bg); color: var(--sl-color-text); font-weight: 600; box-shadow: 0 1px 2px rgb(0 0 0 / 0.12);}
-        .fe-gallery .fe-count {margin: 0.85rem 0; color: var(--sl-color-gray-2); font-size: var(--sl-text-sm); font-variant-numeric: tabular-nums;}
-        .fe-gallery .fe-grid {display: grid; grid-template-columns: repeat(auto-fill, minmax(3.25rem, 1fr)); gap: 0.4rem;}
-        .fe-gallery .fe-cell {display: grid; place-items: center; min-width: 2.75rem; min-height: 2.75rem; padding: 0.45rem; border: 1px solid transparent; border-radius: 0.375rem; background: transparent; cursor: pointer; transition: background 150ms var(--fe-ease), border-color 150ms var(--fe-ease), transform 150ms var(--fe-ease);}
+        .fe-gallery .fe-count {margin-left: auto; color: var(--sl-color-gray-2); font-size: var(--sl-text-sm); font-variant-numeric: tabular-nums; white-space: nowrap;}
+        .fe-gallery .fe-grid {margin-top: 1rem; display: grid; grid-template-columns: repeat(auto-fill, 3.5rem); gap: 0.3rem; justify-content: start;}
+        .fe-gallery .fe-cell {display: grid; place-items: center; width: 3.5rem; aspect-ratio: 1; margin: 0; padding: 0.5rem; border: 1px solid transparent; border-radius: 0.375rem; background: transparent; cursor: pointer; transition: background 150ms var(--fe-ease), border-color 150ms var(--fe-ease), transform 150ms var(--fe-ease);}
         .fe-gallery .fe-cell:hover {border-color: var(--sl-color-gray-4); background: var(--sl-color-gray-6);}
         .fe-gallery .fe-cell:focus-visible {outline: 2px solid var(--sl-color-accent); outline-offset: 1px;}
         .fe-gallery .fe-cell:active {transform: scale(0.94);}
         .fe-gallery .fe-icon {display: block;}
         .fe-gallery .fe-icon svg {width: 100%; height: 100%; display: block;}
         .fe-gallery .fe-icon-loading {border-radius: 0.25rem; background: var(--sl-color-gray-6);}
-        .fe-gallery .fe-empty {padding: 3rem 1rem; text-align: center; color: var(--sl-color-gray-2); border: 1px dashed var(--sl-color-gray-5); border-radius: 0.375rem;}
+        .fe-gallery .fe-empty {margin-top: 1rem; padding: 3rem 1rem; text-align: center; color: var(--sl-color-gray-2); border: 1px dashed var(--sl-color-gray-5); border-radius: 0.375rem;}
         .fe-gallery .fe-empty code {color: var(--sl-color-text);}
         .fe-dialog {position: fixed; inset: 0; margin: auto; width: min(44rem, calc(100vw - 2rem)); max-height: min(84dvh, 44rem); display: flex; flex-direction: column; gap: 0.85rem; border: 1px solid var(--sl-color-gray-4); border-radius: 0.75rem; background: var(--sl-color-bg); color: var(--sl-color-text); padding: 1.1rem 1.25rem 1.25rem;}
         .fe-dialog:not([open]) {display: none;}
@@ -272,7 +273,7 @@ export default function Gallery({base}: {base: string}) {
         .fe-dialog pre {margin: 0; padding: 0.9rem 1rem; overflow: auto; font-size: var(--sl-text-xs); line-height: 1.65; background: var(--sl-color-bg);}
       `}</style>
 
-      <div className="fe-controls">
+      <div className="fe-toolbar">
         <input
           type="search"
           placeholder={`Search ${metadata.count.toLocaleString()} emojis by name`}
@@ -292,13 +293,12 @@ export default function Gallery({base}: {base: string}) {
             </button>
           ))}
         </fieldset>
+        <output className="fe-count" aria-live="polite">
+          {emojis.length === metadata.count
+            ? `${emojis.length.toLocaleString()} emojis`
+            : `${emojis.length.toLocaleString()} of ${metadata.count.toLocaleString()} emojis`}
+        </output>
       </div>
-
-      <p className="fe-count" aria-live="polite">
-        {emojis.length === metadata.count
-          ? `${emojis.length.toLocaleString()} emojis`
-          : `${emojis.length.toLocaleString()} of ${metadata.count.toLocaleString()} emojis`}
-      </p>
 
       {emojis.length === 0 ? (
         <p className="fe-empty">
