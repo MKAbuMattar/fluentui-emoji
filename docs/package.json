@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "node copy-assets.mjs && astro build",
+    "build": "pnpm -F @fluentui-emoji/svg -F @fluentui-emoji/react build && node copy-assets.mjs && astro build",
     "preview": "astro preview"
   },
   "dependencies": {
