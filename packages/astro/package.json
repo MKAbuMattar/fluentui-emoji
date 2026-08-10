@@ -1,0 +1,55 @@
+{
+  "name": "@fluentui-emoji/astro",
+  "version": "1.3.0",
+  "description": "Fluent UI Emoji for Astro — SVG inlined at build time, zero client JS.",
+  "keywords": [
+    "fluentui",
+    "emoji",
+    "fluentui-emoji",
+    "icons",
+    "svg",
+    "astro",
+    "astro-component",
+    "withastro"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji.git",
+    "directory": "packages/astro"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji/issues"
+  },
+  "homepage": "https://mkabumattar.github.io/fluentui-emoji/",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "src"
+  ],
+  "scripts": {
+    "test": "tsx test/smoke.ts"
+  },
+  "dependencies": {
+    "@fluentui-emoji/svg": "workspace:^"
+  },
+  "peerDependencies": {
+    "astro": ">=4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}

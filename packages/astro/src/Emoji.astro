@@ -1,0 +1,24 @@
+---
+import type {EmojiSlug, EmojiStyle} from '@fluentui-emoji/svg';
+import {loadEmojiSvg} from './load.js';
+
+interface Props {
+  /** Emoji slug, e.g. "rocket" */
+  name: EmojiSlug;
+  /** Icon style — "flat" (default), "high-contrast", or "modern" */
+  variant?: EmojiStyle;
+  /** Accessible label; without it the emoji is aria-hidden (decorative) */
+  title?: string;
+  [attr: string]: unknown;
+}
+
+const {name, variant = 'flat', title, ...attrs} = Astro.props;
+
+const svg = await loadEmojiSvg(name, variant, {
+  role: 'img',
+  ...(title ? {'aria-label': title} : {'aria-hidden': 'true'}),
+  ...attrs,
+});
+---
+
+<Fragment set:html={svg} />

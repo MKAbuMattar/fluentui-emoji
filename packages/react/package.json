@@ -1,0 +1,126 @@
+{
+  "name": "@fluentui-emoji/react",
+  "version": "1.3.0",
+  "description": "Fluent UI Emoji as tree-shakeable typed React components (flat, high-contrast, modern). Successor of the react-fluentui-emoji package.",
+  "keywords": [
+    "fluentui",
+    "emoji",
+    "fluentui-emoji",
+    "icons",
+    "svg",
+    "react"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Mohammad Abu Mattar",
+    "email": "mohammad.khaled@outlook.com",
+    "url": "https://mkabumattar.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji.git",
+    "directory": "packages/react"
+  },
+  "bugs": {
+    "url": "https://github.com/MKAbuMattar/fluentui-emoji/issues"
+  },
+  "homepage": "https://mkabumattar.github.io/fluentui-emoji/",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/core.cjs",
+  "module": "./dist/core.js",
+  "types": "./dist/core.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/core.d.ts",
+        "default": "./dist/core.js"
+      },
+      "require": {
+        "types": "./dist/core.d.cts",
+        "default": "./dist/core.cjs"
+      }
+    },
+    "./flat": {
+      "import": {
+        "types": "./dist/flat/index.d.ts",
+        "default": "./dist/flat/index.js"
+      },
+      "require": {
+        "types": "./dist/flat/index.d.cts",
+        "default": "./dist/flat/index.cjs"
+      }
+    },
+    "./flat/*": {
+      "import": {
+        "types": "./dist/flat/icons/*.d.ts",
+        "default": "./dist/flat/icons/*.js"
+      },
+      "require": {
+        "types": "./dist/flat/icons/*.d.cts",
+        "default": "./dist/flat/icons/*.cjs"
+      }
+    },
+    "./high-contrast": {
+      "import": {
+        "types": "./dist/high-contrast/index.d.ts",
+        "default": "./dist/high-contrast/index.js"
+      },
+      "require": {
+        "types": "./dist/high-contrast/index.d.cts",
+        "default": "./dist/high-contrast/index.cjs"
+      }
+    },
+    "./high-contrast/*": {
+      "import": {
+        "types": "./dist/high-contrast/icons/*.d.ts",
+        "default": "./dist/high-contrast/icons/*.js"
+      },
+      "require": {
+        "types": "./dist/high-contrast/icons/*.d.cts",
+        "default": "./dist/high-contrast/icons/*.cjs"
+      }
+    },
+    "./modern": {
+      "import": {
+        "types": "./dist/modern/index.d.ts",
+        "default": "./dist/modern/index.js"
+      },
+      "require": {
+        "types": "./dist/modern/index.d.cts",
+        "default": "./dist/modern/index.cjs"
+      }
+    },
+    "./modern/*": {
+      "import": {
+        "types": "./dist/modern/icons/*.d.ts",
+        "default": "./dist/modern/icons/*.js"
+      },
+      "require": {
+        "types": "./dist/modern/icons/*.d.cts",
+        "default": "./dist/modern/icons/*.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/core.tsx --format esm,cjs --dts --out-dir dist --clean && tsx build.ts",
+    "test": "tsx test/smoke.tsx"
+  },
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.9",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tsup": "^8.5.0",
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  }
+}
