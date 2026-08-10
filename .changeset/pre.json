@@ -4,7 +4,20 @@
   "initialVersions": {
     "@fluentui-emoji/astro": "1.3.0",
     "@fluentui-emoji/react": "1.3.0",
-    "@fluentui-emoji/svg": "1.3.0"
+    "@fluentui-emoji/svg": "1.3.0",
+    "@fluentui-emoji/alpine": "1.3.0",
+    "@fluentui-emoji/angular": "1.3.0",
+    "@fluentui-emoji/htmx": "1.3.0",
+    "@fluentui-emoji/lit": "1.3.0",
+    "@fluentui-emoji/preact": "1.3.0",
+    "@fluentui-emoji/solid": "1.3.0",
+    "@fluentui-emoji/svelte": "1.3.0",
+    "@fluentui-emoji/vue": "1.3.0",
+    "@fluentui-emoji/web-components": "1.3.0"
   },
-  "changesets": []
+  "changesets": [
+    "angular-lit-htmx",
+    "framework-family",
+    "monorepo-v2"
+  ]
 }
