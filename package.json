@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/MKAbuMattar/fluentui-emoji/issues"
   },
-  "homepage": "https://mkabumattar.github.io/fluentui-emoji/",
+  "homepage": "https://fluentui-emoji.mkabumattar.com/",
   "packageManager": "pnpm@11.10.0",
   "scripts": {
     "sync": "tsx scripts/sync/index.ts && pnpm generate:metadata",

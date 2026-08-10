@@ -12,7 +12,7 @@ const plugins = versions.length
   : [];
 
 export default defineConfig({
-  site: 'https://fluentui-emoji.pages.dev',
+  site: 'https://fluentui-emoji.mkabumattar.com',
   integrations: [
     starlight({
       title: 'Fluent UI Emoji',
