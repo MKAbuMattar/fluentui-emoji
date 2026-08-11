@@ -44,7 +44,7 @@ jobs:
 
       - name: Open PR
         if: steps.diff.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: sync/upstream
           title: 'feat: sync upstream emoji from microsoft/fluentui-emoji'
