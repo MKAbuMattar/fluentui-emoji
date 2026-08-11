@@ -31,6 +31,14 @@ jobs:
             (cd "$dir" && pnpm dlx publint --strict) || exit 1
           done
           for dir in packages/*/; do
+            case "$dir" in
+              # astro ships .ts source (consumer-compiled); sprite exports .svg files.
+              # attw cannot model either — publint still validates them.
+              packages/astro/|packages/sprite/) echo "--- attw $dir (skipped: non-JS entrypoints)"; continue;;
+            esac
             echo "--- attw $dir"
-            (cd "$dir" && pnpm dlx @arethetypeswrong/cli --pack . --profile node16) || exit 1
+            (cd "$dir" \
+              && profile=$(node -p "JSON.stringify(require('./package.json').exports).includes('\\"require\\"') ? 'node16' : 'esm-only'") \
+              && echo "profile: $profile" \
+              && pnpm dlx @arethetypeswrong/cli --pack . --profile "$profile") || exit 1
           done
