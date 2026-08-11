@@ -38,7 +38,7 @@ jobs:
             esac
             echo "--- attw $dir"
             (cd "$dir" \
-              && profile=$(node -p "JSON.stringify(require('./package.json').exports).includes('\\"require\\"') ? 'node16' : 'esm-only'") \
+              && profile=$(node -p "JSON.stringify(require('./package.json').exports).includes('require') ? 'node16' : 'esm-only'") \
               && echo "profile: $profile" \
               && pnpm dlx @arethetypeswrong/cli --pack . --profile "$profile") || exit 1
           done
