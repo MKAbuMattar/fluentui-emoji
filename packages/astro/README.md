@@ -3,6 +3,8 @@
 [Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji) for Astro —
 the SVG is inlined at build time, so pages ship **zero client JS**.
 
+**Docs:** https://fluentui-emoji.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@fluentui-emoji/astro) · **All packages:** [@fluentui-emoji](https://www.npmjs.com/org/fluentui-emoji)
+
 ## Install
 
 ```sh

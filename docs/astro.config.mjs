@@ -18,6 +18,11 @@ export default defineConfig({
         'Fluent UI Emoji packaged for every stack — SVG, React, Astro.',
       social: [
         {
+          icon: 'seti:npm',
+          label: 'npm',
+          href: 'https://www.npmjs.com/org/fluentui-emoji',
+        },
+        {
           icon: 'github',
           label: 'GitHub',
           href: 'https://github.com/MKAbuMattar/fluentui-emoji',

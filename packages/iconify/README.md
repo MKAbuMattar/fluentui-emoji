@@ -2,6 +2,8 @@
 
 [Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji) as Iconify JSON collections — drop into unplugin-icons, the Tailwind Iconify plugin, or any Iconify component — 3,145 emojis in `flat`, `high-contrast`, and `modern` sets.
 
+**Docs:** https://fluentui-emoji.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@fluentui-emoji/iconify) · **All packages:** [@fluentui-emoji](https://www.npmjs.com/org/fluentui-emoji)
+
 ## Install
 
 ```sh

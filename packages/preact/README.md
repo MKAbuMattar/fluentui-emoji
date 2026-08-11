@@ -4,6 +4,8 @@
 typed Preact components — 3,145 emojis in `flat`, `high-contrast`, and `modern` styles.
 Dual ESM + CJS. Preact 10+.
 
+**Docs:** https://fluentui-emoji.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@fluentui-emoji/preact) · **All packages:** [@fluentui-emoji](https://www.npmjs.com/org/fluentui-emoji)
+
 ## Install
 
 ```sh

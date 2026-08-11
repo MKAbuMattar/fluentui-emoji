@@ -5,6 +5,8 @@
 
 Successor of the deprecated [`fluentui-emoji`](https://www.npmjs.com/package/fluentui-emoji) package.
 
+**Docs:** https://fluentui-emoji.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@fluentui-emoji/svg) · **All packages:** [@fluentui-emoji](https://www.npmjs.com/org/fluentui-emoji)
+
 ## Install
 
 ```sh

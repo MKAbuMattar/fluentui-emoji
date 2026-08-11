@@ -4,6 +4,8 @@
 `<fluent-emoji>` custom element — 3,145 emojis in `flat`, `high-contrast`, and
 `modern` styles. Works in any page, any framework, no build required.
 
+**Docs:** https://fluentui-emoji.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@fluentui-emoji/web-components) · **All packages:** [@fluentui-emoji](https://www.npmjs.com/org/fluentui-emoji)
+
 ## Install
 
 ```sh

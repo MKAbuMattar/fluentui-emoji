@@ -3,26 +3,28 @@
 [Fluent UI Emoji](https://github.com/microsoft/fluentui-emoji) — Microsoft's familiar,
 friendly, modern emoji — packaged for every stack, with fully automated releases.
 
+**Docs:** https://fluentui-emoji.mkabumattar.com · **All packages on npm:** [@fluentui-emoji](https://www.npmjs.com/org/fluentui-emoji)
+
 ## Packages
 
-| Package | Description |
-|---|---|
-| [`@fluentui-emoji/svg`](packages/svg) | Optimized SVGs (flat, high-contrast, modern) + typed metadata |
-| [`@fluentui-emoji/react`](packages/react) | Tree-shakeable typed React components |
-| [`@fluentui-emoji/preact`](packages/preact) | Tree-shakeable typed Preact components |
-| [`@fluentui-emoji/vue`](packages/vue) | Tree-shakeable typed Vue 3 components |
-| [`@fluentui-emoji/solid`](packages/solid) | SolidJS components (DOM, SSR, and `solid`-condition builds) |
-| [`@fluentui-emoji/svelte`](packages/svelte) | Svelte 5 `Emoji` component + tree-shakeable icon data |
-| [`@fluentui-emoji/astro`](packages/astro) | Zero-JS Astro component, SVG inlined at build time |
-| [`@fluentui-emoji/angular`](packages/angular) | Standalone `fluentEmoji` directive (Angular 17+) |
-| [`@fluentui-emoji/lit`](packages/lit) | `<fluent-emoji>` LitElement + template helpers |
-| [`@fluentui-emoji/web-components`](packages/web-components) | Framework-less `<fluent-emoji>` custom element |
-| [`@fluentui-emoji/alpine`](packages/alpine) | Alpine.js directive + magic |
-| [`@fluentui-emoji/htmx`](packages/htmx) | Server handler serving emoji fragments for htmx |
-| [`@fluentui-emoji/react-native`](packages/react-native) | React Native components on react-native-svg |
-| [`@fluentui-emoji/qwik`](packages/qwik) | Typed Qwik components |
-| [`@fluentui-emoji/iconify`](packages/iconify) | Iconify JSON collections (unplugin-icons, Tailwind) |
-| [`@fluentui-emoji/sprite`](packages/sprite) | SVG symbol sprites for use-href sheets |
+| Package | Description | npm |
+|---|---|---|
+| [`@fluentui-emoji/svg`](packages/svg) | Optimized SVGs (flat, high-contrast, modern) + typed metadata | [npm](https://www.npmjs.com/package/@fluentui-emoji/svg) |
+| [`@fluentui-emoji/react`](packages/react) | Tree-shakeable typed React components | [npm](https://www.npmjs.com/package/@fluentui-emoji/react) |
+| [`@fluentui-emoji/preact`](packages/preact) | Tree-shakeable typed Preact components | [npm](https://www.npmjs.com/package/@fluentui-emoji/preact) |
+| [`@fluentui-emoji/vue`](packages/vue) | Tree-shakeable typed Vue 3 components | [npm](https://www.npmjs.com/package/@fluentui-emoji/vue) |
+| [`@fluentui-emoji/solid`](packages/solid) | SolidJS components (DOM, SSR, and `solid`-condition builds) | [npm](https://www.npmjs.com/package/@fluentui-emoji/solid) |
+| [`@fluentui-emoji/svelte`](packages/svelte) | Svelte 5 `Emoji` component + tree-shakeable icon data | [npm](https://www.npmjs.com/package/@fluentui-emoji/svelte) |
+| [`@fluentui-emoji/astro`](packages/astro) | Zero-JS Astro component, SVG inlined at build time | [npm](https://www.npmjs.com/package/@fluentui-emoji/astro) |
+| [`@fluentui-emoji/angular`](packages/angular) | Standalone `fluentEmoji` directive (Angular 17+) | [npm](https://www.npmjs.com/package/@fluentui-emoji/angular) |
+| [`@fluentui-emoji/lit`](packages/lit) | `<fluent-emoji>` LitElement + template helpers | [npm](https://www.npmjs.com/package/@fluentui-emoji/lit) |
+| [`@fluentui-emoji/web-components`](packages/web-components) | Framework-less `<fluent-emoji>` custom element | [npm](https://www.npmjs.com/package/@fluentui-emoji/web-components) |
+| [`@fluentui-emoji/alpine`](packages/alpine) | Alpine.js directive + magic | [npm](https://www.npmjs.com/package/@fluentui-emoji/alpine) |
+| [`@fluentui-emoji/htmx`](packages/htmx) | Server handler serving emoji fragments for htmx | [npm](https://www.npmjs.com/package/@fluentui-emoji/htmx) |
+| [`@fluentui-emoji/react-native`](packages/react-native) | React Native components on react-native-svg | [npm](https://www.npmjs.com/package/@fluentui-emoji/react-native) |
+| [`@fluentui-emoji/qwik`](packages/qwik) | Typed Qwik components | [npm](https://www.npmjs.com/package/@fluentui-emoji/qwik) |
+| [`@fluentui-emoji/iconify`](packages/iconify) | Iconify JSON collections (unplugin-icons, Tailwind) | [npm](https://www.npmjs.com/package/@fluentui-emoji/iconify) |
+| [`@fluentui-emoji/sprite`](packages/sprite) | SVG symbol sprites for use-href sheets | [npm](https://www.npmjs.com/package/@fluentui-emoji/sprite) |
 
 ## Release channels
 

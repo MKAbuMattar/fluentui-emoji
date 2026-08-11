@@ -4,6 +4,8 @@
 `<fluent-emoji>` LitElement plus template helpers, with tree-shakeable icon
 data. 3,145 emojis in `flat`, `high-contrast`, and `modern` styles.
 
+**Docs:** https://fluentui-emoji.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@fluentui-emoji/lit) · **All packages:** [@fluentui-emoji](https://www.npmjs.com/org/fluentui-emoji)
+
 ## Install
 
 ```sh
