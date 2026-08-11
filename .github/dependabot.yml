@@ -5,6 +5,10 @@ updates:
     schedule:
       interval: weekly
       day: monday
+    ignore:
+      # TS is pinned per-package on purpose: tsup --dts needs 5.x,
+      # the Angular compiler needs exactly 6.0.x. Bump manually.
+      - dependency-name: typescript
     groups:
       dev-dependencies:
         dependency-type: development
