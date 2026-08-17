@@ -13,7 +13,7 @@
     "@fluentui-emoji/astro": "workspace:*",
     "@fluentui-emoji/react": "workspace:*",
     "@fluentui-emoji/svg": "workspace:*",
-    "astro": "^7.2.0",
+    "astro": "^7.2.2",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "sharp": "^0.35.3",
