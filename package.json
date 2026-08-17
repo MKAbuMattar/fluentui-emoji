@@ -35,11 +35,11 @@
     "fmt:fix": "biome format --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.7",
-    "@changesets/cli": "^2.31.1",
+    "@biomejs/biome": "2.5.8",
+    "@changesets/cli": "^3.0.0",
     "@types/node": "26.2.0",
     "svgo": "4.0.2",
-    "tsx": "4.23.11",
+    "tsx": "4.23.12",
     "typescript": "7.0.2"
   },
   "engines": {
