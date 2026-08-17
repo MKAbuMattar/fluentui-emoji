@@ -1,6 +1,6 @@
 {
   "name": "@fluentui-emoji/react",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Fluent UI Emoji as tree-shakeable typed React components (flat, high-contrast, modern). Successor of the react-fluentui-emoji package.",
   "keywords": [
     "fluentui",
