@@ -76,8 +76,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "svelte": "^5.0.0",
-    "tsx": "^4.23.11",
+    "svelte": "^5.56.9",
+    "tsx": "^4.23.12",
     "typescript": "^5.9.3"
   },
   "engines": {

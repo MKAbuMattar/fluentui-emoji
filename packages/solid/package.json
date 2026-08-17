@@ -77,11 +77,11 @@
     "access": "public"
   },
   "devDependencies": {
-    "@babel/core": "^7.29.0",
-    "@babel/preset-typescript": "^7.28.0",
+    "@babel/core": "^8.0.1",
+    "@babel/preset-typescript": "^8.0.1",
     "babel-preset-solid": "^1.9.9",
     "solid-js": "^1.9.9",
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.12",
     "typescript": "^5.9.3"
   },
   "engines": {
