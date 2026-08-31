@@ -1,6 +1,6 @@
 {
   "name": "@fluentui-emoji/astro",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Fluent UI Emoji for Astro — SVG inlined at build time, zero client JS.",
   "keywords": [
     "fluentui",

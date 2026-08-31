@@ -1,5 +1,11 @@
 # @fluentui-emoji/svg
 
+## 2.2.0
+
+### Minor Changes
+
+- f813782: Sync emoji assets from microsoft/fluentui-emoji
+
 ## 2.1.1
 
 ### Patch Changes
