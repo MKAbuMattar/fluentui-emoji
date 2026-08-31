@@ -40,9 +40,13 @@ const allSlugs = new Set(styleMap.keys());
 const toneOf = (slug: string): {base: string; tone: string} | undefined => {
   const tone = TONES.find((t) => slug.endsWith(`-${t}`));
   if (!tone) return undefined;
-  const base = slug.slice(0, -(tone.length + 1));
-  const siblings = TONES.filter((t) => allSlugs.has(`${base}-${t}`)).length;
-  return siblings >= 3 ? {base, tone} : undefined;
+  const stem = slug.slice(0, -(tone.length + 1));
+  const siblings = TONES.filter((t) => allSlugs.has(`${stem}-${t}`)).length;
+  if (siblings < 3) return undefined;
+  // many families have no bare slug — the neutral variant is `<stem>-default`
+  // (artist-dark -> artist-default); resolve base to a slug that always exists
+  const base = allSlugs.has(stem) ? stem : `${stem}-default`;
+  return {base, tone};
 };
 
 const emojis = [...styleMap.keys()].sort().map((slug) => {

@@ -31,11 +31,16 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain assets/)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            cat > .changeset/upstream-sync-${{ github.run_id }}.md <<'EOF'
+            # every package regenerates its published output from assets/ at
+            # build time, so an asset change is a release for all of them
+            changeset=""
+            for dir in packages/*/; do
+              name=$(node -p "require('./${dir}package.json').name")
+              changeset+="'${name}': minor"$'\n'
+            done
+            cat > .changeset/upstream-sync-${{ github.run_id }}.md <<EOF
           ---
-          '@fluentui-emoji/svg': minor
-          '@fluentui-emoji/react': minor
-          '@fluentui-emoji/astro': minor
+          ${changeset}
           ---
 
           Sync emoji assets from microsoft/fluentui-emoji

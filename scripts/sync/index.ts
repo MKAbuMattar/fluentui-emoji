@@ -8,7 +8,7 @@
  * svgo ID prefixes are derived from the slug (deterministic), so re-running
  * sync only diffs icons that actually changed upstream.
  */
-import {execSync} from 'node:child_process';
+import {execFileSync} from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
 import {type Config, optimize} from 'svgo';
@@ -34,13 +34,15 @@ const slugify = (filename: string): string =>
     .replace(SPECIAL_CHARS, '')
     .replaceAll('ñ', 'n')
     .replaceAll('-high-contrast', '')
-    .replaceAll('-high contrast', '')
     .replaceAll('-flat', '')
     .replaceAll('-color', '');
 
 const svgoConfig = (slug: string, style: string): Config => ({
   plugins: [
     'preset-default',
+    // removeScripts is not part of preset-default; these SVGs are injected raw
+    // into consumer pages (innerHTML, {@html}, dangerouslySetInnerHTML)
+    'removeScripts',
     // high-contrast icons are monochrome — currentColor lets CSS color them
     ...(style === 'high-contrast'
       ? ([{name: 'convertColors', params: {currentColor: true}}] as const)
@@ -58,20 +60,34 @@ const svgoConfig = (slug: string, style: string): Config => ({
 const clone = (): void => {
   fs.rmSync(TMP, {recursive: true, force: true});
   console.log(`Cloning ${UPSTREAM} (sparse, SVGs only)...`);
-  execSync(
-    `git clone --depth=1 --filter=blob:none --sparse ${UPSTREAM} ${TMP}`,
+  execFileSync(
+    'git',
+    ['clone', '--depth=1', '--filter=blob:none', '--sparse', UPSTREAM, TMP],
     {stdio: 'inherit'},
   );
-  execSync(
-    `git -C ${TMP} sparse-checkout set --no-cone 'assets/**/Flat/**' 'assets/**/High Contrast/**' 'assets/**/Color/**'`,
+  execFileSync(
+    'git',
+    [
+      '-C',
+      TMP,
+      'sparse-checkout',
+      'set',
+      '--no-cone',
+      'assets/**/Flat/**',
+      'assets/**/High Contrast/**',
+      'assets/**/Color/**',
+    ],
     {stdio: 'inherit'},
   );
 };
 
 const extract = (): void => {
+  // optimize into a staging tree first and swap only on success — a malformed
+  // upstream SVG must not leave assets/ half-emptied
+  const STAGE = path.join(TMP, 'staged');
   for (const dir of Object.values(STYLE_DIRS)) {
-    fs.rmSync(path.join(ASSETS, dir), {recursive: true, force: true});
-    fs.mkdirSync(path.join(ASSETS, dir), {recursive: true});
+    fs.rmSync(path.join(STAGE, dir), {recursive: true, force: true});
+    fs.mkdirSync(path.join(STAGE, dir), {recursive: true});
   }
 
   const files = fs
@@ -89,8 +105,13 @@ const extract = (): void => {
     const slug = slugify(path.basename(rel));
     const raw = fs.readFileSync(path.join(TMP, 'assets', rel), 'utf8');
     const {data} = optimize(raw, svgoConfig(slug, STYLE_DIRS[style]));
-    fs.writeFileSync(path.join(ASSETS, STYLE_DIRS[style], `${slug}.svg`), data);
+    fs.writeFileSync(path.join(STAGE, STYLE_DIRS[style], `${slug}.svg`), data);
     written++;
+  }
+
+  for (const dir of Object.values(STYLE_DIRS)) {
+    fs.rmSync(path.join(ASSETS, dir), {recursive: true, force: true});
+    fs.renameSync(path.join(STAGE, dir), path.join(ASSETS, dir));
   }
   console.log(`Wrote ${written} optimized SVGs to assets/`);
 };
