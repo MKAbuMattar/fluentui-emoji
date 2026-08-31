@@ -1,6 +1,6 @@
 {
   "name": "@fluentui-emoji/svg",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Fluent UI Emoji as optimized SVGs (flat, high-contrast, modern) with typed metadata. Successor of the fluentui-emoji package.",
   "keywords": [
     "fluentui",

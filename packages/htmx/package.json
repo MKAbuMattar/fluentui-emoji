@@ -1,6 +1,6 @@
 {
   "name": "@fluentui-emoji/htmx",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Fluent UI Emoji for htmx — a server handler and helper that serve emoji SVG fragments (flat, high-contrast, modern).",
   "keywords": [
     "fluentui",

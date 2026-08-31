@@ -1,6 +1,6 @@
 {
   "name": "@fluentui-emoji/lit",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Fluent UI Emoji for Lit — a <fluent-emoji> LitElement plus template helpers with tree-shakeable icon data (flat, high-contrast, modern).",
   "keywords": [
     "fluentui",

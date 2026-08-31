@@ -1,5 +1,16 @@
 # @fluentui-emoji/astro
 
+## 2.2.0
+
+### Minor Changes
+
+- f813782: Sync emoji assets from microsoft/fluentui-emoji
+
+### Patch Changes
+
+- Updated dependencies [f813782]
+  - @fluentui-emoji/svg@2.2.0
+
 ## 2.1.0
 
 ### Minor Changes
