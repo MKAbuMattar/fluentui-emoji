@@ -43,12 +43,10 @@ type Expression =
  * <span x-html="$fluentEmoji('rocket', 'flat')"></span>
  * ```
  */
-// biome-ignore lint/suspicious/noExplicitAny: Alpine has no bundled types
 export default function fluentEmoji(Alpine: any): void {
   Alpine.magic('fluentEmoji', () => emojiHtml);
   Alpine.directive(
     'fluent-emoji',
-    // biome-ignore lint/suspicious/noExplicitAny: Alpine directive signature
     (el: HTMLElement, {expression}: any, {evaluateLater, effect}: any) => {
       const getValue = evaluateLater(expression);
       effect(() =>
