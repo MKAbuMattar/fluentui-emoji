@@ -65,7 +65,8 @@ export class FluentEmojiElement extends LitElement {
   }
 }
 
-/** Defines the element (browser only). */
+/** Defines the element (browser only; no-op under SSR). */
 export const defineFluentEmoji = (tag = 'fluent-emoji'): void => {
+  if (typeof customElements === 'undefined') return;
   if (!customElements.get(tag)) customElements.define(tag, FluentEmojiElement);
 };

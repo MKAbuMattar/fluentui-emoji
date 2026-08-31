@@ -29,20 +29,21 @@
     "generate:metadata": "tsx scripts/generate/metadata.ts",
     "build": "pnpm -r build",
     "test": "pnpm -r test",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p packages/alpine && tsc --noEmit -p packages/angular && tsc --noEmit -p packages/lit && tsc --noEmit -p packages/web-components",
     "lint": "biome check .",
     "lint:fix": "biome check --fix .",
     "fmt": "biome format .",
     "fmt:fix": "biome format --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.7",
-    "@changesets/cli": "^2.31.1",
-    "@types/node": "26.2.0",
-    "svgo": "4.0.2",
-    "tsx": "4.23.11",
+    "@biomejs/biome": "2.5.11",
+    "@changesets/cli": "^3.0.1",
+    "@types/node": "26.4.0",
+    "svgo": "4.1.0",
+    "tsx": "4.23.12",
     "typescript": "7.0.2"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22.13"
   }
 }

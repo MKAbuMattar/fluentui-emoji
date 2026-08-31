@@ -39,15 +39,26 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
 
+      - name: Guard beta publishing (next only)
+        # changesets pre-mode on next keeps publishes on the beta tag; if
+        # pre-mode is ever exited there, a routine push would publish stable
+        # versions to latest from the beta branch
+        if: github.ref == 'refs/heads/next'
+        run: |
+          if [ ! -f .changeset/pre.json ]; then
+            echo "::error::next pushed without changesets pre-mode (.changeset/pre.json missing) — refusing to publish"
+            exit 1
+          fi
+
       - name: Version PR / publish (latest or beta)
         id: changesets
-        uses: changesets/action@v1
+        uses: changesets/action@v2
         with:
-          publish: pnpm changeset publish
-          title: 'chore: version packages'
-          commit: 'chore: version packages'
+          publish-script: pnpm changeset publish
+          pr-title: 'chore: version packages'
+          commit-message: 'chore: version packages'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Canary snapshot (main only)

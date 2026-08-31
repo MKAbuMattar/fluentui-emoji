@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "types": []
+    "types": ["node"]
   },
-  "include": ["src", "build.ts", "test"]
+  "include": ["src", "build.ts"]
 }

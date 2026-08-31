@@ -9,7 +9,7 @@ export type FluentEmojiComponent = (props?: FluentEmojiProps) => JSXOutput;
 
 /** Factory used by the generated icon modules — not meant for direct use. */
 export const createFluentEmoji = (
-  name: string,
+  _name: string,
   attrs: Record<string, string>,
   html: string,
 ): FluentEmojiComponent => {
