@@ -81,7 +81,7 @@
     "@babel/preset-typescript": "^8.0.1",
     "babel-preset-solid": "^1.9.15",
     "solid-js": "^1.9.15",
-    "tsx": "^4.23.12",
+    "tsx": "^4.23.13",
     "typescript": "^5.9.3"
   },
   "engines": {
