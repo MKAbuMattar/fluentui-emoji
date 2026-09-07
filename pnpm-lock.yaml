@@ -57,8 +57,8 @@ importers:
         specifier: ^0.35.4
         version: 0.35.4(@types/node@26.4.0)
       starlight-versions:
-        specifier: ^0.9.1
-        version: 0.9.1(@astrojs/starlight@0.41.10(astro@7.2.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.4.0)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0))(typescript@7.0.2))
+        specifier: ^0.10.1
+        version: 0.10.1(@astrojs/starlight@0.41.10(astro@7.2.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.4.0)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0))(typescript@7.0.2))
 
   packages/alpine:
     devDependencies:
@@ -4580,8 +4580,8 @@ packages:
     resolution: {integrity: sha512-WjlahMgHmCJpqzU8bIBy4qtsZdU9lRlcZE3Lvyej6t4tuOuv1vk57OW3MBrj6hXBFx/nNoC9MPMTcr5YA7NQbg==}
     engines: {node: '>=6'}
 
-  starlight-versions@0.9.1:
-    resolution: {integrity: sha512-wtYZhlcWcKsnyTO0BZoWXHzHUrNIvSr5ukEMLg3RFKesFEEcMepngn15Igw5pj8DBlkKMo7bBhF2fR0bfiXcpA==}
+  starlight-versions@0.10.1:
+    resolution: {integrity: sha512-v0YJBd1eyAHWmCa9uiy2jYxULjcRLR1BYKq2taydTR+Ai2bcxJEi5hbqQKDwwAdnN0E6F0NxUCJSyBtZ0p/8qA==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
       '@astrojs/starlight': '>=0.39.0'
@@ -6310,7 +6310,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 26.2.0
+      '@types/node': 26.4.0
       '@types/yargs': 17.0.35
       chalk: 4.1.2
 
@@ -7418,7 +7418,7 @@ snapshots:
 
   chrome-launcher@0.15.2:
     dependencies:
-      '@types/node': 26.2.0
+      '@types/node': 26.4.0
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -7427,7 +7427,7 @@ snapshots:
 
   chromium-edge-launcher@0.3.0:
     dependencies:
-      '@types/node': 26.2.0
+      '@types/node': 26.4.0
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -8232,7 +8232,7 @@ snapshots:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 26.2.0
+      '@types/node': 26.4.0
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -8249,7 +8249,7 @@ snapshots:
 
   jest-worker@29.7.0:
     dependencies:
-      '@types/node': 26.2.0
+      '@types/node': 26.4.0
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -9954,7 +9954,7 @@ snapshots:
     dependencies:
       type-fest: 0.7.1
 
-  starlight-versions@0.9.1(@astrojs/starlight@0.41.10(astro@7.2.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.4.0)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0))(typescript@7.0.2)):
+  starlight-versions@0.10.1(@astrojs/starlight@0.41.10(astro@7.2.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.4.0)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0))(typescript@7.0.2)):
     dependencies:
       '@astrojs/starlight': 0.41.10(astro@7.2.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@26.4.0)(less@4.8.1)(sass@1.102.0)(terser@5.49.2)(tsx@4.23.12)(yaml@2.9.0))(typescript@7.0.2)
       '@pagefind/default-ui': 1.5.2
