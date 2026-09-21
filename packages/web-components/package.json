@@ -72,9 +72,9 @@
     "access": "public"
   },
   "devDependencies": {
-    "happy-dom": "^20.11.12",
+    "happy-dom": "^20.14.5",
     "tsup": "^8.5.0",
-    "tsx": "^4.23.12",
+    "tsx": "^4.23.13",
     "typescript": "^5.9.3"
   },
   "engines": {
