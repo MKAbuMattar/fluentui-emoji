@@ -78,9 +78,9 @@
   },
   "devDependencies": {
     "@babel/core": "^8.0.6",
-    "@babel/preset-typescript": "^8.0.1",
-    "babel-preset-solid": "^1.9.15",
-    "solid-js": "^1.9.15",
+    "@babel/preset-typescript": "^8.0.7",
+    "babel-preset-solid": "^1.9.16",
+    "solid-js": "^1.9.17",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3"
   },
