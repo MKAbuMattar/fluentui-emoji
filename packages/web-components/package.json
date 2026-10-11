@@ -1,6 +1,6 @@
 {
   "name": "@fluentui-emoji/web-components",
-  "version": "2.0.0-beta.0",
+  "version": "2.2.0",
   "description": "Fluent UI Emoji as a framework-less <fluent-emoji> custom element with tree-shakeable icon data (flat, high-contrast, modern).",
   "keywords": [
     "fluentui",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MKAbuMattar/fluentui-emoji.git",
+    "url": "git+https://github.com/MKAbuMattar/fluentui-emoji.git",
     "directory": "packages/web-components"
   },
   "bugs": {
@@ -58,7 +58,8 @@
     "./modern/*": {
       "types": "./dist/modern/icons/*.d.ts",
       "default": "./dist/modern/icons/*.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist"
@@ -71,9 +72,12 @@
     "access": "public"
   },
   "devDependencies": {
-    "happy-dom": "^20.0.11",
+    "happy-dom": "^20.14.5",
     "tsup": "^8.5.0",
-    "tsx": "^4.23.11",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }

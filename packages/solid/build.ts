@@ -17,11 +17,14 @@ const CORE = path.join(PKG, 'src/core.tsx');
 fs.rmSync(DIST, {recursive: true, force: true});
 fs.mkdirSync(path.join(DIST, 'source'), {recursive: true});
 
-const ts = ['@babel/preset-typescript', {isTSX: true, allExtensions: true}];
+// babel 8 infers TS from the .tsx extension; isTSX/allExtensions are gone,
+// and JSX parsing is enabled per-parse via parserOpts
+const ts = ['@babel/preset-typescript'];
 
 const emit = async (presets: unknown[], outFile: string) => {
   const result = await transformFileAsync(CORE, {
     presets: presets as never,
+    parserOpts: {plugins: ['jsx']},
     babelrc: false,
     configFile: false,
   });

@@ -25,11 +25,39 @@ const titleCase = (slug: string): string =>
     .map((w) => (w[0] ? w[0].toUpperCase() + w.slice(1) : w))
     .join(' ');
 
-const emojis = [...styleMap.keys()].sort().map((slug) => ({
-  slug,
-  name: titleCase(slug),
-  styles: styleMap.get(slug),
-}));
+const TONES = [
+  'medium-light',
+  'medium-dark',
+  'default',
+  'light',
+  'medium',
+  'dark',
+];
+
+const allSlugs = new Set(styleMap.keys());
+
+/** slug -> {base, tone} when it belongs to a skin-tone family (3+ toned siblings). */
+const toneOf = (slug: string): {base: string; tone: string} | undefined => {
+  const tone = TONES.find((t) => slug.endsWith(`-${t}`));
+  if (!tone) return undefined;
+  const stem = slug.slice(0, -(tone.length + 1));
+  const siblings = TONES.filter((t) => allSlugs.has(`${stem}-${t}`)).length;
+  if (siblings < 3) return undefined;
+  // many families have no bare slug — the neutral variant is `<stem>-default`
+  // (artist-dark -> artist-default); resolve base to a slug that always exists
+  const base = allSlugs.has(stem) ? stem : `${stem}-default`;
+  return {base, tone};
+};
+
+const emojis = [...styleMap.keys()].sort().map((slug) => {
+  const toned = toneOf(slug);
+  return {
+    slug,
+    name: titleCase(slug),
+    styles: styleMap.get(slug),
+    ...(toned ? {base: toned.base, tone: toned.tone} : {}),
+  };
+});
 
 fs.writeFileSync(
   path.join(ASSETS, 'metadata.json'),

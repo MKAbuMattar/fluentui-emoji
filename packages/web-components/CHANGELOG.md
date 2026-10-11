@@ -1,6 +1,23 @@
 # @fluentui-emoji/web-components
 
-## 2.0.0-beta.0
+## 2.2.0
+
+### Minor Changes
+
+- f813782: Sync emoji assets from microsoft/fluentui-emoji
+
+## 2.1.0
+
+### Minor Changes
+
+- c675cc8: - **`currentColor` for the high-contrast set** — high-contrast emojis are
+  monochrome and now inherit CSS `color`, so `color: red` just works.
+  - **Skin-tone metadata** — tone variants (already shipped as their own slugs)
+    now carry `base` and `tone` fields in `metadata.json` and the `EmojiEntry` type.
+  - `"./package.json"` added to every package's exports map.
+  - `engines.node >= 18` declared.
+
+## 2.0.0
 
 ### Major Changes
 

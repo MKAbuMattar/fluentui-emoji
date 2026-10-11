@@ -11,15 +11,16 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 
 jobs:
   sync:
     name: Sync
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: pnpm
@@ -31,11 +32,16 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain assets/)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            cat > .changeset/upstream-sync-${{ github.run_id }}.md <<'EOF'
+            # every package regenerates its published output from assets/ at
+            # build time, so an asset change is a release for all of them
+            changeset=""
+            for dir in packages/*/; do
+              name=$(node -p "require('./${dir}package.json').name")
+              changeset+="'${name}': minor"$'\n'
+            done
+            cat > .changeset/upstream-sync-${{ github.run_id }}.md <<EOF
           ---
-          '@fluentui-emoji/svg': minor
-          '@fluentui-emoji/react': minor
-          '@fluentui-emoji/astro': minor
+          ${changeset}
           ---
 
           Sync emoji assets from microsoft/fluentui-emoji
@@ -43,8 +49,9 @@ jobs:
           fi
 
       - name: Open PR
+        id: cpr
         if: steps.diff.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: sync/upstream
           title: 'feat: sync upstream emoji from microsoft/fluentui-emoji'
@@ -55,3 +62,11 @@ jobs:
             Review the `assets/` diff, then merge — the release pipeline takes it from there
             (canary on merge, `latest` via the Version Packages PR).
           delete-branch: true
+
+      # PRs opened with GITHUB_TOKEN get no pull_request CI run; dispatch one
+      # on the PR branch so its checks show up on the PR
+      - name: Run CI on the PR
+        if: steps.cpr.outputs.pull-request-operation == 'created' || steps.cpr.outputs.pull-request-operation == 'updated'
+        run: gh workflow run ci.yml --ref sync/upstream
+        env:
+          GH_TOKEN: ${{ github.token }}

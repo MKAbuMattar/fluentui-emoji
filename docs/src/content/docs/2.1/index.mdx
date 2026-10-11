@@ -1,0 +1,45 @@
+---
+title: Fluent UI Emoji
+description: Microsoft's Fluent UI Emoji packaged for every stack — SVG, React, Astro.
+template: splash
+hero:
+  tagline: 3,145 emoji, 12 packages, one pipeline. Typed, tree-shakeable, released
+    automatically from microsoft/fluentui-emoji.
+  actions:
+    - text: Get started
+      link: ./getting-started/svg/
+      icon: right-arrow
+    - text: Browse the gallery
+      link: ./gallery/
+      variant: minimal
+slug: "2.1"
+---
+
+import {Card, CardGrid} from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card title="Raw SVG + metadata" icon="seti:image">
+    [`@fluentui-emoji/svg`](./getting-started/svg/) — optimized SVGs in three
+    styles plus typed metadata. The base every other package builds on.
+  </Card>
+
+  <Card title="Component frameworks" icon="seti:react">
+    [React](./getting-started/react/), [Preact](./getting-started/preact/),
+    [Vue](./getting-started/vue/), [Solid](./getting-started/solid/),
+    [Svelte](./getting-started/svelte/), and
+    [Angular](./getting-started/angular/) — typed, tree-shakeable components.
+  </Card>
+
+  <Card title="No build, no framework" icon="seti:html">
+    [Astro](./getting-started/astro/) (zero client JS),
+    [Lit](./getting-started/lit/),
+    [Web Components](./getting-started/web-components/),
+    [Alpine.js](./getting-started/alpine/), and
+    [htmx](./getting-started/htmx/).
+  </Card>
+
+  <Card title="Always current" icon="approve-check">
+    A weekly pipeline syncs new emoji from Microsoft and releases every
+    package automatically: canary, beta, and latest channels.
+  </Card>
+</CardGrid>

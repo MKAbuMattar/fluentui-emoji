@@ -5,6 +5,8 @@ typed React components — 3,145 emojis in `flat`, `high-contrast`, and `modern`
 
 Successor of the deprecated [`react-fluentui-emoji`](https://www.npmjs.com/package/react-fluentui-emoji) package. Dual ESM + CJS.
 
+**Docs:** https://fluentui-emoji.mkabumattar.com · **This package:** [npm](https://www.npmjs.com/package/@fluentui-emoji/react) · **All packages:** [@fluentui-emoji](https://www.npmjs.com/org/fluentui-emoji)
+
 ## Install
 
 ```sh

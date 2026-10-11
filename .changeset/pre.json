@@ -2,22 +2,22 @@
   "mode": "pre",
   "tag": "beta",
   "initialVersions": {
-    "@fluentui-emoji/astro": "1.3.0",
-    "@fluentui-emoji/react": "1.3.0",
-    "@fluentui-emoji/svg": "1.3.0",
-    "@fluentui-emoji/alpine": "1.3.0",
-    "@fluentui-emoji/angular": "1.3.0",
-    "@fluentui-emoji/htmx": "1.3.0",
-    "@fluentui-emoji/lit": "1.3.0",
-    "@fluentui-emoji/preact": "1.3.0",
-    "@fluentui-emoji/solid": "1.3.0",
-    "@fluentui-emoji/svelte": "1.3.0",
-    "@fluentui-emoji/vue": "1.3.0",
-    "@fluentui-emoji/web-components": "1.3.0"
+    "@fluentui-emoji/alpine": "2.2.0",
+    "@fluentui-emoji/angular": "2.2.0",
+    "@fluentui-emoji/astro": "2.2.0",
+    "@fluentui-emoji/htmx": "2.2.0",
+    "@fluentui-emoji/iconify": "2.2.0",
+    "@fluentui-emoji/lit": "2.2.0",
+    "@fluentui-emoji/preact": "2.2.0",
+    "@fluentui-emoji/qwik": "2.2.0",
+    "@fluentui-emoji/react": "2.2.0",
+    "@fluentui-emoji/react-native": "2.2.0",
+    "@fluentui-emoji/solid": "2.2.0",
+    "@fluentui-emoji/sprite": "2.2.0",
+    "@fluentui-emoji/svelte": "2.2.0",
+    "@fluentui-emoji/svg": "2.2.0",
+    "@fluentui-emoji/vue": "2.2.0",
+    "@fluentui-emoji/web-components": "2.2.0"
   },
-  "changesets": [
-    "angular-lit-htmx",
-    "framework-family",
-    "monorepo-v2"
-  ]
+  "changesets": []
 }

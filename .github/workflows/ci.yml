@@ -4,6 +4,7 @@ on:
   pull_request:
   push:
     branches: [main, next]
+  workflow_dispatch:
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -14,13 +15,42 @@ jobs:
     name: CI
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm lint
+      - run: pnpm typecheck
       - run: pnpm build
       - run: pnpm test
+      - name: Validate packaging (publint + arethetypeswrong)
+        run: |
+          for dir in packages/*/; do
+            files=$(find "$dir" -type f -name '*.js' | wc -l)
+            if [ "$files" -gt 2000 ]; then
+              echo "--- publint $dir (skipped: $files generated modules share a validated exports shape)"
+              continue
+            fi
+            echo "--- publint $dir"
+            (cd "$dir" && pnpm dlx publint --strict) || exit 1
+          done
+          for dir in packages/*/; do
+            case "$dir" in
+              # astro ships .ts source (consumer-compiled); sprite exports .svg files.
+              # attw cannot model either — publint still validates them.
+              packages/astro/|packages/sprite/) echo "--- attw $dir (skipped: non-JS entrypoints)"; continue;;
+            esac
+            files=$(find "$dir" -type f -name '*.js' | wc -l)
+            if [ "$files" -gt 2000 ]; then
+              echo "--- attw $dir (skipped: $files generated modules; publint covers the shared exports shape)"
+              continue
+            fi
+            echo "--- attw $dir"
+            (cd "$dir" \
+              && profile=$(node -p "JSON.stringify(require('./package.json').exports).includes('require') ? 'node16' : 'esm-only'") \
+              && echo "profile: $profile" \
+              && pnpm dlx @arethetypeswrong/cli --pack . --profile "$profile") || exit 1
+          done

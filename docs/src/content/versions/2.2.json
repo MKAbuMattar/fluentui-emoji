@@ -1,0 +1,85 @@
+{
+  "sidebar": [
+    {
+      "label": "Getting Started",
+      "items": [
+        {
+          "label": "SVG",
+          "slug": "getting-started/svg"
+        },
+        {
+          "label": "React",
+          "slug": "getting-started/react"
+        },
+        {
+          "label": "Preact",
+          "slug": "getting-started/preact"
+        },
+        {
+          "label": "Vue",
+          "slug": "getting-started/vue"
+        },
+        {
+          "label": "Solid",
+          "slug": "getting-started/solid"
+        },
+        {
+          "label": "Svelte",
+          "slug": "getting-started/svelte"
+        },
+        {
+          "label": "Astro",
+          "slug": "getting-started/astro"
+        },
+        {
+          "label": "Angular",
+          "slug": "getting-started/angular"
+        },
+        {
+          "label": "Lit",
+          "slug": "getting-started/lit"
+        },
+        {
+          "label": "Web Components",
+          "slug": "getting-started/web-components"
+        },
+        {
+          "label": "Alpine.js",
+          "slug": "getting-started/alpine"
+        },
+        {
+          "label": "htmx",
+          "slug": "getting-started/htmx"
+        },
+        {
+          "label": "React Native",
+          "slug": "getting-started/react-native"
+        },
+        {
+          "label": "Qwik",
+          "slug": "getting-started/qwik"
+        },
+        {
+          "label": "Iconify",
+          "slug": "getting-started/iconify"
+        },
+        {
+          "label": "Sprite",
+          "slug": "getting-started/sprite"
+        },
+        {
+          "label": "Other frameworks",
+          "slug": "getting-started/other-frameworks"
+        }
+      ]
+    },
+    {
+      "label": "Emoji Gallery",
+      "slug": "gallery"
+    },
+    {
+      "label": "CDN",
+      "slug": "cdn"
+    }
+  ]
+}

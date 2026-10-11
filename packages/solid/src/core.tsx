@@ -26,5 +26,6 @@ export const createFluentEmoji = (
       />
     );
   };
+  (Component as {displayName?: string}).displayName = name;
   return Component;
 };

@@ -18,6 +18,11 @@ export default defineConfig({
         'Fluent UI Emoji packaged for every stack — SVG, React, Astro.',
       social: [
         {
+          icon: 'seti:npm',
+          label: 'npm',
+          href: 'https://www.npmjs.com/org/fluentui-emoji',
+        },
+        {
           icon: 'github',
           label: 'GitHub',
           href: 'https://github.com/MKAbuMattar/fluentui-emoji',
@@ -40,9 +45,18 @@ export default defineConfig({
             {label: 'Web Components', slug: 'getting-started/web-components'},
             {label: 'Alpine.js', slug: 'getting-started/alpine'},
             {label: 'htmx', slug: 'getting-started/htmx'},
+            {label: 'React Native', slug: 'getting-started/react-native'},
+            {label: 'Qwik', slug: 'getting-started/qwik'},
+            {label: 'Iconify', slug: 'getting-started/iconify'},
+            {label: 'Sprite', slug: 'getting-started/sprite'},
+            {
+              label: 'Other frameworks',
+              slug: 'getting-started/other-frameworks',
+            },
           ],
         },
         {label: 'Emoji Gallery', slug: 'gallery'},
+        {label: 'CDN', slug: 'cdn'},
       ],
     }),
     react(),
