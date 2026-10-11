@@ -1,0 +1,44 @@
+# Keep next = main + beta work. Every push to main merges into next
+# (scripts/sync-next.sh), then kicks CI + Release on next — pushes made with
+# GITHUB_TOKEN do not trigger workflows on their own.
+name: Sync main into next
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: sync-next
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  sync:
+    name: Merge main into next
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: next
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          before=$(git rev-parse HEAD)
+          # run main's copy: next may not have the script (or its latest version)
+          bash <(git show origin/main:scripts/sync-next.sh)
+          if [ "$(git rev-parse HEAD)" != "$before" ]; then
+            git push origin HEAD:next
+            gh workflow run ci.yml --ref next
+            gh workflow run release.yml --ref next
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}

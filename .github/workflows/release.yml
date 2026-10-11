@@ -8,6 +8,7 @@ name: Release
 on:
   push:
     branches: [main, next]
+  workflow_dispatch:
 
 concurrency:
   group: release-${{ github.ref }}
@@ -15,6 +16,7 @@ concurrency:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
   id-token: write
 
 env:
@@ -60,6 +62,14 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      # the Version PR is opened with GITHUB_TOKEN, so it gets no pull_request
+      # CI run; dispatch one on its branch so its checks show up on the PR
+      - name: Run CI on the Version PR
+        if: steps.changesets.outputs.pr-number != ''
+        run: gh workflow run ci.yml --ref changeset-release/${{ github.ref_name }}
+        env:
+          GH_TOKEN: ${{ github.token }}
 
       - name: Canary snapshot (main only)
         if: github.ref == 'refs/heads/main' && steps.changesets.outputs.published != 'true'
