@@ -1,7 +1,7 @@
-import {type FunctionComponent, h, type JSX} from 'preact';
+import {type FunctionComponent, h, type SVGAttributes} from 'preact';
 
 export type FluentEmojiProps = Omit<
-  JSX.SVGAttributes<SVGSVGElement>,
+  SVGAttributes<SVGSVGElement>,
   'dangerouslySetInnerHTML'
 > & {
   /** Accessible label. Without it the emoji is aria-hidden (decorative). */
