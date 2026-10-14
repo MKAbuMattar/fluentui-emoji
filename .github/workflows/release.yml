@@ -52,8 +52,30 @@ jobs:
             exit 1
           fi
 
+      - name: Skip stable publish on next
+        id: next-stable
+        # right after a stable release, sync-next carries main's new stable
+        # versions into next; publishing them from here races main's publish
+        # (and would tag them beta). With no pending beta changesets there is
+        # nothing for next to release, so skip the changesets step.
+        if: github.ref == 'refs/heads/next'
+        run: |
+          skip=$(node -e "
+            const fs = require('node:fs');
+            const pre = JSON.parse(fs.readFileSync('.changeset/pre.json', 'utf8'));
+            const pending = fs.readdirSync('.changeset')
+              .filter((f) => f.endsWith('.md') && f !== 'README.md')
+              .some((f) => !(pre.changesets ?? []).includes(f.slice(0, -3)));
+            const stable = fs.readdirSync('packages')
+              .map((d) => JSON.parse(fs.readFileSync('packages/' + d + '/package.json', 'utf8')))
+              .some((p) => !p.private && !p.version.includes('-'));
+            console.log(stable && !pending);
+          ")
+          echo "skip=$skip" >> "$GITHUB_OUTPUT"
+
       - name: Version PR / publish (latest or beta)
         id: changesets
+        if: steps.next-stable.outputs.skip != 'true'
         uses: changesets/action@v2
         with:
           publish-script: pnpm changeset publish
