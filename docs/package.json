@@ -15,7 +15,7 @@
     "@fluentui-emoji/svg": "workspace:*",
     "astro": "^7.3.1",
     "react": "^19.3.0",
-    "react-dom": "^19.3.0",
+    "react-dom": "^19.3.1",
     "sharp": "^0.35.5",
     "starlight-versions": "^0.10.1"
   }
