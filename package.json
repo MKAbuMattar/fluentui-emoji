@@ -36,9 +36,9 @@
     "fmt:fix": "biome format --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.15",
+    "@biomejs/biome": "2.6.2",
     "@changesets/cli": "^3.0.3",
-    "@types/node": "26.6.4",
+    "@types/node": "26.6.5",
     "svgo": "4.1.0",
     "tsx": "4.23.15",
     "typescript": "7.0.2"
