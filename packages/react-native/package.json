@@ -80,8 +80,8 @@
   "devDependencies": {
     "@types/react": "^19.3.0",
     "react": "^19.3.0",
-    "react-native-svg": "^15.15.5",
-    "tsup": "^8.5.0",
+    "react-native-svg": "^15.16.0",
+    "tsup": "^9.0.0",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3"
   }

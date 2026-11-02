@@ -77,8 +77,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "@builder.io/qwik": "^1.20.1",
-    "tsup": "^8.5.0",
+    "@builder.io/qwik": "^1.20.3",
+    "tsup": "^9.0.0",
     "tsx": "^4.23.15",
     "typescript": "^5.9.3"
   }
