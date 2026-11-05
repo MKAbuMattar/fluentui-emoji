@@ -13,6 +13,7 @@ export const createFluentEmoji = (
   displayName: string,
   xml: string,
 ): FluentEmojiComponent => {
+  // biome-ignore lint/correctness/noComponentHookFactories: runs once per icon at module load, so the component identity is stable
   const Component: FluentEmojiComponent = ({title, ...props}) =>
     createElement(SvgXml, {
       xml,

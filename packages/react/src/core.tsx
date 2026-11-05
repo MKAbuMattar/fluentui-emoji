@@ -18,6 +18,7 @@ export const createFluentEmoji = (
   attrs: Record<string, string>,
   html: string,
 ): FluentEmojiComponent => {
+  // biome-ignore lint/correctness/noComponentHookFactories: runs once per icon at module load, so the component identity is stable
   const Component = forwardRef<SVGSVGElement, FluentEmojiProps>(
     ({title, ...props}, ref) =>
       createElement('svg', {
