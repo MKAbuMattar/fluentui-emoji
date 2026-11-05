@@ -31,14 +31,21 @@ jobs:
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          before=$(git rev-parse HEAD)
-          # run main's copy: next may not have the script (or its latest version)
-          bash <(git show origin/main:scripts/sync-next.sh)
-          if [ "$(git rev-parse HEAD)" != "$before" ]; then
-            git push origin HEAD:next
-            gh workflow run ci.yml --ref next
-            gh workflow run release.yml --ref next
-          fi
+          # a push to next during the merge (a beta release, an upstream sync)
+          # rejects ours; start over from the new tip
+          for attempt in 1 2 3; do
+            git fetch origin main next
+            git reset -q --hard origin/next
+            before=$(git rev-parse HEAD)
+            # run main's copy: next may not have the script (or its latest version)
+            bash <(git show origin/main:scripts/sync-next.sh)
+            [ "$(git rev-parse HEAD)" = "$before" ] && exit 0
+            if git push origin HEAD:next; then
+              gh workflow run ci.yml --ref next
+              gh workflow run release.yml --ref next
+              exit 0
+            fi
+          done
+          exit 1
         env:
           GH_TOKEN: ${{ github.token }}
