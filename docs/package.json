@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^7.1.0",
-    "@astrojs/starlight": "^0.42.6",
+    "@astrojs/starlight": "^0.42.9",
     "@fluentui-emoji/astro": "workspace:*",
     "@fluentui-emoji/react": "workspace:*",
     "@fluentui-emoji/svg": "workspace:*",
